@@ -1,0 +1,1138 @@
+﻿Log file open, 02/28/18 00:22:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoulsLikeTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(593910710) SRandInit(593910710).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169912
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin UnrealEnginePython
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.27-23.22.25:697][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.27-23.22.25:697][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.27-23.22.25:710][  0]LogInit: Computer: VRPC
+[2018.02.27-23.22.25:710][  0]LogInit: User: Giorgio
+[2018.02.27-23.22.25:710][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.27-23.22.25:710][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2018.02.27-23.22.25:710][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.27-23.22.25:710][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.27-23.22.25:710][  0]LogMemory: Process Physical Memory: 277.28 MB used, 277.28 MB peak
+[2018.02.27-23.22.25:710][  0]LogMemory: Process Virtual Memory: 275.00 MB used, 275.00 MB peak
+[2018.02.27-23.22.25:710][  0]LogMemory: Physical Memory: 5630.93 MB used,  10711.77 MB free, 16342.70 MB total
+[2018.02.27-23.22.25:710][  0]LogMemory: Virtual Memory: 727.84 MB used,  10711.77 MB free, 134217728.00 MB total
+[2018.02.27-23.22.25:877][  0]LogInit: Using OS detected language (it-IT).
+[2018.02.27-23.22.25:877][  0]LogInit: Using OS detected locale (it-IT).
+[2018.02.27-23.22.25:880][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.02.27-23.22.25:880][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.02.27-23.22.26:268][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.27-23.22.26:489][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.27-23.22.26:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.02.27-23.22.26:519][  0]LogD3D11RHI:       4058/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.27-23.22.26:521][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.27-23.22.26:521][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.27-23.22.26:521][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.27-23.22.26:526][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.27-23.22.26:526][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.27-23.22.26:526][  0]LogWindows: EnumDisplayDevices:
+[2018.02.27-23.22.26:527][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.02.27-23.22.26:527][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.27-23.22.26:527][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.27-23.22.26:527][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.27-23.22.26:527][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.27-23.22.26:527][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.02.27-23.22.26:527][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.27-23.22.26:527][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.27-23.22.26:527][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2018.02.27-23.22.26:548][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.27-23.22.26:805][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.27-23.22.26:847][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/9572/).
+[2018.02.27-23.22.26:847][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/1B4465E9450E8CC3A5CD72BB7EED74DC/'.
+[2018.02.27-23.22.26:847][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.27-23.22.27:729][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.27-23.22.27:777][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.27-23.22.27:828][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.27-23.22.27:877][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.27-23.22.27:927][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.27-23.22.27:977][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.27-23.22.28:027][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.27-23.22.28:076][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.27-23.22.28:119][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.27-23.22.28:167][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.27-23.22.28:216][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.27-23.22.28:266][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.27-23.22.28:314][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.27-23.22.28:363][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.27-23.22.28:461][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.27-23.22.28:461][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.27-23.22.28:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.27-23.22.28:552][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.27-23.22.28:640][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.27-23.22.28:668][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.27-23.22.28:715][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.27-23.22.28:764][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.27-23.22.28:811][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.27-23.22.28:860][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.27-23.22.28:860][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.27-23.22.29:310][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.27-23.22.29:373][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.27-23.22.29:388][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.27-23.22.29:400][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.27-23.22.29:409][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.27-23.22.29:410][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.27-23.22.29:410][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.27-23.22.29:410][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.27-23.22.29:757][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.27-23.22.30:080][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.27-23.22.30:117][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.27-23.22.30:117][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.27-23.22.30:117][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.27-23.22.30:117][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.27-23.22.30:117][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.27-23.22.30:149][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.02.27-23.22.30:319][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.02.27-23.22.30:787][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 1 prioritized culture(s) in 0.040781 seconds
+[2018.02.27-23.22.30:792][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.27-23.22.30:792][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.27-23.22.30:792][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.27-23.22.30:840][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.27-23.22.33:396][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.27-23.22.33:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.27-23.22.33:440][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2018.02.27-23.22.33:440][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2018.02.27-23.22.33:440][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2018.02.27-23.22.33:440][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2018.02.27-23.22.34:101][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.27-23.22.34:523][  0]SourceControl: Source control is disabled
+[2018.02.27-23.22.35:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.27-23.22.36:249][  0]LogOcInput: OculusInput pre-init called
+[2018.02.27-23.22.36:478][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.02.27-23.22.36:478][  0]LogPython: Python Scripts search path: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Scripts
+[2018.02.27-23.22.36:480][  0]LogPython: Error: No module named 'ue_site'
+[2018.02.27-23.22.36:718][  0]LogEngine: Initializing Engine...
+[2018.02.27-23.22.38:763][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-623640DB
+[2018.02.27-23.22.38:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.27-23.22.38:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.27-23.22.39:133][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.27-23.22.39:154][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.22.39:189][  0]LogInit: FAudioDevice initialized.
+[2018.02.27-23.22.39:265][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.27-23.22.39:276][  0]LogInit: Texture streaming: Enabled
+[2018.02.27-23.22.39:375][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.27-23.22.39:514][  0]LogInit: Transaction tracking system initialized
+[2018.02.27-23.22.39:836][  0]BlueprintLog: New page: Editor Load
+[2018.02.27-23.22.40:742][  0]LocalizationService: Localization service is disabled
+[2018.02.27-23.22.41:822][  0]LogConsoleResponse: Display: 
+[2018.02.27-23.22.42:003][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.27-23.22.42:003][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.27-23.22.42:003][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.27-23.22.42:476][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.01s
+[2018.02.27-23.22.43:276][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.27-23.22.43:276][  0]LightingResults: New page: Lighting Build
+[2018.02.27-23.22.43:319][  0]MapCheck: New page: Map Check
+[2018.02.27-23.22.43:319][  0]LightingResults: New page: Lighting Build
+[2018.02.27-23.22.43:543][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.27-23.22.43:549][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.27-23.22.43:560][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.27-23.22.43:607][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.673ms to complete.
+[2018.02.27-23.22.43:608][  0]LogFileHelpers: Loading map 'Template_Default' took 0.331
+[2018.02.27-23.22.43:762][  0]LogCollectionManager: Loaded 0 collections in 0.001406 seconds
+[2018.02.27-23.22.43:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.02.27-23.22.43:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.02.27-23.22.43:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.02.27-23.22.43:845][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.27-23.22.43:854][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2384 classes and 530 folders.
+[2018.02.27-23.22.43:924][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.27-23.22.43:958][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.27-23.22.44:006][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.27-23.22.44:022][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.27-23.22.44:024][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.27-23.22.44:129][  0]LogRenderer: Reallocating scene render targets to support 1156x576 Format 9 NumSamples 1 (Frame:1).
+[2018.02.27-23.22.44:354][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.27-23.22.44:354][  0]LogLoad: (Engine Initialization) Total time: 21.29 seconds
+[2018.02.27-23.22.44:354][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.27-23.22.44:354][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.27-23.22.44:354][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.27-23.22.44:364][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.27-23.22.44:380][  0]LogAssetRegistry: Asset discovery search completed in 14.0828 seconds
+[2018.02.27-23.22.44:382][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.27-23.22.44:382][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.02.27-23.22.44:384][  0]SourceControl: On branch master
+[2018.02.27-23.22.44:384][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2018.02.27-23.22.44:384][  0]SourceControl: Changes to be committed:
+[2018.02.27-23.22.44:384][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.02.27-23.22.44:384][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/TestMannequin/BP_TestMannequin.uasset
+[2018.02.27-23.22.44:384][  0]SourceControl: Changes not staged for commit:
+[2018.02.27-23.22.44:384][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.02.27-23.22.44:384][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.27-23.22.44:384][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Idle_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/TestMannequin/BP_TestMannequin.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/PackageRestoreData.json
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Editor.ini
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.02.27-23.22.44:385][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
+[2018.02.27-23.22.44:385][  0]SourceControl: Untracked files:
+[2018.02.27-23.22.44:385][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto3.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-23-54-05.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-28-00-00-31.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-27-23-34-06.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-27-23-39-07.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-27-23-44-52.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-27-23-52-22.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-28-00-01-11.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-28-00-06-54.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-28-00-13-35.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-28-00-18-38.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_TestMannequin_2018-02-27-23-31-46.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_TestMannequin_2018-02-27-23-37-23.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_TestMannequin_2018-02-27-23-56-01.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_TestMannequin_2018-02-28-00-04-25.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-27-23-31-56.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-27-23-39-22.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-27-23-56-03.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-28-00-04-26.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-28-00-12-20.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-02-28-00-19-15.umap
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-27-23-31-57.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-27-23-39-22.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-27-23-56-04.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-28-00-04-26.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-28-00-12-20.uasset
+[2018.02.27-23.22.44:385][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-28-00-19-15.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-02-27-23-45-53.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-02-28-00-14-24.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_rooted_2018-02-28-00-16-49.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-02-27-23-57-56.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-02-28-00-14-41.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-02-27-23-58-16.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-02-28-00-16-37.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Walk_rooted_2018-02-28-00-15-56.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-02-27-23-49-41.uasset
+[2018.02.27-23.22.44:386][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-9F80BBEF41DC822251A8DB869A61DBBE/
+[2018.02.27-23.22.44:386][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.27-23.22.45:387][109]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-23.22.51:028][229]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.27-23.22.51:036][229]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-23.22.55:876][300]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-23.22.55:968][300]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.22.56:106][300]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.27-23.22.56:106][300]LightingResults: New page: Lighting Build
+[2018.02.27-23.22.56:107][300]LoadErrors: New page: Loading map: Map001.umap
+[2018.02.27-23.22.56:107][300]MapCheck: New page: Map Check
+[2018.02.27-23.22.56:107][300]LightingResults: New page: Lighting Build
+[2018.02.27-23.22.56:120][300]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.27-23.22.56:165][300]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.27-23.22.56:213][300]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.178ms to complete.
+[2018.02.27-23.22.56:214][300]LogFileHelpers: Loading map 'Map001' took 0.109
+[2018.02.27-23.22.56:802][307]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.22.56:837][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.22.56:838][307]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:22:56 AM)
+[2018.02.27-23.22.56:838][307]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.22.56:841][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003813s)
+[2018.02.27-23.22.56:842][307]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.22.56:842][307]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.02.27-23.22.56:842][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004714s)
+[2018.02.27-23.22.56:869][307]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.22.56:882][307]LogInit: FAudioDevice initialized.
+[2018.02.27-23.22.57:050][307]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.22.57:053][307]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.22.57
+[2018.02.27-23.22.57:054][307]LogWorld: Bringing up level for play took: 0.001934
+[2018.02.27-23.22.57:095][307]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.27-23.22.57:097][307]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.22.57:098][307]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 1.253
+[2018.02.27-23.23.07:173][498]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.07:173][498]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.10:052][561]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.10:052][561]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.11:902][606]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.11:902][606]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.15:107][680]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.18:958][783]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.32:277][959]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:0150
+[2018.02.27-23.23.32:277][959]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:0186
+[2018.02.27-23.23.34:018][975]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.27-23.23.34:070][975]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.27-23.23.34:823][975]LogBlueprintUserMessages: [BP_Paladin_C_1] Hello
+[2018.02.27-23.23.34:827][975]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.27-23.23.35:017][976]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.27-23.23.43:223][246]LogSavePackage: Save=103.76ms
+[2018.02.27-23.23.43:223][246]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin6D0C49204FFA85ED4BA659AF84EAD27F.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.23.43:227][246]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.23.44:108][262]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.23.45:825][287]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.23.45:853][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.23.45:853][287]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:23:45 AM)
+[2018.02.27-23.23.45:853][287]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.23.45:856][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002932s)
+[2018.02.27-23.23.45:857][287]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.23.45:857][287]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2018.02.27-23.23.45:857][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003896s)
+[2018.02.27-23.23.45:918][287]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.23.45:929][287]LogInit: FAudioDevice initialized.
+[2018.02.27-23.23.45:963][287]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.23.45:964][287]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.23.45
+[2018.02.27-23.23.45:965][287]LogWorld: Bringing up level for play took: 0.001513
+[2018.02.27-23.23.45:966][287]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.45:967][287]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.121
+[2018.02.27-23.23.49:461][358]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.23.49:461][358]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.24.25:709][340]LogSavePackage: Save=100.15ms
+[2018.02.27-23.24.25:709][340]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin5E284F8C435BFA006583898B1503747C.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.24.25:713][340]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.24.26:870][397]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.24.28:717][441]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.24.28:739][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.24.28:739][441]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:24:28 AM)
+[2018.02.27-23.24.28:739][441]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.24.28:743][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003233s)
+[2018.02.27-23.24.28:743][441]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.24.28:743][441]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.02.27-23.24.28:743][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004111s)
+[2018.02.27-23.24.28:784][441]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.24.28:796][441]LogInit: FAudioDevice initialized.
+[2018.02.27-23.24.28:830][441]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.24.28:832][441]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.24.28
+[2018.02.27-23.24.28:832][441]LogWorld: Bringing up level for play took: 0.001602
+[2018.02.27-23.24.28:833][441]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.24.28:834][441]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.988
+[2018.02.27-23.24.41:185][981]LogSavePackage: Save=98.93ms
+[2018.02.27-23.24.41:185][981]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinF5AAC55D4947D1A8EBBE7A8B086DE8AD.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.24.41:188][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.24.41:358][989]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.25.07:226][147]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.25.07:250][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.25.07:251][147]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:25:07 AM)
+[2018.02.27-23.25.07:251][147]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.25.07:254][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002951s)
+[2018.02.27-23.25.07:254][147]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.25.07:254][147]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.02.27-23.25.07:255][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003940s)
+[2018.02.27-23.25.07:292][147]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.25.07:306][147]LogInit: FAudioDevice initialized.
+[2018.02.27-23.25.07:337][147]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.25.07:339][147]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.25.07
+[2018.02.27-23.25.07:340][147]LogWorld: Bringing up level for play took: 0.001736
+[2018.02.27-23.25.07:341][147]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.07:342][147]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.503
+[2018.02.27-23.25.12:204][294]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.12:204][294]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.30:710][400]LogSavePackage: Save=98.90ms
+[2018.02.27-23.25.30:710][400]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin182CEBFB4CA75AA1A3F52A9772C2F4AF.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.25.30:713][400]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.25.30:879][417]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.25.32:395][518]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.25.32:418][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.25.32:418][518]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:25:32 AM)
+[2018.02.27-23.25.32:418][518]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.25.32:421][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002911s)
+[2018.02.27-23.25.32:422][518]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.25.32:422][518]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2018.02.27-23.25.32:422][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003759s)
+[2018.02.27-23.25.32:469][518]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.25.32:481][518]LogInit: FAudioDevice initialized.
+[2018.02.27-23.25.32:516][518]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.25.32:519][518]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.25.32
+[2018.02.27-23.25.32:519][518]LogWorld: Bringing up level for play took: 0.001720
+[2018.02.27-23.25.32:520][518]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.32:521][518]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.676
+[2018.02.27-23.25.38:235][199]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.39:760][382]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.43:402][819]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.44:952][  5]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.50:573][678]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.50:573][678]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.25.56:725][104]LogSavePackage: Save=97.62ms
+[2018.02.27-23.25.56:725][104]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinF729303D432B8947FF25A8B5ADDA1CF8.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.25.56:728][104]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.25.57:093][121]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.26.11:353][ 61]LogSavePackage: Save=98.81ms
+[2018.02.27-23.26.11:353][ 61]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin12A8679D4452E04C5664EBB46CBA79F8.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.26.11:356][ 61]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.26.15:651][403]LogRenderer: Reallocating scene render targets to support 1156x712 Format 9 NumSamples 1 (Frame:1).
+[2018.02.27-23.26.17:812][556]LogSavePackage: Save=91.40ms
+[2018.02.27-23.26.17:812][556]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin0FD071354B4CFDDA647A2AA64FABD56C.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.26.17:814][556]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.26.19:652][702]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.26.19:673][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.26.19:674][702]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:26:19 AM)
+[2018.02.27-23.26.19:674][702]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.26.19:676][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002695s)
+[2018.02.27-23.26.19:677][702]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.26.19:677][702]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.02.27-23.26.19:678][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003878s)
+[2018.02.27-23.26.19:708][702]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.26.19:719][702]LogInit: FAudioDevice initialized.
+[2018.02.27-23.26.19:753][702]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.26.19:755][702]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.26.19
+[2018.02.27-23.26.19:755][702]LogWorld: Bringing up level for play took: 0.001447
+[2018.02.27-23.26.19:757][702]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.19:757][702]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.088
+[2018.02.27-23.26.21:224][875]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.22:624][ 43]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.22:624][ 43]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.24:358][251]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.24:358][251]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.25:416][378]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.27:024][571]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.28:583][758]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.28:583][758]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.30:042][933]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.30:042][933]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.30:875][ 33]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.39:126][ 23]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.39:126][ 23]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.41:318][286]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.41:318][286]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.45:748][780]MapCheck: New page: Map Check
+[2018.02.27-23.26.45:785][780]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.27-23.26.45:785][780]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.27-23.26.45:826][780]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.27-23.26.45:835][780]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.02.27-23.26.45:842][780]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.02.27-23.26.45:849][780]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.27-23.26.46:545][780]TextureStreamingBuild: Display: Compiling optional shaders took 0.725 seconds.
+[2018.02.27-23.26.46:548][780]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.02.27-23.26.46:555][780]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2018.02.27-23.26.46:571][780]LightingResults: New page: Lighting Build - Feb 28, 2018, 1:26:46 AM
+[2018.02.27-23.26.46:601][780]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.27-23.26.46:653][780]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.27-23.26.46:662][780]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.27-23.26.47:169][780]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.27-23.26.47:169][780]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9572
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.27-23.26.49:687][780]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.27-23.26.49:809][780]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.27-23.26.49:809][780]MapCheck: New page: Map001 - Feb 28, 2018, 1:26:49 AM
+[2018.02.27-23.26.49:866][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.456ms to complete.
+[2018.02.27-23.26.49:889][780]LogEditorBuildUtils: Build time 0:04
+[2018.02.27-23.26.54:066][885]Job is a success!
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:      BrickData 1105x5x5 = 0.9Mb
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:          1: 7.2% covering 25.0% of volume
+[2018.02.27-23.26.54:265][886]LogVolumetricLightmapImport:          2: 92.3% covering 5.0% of volume
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.27-23.26.54:497][886]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.27-23.26.54:544][886]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.02.27-23.26.54:544][886]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X128)
+[2018.02.27-23.26.54:638][886]Lightmass on VRPC: 4.08 sec total, 172 ms importing, 39 ms setup, 1.17 sec photons, 2.65 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 10.6 sec total, 2.71 sec processing.
+[2018.02.27-23.26.54:733][886]LogStaticLightingSystem: Illumination: 8.05 sec (182 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2018.02.27-23.26.54:733][886]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.27-23.26.54:733][886]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.27-23.26.55:690][886]DumpUnbuiltLightIteractions
+[2018.02.27-23.26.55:690][886]Lights with unbuilt interactions: 0
+[2018.02.27-23.26.55:690][886]
+[2018.02.27-23.26.55:690][886]Primitives with unbuilt interactions: 0
+[2018.02.27-23.26.55:696][887]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.27-23.26.55:696][887]MapCheck: New page: Map001 - Feb 28, 2018, 1:26:55 AM
+[2018.02.27-23.26.55:752][887]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.989ms to complete.
+[2018.02.27-23.26.55:753][887]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.26.55:778][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.26.55:779][887]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:26:55 AM)
+[2018.02.27-23.26.55:779][887]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.26.55:782][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003197s)
+[2018.02.27-23.26.55:782][887]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.26.55:783][887]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.02.27-23.26.55:783][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004122s)
+[2018.02.27-23.26.55:816][887]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.26.55:828][887]LogInit: FAudioDevice initialized.
+[2018.02.27-23.26.55:861][887]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.26.55:863][887]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.26.55
+[2018.02.27-23.26.55:863][887]LogWorld: Bringing up level for play took: 0.001387
+[2018.02.27-23.26.55:865][887]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.55:865][887]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.02
+[2018.02.27-23.26.56:607][912]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.26.59:629][157]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin3)
+[2018.02.27-23.27.03:843][451]MapCheck: New page: Map Check
+[2018.02.27-23.27.03:861][451]LightingResults: New page: Lighting Build - Feb 28, 2018, 1:27:03 AM
+[2018.02.27-23.27.03:872][451]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.27-23.27.03:874][451]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.27-23.27.03:874][451]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.27-23.27.03:874][451]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.27-23.27.03:874][451]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9572
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.27-23.27.08:416][451]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.27-23.27.08:519][451]LogEditorBuildUtils: Build time 0:04
+[2018.02.27-23.27.13:045][648]Job is a success!
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:      BrickData 1105x5x5 = 0.9Mb
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:          1: 7.2% covering 25.0% of volume
+[2018.02.27-23.27.13:156][650]LogVolumetricLightmapImport:          2: 92.3% covering 5.0% of volume
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.02.27-23.27.13:344][650]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
+[2018.02.27-23.27.13:407][650]Lightmass on VRPC: 4.33 sec total, 156 ms importing, 33 ms setup, 1.47 sec photons, 2.64 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 10.5 sec total, 2.97 sec processing.
+[2018.02.27-23.27.13:476][650]LogStaticLightingSystem: Illumination: 9.57 sec (135 ms encoding lightmaps, 25 ms encoding shadowmaps)
+[2018.02.27-23.27.13:476][650]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.27-23.27.13:476][650]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.27-23.27.14:420][650]DumpUnbuiltLightIteractions
+[2018.02.27-23.27.14:420][650]Lights with unbuilt interactions: 0
+[2018.02.27-23.27.14:420][650]
+[2018.02.27-23.27.14:420][650]Primitives with unbuilt interactions: 0
+[2018.02.27-23.27.14:466][651]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.27-23.27.14:466][651]MapCheck: New page: Map001 - Feb 28, 2018, 1:27:14 AM
+[2018.02.27-23.27.14:522][651]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.789ms to complete.
+[2018.02.27-23.27.16:414][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.27-23.27.22:673][ 74]LogRenderer: Reallocating scene render targets to support 1156x712 Format 9 NumSamples 1 (Frame:2641).
+[2018.02.27-23.27.22:796][ 77]LogContentStreaming: Texture pool size now 800 MB
+[2018.02.27-23.27.24:369][191]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.27.24:397][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.27.24:397][191]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:27:24 AM)
+[2018.02.27-23.27.24:398][191]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.27.24:400][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002914s)
+[2018.02.27-23.27.24:401][191]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.27.24:401][191]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2018.02.27-23.27.24:402][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004031s)
+[2018.02.27-23.27.24:432][191]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.27.24:443][191]LogInit: FAudioDevice initialized.
+[2018.02.27-23.27.24:477][191]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.27.24:478][191]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.27.24
+[2018.02.27-23.27.24:479][191]LogWorld: Bringing up level for play took: 0.001497
+[2018.02.27-23.27.24:480][191]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.24:481][191]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.636
+[2018.02.27-23.27.30:218][873]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.30:218][873]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.31:676][ 48]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.31:676][ 48]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.34:719][413]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.35:969][563]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.37:243][716]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.37:243][716]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.42:510][348]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.42:511][348]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.27.48:678][949]MapCheck: New page: Map Check
+[2018.02.27-23.27.48:697][949]LightingResults: New page: Lighting Build - Feb 28, 2018, 1:27:48 AM
+[2018.02.27-23.27.48:706][949]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.27-23.27.48:708][949]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.27-23.27.48:708][949]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.27-23.27.48:709][949]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.27-23.27.48:709][949]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9572
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.27-23.27.53:231][949]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.27-23.27.53:338][949]LogEditorBuildUtils: Build time 0:04
+[2018.02.27-23.27.58:311][332]Job is a success!
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:      BrickData 1105x5x5 = 0.9Mb
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:          1: 7.2% covering 25.0% of volume
+[2018.02.27-23.27.58:429][333]LogVolumetricLightmapImport:          2: 92.3% covering 5.0% of volume
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.02.27-23.27.58:616][333]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 512X128)
+[2018.02.27-23.27.58:666][333]Lightmass on VRPC: 4.76 sec total, 157 ms importing, 33 ms setup, 1.56 sec photons, 2.97 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 11.8 sec total, 3.42 sec processing.
+[2018.02.27-23.27.58:752][333]LogStaticLightingSystem: Illumination: 10.0 sec (139 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2018.02.27-23.27.58:752][333]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.27-23.27.58:752][333]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.27-23.27.59:236][333]DumpUnbuiltLightIteractions
+[2018.02.27-23.27.59:236][333]Lights with unbuilt interactions: 0
+[2018.02.27-23.27.59:236][333]
+[2018.02.27-23.27.59:236][333]Primitives with unbuilt interactions: 0
+[2018.02.27-23.27.59:277][334]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.27-23.27.59:277][334]MapCheck: New page: Map001 - Feb 28, 2018, 1:27:59 AM
+[2018.02.27-23.27.59:332][334]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.9ms to complete.
+[2018.02.27-23.28.00:434][364]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin23)
+[2018.02.27-23.28.03:091][563]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin28)
+[2018.02.27-23.28.10:809][117]LogSavePackage: Save=66.71ms
+[2018.02.27-23.28.10:810][117]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map00114862E954AF7FC0B6388B5B6E6DC734F.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
+[2018.02.27-23.28.10:813][117]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.02.27-23.28.10:855][117]LogFileHelpers: Saving map 'Map001' took 0.210
+[2018.02.27-23.28.10:911][117]LogSavePackage: Save=34.96ms
+[2018.02.27-23.28.10:911][117]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltData10A0E94941916EB84819529B9F33A94F.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
+[2018.02.27-23.28.10:915][117]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
+[2018.02.27-23.28.10:921][117]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.27-23.28.10:922][117]LightingResults: New page: Lighting Build
+[2018.02.27-23.28.10:922][117]LoadErrors: New page: Loading map: Map001.umap
+[2018.02.27-23.28.10:929][117]MapCheck: New page: Map Check
+[2018.02.27-23.28.10:929][117]LightingResults: New page: Lighting Build
+[2018.02.27-23.28.10:967][117]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.28.10:972][117]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.27-23.28.11:024][117]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.27-23.28.11:077][117]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.849ms to complete.
+[2018.02.27-23.28.11:078][117]LogFileHelpers: Loading map 'Map001' took 0.158
+[2018.02.27-23.28.12:220][241]MapCheck: New page: Map Check
+[2018.02.27-23.28.12:250][241]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.27-23.28.12:251][241]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.27-23.28.12:283][241]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.27-23.28.12:290][241]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.02.27-23.28.12:296][241]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.02.27-23.28.12:302][241]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.27-23.28.12:830][241]TextureStreamingBuild: Display: Compiling optional shaders took 0.551 seconds.
+[2018.02.27-23.28.12:833][241]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.02.27-23.28.12:840][241]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2018.02.27-23.28.12:858][241]LightingResults: New page: Lighting Build - Feb 28, 2018, 1:28:12 AM
+[2018.02.27-23.28.12:865][241]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.27-23.28.12:867][241]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.27-23.28.12:867][241]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.27-23.28.12:867][241]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.27-23.28.12:867][241]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9572
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.27-23.28.17:389][241]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.27-23.28.17:473][241]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.27-23.28.17:473][241]MapCheck: New page: Map001 - Feb 28, 2018, 1:28:17 AM
+[2018.02.27-23.28.17:531][241]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.26ms to complete.
+[2018.02.27-23.28.17:554][241]LogEditorBuildUtils: Build time 0:05
+[2018.02.27-23.28.21:873][398]Job is a success!
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:      BrickData 1105x5x5 = 0.9Mb
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:          1: 7.2% covering 25.0% of volume
+[2018.02.27-23.28.22:011][399]LogVolumetricLightmapImport:          2: 92.3% covering 5.0% of volume
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.02.27-23.28.22:209][399]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X128)
+[2018.02.27-23.28.22:289][399]Lightmass on VRPC: 4.20 sec total, 130 ms importing, 31 ms setup, 1.42 sec photons, 2.58 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 10.3 sec total, 2.72 sec processing.
+[2018.02.27-23.28.22:378][399]LogStaticLightingSystem: Illumination: 9.46 sec (135 ms encoding lightmaps, 22 ms encoding shadowmaps)
+[2018.02.27-23.28.22:379][399]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.27-23.28.22:379][399]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.27-23.28.22:393][399]DumpUnbuiltLightIteractions
+[2018.02.27-23.28.22:393][399]Lights with unbuilt interactions: 0
+[2018.02.27-23.28.22:393][399]
+[2018.02.27-23.28.22:393][399]Primitives with unbuilt interactions: 0
+[2018.02.27-23.28.22:399][400]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.27-23.28.22:399][400]MapCheck: New page: Map001 - Feb 28, 2018, 1:28:22 AM
+[2018.02.27-23.28.22:454][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.046ms to complete.
+[2018.02.27-23.28.46:003][264]MapCheck: New page: Map Check
+[2018.02.27-23.28.46:033][264]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.27-23.28.46:033][264]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.27-23.28.46:067][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.27-23.28.46:073][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.02.27-23.28.46:079][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.02.27-23.28.46:086][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.27-23.28.46:743][264]TextureStreamingBuild: Display: Compiling optional shaders took 0.680 seconds.
+[2018.02.27-23.28.46:745][264]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.02.27-23.28.46:753][264]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2018.02.27-23.28.46:768][264]LightingResults: New page: Lighting Build - Feb 28, 2018, 1:28:46 AM
+[2018.02.27-23.28.46:775][264]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.27-23.28.46:777][264]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.27-23.28.46:777][264]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.27-23.28.46:778][264]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.27-23.28.46:778][264]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9572
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.27-23.28.51:313][264]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.27-23.28.51:397][264]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.27-23.28.51:397][264]MapCheck: New page: Map001 - Feb 28, 2018, 1:28:51 AM
+[2018.02.27-23.28.51:451][264]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.826ms to complete.
+[2018.02.27-23.28.51:474][264]LogEditorBuildUtils: Build time 0:05
+[2018.02.27-23.28.54:396][363]Job is a success!
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:      BrickData 1065x5x5 = 0.8Mb
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:          1: 7.5% covering 25.0% of volume
+[2018.02.27-23.28.54:532][364]LogVolumetricLightmapImport:          2: 92.0% covering 4.8% of volume
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
+[2018.02.27-23.28.54:615][364]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.02.27-23.28.54:683][364]Lightmass on VRPC: 2.57 sec total, 178 ms importing, 17 ms setup, 379 ms photons, 1.96 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 7.81 sec total, 463 ms processing.
+[2018.02.27-23.28.54:768][364]LogStaticLightingSystem: Illumination: 7.93 sec (20 ms encoding lightmaps, 22 ms encoding shadowmaps)
+[2018.02.27-23.28.54:768][364]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.27-23.28.54:768][364]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.27-23.28.55:318][364]DumpUnbuiltLightIteractions
+[2018.02.27-23.28.55:318][364]Lights with unbuilt interactions: 0
+[2018.02.27-23.28.55:318][364]
+[2018.02.27-23.28.55:318][364]Primitives with unbuilt interactions: 0
+[2018.02.27-23.28.55:374][365]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.27-23.28.55:374][365]MapCheck: New page: Map001 - Feb 28, 2018, 1:28:55 AM
+[2018.02.27-23.28.55:429][365]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.985ms to complete.
+[2018.02.27-23.28.57:294][413]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.28.57:316][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.28.57:316][413]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:28:57 AM)
+[2018.02.27-23.28.57:316][413]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.28.57:320][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003683s)
+[2018.02.27-23.28.57:320][413]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.28.57:321][413]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2018.02.27-23.28.57:321][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004625s)
+[2018.02.27-23.28.57:360][413]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.28.57:372][413]LogInit: FAudioDevice initialized.
+[2018.02.27-23.28.57:403][413]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.28.57:404][413]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.28.57
+[2018.02.27-23.28.57:405][413]LogWorld: Bringing up level for play took: 0.001478
+[2018.02.27-23.28.57:406][413]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.28.57:407][413]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.438
+[2018.02.27-23.29.02:108][950]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.29.11:705][100]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.29.11:705][100]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.29.16:369][492]LogSavePackage: Save=64.99ms
+[2018.02.27-23.29.16:369][492]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map0014232F1094F9F8F0884262BA1A73BB5D2.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
+[2018.02.27-23.29.16:372][492]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.02.27-23.29.16:528][492]LogSavePackage: Save=13.72ms
+[2018.02.27-23.29.16:528][492]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltDataB81601834FE434891FC89782115F6F09.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
+[2018.02.27-23.29.16:532][492]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
+[2018.02.27-23.30.10:548][720]LogSlate: Took 0.004487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.27-23.30.27:176][360]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.30.28:113][394]LogSavePackage: Save=102.55ms
+[2018.02.27-23.30.28:113][394]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin250CC02042CE745908FC84833A361F10.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.30.28:117][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.30.31:248][743]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.30.31:270][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.30.31:271][743]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:30:31 AM)
+[2018.02.27-23.30.31:271][743]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.30.31:274][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002919s)
+[2018.02.27-23.30.31:274][743]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.30.31:275][743]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2018.02.27-23.30.31:275][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004098s)
+[2018.02.27-23.30.31:305][743]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.30.31:316][743]LogInit: FAudioDevice initialized.
+[2018.02.27-23.30.31:346][743]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.30.31:348][743]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.30.31
+[2018.02.27-23.30.31:348][743]LogWorld: Bringing up level for play took: 0.001323
+[2018.02.27-23.30.31:350][743]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.30.31:350][743]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.495
+[2018.02.27-23.30.32:970][923]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin19)
+[2018.02.27-23.30.34:838][137]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin3)
+[2018.02.27-23.31.24:410][870]LogBlueprintUserMessages: [BP_Paladin_C_11] Hello
+[2018.02.27-23.32.23:285][996]LogSavePackage: Save=107.23ms
+[2018.02.27-23.32.23:286][996]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinD8B03B3F4DC7BC68EFD63896A65D35AA.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.32.23:289][996]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.32.23:579][ 19]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.32.25:241][151]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.32.25:267][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.32.25:267][151]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:32:25 AM)
+[2018.02.27-23.32.25:268][151]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.32.25:271][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002887s)
+[2018.02.27-23.32.25:272][151]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.32.25:272][151]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.02.27-23.32.25:272][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003961s)
+[2018.02.27-23.32.25:304][151]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.32.25:315][151]LogInit: FAudioDevice initialized.
+[2018.02.27-23.32.25:346][151]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.32.25:348][151]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.32.25
+[2018.02.27-23.32.25:348][151]LogWorld: Bringing up level for play took: 0.001560
+[2018.02.27-23.32.25:350][151]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.32.25:350][151]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.495
+[2018.02.27-23.33.47:276][561]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.33.49:086][651]LogSavePackage: Save=110.41ms
+[2018.02.27-23.33.49:086][651]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin479AA98A4D7772D6E21DCE8CAA78CB76.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.33.49:090][651]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.33.49:462][683]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.33.49:485][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.33.49:485][683]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:33:49 AM)
+[2018.02.27-23.33.49:486][683]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.33.49:489][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003018s)
+[2018.02.27-23.33.49:489][683]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.33.49:489][683]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2018.02.27-23.33.49:490][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004078s)
+[2018.02.27-23.33.49:518][683]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.33.49:530][683]LogInit: FAudioDevice initialized.
+[2018.02.27-23.33.49:609][683]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.33.49:611][683]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.33.49
+[2018.02.27-23.33.49:611][683]LogWorld: Bringing up level for play took: 0.001408
+[2018.02.27-23.33.49:613][683]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.33.49:617][683]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.228
+[2018.02.27-23.35.33:941][348]LogSavePackage: Save=111.01ms
+[2018.02.27-23.35.33:941][348]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinC4726CB543968905A5924DAE3CCF4A79.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.35.33:945][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.35.34:115][356]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.35.35:064][406]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.35.35:087][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.35.35:088][406]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:35:35 AM)
+[2018.02.27-23.35.35:088][406]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.35.35:091][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002757s)
+[2018.02.27-23.35.35:092][406]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.35.35:092][406]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.02.27-23.35.35:092][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.003889s)
+[2018.02.27-23.35.35:120][406]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.35.35:131][406]LogInit: FAudioDevice initialized.
+[2018.02.27-23.35.35:213][406]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.35.35:215][406]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.35.35
+[2018.02.27-23.35.35:215][406]LogWorld: Bringing up level for play took: 0.001477
+[2018.02.27-23.35.35:217][406]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.35.35:222][406]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.623
+[2018.02.27-23.39.08:514][374]LogClass: Warning: Type mismatch in TargetPosition of SKEL_BP_Paladin_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.02.27-23.39.35:890][671]LogEditorViewport: Clicking on Actor (LMB): BP_TestMannequin_C (BP_TestMannequin)
+[2018.02.27-23.40.43:238][894]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.153 s
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: 
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp] [Line: 45]
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name '0.000000'! You must pass in fully qualified package names
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: Stack: 
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C8242786 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7FE123A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7FFB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7B7CF8C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7A9B42F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7AB29FF UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7AAB30C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C7849024 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C6903F6C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000BE647F2C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000BE67DF4C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000BE63DE77 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000BE6399E5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000BE638C79 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C68FB33C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C690F393 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C1B40A52 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C1AF84C7 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000C1AFAD77 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E93EEEBE UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E93C77A7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E93C8257 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E93D2F49 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E93D40A9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E9359C2B UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E91763A1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E914700E UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E9148C16 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E91C988C UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000E91BBEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.27-23.40.43:238][894]LogOutputDevice: Error: [Callstack] 0x00000000F5EBE28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000F5EB1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000F5EC03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000F5EAD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000017E2B85D USER32.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000017E2B1EF USER32.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000F5EC1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000078750C8 UE4Editor.exe!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000007885430 UE4Editor.exe!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x00000000078854AA UE4Editor.exe!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000007892379 UE4Editor.exe!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000007893D57 UE4Editor.exe!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x0000000019871FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: [Callstack] 0x000000001A39EFC1 ntdll.dll!UnknownFunction []
+[2018.02.27-23.40.43:239][894]LogOutputDevice: Error: 
+[2018.02.27-23.40.43:248][894]LogStats:                SubmitErrorReport -  0.000 s
+[2018.02.27-23.40.43:522][894]LogStats:                    SendNewReport -  0.274 s
+[2018.02.27-23.40.43:522][894]LogStats:             FDebug::EnsureFailed -  0.437 s
+[2018.02.27-23.41.25:797][583]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.41.25:842][583]LogClass: Warning: Type mismatch in Target of BP_Paladin_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.02.27-23.41.26:677][597]LogSavePackage: Save=117.69ms
+[2018.02.27-23.41.26:677][597]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin9A1F7B2F4C654CEE43D5299505B87832.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.41.26:681][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.41.27:852][692]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.41.27:880][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.41.27:880][692]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:41:27 AM)
+[2018.02.27-23.41.27:880][692]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.41.27:884][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003277s)
+[2018.02.27-23.41.27:885][692]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.41.27:885][692]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.02.27-23.41.27:885][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004673s)
+[2018.02.27-23.41.27:915][692]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.41.27:927][692]LogInit: FAudioDevice initialized.
+[2018.02.27-23.41.27:959][692]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.41.27:960][692]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.41.27
+[2018.02.27-23.41.27:961][692]LogWorld: Bringing up level for play took: 0.001495
+[2018.02.27-23.41.27:962][692]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.41.27:963][692]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.117
+[2018.02.27-23.43.36:238][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulsLike/Maps/Map001' took 0.020
+[2018.02.27-23.43.36:242][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Characters/Paladin/BP_Paladin] ([1] browsable assets)...
+[2018.02.27-23.43.36:242][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Characters/Paladin/BP_Paladin]
+[2018.02.27-23.43.36:372][846]LogSavePackage: Save=108.32ms
+[2018.02.27-23.43.36:373][846]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin_Auto119EBA90647644B21470E47A1EEA44C16.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto1.uasset'
+[2018.02.27-23.43.36:374][846]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto1.uasset
+[2018.02.27-23.43.36:374][846]LogFileHelpers: Auto-saving content packages took 0.133
+[2018.02.27-23.53.52:988][889]LogSavePackage: Save=112.59ms
+[2018.02.27-23.53.52:988][889]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin19D30603414F3949BEB693B90D6BF489.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.27-23.53.52:993][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.27-23.53.53:129][904]BlueprintLog: New page: Compile BP_Paladin
+[2018.02.27-23.53.54:994][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.27-23.53.55:017][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.27-23.53.55:017][ 57]PIE: New page: PIE session: Map001 (Feb 28, 2018, 1:53:55 AM)
+[2018.02.27-23.53.55:017][ 57]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.27-23.53.55:020][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003141s)
+[2018.02.27-23.53.55:021][ 57]LogAIModule: Creating AISystem for world Map001
+[2018.02.27-23.53.55:021][ 57]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.02.27-23.53.55:021][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.004276s)
+[2018.02.27-23.53.55:049][ 57]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-23.53.55:061][ 57]LogInit: FAudioDevice initialized.
+[2018.02.27-23.53.55:093][ 57]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.27-23.53.55:095][ 57]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-00.53.55
+[2018.02.27-23.53.55:095][ 57]LogWorld: Bringing up level for play took: 0.001503
+[2018.02.27-23.53.55:097][ 57]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.27-23.53.55:098][ 57]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 -0.747
+[2018.02.28-00.52.25:118][616]LogSavePackage: Save=113.40ms
+[2018.02.28-00.52.25:118][616]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin45702304448EB0EFEB97218028348719.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.28-00.52.25:121][616]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.28-00.52.28:530][942]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.28-00.52.28:555][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-00.52.28:555][942]PIE: New page: PIE session: Map001 (Feb 28, 2018, 2:52:28 AM)
+[2018.02.28-00.52.28:556][942]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_0_Map001
+[2018.02.28-00.52.28:559][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003699s)
+[2018.02.28-00.52.28:560][942]LogAIModule: Creating AISystem for world Map001
+[2018.02.28-00.52.28:561][942]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2018.02.28-00.52.28:561][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 (0.005215s)
+[2018.02.28-00.52.28:591][942]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-00.52.28:603][942]LogInit: FAudioDevice initialized.
+[2018.02.28-00.52.28:674][942]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.02.28-00.52.28:676][942]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_0_Map001.Map001 up for play (max tick rate 0) at 2018.02.28-01.52.28
+[2018.02.28-00.52.28:676][942]LogWorld: Bringing up level for play took: 0.001707
+[2018.02.28-00.52.28:678][942]LogBlueprintUserMessages: [BP_Paladin_C_0] Hello
+[2018.02.28-00.52.28:682][942]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_0_Map001 0.837
+[2018.02.28-00.52.34:828][472]LogSavePackage: Save=107.69ms
+[2018.02.28-00.52.34:828][472]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Paladin1997E10D4EF2B9DBCAF0DE974D3BF117.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
+[2018.02.28-00.52.34:832][472]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.02.28-00.52.37:994][734]SourceControl: fatal: C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2018.02.28-00.52.51:851][734]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.02.28-00.52.52:063][734]SourceControl: [master a3a93b1] Attacking mashmallows
+[2018.02.28-00.52.52:063][734]SourceControl:  9 files changed, 0 insertions(+), 0 deletions(-)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.uasset (81%)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Idle_rooted.uasset (62%)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset (66%)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset (61%)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_rooted.uasset (75%)
+[2018.02.28-00.52.52:063][734]SourceControl:  rewrite SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset (87%)
+[2018.02.28-00.52.52:068][734]SourceControl: Commited [master a3a93b1] Attacking mashmallows.
