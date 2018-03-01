@@ -7,6 +7,14 @@
 		{
 			"Name": "UnrealEnginePython",
 			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
 		}
 	]
 }
