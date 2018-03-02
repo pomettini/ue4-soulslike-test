@@ -126,10 +126,24 @@ class RootMotionFixer:
             data = animation.get_raw_animation_track(index)
             if name == bone:
                 # extract root motion
-                root_motion = [position - data.pos_keys[0] for position in data.pos_keys]
+                root_motion = []
+                for position in data.pos_keys:
+                    new_position = position - data.pos_keys[0]
+                    new_position.z = 0#data.pos_keys[0].z
+                    new_position.x = 0
+                    root_motion.append(new_position)
+                #root_motion = [position - data.pos_keys[0] for position in data.pos_keys]
+
+                
 
                 # remove root motion from original track
-                data.pos_keys = [data.pos_keys[0]]
+                hips_motion = []
+                for position in data.pos_keys:
+                    new_position = position 
+                    new_position.y = 0
+                    hips_motion.append(new_position)
+                #data.pos_keys = [data.pos_keys[0]]
+                data.pos_keys = hips_motion
                 new_anim.add_new_raw_track(name, data)
 
                 # create a new track (the root motion one)

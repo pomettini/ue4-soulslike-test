@@ -5,10 +5,6 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "UnrealEnginePython",
-			"Enabled": false
-		},
-		{
 			"Name": "SteamVR",
 			"Enabled": false
 		},
