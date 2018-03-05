@@ -5,7 +5,7 @@ Stuff to do:
 
 * Fix backward-right walk animation while targeting
 * The targeted enemy player must have a different material (with a Rimlight maybe?)
-* Fix roll direction that is not working well while targeting
+* Add left, right and back roll
 * Add each weapon as an Actor Blueprint
 * The player needs to have a socket on his right hand for the weapon
 * And a socket on his left hand for the shield
