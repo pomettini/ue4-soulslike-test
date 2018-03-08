@@ -1,4 +1,4 @@
-﻿Log file open, 03/08/18 15:37:10
+﻿Log file open, 03/08/18 17:00:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SoulsLikeTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(570248331) SRandInit(570248331).
+LogInit: Display: RandInit(-1164294859) SRandInit(-1164294859).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.213293
+LogStats: Stats thread started at 0.208756
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
@@ -203,724 +203,357 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.08-14.37.17:985][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.08-14.37.17:985][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.08-14.37.18:008][  0]LogInit: Computer: DESKTOP-LBHAQ83
-[2018.03.08-14.37.18:008][  0]LogInit: User: Giorgio
-[2018.03.08-14.37.18:008][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.08-14.37.18:008][  0]LogInit: High frequency timer resolution =2.241012 MHz
-[2018.03.08-14.37.18:009][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.08-14.37.18:009][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.08-14.37.18:009][  0]LogMemory: Process Physical Memory: 274.87 MB used, 274.87 MB peak
-[2018.03.08-14.37.18:009][  0]LogMemory: Process Virtual Memory: 272.93 MB used, 272.93 MB peak
-[2018.03.08-14.37.18:009][  0]LogMemory: Physical Memory: 3034.20 MB used,  13256.48 MB free, 16290.69 MB total
-[2018.03.08-14.37.18:009][  0]LogMemory: Virtual Memory: 681.52 MB used,  13256.48 MB free, 134217728.00 MB total
-[2018.03.08-14.37.18:328][  0]LogInit: Using OS detected language (it-IT).
-[2018.03.08-14.37.18:328][  0]LogInit: Using OS detected locale (it-IT).
-[2018.03.08-14.37.18:332][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
-[2018.03.08-14.37.18:332][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
-[2018.03.08-14.37.18:866][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.08-14.37.19:217][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.08-14.37.19:267][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
-[2018.03.08-14.37.19:267][  0]LogD3D11RHI:       984/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.08-14.37.19:271][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.08-14.37.19:271][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.08-14.37.19:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.08-14.37.19:276][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.08-14.37.19:276][  0]LogD3D11RHI:     GPU DeviceId: 0xfd5 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.08-14.37.19:276][  0]LogWindows: EnumDisplayDevices:
-[2018.03.08-14.37.19:277][  0]LogWindows:    0. 'NVIDIA GeForce GT 650M' (P:1 D:1)
-[2018.03.08-14.37.19:277][  0]LogWindows:    1. 'NVIDIA GeForce GT 650M' (P:0 D:0)
-[2018.03.08-14.37.19:277][  0]LogWindows:    2. 'NVIDIA GeForce GT 650M' (P:0 D:0)
-[2018.03.08-14.37.19:277][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
-[2018.03.08-14.37.19:277][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.08-14.37.19:277][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
-[2018.03.08-14.37.19:277][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.08-14.37.19:277][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.08-14.37.19:277][  0]LogRHI: Texture pool is 689 MB (70% of 984 MB)
-[2018.03.08-14.37.19:311][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.08-14.37.19:332][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.08-14.37.19:375][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/7096/).
-[2018.03.08-14.37.19:376][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/25E3BAC0415DBD25C4BDA5A78C7101F7/'.
-[2018.03.08-14.37.19:376][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.08-14.37.20:755][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.08-14.37.20:847][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.08-14.37.20:939][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.08-14.37.21:036][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.08-14.37.21:123][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.08-14.37.21:209][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.08-14.37.21:308][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.08-14.37.21:396][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.08-14.37.21:481][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.08-14.37.21:572][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.08-14.37.21:655][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.08-14.37.21:738][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.08-14.37.21:825][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.08-14.37.21:908][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.08-14.37.22:074][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.08-14.37.22:074][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.08-14.37.22:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.08-14.37.22:229][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.08-14.37.22:373][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.08-14.37.22:419][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.08-14.37.22:505][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.08-14.37.22:590][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.08-14.37.22:679][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.08-14.37.22:768][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.08-14.37.22:769][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.08-14.37.23:671][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.08-14.37.23:759][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.08-14.37.23:760][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.08-14.37.23:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.08-14.37.23:760][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.08-14.37.23:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.08-14.37.23:760][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.08-14.37.23:779][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.08-14.37.23:791][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.08-14.37.23:805][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.08-14.37.23:805][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.08-14.37.23:806][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.08-14.37.23:806][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.08-14.37.24:396][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.08-14.37.24:978][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.08-14.37.25:053][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.08-14.37.25:054][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.08-14.37.25:054][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.08-14.37.25:054][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.08-14.37.25:054][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.08-14.37.25:110][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
-[2018.03.08-14.37.25:370][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
-[2018.03.08-14.37.26:097][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.050507 seconds
-[2018.03.08-14.37.26:106][  0]LogUObjectArray: 35680 objects as part of root set at end of initial load.
-[2018.03.08-14.37.26:106][  0]LogUObjectAllocator: 7543640 out of 0 bytes used by permanent object pool.
-[2018.03.08-14.37.26:106][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.08-14.37.30:797][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.08-14.37.30:892][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.08-14.37.30:893][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
-[2018.03.08-14.37.30:893][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
-[2018.03.08-14.37.30:893][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
-[2018.03.08-14.37.30:893][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
-[2018.03.08-14.37.33:155][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.08-14.37.34:037][  0]SourceControl: Source control is disabled
-[2018.03.08-14.37.38:877][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.08-14.37.39:392][  0]LogOcInput: OculusInput pre-init called
-[2018.03.08-14.37.39:830][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
-[2018.03.08-14.37.39:831][  0]LogPython: Python Scripts search path: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Scripts
-[2018.03.08-14.37.39:839][  0]LogPython: Error: No module named 'ue_site'
-[2018.03.08-14.37.40:273][  0]LogEngine: Initializing Engine...
-[2018.03.08-14.37.40:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.08-14.37.40:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.08-14.37.40:750][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.08-14.37.40:760][  0]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2018.03.08-14.37.40:790][  0]LogInit: FAudioDevice initialized.
-[2018.03.08-14.37.41:024][  0]LogDerivedDataCache: Saved boot cache 0.23s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.08-14.37.41:187][  0]LogInit: Texture streaming: Enabled
-[2018.03.08-14.37.41:359][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.08-14.37.41:581][  0]LogInit: Transaction tracking system initialized
-[2018.03.08-14.37.42:110][  0]BlueprintLog: New page: Editor Load
-[2018.03.08-14.37.43:717][  0]LocalizationService: Localization service is disabled
-[2018.03.08-14.37.45:336][  0]LogConsoleResponse: Display: 
-[2018.03.08-14.37.45:622][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.08-14.37.45:622][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.08-14.37.45:622][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.08-14.37.46:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.02s
-[2018.03.08-14.37.47:919][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.08-14.37.47:920][  0]LightingResults: New page: Lighting Build
-[2018.03.08-14.37.47:994][  0]MapCheck: New page: Map Check
-[2018.03.08-14.37.47:994][  0]LightingResults: New page: Lighting Build
-[2018.03.08-14.37.48:339][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.03.08-14.37.48:348][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.08-14.37.48:360][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.08-14.37.48:433][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.93ms to complete.
-[2018.03.08-14.37.48:433][  0]LogFileHelpers: Loading map 'Template_Default' took 0.514
-[2018.03.08-14.37.48:715][  0]LogCollectionManager: Loaded 0 collections in 0.004610 seconds
-[2018.03.08-14.37.48:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
-[2018.03.08-14.37.48:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
-[2018.03.08-14.37.48:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
-[2018.03.08-14.37.48:896][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.03.08-14.37.48:913][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2381 classes and 524 folders.
-[2018.03.08-14.37.49:038][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.08-14.37.49:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.08-14.37.49:622][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.08-14.37.49:896][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.08-14.37.49:900][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.08-14.37.50:113][  0]LogRenderer: Reallocating scene render targets to support 892x504 Format 9 NumSamples 1 (Frame:1).
-[2018.03.08-14.37.50:330][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.08-14.37.50:330][  0]LogLoad: (Engine Initialization) Total time: 41.86 seconds
-[2018.03.08-14.37.50:330][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.08-14.37.50:330][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.08-14.37.50:882][  0]SourceControl: On branch master
-[2018.03.08-14.37.50:882][  0]SourceControl: Your branch is up to date with 'origin/master'.
-[2018.03.08-14.37.50:882][  0]SourceControl: Changes to be committed:
-[2018.03.08-14.37.50:882][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
-[2018.03.08-14.37.50:882][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/AskeladAxe.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	deleted:    SoulsLikeTest/Content/SoulsLike/Weapons/BP_PaladinSword.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: Changes not staged for commit:
-[2018.03.08-14.37.50:882][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2018.03.08-14.37.50:882][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Config/DefaultInput.ini
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Askelad/BP_Askelad.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/AskeladAxe.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe.uasset
-[2018.03.08-14.37.50:882][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/BP_PaladinSword.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/PaladinSword.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/Config/CoalescedSourceConfigs/Input.ini
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto1.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto2.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto5.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto2.umap
-[2018.03.08-14.37.50:883][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/PackageRestoreData.json
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-15-30.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-50-31.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-31-09.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-50-02.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-06-22.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-12-24.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-17-31.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-58-52.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-04-16.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-09-44.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-14-53.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-20-59.uasset
-[2018.03.08-14.37.50:883][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-27-39.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-33-25.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-38-59.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-48-03.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-53-32.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-59-10.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-10-02.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-35-23.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-54-52.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-03-08.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-08-45.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-15-27.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-22-16.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-05-15.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-14-03.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-31-20.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-40-25.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-46-43.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-51-50.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-07-43.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-17-31.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-20-52-23.uasset
-[2018.03.08-14.37.50:884][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-31-31.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-38-13.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-48-24.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-55-30.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-01-47.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-42-24.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-48-46.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-15-02-51.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-01-36.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-08-42.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-17-32-39.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-25-39.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-30-56.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-38-02.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-52-48.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-22-01-32.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-00-12-57.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_PaladinRoll_2018-02-26-14-44-16.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-18-05-13.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-18-14-09.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-18-21-51.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-18-59-54.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-19-33-33.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-19-41-42.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-20-16-30.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-20-59-27.uasset
-[2018.03.08-14.37.50:885][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-07-24.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-27-37.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-36-28.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-54-22.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-59-36.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-07-07.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-12-37.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-18-58.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-24-24.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-42-06.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-51-09.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-22-56-31.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-23-03-33.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-01-05-42.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-01-12-59.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-13-23-19.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-13-28-25.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-13-58-03.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-21-36-45.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-21-42-58.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-21-56-57.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-22-16-24.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-22-25-12.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-23-11-47.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-23-26-30.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_PaladinRun_2018-02-25-18-49-18.uasset
-[2018.03.08-14.37.50:886][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_PaladinRun_2018-02-25-21-49-57.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_PaladinRun_2018-02-25-23-11-35.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_PaladinRun_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_Paladin_Run_rooted_2018-02-26-21-27-44.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/GM_SoulsLike_2018-02-25-18-05-50.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/GM_SoulsLike_2018-02-26-14-45-57.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/GM_SoulsLike_2018-02-26-19-34-33.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-18-02-58.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-18-11-16.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-18-26-23.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-18-40-23.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-22-19-43.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-25-22-43-03.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-00-07-39.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-13-38-13.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-14-45-37.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-15-02-49.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-16-08-44.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-16-21-22.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-19-14-32.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-20-30-13.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_2018-02-26-21-31-21.umap
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-18-02-58.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-18-11-16.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-18-26-23.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-18-40-23.uasset
-[2018.03.08-14.37.50:887][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-22-19-43.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-25-22-43-03.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-00-07-39.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-14-45-37.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-15-02-49.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-19-14-33.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Paladin_MAT_2018-02-25-18-02-14.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Paladin_MAT_2018-02-25-18-11-18.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-25-21-54-08.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-25-22-30-40.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-25-22-57-41.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-25-23-05-27.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-01-10-00.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-15-58-35.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-19-26-42.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-19-32-34.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_2018-02-26-21-48-27.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-13-21-11.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-14-05-25.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-14-19-13.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-14-39-27.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-14-48-50.uasset
-[2018.03.08-14.37.50:888][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-14-57-41.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-15-58-01.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-16-09-26.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-16-19-09.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-19-26-56.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-20-31-16.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-21-01-16.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-21-49-58.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-21-55-56.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-22-17-18.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-26-22-22-18.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-02-27-00-05-46.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-25-19-25-51.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-25-23-37-07.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-02-26-21-11-14.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_2018-02-25-21-34-50.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_2018-02-25-21-45-04.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_2018-02-25-23-05-40.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Run_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2018-02-25-19-26-35.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2018-02-25-21-29-03.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2018-02-26-00-53-49.uasset
-[2018.03.08-14.37.50:889][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2018-02-26-01-10-09.uasset
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2018-02-26-20-52-34.uasset
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_2018-02-25-19-27-27.uasset
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-0F6B97464A55031DF8D20F9907CA7767/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-20F33E8943DF13D67C1C818B893A4CFD/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-22D28330450E38AA3B5317B7C53061FD/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-562A6D644BB60317F4DD369AC3A3ED17/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-611FBDA0495E51D15B7ED28CC4E0ED8F/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-C0B3160E47878C445794448C87BA38AC/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-DC1D0EC14A6D0FC96E8372832BB8466A/CrashReportClient.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Editor.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.33.17.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.37.08.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.57.32.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.05-13.19.14.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.05-14.08.30.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.04.31.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.06.25.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.07.17.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.10.54.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.11.57.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.14.00.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.16.41.log
-[2018.03.08-14.37.50:890][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.28.log
-[2018.03.08-14.37.50:891][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.30.log
-[2018.03.08-14.37.50:891][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.35.log
-[2018.03.08-14.37.50:891][  0]SourceControl: Untracked files:
-[2018.03.08-14.37.50:891][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto0.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto1.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto2.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto3.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto4.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto5.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto6.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto7.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto8.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Askelad/BP_Askelad_Auto9.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto6.uasset
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto3.umap
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto4.umap
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto5.umap
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto6.umap
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto7.umap
-[2018.03.08-14.37.50:891][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto8.umap
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Maps/Map001_Auto9.umap
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/AskeladAxe/
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword_Auto3.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword_Auto8.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword_Auto9.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AskeladAxe_2018-03-07-12-49-31.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AskeladAxe_2018-03-07-13-58-06.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-13-56-41.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-14-27-17.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-15-47-40.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-16-11-09.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-16-32-42.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-16-45-26.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_AskeladAxe_2018-03-07-17-11-48.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-12-23-23.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-12-34-34.uasset
-[2018.03.08-14.37.50:892][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-12-54-22.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-14-27-18.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-14-44-25.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-15-13-12.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-15-24-24.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-15-42-31.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-16-13-23.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-16-45-26.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-17-03-10.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Askelad_2018-03-07-17-17-01.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-12-07-57.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-12-32-29.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-14-27-17.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-16-13-23.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-16-45-25.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_PaladinSword_2018-03-07-17-17-02.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-09-36.uasset
-[2018.03.08-14.37.50:893][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-15-44.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-21-28.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-27-17.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-37-14.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-44-03.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-12-53-55.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-13-05-38.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-13-53-24.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-02-04.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-07-15.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-12-25.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-21-24.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-26-40.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-32-36.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-45-38.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-14-52-06.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-00-16.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-05-33.uasset
-[2018.03.08-14.37.50:894][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-11-08.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-16-31.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-22-58.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-28-34.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-34-55.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-45-33.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-15-51-35.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-04-38.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-09-45.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-17-16.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-22-31.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-28-47.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-36-26.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-16-43-41.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-17-11-05.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-03-07-17-17-01.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-12-08-24.uasset
-[2018.03.08-14.37.50:895][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-14-04-25.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-14-11-24.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-15-55-49.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-16-03-36.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-16-09-37.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-16-23-03.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-16-44-38.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Weapon_2018-03-07-17-15-35.uasset
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-12-06-27.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-12-34-34.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-12-44-33.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-13-57-08.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-14-03-36.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-14-08-39.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-14-27-12.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-14-44-25.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-14-53-28.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-15-01-31.umap
-[2018.03.08-14.37.50:896][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-15-13-11.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-15-24-24.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-15-42-31.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-15-47-37.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-16-13-22.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-16-32-44.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-16-45-25.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_2018-03-07-17-12-21.umap
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-12-06-28.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-12-37-18.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-12-44-34.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-13-57-08.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-14-03-36.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-14-08-39.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-14-53-29.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-15-01-32.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-15-44-41.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-16-18-13.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-16-32-45.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-16-46-42.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-03-07-17-12-21.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PaladinSword_2018-03-07-12-49-28.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PaladinSword_2018-03-07-15-40-47.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-07-12-20-01.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-07-12-31-25.uasset
-[2018.03.08-14.37.50:897][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-07-12-36-27.uasset
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-07-13-56-32.uasset
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-5A3CB43E45707D5FD149E5B19EEC5CE3/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-A9ADAFF54770D58901034499201F6AC7/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-DED3C08C46DD4569D70EFB8071BB9111/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-E1690E8544AFD316CA238296B01A9E50/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-EEAD24494016CBED9157E9BA3DDBCD07/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Crashes/UE4CC-Windows-E1690E8544AFD316CA238296B01A9E50_0000/
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.07-11.51.43.log
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.07-11.55.42.log
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.07-12.04.43.log
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.07-12.54.41.log
-[2018.03.08-14.37.50:898][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.08-15.37.09.log
-[2018.03.08-14.37.50:898][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.03.08-14.37.51:234][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.52s
-[2018.03.08-14.37.51:266][  1]LogAssetRegistry: Asset discovery search completed in 25.9188 seconds
-[2018.03.08-14.37.51:268][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.08-14.37.51:268][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
-[2018.03.08-14.37.51:931][  3]LogSlate: Took 0.027165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.08-14.37.54:574][ 11]LogSlate: Took 0.008362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.08-14.37.59:920][323]LogSlate: Took 0.004227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.08-14.38.00:859][323]LogAIModule: Creating AISystem for world Map001
-[2018.03.08-14.38.00:885][323]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.08-14.38.00:885][323]LightingResults: New page: Lighting Build
-[2018.03.08-14.38.00:886][323]LoadErrors: New page: Loading map: Map001.umap
-[2018.03.08-14.38.00:886][323]MapCheck: New page: Map Check
-[2018.03.08-14.38.00:886][323]LightingResults: New page: Lighting Build
-[2018.03.08-14.38.00:983][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.08-14.38.01:055][323]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.08-14.38.02:803][323]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,748.276ms to complete.
-[2018.03.08-14.38.02:806][323]LogFileHelpers: Loading map 'Map001' took 1.922
-[2018.03.08-14.38.02:811][323]LogSlate: Took 0.003638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.08-14.38.03:437][357]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.08-14.38.03:525][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.08-14.38.03:526][357]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.38.03:526][357]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.08-14.38.03:528][357]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.08-14.38.03:528][357]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.08-14.38.03:528][357]LogOnline: Warning: STEAM: Steam API disabled!
-[2018.03.08-14.38.03:528][357]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.03.08-14.38.03:542][357]PIE: New page: PIE session: Map001 (Mar 8, 2018, 4:38:03 PM)
-[2018.03.08-14.38.03:543][357]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
-[2018.03.08-14.38.03:546][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003783s)
-[2018.03.08-14.38.03:547][357]LogAIModule: Creating AISystem for world Map001
-[2018.03.08-14.38.03:547][357]LogPlayLevel: PIE: World Init took: (0.000824s)
-[2018.03.08-14.38.03:547][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.004975s)
-[2018.03.08-14.38.03:563][357]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2018.03.08-14.38.03:572][357]LogInit: FAudioDevice initialized.
-[2018.03.08-14.38.03:627][357]LogLoad: Game class is 'GM_SoulsLike_C'
-[2018.03.08-14.38.03:641][357]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.08-15.38.03
-[2018.03.08-14.38.03:654][357]LogWorld: Bringing up level for play took: 0.013215
-[2018.03.08-14.38.03:821][357]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.03.08-14.38.03:839][357]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.03:839][357]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2018.03.08-14.38.03:839][357]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.03:840][357]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.08-14.38.03:843][357]LogInit: WinSock: I am DESKTOP-LBHAQ83 (192.168.1.135:0)
-[2018.03.08-14.38.03:844][357]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.03:846][357]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2018.03.08-14.38.03:846][357]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 -0.262
-[2018.03.08-14.38.03:848][357]PIE: New page: PIE session: Map001 (Mar 8, 2018, 4:38:03 PM)
-[2018.03.08-14.38.03:937][357]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.08-14.38.03:937][357]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.03:937][357]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2018.03.08-14.38.03:937][357]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.08-14.38.03:937][357]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.08-14.38.03:937][357]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.03:939][357]LogNet: Game client on port 17777, rate 10000
-[2018.03.08-14.38.03:945][357]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 -0.163
-[2018.03.08-14.38.03:955][357]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56913
-[2018.03.08-14.38.03:956][357]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 245138053184223195224073199124141085129135016096237205047020
-[2018.03.08-14.38.04:015][357]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 245138053184223195224073199124141085129135016096237205047020
-[2018.03.08-14.38.04:079][358]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56913
-[2018.03.08-14.38.04:079][358]LogHandshake: SendChallengeAck. InCookie: 245138053184223195224073199124141085129135016096237205047020
-[2018.03.08-14.38.04:079][358]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56913
-[2018.03.08-14.38.04:079][358]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.04:079][358]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/08/18 15:38:04, [UNetConnection] RemoteAddr: 127.0.0.1:56913, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.08-14.38.04:080][358]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56913, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.08-14.38.04:081][358]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2388339995)
-[2018.03.08-14.38.04:081][358]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
-[2018.03.08-14.38.04:100][359]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
-[2018.03.08-14.38.04:100][359]LogNet: Remote platform little endian=1
-[2018.03.08-14.38.04:100][359]LogNet: This platform little endian=1
-[2018.03.08-14.38.04:119][360]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-8FF3DFDB4B612E7298117DBDF7163546 userId: DESKTOP-LBHAQ83-8FF3DFDB4B612E7298117DBDF7163546
-[2018.03.08-14.38.04:120][360]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
-[2018.03.08-14.38.04:121][360]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
-[2018.03.08-14.38.04:135][360]LogAIModule: Creating AISystem for world Map001
-[2018.03.08-14.38.04:135][360]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.04:137][360]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.08-15.38.04
-[2018.03.08-14.38.04:137][360]LogWorld: Bringing up level for play took: 0.000904
-[2018.03.08-14.38.04:137][360]LogLoad: Took 0.016676 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
-[2018.03.08-14.38.04:162][361]LogNet: Client netspeed is 10000
-[2018.03.08-14.38.04:162][361]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-8FF3DFDB4B612E7298117DBDF7163546?SplitscreenCount=1
-[2018.03.08-14.38.04:163][361]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.38.04:168][361]LogNet: Join succeeded: DESKTOP-LBHAQ83-8FF3
-[2018.03.08-14.38.04:257][366]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.38.04:274][367]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.38.13:376][908]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.38.13:376][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.08-14.38.13:377][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.08-14.38.13:378][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.08-14.38.13:378][908]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.08-14.38.13:416][908]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.38.13:416][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.08-14.38.13:418][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.08-14.38.13:418][908]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.08-14.38.13:418][908]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.08-14.38.13:437][908]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56913, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
-[2018.03.08-14.38.13:438][908]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56913, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2018.03.08-14.38.13
-[2018.03.08-14.38.13:438][908]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56913, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
-[2018.03.08-14.38.13:439][908]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
-[2018.03.08-14.38.13:439][908]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2018.03.08-14.38.13
-[2018.03.08-14.38.13:439][908]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
-[2018.03.08-14.38.13:440][908]LogExit: GameNetDriver None shut down
-[2018.03.08-14.38.13:440][908]LogExit: GameNetDriver None shut down
-[2018.03.08-14.38.13:491][909]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.03.08-14.38.13:492][909]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.38.13:492][909]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.03.08-14.38.13:492][909]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.38.50:028][426]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.08-14.38.50:057][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.08-14.38.50:059][426]PIE: New page: PIE session: Map001 (Mar 8, 2018, 4:38:50 PM)
-[2018.03.08-14.38.50:059][426]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
-[2018.03.08-14.38.50:062][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003224s)
-[2018.03.08-14.38.50:063][426]LogAIModule: Creating AISystem for world Map001
-[2018.03.08-14.38.50:064][426]LogPlayLevel: PIE: World Init took: (0.001152s)
-[2018.03.08-14.38.50:064][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.004828s)
-[2018.03.08-14.38.50:079][426]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2018.03.08-14.38.50:088][426]LogInit: FAudioDevice initialized.
-[2018.03.08-14.38.50:121][426]LogLoad: Game class is 'GM_SoulsLike_C'
-[2018.03.08-14.38.50:123][426]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.08-15.38.50
-[2018.03.08-14.38.50:124][426]LogWorld: Bringing up level for play took: 0.001505
-[2018.03.08-14.38.50:138][426]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.50:138][426]LogTemp: Display: ParseSettings for IpNetDriver_2
-[2018.03.08-14.38.50:138][426]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.50:139][426]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.08-14.38.50:139][426]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.50:139][426]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
-[2018.03.08-14.38.50:140][426]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.031
-[2018.03.08-14.38.50:141][426]PIE: New page: PIE session: Map001 (Mar 8, 2018, 4:38:50 PM)
-[2018.03.08-14.38.50:229][426]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.08-14.38.50:229][426]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.50:229][426]LogTemp: Display: ParseSettings for IpNetDriver_3
-[2018.03.08-14.38.50:229][426]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.08-14.38.50:229][426]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.08-14.38.50:230][426]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.50:230][426]LogNet: Game client on port 17777, rate 10000
-[2018.03.08-14.38.50:234][426]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.126
-[2018.03.08-14.38.50:242][426]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61588
-[2018.03.08-14.38.50:242][426]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 231125118172006047046057036223220248023026158253197186163129
-[2018.03.08-14.38.50:244][426]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 231125118172006047046057036223220248023026158253197186163129
-[2018.03.08-14.38.50:311][427]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61588
-[2018.03.08-14.38.50:311][427]LogHandshake: SendChallengeAck. InCookie: 231125118172006047046057036223220248023026158253197186163129
-[2018.03.08-14.38.50:311][427]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61588
-[2018.03.08-14.38.50:311][427]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.08-14.38.50:311][427]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/08/18 15:38:50, [UNetConnection] RemoteAddr: 127.0.0.1:61588, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.08-14.38.50:311][427]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61588, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.08-14.38.50:312][427]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
-[2018.03.08-14.38.50:327][428]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
-[2018.03.08-14.38.50:328][428]LogNet: Remote platform little endian=1
-[2018.03.08-14.38.50:328][428]LogNet: This platform little endian=1
-[2018.03.08-14.38.50:348][429]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-ACE69990486C11CC49CF1A89395FCE04 userId: DESKTOP-LBHAQ83-ACE69990486C11CC49CF1A89395FCE04
-[2018.03.08-14.38.50:350][429]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
-[2018.03.08-14.38.50:350][429]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
-[2018.03.08-14.38.50:364][429]LogAIModule: Creating AISystem for world Map001
-[2018.03.08-14.38.50:364][429]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.08-14.38.50:366][429]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.08-15.38.50
-[2018.03.08-14.38.50:366][429]LogWorld: Bringing up level for play took: 0.000981
-[2018.03.08-14.38.50:367][429]LogLoad: Took 0.016824 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
-[2018.03.08-14.38.50:383][430]LogNet: Client netspeed is 10000
-[2018.03.08-14.38.50:384][430]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-ACE69990486C11CC49CF1A89395FCE04?SplitscreenCount=1
-[2018.03.08-14.38.50:384][430]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.38.50:387][430]LogNet: Join succeeded: DESKTOP-LBHAQ83-ACE6
-[2018.03.08-14.38.50:469][435]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.38.50:485][436]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.08-14.39.07:817][471]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.39.07:817][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.08-14.39.07:818][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.08-14.39.07:818][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.08-14.39.07:818][471]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.08-14.39.07:850][471]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.39.07:850][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.08-14.39.07:851][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.08-14.39.07:851][471]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.08-14.39.07:851][471]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.08-14.39.07:862][471]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61588, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
-[2018.03.08-14.39.07:862][471]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61588, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2018.03.08-14.39.07
-[2018.03.08-14.39.07:862][471]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61588, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
-[2018.03.08-14.39.07:862][471]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
-[2018.03.08-14.39.07:862][471]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2018.03.08-14.39.07
-[2018.03.08-14.39.07:862][471]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
-[2018.03.08-14.39.07:865][471]LogExit: GameNetDriver None shut down
-[2018.03.08-14.39.07:865][471]LogExit: GameNetDriver None shut down
-[2018.03.08-14.39.07:896][472]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.03.08-14.39.07:896][472]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.39.07:896][472]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.03.08-14.39.07:896][472]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.08-14.40.51:530][410]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
-	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+[2018.03.08-16.00.07:982][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.08-16.00.07:982][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.08-16.00.07:998][  0]LogInit: Computer: DESKTOP-LBHAQ83
+[2018.03.08-16.00.07:998][  0]LogInit: User: Giorgio
+[2018.03.08-16.00.07:998][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.08-16.00.07:998][  0]LogInit: High frequency timer resolution =2.241012 MHz
+[2018.03.08-16.00.07:999][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.08-16.00.07:999][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.08-16.00.07:999][  0]LogMemory: Process Physical Memory: 274.25 MB used, 274.25 MB peak
+[2018.03.08-16.00.07:999][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2018.03.08-16.00.07:999][  0]LogMemory: Physical Memory: 4969.04 MB used,  11321.65 MB free, 16290.69 MB total
+[2018.03.08-16.00.07:999][  0]LogMemory: Virtual Memory: 678.39 MB used,  11321.65 MB free, 134217728.00 MB total
+[2018.03.08-16.00.08:276][  0]LogInit: Using OS detected language (it-IT).
+[2018.03.08-16.00.08:276][  0]LogInit: Using OS detected locale (it-IT).
+[2018.03.08-16.00.08:280][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.03.08-16.00.08:281][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.03.08-16.00.08:755][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.08-16.00.09:110][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.08-16.00.09:155][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
+[2018.03.08-16.00.09:155][  0]LogD3D11RHI:       984/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.08-16.00.09:157][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.08-16.00.09:157][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.08-16.00.09:157][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.08-16.00.09:163][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.08-16.00.09:163][  0]LogD3D11RHI:     GPU DeviceId: 0xfd5 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.08-16.00.09:163][  0]LogWindows: EnumDisplayDevices:
+[2018.03.08-16.00.09:163][  0]LogWindows:    0. 'NVIDIA GeForce GT 650M' (P:1 D:1)
+[2018.03.08-16.00.09:163][  0]LogWindows:    1. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.08-16.00.09:164][  0]LogWindows:    2. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.08-16.00.09:164][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.08-16.00.09:164][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.08-16.00.09:164][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
+[2018.03.08-16.00.09:164][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.08-16.00.09:164][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.08-16.00.09:164][  0]LogRHI: Texture pool is 689 MB (70% of 984 MB)
+[2018.03.08-16.00.09:194][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.08-16.00.09:221][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.08-16.00.09:263][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/2304/).
+[2018.03.08-16.00.09:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/5B3568734C69624187092BBEC5CB666C/'.
+[2018.03.08-16.00.09:264][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.08-16.00.10:535][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.08-16.00.10:620][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.08-16.00.10:703][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.08-16.00.10:788][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.08-16.00.10:873][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.08-16.00.10:959][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.08-16.00.11:042][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.08-16.00.11:126][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.08-16.00.11:202][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.08-16.00.11:283][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.08-16.00.11:365][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.08-16.00.11:445][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.08-16.00.11:528][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.08-16.00.11:611][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.08-16.00.11:776][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.08-16.00.11:776][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.08-16.00.11:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.08-16.00.11:921][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.08-16.00.12:057][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.08-16.00.12:101][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.08-16.00.12:182][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.08-16.00.12:263][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.08-16.00.12:343][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.08-16.00.12:423][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.08-16.00.12:423][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.08-16.00.13:289][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.08-16.00.13:370][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.08-16.00.13:389][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.08-16.00.13:402][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.08-16.00.13:416][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.08-16.00.13:417][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.08-16.00.13:417][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.08-16.00.13:417][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.08-16.00.13:973][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.08-16.00.14:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.08-16.00.14:572][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.08-16.00.14:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.08-16.00.14:572][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.08-16.00.14:572][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.08-16.00.14:572][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.08-16.00.14:625][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.03.08-16.00.14:877][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2018.03.08-16.00.15:552][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.038782 seconds
+[2018.03.08-16.00.15:558][  0]LogUObjectArray: 35680 objects as part of root set at end of initial load.
+[2018.03.08-16.00.15:558][  0]LogUObjectAllocator: 7543640 out of 0 bytes used by permanent object pool.
+[2018.03.08-16.00.15:558][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.08-16.00.19:826][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.08-16.00.19:900][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.08-16.00.19:900][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2018.03.08-16.00.19:900][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2018.03.08-16.00.19:900][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2018.03.08-16.00.19:900][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2018.03.08-16.00.21:087][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.08-16.00.21:822][  0]SourceControl: Source control is disabled
+[2018.03.08-16.00.24:321][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.08-16.00.24:823][  0]LogOcInput: OculusInput pre-init called
+[2018.03.08-16.00.25:143][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.03.08-16.00.25:143][  0]LogPython: Python Scripts search path: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Scripts
+[2018.03.08-16.00.25:149][  0]LogPython: Error: No module named 'ue_site'
+[2018.03.08-16.00.25:563][  0]LogEngine: Initializing Engine...
+[2018.03.08-16.00.25:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.08-16.00.25:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.08-16.00.26:035][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.08-16.00.26:045][  0]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2018.03.08-16.00.26:071][  0]LogInit: FAudioDevice initialized.
+[2018.03.08-16.00.26:295][  0]LogDerivedDataCache: Saved boot cache 0.22s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.08-16.00.26:308][  0]LogInit: Texture streaming: Enabled
+[2018.03.08-16.00.26:477][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.08-16.00.26:689][  0]LogInit: Transaction tracking system initialized
+[2018.03.08-16.00.27:206][  0]BlueprintLog: New page: Editor Load
+[2018.03.08-16.00.28:707][  0]LocalizationService: Localization service is disabled
+[2018.03.08-16.00.30:244][  0]LogConsoleResponse: Display: 
+[2018.03.08-16.00.30:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.08-16.00.30:492][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.08-16.00.30:492][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.08-16.00.30:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.01s
+[2018.03.08-16.00.32:656][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.08-16.00.32:657][  0]LightingResults: New page: Lighting Build
+[2018.03.08-16.00.32:726][  0]MapCheck: New page: Map Check
+[2018.03.08-16.00.32:726][  0]LightingResults: New page: Lighting Build
+[2018.03.08-16.00.33:065][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.08-16.00.33:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.08-16.00.33:086][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.08-16.00.33:156][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.378ms to complete.
+[2018.03.08-16.00.33:156][  0]LogFileHelpers: Loading map 'Template_Default' took 0.500
+[2018.03.08-16.00.33:364][  0]LogCollectionManager: Loaded 0 collections in 0.004558 seconds
+[2018.03.08-16.00.33:486][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.03.08-16.00.33:486][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.03.08-16.00.33:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.03.08-16.00.33:487][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.08-16.00.33:499][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2381 classes and 524 folders.
+[2018.03.08-16.00.33:611][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.08-16.00.33:667][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.08-16.00.33:741][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.08-16.00.33:820][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.08-16.00.33:824][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.08-16.00.33:832][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.08-16.00.33:965][  0]LogRenderer: Reallocating scene render targets to support 892x504 Format 9 NumSamples 1 (Frame:1).
+[2018.03.08-16.00.34:177][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.08-16.00.34:177][  0]LogLoad: (Engine Initialization) Total time: 30.21 seconds
+[2018.03.08-16.00.34:177][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.08-16.00.34:178][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.08-16.00.34:196][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.08-16.00.34:225][  0]SourceControl: On branch master
+[2018.03.08-16.00.34:225][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.08-16.00.34:225][  0]SourceControl: Changes not staged for commit:
+[2018.03.08-16.00.34:225][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.03.08-16.00.34:225][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.08-16.00.34:225][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.08-16.00.34:225][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
+[2018.03.08-16.00.34:225][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
+[2018.03.08-16.00.34:225][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Left_Strafe_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Quick_Roll_To_Run_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Roll_Leftt_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Roll_Rightt_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Standing_Dodge_Backward_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Idle_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Run_Backwards_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Run_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Left_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Right_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Left_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Right_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_Backwards_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_rooted_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BS_Paladin_Strafe_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_BackDash_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_HeavyAttack_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LeftRoll_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LightAttack2_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_RightRoll_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_Roll_Auto1.uasset
+[2018.03.08-16.00.34:226][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto1.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/PackageRestoreData.json
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-19-49-43.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-21-49-19.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-25-23-11-19.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-19-33-23.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-20-46-50.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BP_Paladin_2018-02-26-21-30-32.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/BS_PaladinRun_2018-02-25-18-41-16.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-16-08-45.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-20-30-14.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Map001_BuiltData_2018-02-26-21-31-21.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/RollFixed_2018-02-26-00-33-27.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-25-21-29-36.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-25-21-46-50.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-25-22-39-54.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-26-00-49-09.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_2018-02-26-01-11-33.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_2018-02-25-20-03-29.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_2018-02-26-01-10-36.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_Skeleton_2018-02-26-20-52-34.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-02-26-13-04-38.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-02-26-16-08-52.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-02-26-21-58-13.uasset
+[2018.03.08-16.00.34:227][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.06-09.18.23.log
+[2018.03.08-16.00.34:227][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.06-14.38.29.log
+[2018.03.08-16.00.34:227][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
+[2018.03.08-16.00.34:228][  0]SourceControl: Untracked files:
+[2018.03.08-16.00.34:228][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack2_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_RightRoll_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_Roll_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BS_Paladin_Strafe_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Left_Strafe_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Quick_Roll_To_Run_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Roll_Leftt_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Roll_Rightt_rooted_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Standing_Dodge_Backward_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:228][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Idle_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Run_Backwards_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Run_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-03-08-16-55-26.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Strafe_Fast_Left_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Strafe_Fast_Right_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Strafe_Slow_Left_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Strafe_Slow_Right_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Walk_Backwards_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Walk_rooted_2018-03-08-16-55-25.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-08-16-55-24.uasset
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-399A5DAF4B32E72A27DC4391BE1D720E/
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-8B3A326341F3552E31C9ED8DEADB4EF6/
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.08-15.48.11.log
+[2018.03.08-16.00.34:229][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.08-17.00.05.log
+[2018.03.08-16.00.34:229][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.08-16.00.34:230][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.03.08-16.00.34:251][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.04s
+[2018.03.08-16.00.34:262][  1]LogAssetRegistry: Asset discovery search completed in 19.4081 seconds
+[2018.03.08-16.00.34:264][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.08-16.00.34:264][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.03.08-16.18.16:298][635]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.03.08-16.18.17:487][638]LogRenderer: Reallocating scene render targets to support 892x528 Format 9 NumSamples 1 (Frame:3).
+[2018.03.08-16.18.30:339][819]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.08-16.18.30:398][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.08-16.18.30:398][819]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.08-16.18.30:398][819]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.08-16.18.30:399][819]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.08-16.18.30:399][819]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.08-16.18.30:399][819]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.03.08-16.18.30:399][819]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.08-16.18.30:412][819]PIE: New page: PIE session: Untitled_1 (Mar 8, 2018, 6:18:30 PM)
+[2018.03.08-16.18.30:412][819]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.03.08-16.18.30:419][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006840s)
+[2018.03.08-16.18.30:420][819]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.08-16.18.30:420][819]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2018.03.08-16.18.30:421][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.008291s)
+[2018.03.08-16.18.30:437][819]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2018.03.08-16.18.30:446][819]LogInit: FAudioDevice initialized.
+[2018.03.08-16.18.30:860][819]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.08-16.18.30:863][819]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.03.08-17.18.30
+[2018.03.08-16.18.30:863][819]LogWorld: Bringing up level for play took: 0.001168
+[2018.03.08-16.18.30:986][819]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.08-16.18.30:989][819]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.08-16.18.30:989][819]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.03.08-16.18.30:989][819]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.08-16.18.30:989][819]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.08-16.18.30:990][819]LogInit: WinSock: I am DESKTOP-LBHAQ83 (192.168.1.135:0)
+[2018.03.08-16.18.30:990][819]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.08-16.18.30:990][819]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.03.08-16.18.30:990][819]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 1.016
+[2018.03.08-16.18.30:992][819]PIE: New page: PIE session: Untitled_1 (Mar 8, 2018, 6:18:30 PM)
+[2018.03.08-16.18.31:082][819]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.08-16.18.31:082][819]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.08-16.18.31:082][819]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.03.08-16.18.31:082][819]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.08-16.18.31:082][819]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.08-16.18.31:083][819]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.08-16.18.31:083][819]LogNet: Game client on port 17777, rate 10000
+[2018.03.08-16.18.31:088][819]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 1.113
+[2018.03.08-16.18.31:101][819]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64644
+[2018.03.08-16.18.31:101][819]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 062178161160016064114089227005191017113086166156086087178154
+[2018.03.08-16.18.31:153][819]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 062178161160016064114089227005191017113086166156086087178154
+[2018.03.08-16.18.31:245][820]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
 	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:00F7
-[2018.03.08-14.40.51:530][410]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
-	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+[2018.03.08-16.18.31:245][820]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
 	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:0185
-[2018.03.08-14.40.51:530][410]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
-	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+[2018.03.08-16.18.31:245][820]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
 	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:04FD
-[2018.03.08-14.40.51:530][410]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
-	ABP_Paladin_rooted_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
+[2018.03.08-16.18.31:245][820]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Paladin
+	ABP_Paladin_rooted_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.ABP_Paladin_rooted_C_1
 	Function /Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.ABP_Paladin_rooted_C:ExecuteUbergraph_ABP_Paladin_rooted:052F
-[2018.03.08-14.41.50:753][ 69]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
-
-
-[2018.03.08-14.42.03:783][628]LogWindows: LaunchFileInExternalEditor C:/Users/Giorgio/Downloads/paladin_prop_j_nordstrom.fbx 
-[2018.03.08-14.42.03:805][628]LogWindows: Launch application code for C:/Users/Giorgio/Downloads/paladin_prop_j_nordstrom.fbx : 31
-[2018.03.08-14.42.33:033][364]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.08-14.42.33:233][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.03.08-14.42.33:286][364]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.03.08-14.42.33:658][364]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2018.03.08-14.42.33:705][365]LogRenderer: Reallocating scene render targets to support 976x836 Format 9 NumSamples 1 (Frame:1).
-[2018.03.08-14.42.37:225][566]LogSlate: Took 0.008022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.08-14.43.10:839][619]LogSavePackage: Save=40.88ms
-[2018.03.08-14.43.10:840][619]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map0018FEFA8744B68D406547444A77DC2AC69.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
-[2018.03.08-14.43.10:842][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
-[2018.03.08-14.43.11:089][619]LogSavePackage: Save=20.67ms
-[2018.03.08-14.43.11:089][619]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltData6D8F5B3E4B3858A068A0AFA9B4889589.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
-[2018.03.08-14.43.11:091][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
-[2018.03.08-14.43.14:578][743]LogSavePackage: Save=45.64ms
-[2018.03.08-14.43.14:578][743]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/paladin_prop_j_nordstrom_rootedD9B0963D4C08F334A3F4AEB69D2DE969.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset'
-[2018.03.08-14.43.14:586][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
+[2018.03.08-16.18.31:248][820]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64644
+[2018.03.08-16.18.31:248][820]LogHandshake: SendChallengeAck. InCookie: 062178161160016064114089227005191017113086166156086087178154
+[2018.03.08-16.18.31:249][820]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64644
+[2018.03.08-16.18.31:249][820]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.08-16.18.31:249][820]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 03/08/18 17:18:31, [UNetConnection] RemoteAddr: 127.0.0.1:64644, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.08-16.18.31:249][820]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64644, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.08-16.18.31:250][820]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2388339995)
+[2018.03.08-16.18.31:250][820]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.03.08-16.18.31:369][821]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.03.08-16.18.31:369][821]LogNet: Remote platform little endian=1
+[2018.03.08-16.18.31:369][821]LogNet: This platform little endian=1
+[2018.03.08-16.18.31:393][822]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-EC382A064C31D49E054A67B59397AB1C userId: DESKTOP-LBHAQ83-EC382A064C31D49E054A67B59397AB1C
+[2018.03.08-16.18.31:394][822]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.08-16.18.31:480][822]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.08-16.18.31:499][822]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.08-16.18.31:499][822]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.08-16.18.31:501][822]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.03.08-17.18.31
+[2018.03.08-16.18.31:501][822]LogWorld: Bringing up level for play took: 0.000718
+[2018.03.08-16.18.31:501][822]LogLoad: Took 0.021773 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.03.08-16.18.31:523][823]LogNet: Client netspeed is 10000
+[2018.03.08-16.18.31:523][823]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=DESKTOP-LBHAQ83-EC382A064C31D49E054A67B59397AB1C?SplitscreenCount=1
+[2018.03.08-16.18.31:524][823]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.08-16.18.31:528][823]LogNet: Join succeeded: DESKTOP-LBHAQ83-EC38
+[2018.03.08-16.18.31:551][824]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.08-16.18.31:551][824]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.08-16.18.38:240][222]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.08-16.18.38:240][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.08-16.18.38:241][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.08-16.18.38:241][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.08-16.18.38:241][222]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.08-16.18.38:272][222]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.08-16.18.38:273][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.08-16.18.38:273][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.08-16.18.38:273][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.08-16.18.38:273][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.08-16.18.38:286][222]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
+[2018.03.08-16.18.38:286][222]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, Channels: 1, Time: 2018.03.08-16.18.38
+[2018.03.08-16.18.38:286][222]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
+[2018.03.08-16.18.38:286][222]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64644, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2018.03.08-16.18.38:287][222]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64644, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 1, Time: 2018.03.08-16.18.38
+[2018.03.08-16.18.38:287][222]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64644, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2018.03.08-16.18.38:288][222]LogExit: GameNetDriver None shut down
+[2018.03.08-16.18.38:288][222]LogExit: GameNetDriver None shut down
+[2018.03.08-16.18.38:318][223]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.03.08-16.18.38:319][223]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.08-16.18.38:319][223]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.03.08-16.18.38:319][223]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.08-16.18.39:211][275]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.08-16.18.39:294][275]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.08-16.18.39:435][275]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.08-16.18.39:485][275]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.03.08-16.18.39:864][275]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.03.08-16.18.39:913][276]LogRenderer: Reallocating scene render targets to support 976x836 Format 9 NumSamples 1 (Frame:1).
