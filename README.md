@@ -24,4 +24,4 @@ Low priority:
 
 Bugs:
 
-* Target mode is currently broken on server
+* Rolling while targeting is currently broken on server
