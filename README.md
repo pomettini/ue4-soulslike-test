@@ -3,13 +3,10 @@ Multiplayer Souls-like made with UE4
 
 Stuff to do:
 
-* Fix backward-right walk animation while targeting
 * The targeted enemy player must have a different material (with a Rimlight maybe?)
-* ~~Add left, right and back roll~~ (good but not great)
-* Add each weapon as an Actor Blueprint
-* Weapon picking from the ground (and spawn points)
-* The player needs to have a socket on his right hand for the weapon
-* And a socket on his left hand for the shield
+* Weapon spawn system
+* Weapons must fall on the ground
+* Add a light to weapons when they are on the ground
 * Add parry mechanic with the shield (some frames of invulnerability)
 * You can parry only if you have a shield attached
 * Check weapon-player collision only on server
@@ -24,3 +21,9 @@ Stuff to do:
 Low priority:
 
 * Weapon trail
+* Fix backward-right walk animation while targeting
+* ~~Add left, right and back roll~~ (good but not great)
+
+Bugs:
+
+* Rolling while targeting is currently broken on server (not synced well)
