@@ -1,0 +1,1864 @@
+﻿Log file open, 03/13/18 15:40:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoulsLikeTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1749395670) SRandInit(1749395670).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.223938
+LogD3D11RHI: Aftermath initialized
+LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin UnrealEnginePython
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steamworks: SteamUtils() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUser() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamFriends() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamRemoteStorage() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUserStats() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmakingServers() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamApps() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamNetworking() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmaking() failed!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: Warning: STEAM: Steam API failed to initialize!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  /Game/SoulsLike/Maps/Server -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.13-14.40.50:344][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-14.40.50:344][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.13-14.40.50:349][  0]LogInit: Computer: DESKTOP-LBHAQ83
+[2018.03.13-14.40.50:349][  0]LogInit: User: Giorgio
+[2018.03.13-14.40.50:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.13-14.40.50:349][  0]LogInit: High frequency timer resolution =2.241013 MHz
+[2018.03.13-14.40.50:350][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.13-14.40.50:350][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.13-14.40.50:350][  0]LogMemory: Process Physical Memory: 275.18 MB used, 275.18 MB peak
+[2018.03.13-14.40.50:350][  0]LogMemory: Process Virtual Memory: 272.27 MB used, 272.27 MB peak
+[2018.03.13-14.40.50:350][  0]LogMemory: Physical Memory: 4369.50 MB used,  11921.19 MB free, 16290.69 MB total
+[2018.03.13-14.40.50:350][  0]LogMemory: Virtual Memory: 680.48 MB used,  11921.19 MB free, 134217728.00 MB total
+[2018.03.13-14.40.50:630][  0]LogInit: Using OS detected language (it-IT).
+[2018.03.13-14.40.50:630][  0]LogInit: Using OS detected locale (it-IT).
+[2018.03.13-14.40.50:634][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.03.13-14.40.50:635][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.03.13-14.40.51:201][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.13-14.40.51:247][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
+[2018.03.13-14.40.51:247][  0]LogD3D11RHI:       984/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.13-14.40.51:250][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.13-14.40.51:251][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.13-14.40.51:251][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.13-14.40.51:256][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.13-14.40.51:256][  0]LogD3D11RHI:     GPU DeviceId: 0xfd5 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.13-14.40.51:256][  0]LogWindows: EnumDisplayDevices:
+[2018.03.13-14.40.51:257][  0]LogWindows:    0. 'NVIDIA GeForce GT 650M' (P:1 D:1)
+[2018.03.13-14.40.51:257][  0]LogWindows:    1. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-14.40.51:257][  0]LogWindows:    2. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-14.40.51:257][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-14.40.51:257][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.13-14.40.51:257][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
+[2018.03.13-14.40.51:257][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.13-14.40.51:257][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.13-14.40.51:257][  0]LogRHI: Texture pool is 689 MB (70% of 984 MB)
+[2018.03.13-14.40.51:289][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.13-14.40.51:312][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.13-14.40.51:354][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/1192/).
+[2018.03.13-14.40.51:354][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/0EF76E8545C095A8E2B070B4303DB17F/'.
+[2018.03.13-14.40.51:354][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.13-14.40.52:554][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.13-14.40.52:636][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.13-14.40.52:718][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.13-14.40.52:800][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.13-14.40.52:800][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.13-14.40.53:623][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.13-14.40.53:699][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.13-14.40.53:717][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.13-14.40.53:729][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.13-14.40.53:743][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.13-14.40.53:744][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.13-14.40.53:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-14.40.53:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-14.40.54:178][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
+[2018.03.13-14.40.54:186][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.007811 seconds
+[2018.03.13-14.40.54:317][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-14.40.54:826][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.13-14.40.54:894][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.13-14.40.54:894][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.13-14.40.54:894][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.13-14.40.54:894][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.13-14.40.54:894][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.13-14.40.54:944][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.03.13-14.40.55:240][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-14.40.55:240][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-14.40.55:240][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-14.40.57:783][  0]LogMoviePlayer: Initializing movie player
+[2018.03.13-14.40.58:306][  0]LogCollectionManager: Loaded 0 collections in 0.003981 seconds
+[2018.03.13-14.40.58:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.03.13-14.40.58:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.03.13-14.40.58:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.03.13-14.40.58:370][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.13-14.40.58:370][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
+[2018.03.13-14.40.58:700][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.13-14.40.58:775][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.13-14.40.58:776][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2018.03.13-14.40.58:776][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2018.03.13-14.40.58:776][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2018.03.13-14.40.58:776][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2018.03.13-14.40.59:589][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-14.40.59:589][  0]SourceControl: Source control is disabled
+[2018.03.13-14.40.59:589][  0]SourceControl: Source control is disabled
+[2018.03.13-14.40.59:687][  0]SourceControl: Source control is disabled
+[2018.03.13-14.41.00:338][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.13-14.41.00:828][  0]LogOcInput: OculusInput pre-init called
+[2018.03.13-14.41.01:040][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.03.13-14.41.01:040][  0]LogPython: Python Scripts search path: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Scripts
+[2018.03.13-14.41.01:047][  0]LogPython: Error: No module named 'ue_site'
+[2018.03.13-14.41.01:054][  0]LogUObjectArray: 39085 objects as part of root set at end of initial load.
+[2018.03.13-14.41.01:054][  0]LogUObjectAllocator: 8605600 out of 0 bytes used by permanent object pool.
+[2018.03.13-14.41.01:054][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.13-14.41.01:209][  0]LogEngine: Initializing Engine...
+[2018.03.13-14.41.01:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.13-14.41.01:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.13-14.41.01:428][  0]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2018.03.13-14.41.01:441][  0]LogInit: FAudioDevice initialized.
+[2018.03.13-14.41.01:458][  0]LogInit: Texture streaming: Enabled
+[2018.03.13-14.41.01:482][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.13-14.41.02:018][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-14.41.02:088][  0]LogInit: Display: Game Engine Initialized.
+[2018.03.13-14.41.02:088][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.13-14.41.02:426][  0]LogInit: Display: Starting Game.
+[2018.03.13-14.41.02:426][  0]LogNet: Browse: /Game/SoulsLike/Maps/Server?Name=Player
+[2018.03.13-14.41.02:427][  0]LogLoad: LoadMap: /Game/SoulsLike/Maps/Server?Name=Player
+[2018.03.13-14.41.02:650][  0]LogAIModule: Creating AISystem for world Server
+[2018.03.13-14.41.02:914][  0]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.13-14.41.02:915][  0]LogWorld: Bringing World /Game/SoulsLike/Maps/Server.Server up for play (max tick rate 0) at 2018.03.13-15.41.02
+[2018.03.13-14.41.02:916][  0]LogWorld: Bringing up level for play took: 0.000767
+[2018.03.13-14.41.02:916][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.13-14.41.02:952][  0]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2388339995)
+[2018.03.13-14.41.02:954][  0]LogInit: WinSock: I am DESKTOP-LBHAQ83 (192.168.1.13:0)
+[2018.03.13-14.41.02:954][  0]LogBlueprintUserMessages: [Server_C_0] Create Session Success
+[2018.03.13-14.41.03:077][  0]LogPackageName: SearchForPackageOnDisk took   0.122s to resolve Map001.umap.
+[2018.03.13-14.41.03:077][  0]LogLoad: Took 0.650463 seconds to LoadMap(/Game/SoulsLike/Maps/Server)
+[2018.03.13-14.41.03:354][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.03.13-14.41.03:354][  0]LogLoad: (Engine Initialization) Total time: 16.73 seconds
+[2018.03.13-14.41.03:354][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.13-14.41.03:354][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.13-14.41.03:371][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-14.41.03:489][  0]LogPackageName: SearchForPackageOnDisk took   0.117s to resolve Map001.umap.
+[2018.03.13-14.41.03:489][  0]LogNet: Browse: /Game/SoulsLike/Maps/Map001?listen
+[2018.03.13-14.41.03:489][  0]LogLoad: LoadMap: /Game/SoulsLike/Maps/Map001?listen
+[2018.03.13-14.41.03:890][  0]LogAIModule: Creating AISystem for world Map001
+[2018.03.13-14.41.03:891][  0]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamUtils() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamUser() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamFriends() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamRemoteStorage() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamUserStats() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamMatchmakingServers() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamApps() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamNetworking() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Warning: STEAM: Steamworks: SteamMatchmaking() failed!
+[2018.03.13-14.41.03:936][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.13-14.41.03:937][  0]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2018.03.13-14.41.03:937][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.13-14.41.03:937][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.13-14.41.03:937][  0]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.03.13-14.41.03:937][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.13-14.41.03:937][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.13-14.41.03:937][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.13-14.41.03:938][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2018.03.13-14.41.03:943][  0]LogWorld: Bringing World /Game/SoulsLike/Maps/Map001.Map001 up for play (max tick rate 0) at 2018.03.13-15.41.03
+[2018.03.13-14.41.03:943][  0]LogWorld: Bringing up level for play took: 0.003602
+[2018.03.13-14.41.03:947][  0]LogLoad: Took 0.457585 seconds to LoadMap(/Game/SoulsLike/Maps/Map001)
+[2018.03.13-14.41.03:992][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.13-14.41.38:968][118]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.38:984][119]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:000][120]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:016][121]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:033][122]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:049][123]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:064][124]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:080][125]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:097][126]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:113][127]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:129][128]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:145][129]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:161][130]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:177][131]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:193][132]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:209][133]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:225][134]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:241][135]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:258][136]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:274][137]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:290][138]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:306][139]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:323][140]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:339][141]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:355][142]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:371][143]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:387][144]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:403][145]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:419][146]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:436][147]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:451][148]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:467][149]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:838][172]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:855][173]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:871][174]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:887][175]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:903][176]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:920][177]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:936][178]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:952][179]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:968][180]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.39:984][181]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:000][182]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:016][183]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:032][184]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:049][185]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:065][186]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:081][187]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:097][188]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:113][189]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:129][190]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:146][191]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:162][192]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:178][193]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:194][194]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:210][195]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:226][196]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:242][197]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:259][198]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:275][199]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:291][200]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:307][201]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:323][202]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:339][203]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:355][204]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:371][205]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:387][206]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:403][207]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:419][208]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:436][209]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:452][210]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:468][211]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:484][212]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:500][213]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:516][214]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:532][215]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:549][216]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:565][217]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:581][218]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:597][219]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:613][220]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:629][221]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:645][222]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:661][223]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:678][224]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:694][225]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:710][226]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:726][227]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:742][228]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:759][229]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:775][230]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:791][231]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:807][232]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:823][233]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:839][234]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:856][235]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:872][236]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:888][237]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:904][238]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:920][239]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:936][240]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:952][241]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:968][242]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.40:984][243]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:000][244]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:017][245]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:033][246]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:049][247]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:065][248]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:081][249]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:097][250]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:114][251]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:130][252]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:146][253]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:162][254]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:178][255]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:194][256]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:211][257]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:227][258]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:243][259]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:259][260]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:275][261]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:291][262]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:307][263]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:323][264]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:340][265]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:356][266]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:372][267]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:388][268]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:404][269]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:420][270]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:436][271]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:453][272]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:468][273]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:485][274]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:501][275]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:517][276]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:533][277]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:550][278]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:565][279]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:584][280]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:598][281]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:614][282]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:630][283]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:646][284]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:662][285]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:678][286]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:694][287]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:711][288]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:726][289]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:743][290]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:758][291]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:775][292]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:791][293]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:807][294]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:823][295]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:839][296]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:855][297]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:871][298]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:887][299]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:904][300]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:920][301]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:936][302]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:952][303]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:968][304]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.41:985][305]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:001][306]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:017][307]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:033][308]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:049][309]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:065][310]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:081][311]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:098][312]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:114][313]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:130][314]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:146][315]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:162][316]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:178][317]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:194][318]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:210][319]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:226][320]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:243][321]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:259][322]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:275][323]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:291][324]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:307][325]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:323][326]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:339][327]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:356][328]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:372][329]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:388][330]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:404][331]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:420][332]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:436][333]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:452][334]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:469][335]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:485][336]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.42:501][337]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:565][403]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:582][404]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:598][405]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:614][406]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:630][407]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:678][410]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:694][411]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:710][412]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:727][413]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:743][414]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:759][415]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:775][416]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:791][417]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:807][418]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:824][419]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:839][420]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:856][421]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:872][422]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:888][423]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:904][424]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:921][425]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:936][426]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:953][427]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:969][428]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.43:985][429]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:001][430]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:017][431]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:033][432]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:049][433]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:065][434]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:081][435]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:098][436]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:114][437]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:130][438]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.44:130][438]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:146][439]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.44:162][440]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.44:178][441]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.44:195][442]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.44:227][444]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:243][445]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:259][446]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:275][447]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:291][448]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:307][449]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:323][450]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:340][451]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:356][452]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:372][453]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:388][454]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:404][455]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:420][456]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:437][457]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:453][458]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:469][459]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:485][460]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:501][461]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:517][462]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:533][463]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:549][464]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:565][465]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:581][466]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:598][467]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:614][468]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:630][469]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:937][488]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:953][489]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:969][490]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.44:985][491]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:001][492]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:017][493]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:034][494]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:050][495]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:066][496]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:082][497]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:098][498]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:114][499]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:130][500]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:146][501]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:162][502]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:179][503]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:195][504]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:211][505]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:227][506]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:243][507]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:259][508]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:275][509]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:291][510]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:307][511]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:324][512]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:549][526]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:565][527]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:582][528]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:598][529]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:614][530]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:630][531]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:646][532]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:662][533]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:679][534]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:695][535]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:711][536]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:727][537]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:743][538]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:807][542]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:824][543]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:840][544]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:856][545]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:872][546]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:888][547]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:969][552]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.45:985][553]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:001][554]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:017][555]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:033][556]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:050][557]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:066][558]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:308][573]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:324][574]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:340][575]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:356][576]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:372][577]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:388][578]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:404][579]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:420][580]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:437][581]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:453][582]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:533][587]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:550][588]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.46:985][615]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:001][616]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:017][617]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:033][618]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:049][619]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:066][620]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:082][621]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:098][622]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:114][623]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:130][624]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:147][625]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:163][626]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:179][627]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:195][628]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:211][629]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:276][633]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:292][634]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:308][635]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:324][636]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:340][637]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:356][638]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:437][643]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:453][644]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:469][645]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:485][646]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:502][647]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:518][648]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.47:534][649]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:001][678]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:017][679]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:034][680]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:050][681]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:066][682]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:082][683]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:098][684]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:114][685]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:131][686]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:179][689]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:196][690]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:212][691]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:228][692]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:244][693]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:260][694]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:276][695]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:292][696]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:308][697]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:324][698]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:340][699]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:356][700]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:372][701]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:404][703]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:421][704]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:437][705]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:453][706]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:469][707]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:485][708]LogBlueprintUserMessages: [BP_AskeladAxe_38] Hello
+[2018.03.13-14.41.48:808][728]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:824][729]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:841][730]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:856][731]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:873][732]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.48:889][733]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:082][745]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:098][746]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:114][747]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:131][748]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:147][749]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:163][750]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:179][751]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:195][752]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:211][753]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:227][754]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:243][755]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:259][756]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:276][757]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:292][758]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:308][759]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:324][760]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:340][761]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:356][762]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:373][763]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:389][764]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:405][765]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:421][766]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:437][767]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:453][768]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:469][769]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:486][770]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.49:502][771]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:695][845]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:711][846]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:728][847]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:744][848]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:760][849]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:776][850]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:792][851]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:809][852]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:824][853]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:873][856]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:889][857]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:905][858]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:921][859]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:937][860]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:954][861]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:970][862]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.50:986][863]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:002][864]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:018][865]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:035][866]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:050][867]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:067][868]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:504][895]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:518][896]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:534][897]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:550][898]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:567][899]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:583][900]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:776][912]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:793][913]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:809][914]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:825][915]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:842][916]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:857][917]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:873][918]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:889][919]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:905][920]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:921][921]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:937][922]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:953][923]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:970][924]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.51:986][925]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:002][926]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:018][927]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:034][928]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:051][929]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:066][930]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:083][931]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:099][932]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:115][933]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:131][934]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:147][935]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:163][936]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:179][937]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:196][938]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:212][939]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:228][940]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:244][941]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:260][942]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:277][943]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:292][944]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:309][945]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:325][946]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:341][947]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:357][948]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:422][952]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:438][953]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:454][954]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:470][955]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:486][956]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:503][957]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:583][962]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:599][963]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:615][964]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:631][965]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:647][966]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:664][967]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:680][968]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:890][981]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:905][982]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:921][983]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:937][984]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:953][985]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:970][986]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.52:986][987]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:002][988]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:018][989]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:035][990]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:052][991]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:067][992]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:083][993]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:163][998]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:180][999]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:615][ 26]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:632][ 27]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:648][ 28]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:664][ 29]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:680][ 30]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:696][ 31]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:712][ 32]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:729][ 33]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:744][ 34]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:760][ 35]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:776][ 36]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:793][ 37]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:809][ 38]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:825][ 39]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:890][ 43]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:906][ 44]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:922][ 45]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:938][ 46]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:954][ 47]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.53:971][ 48]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:051][ 53]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:068][ 54]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:084][ 55]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:099][ 56]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:115][ 57]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:341][ 71]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:357][ 72]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:373][ 73]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:389][ 74]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:406][ 75]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:422][ 76]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:438][ 77]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:454][ 78]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:470][ 79]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:486][ 80]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:502][ 81]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:583][ 86]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.54:599][ 87]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:051][115]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:067][116]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:083][117]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:099][118]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:115][119]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:131][120]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:147][121]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:163][122]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:180][123]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:196][124]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:212][125]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:228][126]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:244][127]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:260][128]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:276][129]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:341][133]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:357][134]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:374][135]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:389][136]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:406][137]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:422][138]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:503][143]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:518][144]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:534][145]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:551][146]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:567][147]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:583][148]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:599][149]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:857][165]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:873][166]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:889][167]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:905][168]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:922][169]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:938][170]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:954][171]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:970][172]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.55:986][173]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:002][174]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:083][179]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:099][180]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:520][204]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:535][205]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:551][206]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:567][207]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:583][208]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:599][209]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:615][210]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:632][211]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:648][212]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:663][213]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:679][214]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:696][215]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:712][216]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:728][217]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:745][218]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:760][219]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:777][220]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:793][221]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:809][222]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:825][223]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:890][227]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:906][228]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:921][229]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:938][230]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:954][231]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.56:970][232]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:052][237]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:068][238]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:084][239]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:100][240]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:117][241]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:133][242]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:159][243]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:426][259]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:442][260]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:458][261]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:475][262]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:491][263]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:507][264]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:523][265]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:539][266]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:556][267]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:572][268]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:587][269]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:604][270]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:621][271]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:637][272]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:653][273]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:669][274]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:685][275]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:701][276]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:718][277]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:734][278]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:750][279]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:766][280]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:782][281]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:798][282]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:815][283]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:831][284]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:847][285]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:863][286]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:879][287]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:895][288]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:911][289]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:928][290]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:944][291]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:960][292]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:976][293]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.57:992][294]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:008][295]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:024][296]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:040][297]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:105][301]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:121][302]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:137][303]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:153][304]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:169][305]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:185][306]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:266][311]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:282][312]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:298][313]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:314][314]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:331][315]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:557][329]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:573][330]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:589][331]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:605][332]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:621][333]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:637][334]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:653][335]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:669][336]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:686][337]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:702][338]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:718][339]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:798][344]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.58:814][345]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:137][365]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:154][366]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:170][367]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:186][368]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:202][369]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:218][370]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:234][371]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:251][372]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:267][373]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:283][374]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:299][375]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:315][376]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:331][377]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:395][381]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:411][382]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:428][383]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:443][384]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:460][385]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:476][386]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:557][391]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:573][392]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:589][393]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:605][394]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:621][395]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:637][396]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:654][397]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:896][412]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:912][413]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:928][414]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:944][415]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:961][416]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:976][417]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.41.59:992][418]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:008][419]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:024][420]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:041][421]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:121][426]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:137][427]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:649][458]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:666][459]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:683][460]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:699][461]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:716][462]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:733][463]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:750][464]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:767][465]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:783][466]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:834][469]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:851][470]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:868][471]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:885][472]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:906][473]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:924][474]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:942][475]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:960][476]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:976][477]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.00:993][478]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:009][479]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:465][505]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:481][506]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:498][507]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:514][508]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:530][509]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:736][521]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:753][522]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:770][523]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:787][524]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:804][525]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:821][526]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:837][527]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:854][528]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:871][529]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:888][530]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:909][531]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:927][532]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:944][533]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:961][534]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:977][535]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.01:993][536]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:010][537]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:026][538]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:043][539]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:059][540]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:075][541]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:092][542]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:108][543]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:124][544]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:141][545]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:157][546]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:174][547]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:190][548]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:206][549]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.02:223][550]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:370][618]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:398][619]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:414][620]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:431][621]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:447][622]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:463][623]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:479][624]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:495][625]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:511][626]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:527][627]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:544][628]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:560][629]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:576][630]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.03:592][631]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:707][698]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:723][699]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:739][700]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:755][701]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:771][702]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:788][703]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:803][704]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:820][705]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:836][706]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:852][707]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:868][708]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:933][712]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:950][713]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:967][714]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.04:983][715]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:000][716]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:017][717]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:098][722]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:114][723]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:130][724]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:146][725]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:163][726]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:381][739]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:398][740]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:414][741]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:432][742]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:448][743]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:465][744]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:483][745]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:500][746]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:516][747]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:533][748]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:550][749]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.05:640][754]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:111][782]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:128][783]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:145][784]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:163][785]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:180][786]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:198][787]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:214][788]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:230][789]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:250][790]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:300][793]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:317][794]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:334][795]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:352][796]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:372][797]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:389][798]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:407][799]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:425][800]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:442][801]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:458][802]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:474][803]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:927][830]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:945][831]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:960][832]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:977][833]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.06:993][834]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:203][847]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:219][848]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:235][849]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:252][850]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:268][851]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:284][852]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:301][853]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:317][854]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:332][855]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:349][856]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.07:365][857]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:448][920]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:466][921]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:483][922]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:499][923]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:516][924]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:533][925]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:549][926]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:569][927]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:587][928]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:604][929]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:620][930]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:637][931]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:654][932]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:670][933]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:687][934]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:704][935]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:720][936]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.08:737][937]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:039][955]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:056][956]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:073][957]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:089][958]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:105][959]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:122][960]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:139][961]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:155][962]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:172][963]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:188][964]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:204][965]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:221][966]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:241][967]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:259][968]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:277][969]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:294][970]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:312][971]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:328][972]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:345][973]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:362][974]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:379][975]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:396][976]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:413][977]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:430][978]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:736][996]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:753][997]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:769][998]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:786][999]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:802][  0]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:819][  1]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:835][  2]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:852][  3]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:868][  4]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:885][  5]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:904][  6]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:922][  7]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:939][  8]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:955][  9]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:972][ 10]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.09:989][ 11]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:005][ 12]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:022][ 13]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:038][ 14]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:054][ 15]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:071][ 16]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:087][ 17]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:103][ 18]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:121][ 19]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:137][ 20]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:423][ 37]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:440][ 38]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:456][ 39]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:472][ 40]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:489][ 41]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:506][ 42]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:523][ 43]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:540][ 44]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:557][ 45]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:578][ 46]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:595][ 47]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:612][ 48]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:630][ 49]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:648][ 50]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:666][ 51]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:683][ 52]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:700][ 53]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:717][ 54]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:733][ 55]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:749][ 56]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:766][ 57]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:782][ 58]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:799][ 59]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:815][ 60]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:831][ 61]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:847][ 62]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:864][ 63]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:880][ 64]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:896][ 65]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:917][ 66]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:934][ 67]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:952][ 68]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:969][ 69]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.10:986][ 70]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:002][ 71]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:020][ 72]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:036][ 73]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:052][ 74]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:068][ 75]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:085][ 76]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:101][ 77]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:117][ 78]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:133][ 79]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:150][ 80]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:167][ 81]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:183][ 82]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:200][ 83]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:217][ 84]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:236][ 85]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:254][ 86]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:271][ 87]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:287][ 88]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:304][ 89]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:321][ 90]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:337][ 91]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:353][ 92]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:370][ 93]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:386][ 94]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:403][ 95]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:419][ 96]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:436][ 97]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:452][ 98]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:468][ 99]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:485][100]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:501][101]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:517][102]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:534][103]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:550][104]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:571][105]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:589][106]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:606][107]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:623][108]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:639][109]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:922][126]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:938][127]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:955][128]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:972][129]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.11:988][130]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:004][131]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:021][132]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:037][133]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:054][134]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:070][135]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:086][136]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:102][137]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:119][138]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:135][139]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:151][140]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:168][141]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:184][142]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:200][143]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:216][144]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:232][145]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:252][146]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:269][147]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:285][148]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:302][149]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:318][150]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:334][151]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:350][152]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:366][153]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:382][154]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:399][155]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:415][156]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:432][157]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:447][158]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:463][159]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:479][160]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:495][161]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:511][162]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:528][163]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:544][164]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:560][165]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:577][166]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:592][167]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:608][168]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:624][169]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:641][170]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:657][171]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:673][172]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:689][173]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:705][174]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:721][175]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:737][176]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:753][177]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:769][178]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:785][179]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:801][180]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:818][181]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:834][182]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:850][183]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:866][184]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:882][185]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:899][186]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:915][187]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:931][188]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:947][189]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:963][190]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:980][191]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.12:996][192]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:012][193]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:028][194]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:044][195]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:060][196]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:076][197]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:092][198]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:108][199]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:125][200]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:141][201]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:157][202]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:173][203]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:189][204]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:207][205]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:223][206]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:242][207]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:258][208]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:276][209]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:293][210]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:311][211]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:326][212]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:343][213]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:359][214]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:375][215]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:391][216]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:407][217]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:424][218]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:440][219]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:456][220]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:472][221]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:488][222]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:504][223]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:520][224]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:536][225]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:553][226]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:569][227]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:585][228]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:601][229]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:617][230]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:633][231]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:649][232]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:666][233]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:682][234]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:698][235]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:715][236]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:730][237]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:755][238]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:763][239]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:779][240]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:795][241]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:812][242]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:827][243]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:843][244]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:859][245]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:875][246]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:892][247]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:912][248]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:935][249]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:958][250]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:976][251]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.13:992][252]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:008][253]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:024][254]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:041][255]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:061][256]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:082][257]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:106][258]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:127][259]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:148][260]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:168][261]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:188][262]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:205][263]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:221][264]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:237][265]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:260][266]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:281][267]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:302][268]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:322][269]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:342][270]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:362][271]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:383][272]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:403][273]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:424][274]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:444][275]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:461][276]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:477][277]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:493][278]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:509][279]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:525][280]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:541][281]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:557][282]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:574][283]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:590][284]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:616][285]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:633][286]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:649][287]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:665][288]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:681][289]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:697][290]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:713][291]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:730][292]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:747][293]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:767][294]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:788][295]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:813][296]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:833][297]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:861][298]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:884][299]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:911][300]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:934][301]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:950][302]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:974][303]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.14:994][304]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:015][305]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:039][306]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:072][307]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:096][308]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:117][309]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:141][310]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:163][311]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:191][312]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:216][313]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:243][314]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:266][315]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:288][316]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:308][317]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:331][318]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:351][319]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:368][320]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:384][321]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:400][322]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:417][323]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:433][324]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:449][325]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:468][326]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:486][327]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:502][328]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:519][329]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:536][330]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:553][331]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:576][332]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:598][333]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:620][334]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:636][335]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:652][336]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:668][337]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:684][338]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:700][339]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:716][340]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:732][341]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:749][342]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:767][343]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:784][344]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:800][345]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:817][346]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:834][347]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:851][348]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:868][349]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:885][350]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:902][351]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:919][352]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:936][353]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:952][354]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:968][355]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.15:984][356]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:001][357]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:017][358]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:033][359]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:049][360]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:066][361]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:082][362]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:102][363]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:122][364]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:138][365]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:154][366]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:170][367]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:187][368]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:203][369]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:219][370]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:235][371]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:251][372]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:267][373]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:283][374]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:299][375]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:316][376]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:332][377]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:348][378]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:364][379]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:380][380]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:396][381]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:412][382]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:428][383]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:444][384]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:461][385]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:477][386]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:493][387]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:509][388]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:525][389]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:543][390]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:562][391]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:585][392]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:611][393]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:628][394]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:644][395]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:661][396]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:677][397]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:693][398]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:709][399]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:725][400]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:741][401]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:758][402]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:774][403]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:791][404]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:807][405]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:823][406]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:839][407]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:856][408]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:872][409]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:888][410]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:904][411]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:920][412]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:936][413]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:952][414]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:968][415]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.16:984][416]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:000][417]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:017][418]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:033][419]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:049][420]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:065][421]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:087][422]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:124][423]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:141][424]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:161][425]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:179][426]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:196][427]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:213][428]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:230][429]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:247][430]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:265][431]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:281][432]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:297][433]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:313][434]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:330][435]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:346][436]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:362][437]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:379][438]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:396][439]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:413][440]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:430][441]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:447][442]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:465][443]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:488][444]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:505][445]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:522][446]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:539][447]LogBlueprintUserMessages: [BP_PaladinSword_77] Hello
+[2018.03.13-14.42.17:587][447]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-14.42.17:592][448]LogEngine: All Windows Closed
+[2018.03.13-14.42.17:592][448]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.03.13-14.42.17:602][449]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2018.03.13-14.42.17:603][449]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2018.03.13-14.42.17:603][449]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2018.03.13-14.42.18:247][449]LogExit: Preparing to exit.
+[2018.03.13-14.42.18:247][449]LogMoviePlayer: Shutting down movie player
+[2018.03.13-14.42.18:871][449]LogExit: Game engine shut down
+[2018.03.13-14.42.18:965][449]LogExit: Object subsystem successfully closed.
+[2018.03.13-14.42.18:989][449]LogD3D11RHI: Shutdown
+[2018.03.13-14.42.18:989][449]LogD3D11RHI: CleanupD3DDevice
+[2018.03.13-14.42.18:992][449]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (314)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module SequenceRecorder (312)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module AutomationController (310)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module AutomationWorker (308)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module Voice (306)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module AIModule (304)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module GameplayDebugger (303)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module AITestSuite (301)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (298)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
+[2018.03.13-14.42.19:015][449]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module CharacterAI (290)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module SessionServices (288)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (286)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (284)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module MovieScene (282)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module PortalServices (274)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module PortalRpc (272)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module MessagingRpc (270)
+[2018.03.13-14.42.19:016][449]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
+[2018.03.13-14.42.19:027][449]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
+[2018.03.13-14.42.19:027][449]LogModuleManager: Shutting down and abandoning module UnrealEnginePython (264)
+[2018.03.13-14.42.19:027][449]LogPython: Goodbye Python
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (262)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module OculusInput (260)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (258)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (256)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module CableComponent (254)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (252)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module AndroidPermission (250)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module ActorSequence (248)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module MediaCompositing (246)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module HTML5Networking (244)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (242)
+[2018.03.13-14.42.19:030][449]LogModuleManager: Shutting down and abandoning module HotReload (241)
+[2018.03.13-14.42.19:031][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64' was aborted.
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (238)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module UObjectPlugin (236)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (234)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (232)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module SourceControl (231)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
+[2018.03.13-14.42.19:031][449]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.03.13-14.42.19:132][449]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (208)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module GraphEditor (207)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module ContentBrowser (205)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module CollectionManager (204)
+[2018.03.13-14.42.19:736][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
+[2018.03.13-14.42.19:736][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' was aborted.
+[2018.03.13-14.42.19:736][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (203)
+[2018.03.13-14.42.19:736][449]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (198)
+[2018.03.13-14.42.19:737][449]LogModuleManager: Shutting down and abandoning module Paper2D (196)
+[2018.03.13-14.42.19:737][449]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (194)
+[2018.03.13-14.42.19:737][449]LogModuleManager: Shutting down and abandoning module WmfMedia (192)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module ImgMedia (190)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module PacketHandler (188)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (186)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (184)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module MediaAssets (182)
+[2018.03.13-14.42.19:738][449]LogModuleManager: Shutting down and abandoning module Media (181)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module Overlay (178)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
+[2018.03.13-14.42.19:744][449]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module UMG (160)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module Sequencer (158)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module MessageLog (155)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module Slate (148)
+[2018.03.13-14.42.19:745][449]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module MRMesh (144)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module Messaging (142)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module Networking (134)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module Core (132)
+[2018.03.13-14.42.19:747][449]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.03.13-14.42.19:748][449]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
+[2018.03.13-14.42.19:795][449]LogDerivedDataCache: Shutdown
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TargetPlatform (108)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (107)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (105)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (103)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (101)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (99)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (97)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (95)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (93)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (91)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (89)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module ImageWrapper (88)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (85)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (83)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (81)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (79)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module OculusHMD (62)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module AppleARKit (58)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module AugmentedReality (57)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.03.13-14.42.19:795][449]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.03.13-14.42.19:795][449]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.13-14.42.19:795][449]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.13-14.42.19:796][449]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.13-14.42.19:796][449]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.13-14.42.19:796][449]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.13-14.42.19:796][449]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.13-14.42.19:822][449]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.13-14.42.19:824][449]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.13-14.42.19:827][449]LogExit: Exiting.
+[2018.03.13-14.42.19:828][449]Log file closed, 03/13/18 15:42:19

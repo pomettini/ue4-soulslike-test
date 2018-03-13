@@ -1,4 +1,4 @@
-﻿Log file open, 03/02/18 19:17:35
+﻿Log file open, 03/13/18 16:14:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,13 +9,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SoulsLikeTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2094595859) SRandInit(2094595859).
+LogInit: Display: RandInit(1934411940) SRandInit(1934411940).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.266737
+LogStats: Stats thread started at 0.201355
 LogD3D11RHI: Aftermath initialized
 LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
@@ -173,6 +173,7 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogOnline: Display: STEAM: Loading Steam SDK 1.39
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: Warning: STEAM: Failed to obtain steam user stats, user: Pomettini [0x11000010387F4F0] has no stats entries
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -198,6 +199,304 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  /Game/SoulsLike/Maps/Client -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  /Game/SoulsLike/Maps/Server -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.13-15.14.09:428][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-15.14.09:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.13-15.14.09:434][  0]LogInit: Computer: DESKTOP-LBHAQ83
+[2018.03.13-15.14.09:434][  0]LogInit: User: Giorgio
+[2018.03.13-15.14.09:434][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.13-15.14.09:434][  0]LogInit: High frequency timer resolution =2.241013 MHz
+[2018.03.13-15.14.09:434][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.13-15.14.09:434][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.13-15.14.09:434][  0]LogMemory: Process Physical Memory: 304.85 MB used, 304.85 MB peak
+[2018.03.13-15.14.09:434][  0]LogMemory: Process Virtual Memory: 285.22 MB used, 285.22 MB peak
+[2018.03.13-15.14.09:434][  0]LogMemory: Physical Memory: 5297.25 MB used,  10993.44 MB free, 16290.69 MB total
+[2018.03.13-15.14.09:434][  0]LogMemory: Virtual Memory: 796.59 MB used,  10993.44 MB free, 134217728.00 MB total
+[2018.03.13-15.14.09:730][  0]LogInit: Using OS detected language (it-IT).
+[2018.03.13-15.14.09:730][  0]LogInit: Using OS detected locale (it-IT).
+[2018.03.13-15.14.09:734][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.03.13-15.14.09:734][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.03.13-15.14.10:296][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.13-15.14.10:359][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
+[2018.03.13-15.14.10:359][  0]LogD3D11RHI:       984/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.13-15.14.10:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.13-15.14.10:364][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.13-15.14.10:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.13-15.14.10:371][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.13-15.14.10:372][  0]LogD3D11RHI:     GPU DeviceId: 0xfd5 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.13-15.14.10:372][  0]LogWindows: EnumDisplayDevices:
+[2018.03.13-15.14.10:372][  0]LogWindows:    0. 'NVIDIA GeForce GT 650M' (P:1 D:1)
+[2018.03.13-15.14.10:372][  0]LogWindows:    1. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-15.14.10:372][  0]LogWindows:    2. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-15.14.10:372][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2018.03.13-15.14.10:372][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.13-15.14.10:372][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
+[2018.03.13-15.14.10:372][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.13-15.14.10:372][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.13-15.14.10:372][  0]LogRHI: Texture pool is 689 MB (70% of 984 MB)
+[2018.03.13-15.14.10:414][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.13-15.14.10:434][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.13-15.14.10:477][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/6752/).
+[2018.03.13-15.14.10:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/961F84F0410B9D6666AAE680B40CC5F0/'.
+[2018.03.13-15.14.10:477][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.13-15.14.11:733][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.13-15.14.11:817][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.13-15.14.11:902][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.13-15.14.11:985][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.13-15.14.11:985][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.13-15.14.12:848][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.13-15.14.12:924][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.13-15.14.12:943][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.13-15.14.12:955][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.13-15.14.12:969][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.13-15.14.12:970][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.13-15.14.12:970][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-15.14.12:970][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-15.14.13:563][  0]LogAssetRegistry: FAssetRegistry took 0.0059 seconds to start up
+[2018.03.13-15.14.13:573][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.009218 seconds
+[2018.03.13-15.14.13:706][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-15.14.14:223][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.13-15.14.14:292][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.13-15.14.14:292][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.13-15.14.14:292][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.13-15.14.14:292][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.13-15.14.14:292][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.13-15.14.14:343][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.03.13-15.14.14:641][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-15.14.14:641][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-15.14.14:642][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-15.14.17:226][  0]LogMoviePlayer: Initializing movie player
+[2018.03.13-15.14.17:773][  0]LogCollectionManager: Loaded 0 collections in 0.003894 seconds
+[2018.03.13-15.14.17:841][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.03.13-15.14.17:841][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.03.13-15.14.17:841][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.03.13-15.14.17:841][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.13-15.14.17:841][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
+[2018.03.13-15.14.18:178][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.13-15.14.18:254][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.13-15.14.18:254][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2018.03.13-15.14.18:254][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2018.03.13-15.14.18:254][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2018.03.13-15.14.18:254][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2018.03.13-15.14.19:087][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-15.14.19:088][  0]SourceControl: Source control is disabled
+[2018.03.13-15.14.19:088][  0]SourceControl: Source control is disabled
+[2018.03.13-15.14.19:187][  0]SourceControl: Source control is disabled
+[2018.03.13-15.14.19:952][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.13-15.14.20:449][  0]LogOcInput: OculusInput pre-init called
+[2018.03.13-15.14.20:669][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.03.13-15.14.20:669][  0]LogPython: Python Scripts search path: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Scripts
+[2018.03.13-15.14.20:675][  0]LogPython: Error: No module named 'ue_site'
+[2018.03.13-15.14.20:682][  0]LogUObjectArray: 39085 objects as part of root set at end of initial load.
+[2018.03.13-15.14.20:682][  0]LogUObjectAllocator: 8605592 out of 0 bytes used by permanent object pool.
+[2018.03.13-15.14.20:682][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.13-15.14.20:844][  0]LogEngine: Initializing Engine...
+[2018.03.13-15.14.21:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.13-15.14.21:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.13-15.14.21:061][  0]LogInit: XAudio2 using 'Altoparlanti (Cirrus Logic CS4206B (AB 40))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2018.03.13-15.14.21:073][  0]LogInit: FAudioDevice initialized.
+[2018.03.13-15.14.21:089][  0]LogInit: Texture streaming: Enabled
+[2018.03.13-15.14.21:112][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.13-15.14.21:639][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2018.03.13-15.14.21:711][  0]LogInit: Display: Game Engine Initialized.
+[2018.03.13-15.14.21:711][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.13-15.14.22:053][  0]LogInit: Display: Starting Game.
+[2018.03.13-15.14.22:053][  0]LogNet: Browse: /Game/SoulsLike/Maps/Server?Name=Player
+[2018.03.13-15.14.22:053][  0]LogLoad: LoadMap: /Game/SoulsLike/Maps/Server?Name=Player
+[2018.03.13-15.14.22:283][  0]LogAIModule: Creating AISystem for world Server
+[2018.03.13-15.14.22:548][  0]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.13-15.14.22:549][  0]LogWorld: Bringing World /Game/SoulsLike/Maps/Server.Server up for play (max tick rate 0) at 2018.03.13-16.14.22
+[2018.03.13-15.14.22:549][  0]LogWorld: Bringing up level for play took: 0.000789
+[2018.03.13-15.14.22:550][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.13-15.14.22:555][  0]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2388339995)
+[2018.03.13-15.14.22:555][  0]LogLoad: Took 0.501283 seconds to LoadMap(/Game/SoulsLike/Maps/Server)
+[2018.03.13-15.14.22:846][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.03.13-15.14.22:846][  0]LogLoad: (Engine Initialization) Total time: 17.12 seconds
+[2018.03.13-15.14.22:846][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.13-15.14.22:846][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.13-15.14.22:863][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-15.14.22:866][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.13-15.14.23:221][  3]LogOnline: Warning: Async task 'FOnlineAsyncTaskSteamCreateLobby bWasSuccessful: 0 LobbyId: 0 LobbyType: 2 Result: '15' k_EResultAccessDenied (access denied)' failed in 0.665478 seconds
+[2018.03.13-15.14.23:243][  3]LogBlueprintUserMessages: [Server_C_0] Create Session Fail
+[2018.03.13-15.14.40:128][ 48]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-15.14.40:132][ 48]LogEngine: All Windows Closed
+[2018.03.13-15.14.40:132][ 48]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.03.13-15.14.40:857][ 49]LogExit: Preparing to exit.
+[2018.03.13-15.14.40:857][ 49]LogMoviePlayer: Shutting down movie player
+[2018.03.13-15.14.41:296][ 49]LogExit: Game engine shut down
+[2018.03.13-15.14.41:350][ 49]LogExit: Object subsystem successfully closed.
+[2018.03.13-15.14.41:371][ 49]LogD3D11RHI: Shutdown
+[2018.03.13-15.14.41:371][ 49]LogD3D11RHI: CleanupD3DDevice
+[2018.03.13-15.14.41:372][ 49]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.13-15.14.41:387][ 49]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (312)
+[2018.03.13-15.14.41:387][ 49]LogModuleManager: Shutting down and abandoning module SequenceRecorder (310)
+[2018.03.13-15.14.41:387][ 49]LogModuleManager: Shutting down and abandoning module AutomationController (308)
+[2018.03.13-15.14.41:387][ 49]LogModuleManager: Shutting down and abandoning module AutomationWorker (306)
+[2018.03.13-15.14.41:387][ 49]LogModuleManager: Shutting down and abandoning module AIModule (304)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module GameplayDebugger (303)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module AITestSuite (301)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (298)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module CharacterAI (290)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module SessionServices (288)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (286)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (284)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module MovieScene (282)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module PortalServices (274)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module PortalRpc (272)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module MessagingRpc (270)
+[2018.03.13-15.14.41:388][ 49]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
+[2018.03.13-15.14.41:570][ 49]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
+[2018.03.13-15.14.41:570][ 49]LogModuleManager: Shutting down and abandoning module UnrealEnginePython (264)
+[2018.03.13-15.14.41:570][ 49]LogPython: Goodbye Python
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (262)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module OculusInput (260)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (258)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (256)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module CableComponent (254)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (252)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module AndroidPermission (250)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module ActorSequence (246)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module MediaCompositing (244)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module HTML5Networking (242)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (240)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module HotReload (239)
+[2018.03.13-15.14.41:572][ 49]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64' was aborted.
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (236)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module SourceControl (229)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (226)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2018.03.13-15.14.41:572][ 49]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (218)
+[2018.03.13-15.14.41:573][ 49]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (216)
+[2018.03.13-15.14.41:573][ 49]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2018.03.13-15.14.41:673][ 49]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (206)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module GraphEditor (205)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module ContentBrowser (203)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module CollectionManager (202)
+[2018.03.13-15.14.42:188][ 49]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
+[2018.03.13-15.14.42:188][ 49]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' was aborted.
+[2018.03.13-15.14.42:188][ 49]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (201)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (196)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module Paper2D (194)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
+[2018.03.13-15.14.42:188][ 49]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module ImgMedia (188)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
+[2018.03.13-15.14.42:190][ 49]LogModuleManager: Shutting down and abandoning module Media (179)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module Overlay (176)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module OverlayEditor (175)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module VREditor (172)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module StringTableEditor (170)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (168)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (166)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module FunctionalTesting (164)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (162)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (161)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module UMG (158)
+[2018.03.13-15.14.42:196][ 49]LogModuleManager: Shutting down and abandoning module UMGEditor (157)
+[2018.03.13-15.14.42:197][ 49]LogModuleManager: Shutting down and abandoning module Sequencer (156)
+[2018.03.13-15.14.42:197][ 49]LogModuleManager: Shutting down and abandoning module MessageLog (153)
+[2018.03.13-15.14.42:197][ 49]LogModuleManager: Shutting down and abandoning module SlateReflector (148)
+[2018.03.13-15.14.42:197][ 49]LogModuleManager: Shutting down and abandoning module Slate (146)
+[2018.03.13-15.14.42:197][ 49]LogModuleManager: Shutting down and abandoning module EditorStyle (144)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module MRMesh (142)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module Messaging (140)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (138)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (136)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module XAudio2 (134)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module Networking (132)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module Core (130)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module LevelSequence (128)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module KismetCompiler (126)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module MeshUtilities (124)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (123)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (122)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (121)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (119)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (117)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module MaterialBaking (113)
+[2018.03.13-15.14.42:199][ 49]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2018.03.13-15.14.42:469][ 49]LogDerivedDataCache: Shutdown
+[2018.03.13-15.14.42:469][ 49]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module AugmentedReality (55)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2018.03.13-15.14.42:470][ 49]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2018.03.13-15.14.42:470][ 49]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.13-15.14.42:470][ 49]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.13-15.14.42:500][ 49]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.13-15.14.42:500][ 49]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.13-15.14.42:500][ 49]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.13-15.14.42:500][ 49]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.13-15.14.42:500][ 49]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.13-15.14.42:528][ 49]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.13-15.14.42:530][ 49]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.13-15.14.42:533][ 49]LogExit: Exiting.
+[2018.03.13-15.14.42:535][ 49]Log file closed, 03/13/18 16:14:42
