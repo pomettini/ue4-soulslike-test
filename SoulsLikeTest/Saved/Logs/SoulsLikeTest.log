@@ -1,4 +1,4 @@
-﻿Log file open, 03/27/18 09:10:24
+﻿Log file open, 03/27/18 09:43:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -7,15 +7,14 @@ LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
-LogInit: Display: Running engine without a game
+LogInit: Display: Running engine for game: SoulsLikeTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: Loading recent project file: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject
-LogInit: Display: RandInit(-275788263) SRandInit(-275788263).
+LogInit: Display: RandInit(826927267) SRandInit(826927267).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.302235
+LogStats: Stats thread started at 0.280859
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -87,8 +86,8 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.101s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64/UE4Editor-SoulsLikeTest.dll (API version 3944462).
+LogStreaming: Display: Took  0.048s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64/UE4Editor-SoulsLikeTest-1098.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -191,10 +190,8 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogOnline: Display: STEAM: Loading Steam SDK 1.39
-LogOnline: Warning: STEAM: Steam API disabled!
-LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am LAPTOP-33RH8CBR (192.168.1.53:0)
+LogAppleARKit: Warning: Failed to bind to the listen port (76561198019507440:11111) for LiveLink face AR receiving with error (SE_NO_ERROR)
 LogInit: Build: ++UE4+Release-4.19-CL-3944462
 LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -222,1216 +219,412 @@ LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: 
+LogInit: Command Line:  /Game/TrialOfMight/Maps/Server -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.007s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.27-07.10.26:177][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.27-07.10.26:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.27-07.10.26:201][  0]LogInit: Computer: LAPTOP-33RH8CBR
-[2018.03.27-07.10.26:201][  0]LogInit: User: Giorgio
-[2018.03.27-07.10.26:201][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.27-07.10.26:201][  0]LogInit: High frequency timer resolution =2.742189 MHz
-[2018.03.27-07.10.26:201][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.27-07.10.26:201][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.27-07.10.26:201][  0]LogMemory: Process Physical Memory: 275.06 MB used, 275.06 MB peak
-[2018.03.27-07.10.26:201][  0]LogMemory: Process Virtual Memory: 264.59 MB used, 264.59 MB peak
-[2018.03.27-07.10.26:201][  0]LogMemory: Physical Memory: 6601.89 MB used,  9675.79 MB free, 16277.68 MB total
-[2018.03.27-07.10.26:201][  0]LogMemory: Virtual Memory: 692.51 MB used,  9675.79 MB free, 134217728.00 MB total
-[2018.03.27-07.10.27:000][  0]LogInit: Using OS detected language (en-US).
-[2018.03.27-07.10.27:000][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.27-07.10.27:064][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.27-07.10.27:557][  0]LogStreaming: Display: Took  0.557s to EndInitTextLocalization.
-[2018.03.27-07.10.27:557][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.27-07.10.27:591][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.03.27-07.10.27:592][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.03.27-07.10.29:691][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.27-07.10.30:085][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2018.03.27-07.10.30:085][  0]LogD3D11RHI:       6052/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.27-07.10.30:101][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.03.27-07.10.30:101][  0]LogD3D11RHI:       128/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.27-07.10.30:103][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.27-07.10.30:103][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.27-07.10.30:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.27-07.10.30:112][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.27-07.10.30:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.27-07.10.30:112][  0]LogWindows: EnumDisplayDevices:
-[2018.03.27-07.10.30:112][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.03.27-07.10.30:112][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.27-07.10.30:112][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.27-07.10.30:112][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.03.27-07.10.30:112][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.27-07.10.30:112][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2018.03.27-07.10.30:112][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.27-07.10.30:113][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.27-07.10.30:113][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.03.27-07.10.30:154][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.03.27-07.10.30:154][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.27-07.10.30:260][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.27-07.10.30:260][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/2760/).
-[2018.03.27-07.10.30:260][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/97CE88034CF17A835F77CDA8E1BE3EF4/'.
-[2018.03.27-07.10.30:544][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.27-07.10.30:558][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.27-07.10.30:572][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.27-07.10.30:585][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.27-07.10.30:604][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.27-07.10.30:618][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.27-07.10.30:632][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.27-07.10.30:648][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.27-07.10.30:655][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.27-07.10.30:668][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.27-07.10.30:681][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.27-07.10.30:693][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.27-07.10.30:707][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.03.27-07.10.30:719][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.27-07.10.30:732][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.27-07.10.30:757][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.27-07.10.30:757][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.27-07.10.30:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.27-07.10.30:776][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.27-07.10.30:818][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.27-07.10.30:831][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.27-07.10.30:844][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.27-07.10.30:857][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.27-07.10.30:869][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.27-07.10.30:885][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.27-07.10.30:885][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.27-07.10.31:000][  0]LogXGEController: Cleaning working directory: C:/Users/Giorgio/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.03.27-07.10.31:000][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.03.27-07.10.31:000][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.03.27-07.10.31:000][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.27-07.10.32:827][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: Loaded boot cache 0.17s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.27-07.10.32:996][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.27-07.10.33:018][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.27-07.10.33:032][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.27-07.10.33:042][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.27-07.10.33:042][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.27-07.10.33:043][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.27-07.10.33:043][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.27-07.10.33:936][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2018.03.27-07.10.34:249][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.27-07.10.34:501][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.27-07.10.34:506][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.27-07.10.34:506][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.27-07.10.34:506][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.27-07.10.34:506][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.27-07.10.34:506][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.27-07.10.34:562][  0]LogNetVersion: SoulsLikeTest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1232231397)
-[2018.03.27-07.10.35:611][  0]LogAssetRegistry: Warning: C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Content\TrialOfMight\Maps\Map001.umap: Package has invalid export /Game/TrialOfMight/Maps/Map001_BuiltData.Map001_BuiltData, resave source package!
-[2018.03.27-07.10.35:612][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.083190 seconds
-[2018.03.27-07.10.35:617][  0]LogUObjectArray: 36705 objects as part of root set at end of initial load.
-[2018.03.27-07.10.35:617][  0]LogUObjectAllocator: 7522888 out of 0 bytes used by permanent object pool.
-[2018.03.27-07.10.35:617][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.27-07.10.40:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.27-07.10.40:227][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.27-07.10.40:632][  0]SourceControl: Source control is disabled
-[2018.03.27-07.10.41:750][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.27-07.10.41:900][  0]LogOcInput: OculusInput pre-init called
-[2018.03.27-07.10.42:020][  0]LogEngine: Initializing Engine...
-[2018.03.27-07.10.42:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.27-07.10.42:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.27-07.10.42:416][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.27-07.10.42:459][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.10.42:506][  0]LogInit: FAudioDevice initialized.
-[2018.03.27-07.10.42:561][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.03.27-07.10.42:574][  0]LogInit: Texture streaming: Enabled
-[2018.03.27-07.10.42:595][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.27-07.10.42:595][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={48D1E025-41D1-6B72-71B4-A7BBC86B64AC}
-[2018.03.27-07.10.42:616][  0]LogInit: Transaction tracking system initialized
-[2018.03.27-07.10.42:649][  0]BlueprintLog: New page: Editor Load
-[2018.03.27-07.10.42:746][  0]LocalizationService: Localization service is disabled
-[2018.03.27-07.10.43:134][  0]LogConsoleResponse: Display: 
-[2018.03.27-07.10.43:522][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.27-07.10.43:522][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.27-07.10.43:522][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.27-07.10.43:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.27-07.10.43:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.27-07.10.43:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.02s
-[2018.03.27-07.10.44:001][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.27-07.10.44:025][  0]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.27-07.11.03:255][  0]LogSlate: Window 'Message' being destroyed
-[2018.03.27-07.11.03:256][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.27-07.11.03:263][  0]LightingResults: New page: Lighting Build
-[2018.03.27-07.11.03:266][  0]MapCheck: New page: Map Check
-[2018.03.27-07.11.03:266][  0]LightingResults: New page: Lighting Build
-[2018.03.27-07.11.03:279][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.27-07.11.03:283][  0]LoadErrors: New page: New Map
-[2018.03.27-07.11.03:347][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.27-07.11.03:453][  0]LogCollectionManager: Loaded 0 collections in 0.002564 seconds
-[2018.03.27-07.11.03:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
-[2018.03.27-07.11.03:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
-[2018.03.27-07.11.03:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
-[2018.03.27-07.11.03:494][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.27-07.11.03:505][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2452 classes and 559 folders.
-[2018.03.27-07.11.03:516][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.03.27-07.11.03:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.03.27-07.11.03:906][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.03.27-07.11.03:976][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.27-07.11.03:989][  0]LogSlate: Took 0.006326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.27-07.11.04:168][  0]LogRenderer: Reallocating scene render targets to support 932x436 Format 9 NumSamples 1 (Frame:1).
-[2018.03.27-07.11.04:305][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.03.27-07.11.04:305][  0]LogLoad: (Engine Initialization) Total time: 41.03 seconds
-[2018.03.27-07.11.04:305][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.27-07.11.04:343][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.03.27-07.11.04:356][  0]LogSlate: Took 0.005286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.03.27-07.11.04:372][  1]LogAssetRegistry: Asset discovery search completed in 30.4593 seconds
-[2018.03.27-07.11.04:375][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.27-07.11.04:375][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
-[2018.03.27-07.11.05:346][ 45]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.03.27-07.11.07:307][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.11.14:761][609]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.27-07.11.14:762][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:762][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/GM_SoulsLike.uasset.
-[2018.03.27-07.11.14:762][609]LoadErrors: Error: /Game/SoulsLike/GM_SoulsLike : Can't find file for asset. /Game/TrialOfMight/GM_SoulsLike
-[2018.03.27-07.11.14:762][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/GM_SoulsLike.uasset.
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/GM_SoulsLike.uasset.
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/GM_SoulsLike.uasset.
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:763][609]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.Default__GM_SoulsLike_C Referenced by Default__GM_SoulsLike_C
-[2018.03.27-07.11.14:763][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
-[2018.03.27-07.11.14:764][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:764][609]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike Referenced by GM_SoulsLike
-[2018.03.27-07.11.14:764][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
-[2018.03.27-07.11.14:764][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.14:764][609]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike_C Referenced by GM_SoulsLike_C
-[2018.03.27-07.11.14:764][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
-[2018.03.27-07.11.14:896][609]LogSkeletalMesh: Skeletal Mesh found in DDC [7.042184ms] /Game/TrialOfMight/Characters/Askelad/AskeladBody.AskeladBody
-[2018.03.27-07.11.15:244][609]LogSkeletalMesh: Skeletal Mesh found in DDC [5.810322ms] /Game/TrialOfMight/Characters/Paladin/paladin_prop_j_nordstrom_rooted.paladin_prop_j_nordstrom_rooted
-[2018.03.27-07.11.15:981][609]LogSkeletalMesh: Skeletal Mesh found in DDC [6.614424ms] /Game/TrialOfMight/Characters/Paladin/Old/paladin_prop_j_nordstrom.paladin_prop_j_nordstrom
-[2018.03.27-07.11.16:353][609]LogAIModule: Creating AISystem for world Client
-[2018.03.27-07.11.16:480][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.16:480][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
-[2018.03.27-07.11.16:481][609]LoadErrors: Error: /Game/TrialOfMight/Maps/Map001 : Can't find file for asset. /Game/TrialOfMight/GM_SoulsLike
-[2018.03.27-07.11.16:492][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.16:492][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
-[2018.03.27-07.11.16:513][609]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.11.16:513][609]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike_C Referenced by WorldSettings_1
-[2018.03.27-07.11.16:514][609]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
-[2018.03.27-07.11.16:557][609]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.11.16:581][609]LogAIModule: Creating AISystem for world Server
-[2018.03.27-07.11.40:381][609]LogSlate: Window 'Delete Assets' being destroyed
-[2018.03.27-07.11.48:258][609]SourceControl: Unstaged changes after reset:
-[2018.03.27-07.11.48:258][609]SourceControl: M	SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
-[2018.03.27-07.11.48:258][609]SourceControl: D	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-47ED626A4225B82F0930068456B81CA9/CrashReportClient.ini
-[2018.03.27-07.11.48:258][609]SourceControl: M	SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-15.29.16.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-21.43.03.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.25.39.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.50.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.51.51.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-17.26.01.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-15.29.42.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-16.48.31.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-22.24.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.46.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.48.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.51.00.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/SoulsLikeTest.uproject
-[2018.03.27-07.11.48:259][609]SourceControl: Unstaged changes after reset:
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-47ED626A4225B82F0930068456B81CA9/CrashReportClient.ini
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-15.29.16.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-21.43.03.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.25.39.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.50.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.51.51.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-17.26.01.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-15.29.42.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-16.48.31.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-22.24.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.46.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.48.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.51.00.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/SoulsLikeTest.uproject
-[2018.03.27-07.11.48:259][609]SourceControl: Unstaged changes after reset:
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-47ED626A4225B82F0930068456B81CA9/CrashReportClient.ini
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-15.29.16.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.19-21.43.03.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.25.39.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.50.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-09.51.51.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.20-17.26.01.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-15.29.42.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-16.48.31.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.19-22.24.06.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.46.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.48.48.log
-[2018.03.27-07.11.48:259][609]SourceControl: D	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.20-09.51.00.log
-[2018.03.27-07.11.48:259][609]SourceControl: M	SoulsLikeTest/SoulsLikeTest.uproject
-[2018.03.27-07.11.51:101][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Left_Strafe.uasset'
-[2018.03.27-07.11.51:101][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Quick_Roll_To_Run.uasset'
-[2018.03.27-07.11.51:101][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Roll_Left.uasset'
-[2018.03.27-07.11.51:101][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Roll_Right.uasset'
-[2018.03.27-07.11.51:101][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Standing_Dodge_Backward.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Attack.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Death.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Idle.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Run.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Run_Backwards.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Slash.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Slash_2.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Strafe_Fast_Left.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Strafe_Fast_Right.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Strafe_Slow_Left.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Strafe_Slow_Right.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Walk.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Sword_And_Shield_Walk_Backwards.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Old/Throw_Object.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_Backwards_rooted.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Walk_rooted.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Throw_Object_rooted.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_BackDash.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_HeavyAttack.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LeftRoll.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LightAttack2.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_RightRoll.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_Roll.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_WeaponPick.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Old/ABP_Paladin.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Old/BS_PaladinRun.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Old/paladin_prop_j_nordstrom.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Old/paladin_prop_j_nordstrom_Skeleton.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/TestMannequin/BP_TestMannequin.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Maps/Client.umap'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Maps/Server.umap'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/UI/HealthbarWidget.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/UI/PlayerHUD.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/UI/PlayerOverlay.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/UI/PlayerUI.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/UI/WidgetBillboard.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/AskeladAxe.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/PaladinShield/PaladinShield.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/BP_PaladinSword.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/PaladinSword.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Pants/T_Askelad_Pants_Normal.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Shoulders/T_Askelad_Shoulders_Albedo.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Shoulders/T_Askelad_Shoulders_Metallic.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Shoulders/T_Askelad_Shoulders_Normal.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Wrists/T_Askelad_Wrists_Albedo.uasset'
-[2018.03.27-07.11.51:102][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Wrists/T_Askelad_Wrists_Metallic.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Wrists/T_Askelad_Wrists_Normal.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Left_Strafe_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Quick_Roll_To_Run.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Quick_Roll_To_Run_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Roll_Leftt_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Roll_Right_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Roll_Rightt_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Standing_Dodge_Backward_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Death_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Idle.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Idle_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Run.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Run_Backwards_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Run_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Left.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Left_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Right.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Fast_Right_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Left.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Left_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Right.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Strafe_Slow_Right_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Player.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BS_PaladinRun.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BS_Paladin_Strafe.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/E_Direction.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/GM_SoulsLike.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Paladin_MAT.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Paladin_diffuse.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Paladin_normal.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Paladin_specular.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_PhysicsAsset.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_Skeleton.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladBelts.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladBody.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladBody_PhysicsAsset.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladBody_Skeleton.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladHair_Askelad_Capelli_base.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/AskeladHair_Askelad_ciocche_capelli.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/BP_Askelad.uasset'
-[2018.03.27-07.11.51:103][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Body.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Boots_Graves.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Cinghie.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Pants.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Shoulders.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_Wrists.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/M_Askelad_armored_belt.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Body.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Boots_Graves.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Cinghie.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Pants.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Shoulders.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_Wrists.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/M_Askelad_armored_belt.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Materials/lambert2.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Armored_belt/T_Askelad_Armored_belt_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Armored_belt/T_Askelad_Armored_belt_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Armored_belt/T_Askelad_Armored_belt_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Barbarian_axe/T_Askelad_Axe_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Barbarian_axe/T_Askelad_Axe_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Barbarian_axe/T_Askelad_Axe_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Body/T_Askelad_Body_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Body/T_Askelad_Body_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Body/T_Askelad_Body_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Boots_Graves/T_Askelad_Boots_Graves_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Boots_Graves/T_Askelad_Boots_Graves_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Boots_Graves/T_Askelad_Boots_Graves_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Capelli_base/T_Askelad_Capelli_base_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Capelli_base/T_Askelad_Capelli_base_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Capelli_base/T_Askelad_Capelli_base_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Cinghie/T_Askelad_Cinghie_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Cinghie/T_Askelad_Cinghie_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Cinghie/T_Askelad_Cinghie_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Ciocche_capelli/T_Askelad_Ciocche_capelli_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Ciocche_capelli/T_Askelad_Ciocche_capelli_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Ciocche_capelli/T_Askelad_Ciocche_capelli_Normal.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Pants/T_Askelad_Pants_Albedo.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/Textures/Pants/T_Askelad_Pants_Metallic.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/Askelad/lambert2.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
-[2018.03.27-07.11.51:104][609]SourceControl: rm 'SoulsLikeTest/Content/SoulsLike/GM_SoulsLike.uasset'
-[2018.03.27-07.11.52:804][709]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.27-07.11.52:828][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.27-07.11.52:828][709]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.11.52:829][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.11.52:829][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.11.52:829][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.11.52:829][709]LogOnline: Warning: STEAM: Steam API disabled!
-[2018.03.27-07.11.52:829][709]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.03.27-07.11.52:842][709]PIE: New page: PIE session: Untitled_1 (Mar 27, 2018, 11:11:52 AM)
-[2018.03.27-07.11.52:842][709]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
-[2018.03.27-07.11.52:843][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000444s)
-[2018.03.27-07.11.52:843][709]LogAIModule: Creating AISystem for world Untitled
-[2018.03.27-07.11.52:843][709]LogPlayLevel: PIE: World Init took: (0.000761s)
-[2018.03.27-07.11.52:843][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled to /Temp/UEDPIE_1_Untitled_1.Untitled (0.001395s)
-[2018.03.27-07.11.52:860][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.11.52:873][709]LogInit: FAudioDevice initialized.
-[2018.03.27-07.11.52:917][709]LogLinker: Warning: Can't find file '/Game/SoulsLike/Characters/Paladin/GM_SoulsLike'
-[2018.03.27-07.11.52:917][709]LogLinker: Warning: Can't find file '/Game/SoulsLike/Characters/Paladin/GM_SoulsLike'
-[2018.03.27-07.11.52:917][709]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C'
-[2018.03.27-07.11.52:917][709]LogLoad: Game class is 'GameModeBase'
-[2018.03.27-07.11.52:919][709]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled up for play (max tick rate 60) at 2018.03.27-09.11.52
-[2018.03.27-07.11.52:919][709]LogWorld: Bringing up level for play took: 0.000347
-[2018.03.27-07.11.52:938][709]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.03.27-07.11.52:939][709]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.11.52:939][709]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2018.03.27-07.11.52:939][709]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.11.52:939][709]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.27-07.11.52:939][709]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.11.52:940][709]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2018.03.27-07.11.52:940][709]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 -0.144
-[2018.03.27-07.11.52:941][709]PIE: New page: PIE session: Untitled_1 (Mar 27, 2018, 11:11:52 AM)
-[2018.03.27-07.11.52:948][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.11.53:026][709]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.27-07.11.53:026][709]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.11.53:026][709]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2018.03.27-07.11.53:026][709]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.27-07.11.53:026][709]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.27-07.11.53:027][709]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.11.53:027][709]LogNet: Game client on port 17777, rate 10000
-[2018.03.27-07.11.53:030][709]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 -0.053
-[2018.03.27-07.11.53:041][709]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60314
-[2018.03.27-07.11.53:041][709]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 149148171104119130086251111087055037202113225214183056131135
-[2018.03.27-07.11.53:046][709]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 149148171104119130086251111087055037202113225214183056131135
-[2018.03.27-07.11.53:095][710]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60314
-[2018.03.27-07.11.53:095][710]LogHandshake: SendChallengeAck. InCookie: 149148171104119130086251111087055037202113225214183056131135
-[2018.03.27-07.11.53:095][710]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60314
-[2018.03.27-07.11.53:095][710]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.11.53:095][710]LogNet: NotifyAcceptedConnection: Name: Untitled, TimeStamp: 03/27/18 09:11:53, [UNetConnection] RemoteAddr: 127.0.0.1:60314, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.11.53:095][710]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60314, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.11.53:096][710]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1158118827)
-[2018.03.27-07.11.53:096][710]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.11.53:110][711]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled: Accepted
-[2018.03.27-07.11.53:110][711]LogNet: Remote platform little endian=1
-[2018.03.27-07.11.53:110][711]LogNet: This platform little endian=1
-[2018.03.27-07.11.53:131][712]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13 userId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13
-[2018.03.27-07.11.53:132][712]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Script/Engine.GameModeBase)
-[2018.03.27-07.11.53:132][712]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Script/Engine.GameModeBase
-[2018.03.27-07.11.53:149][712]LogAIModule: Creating AISystem for world Untitled
-[2018.03.27-07.11.53:149][712]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.11.53:150][712]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled up for play (max tick rate 60) at 2018.03.27-09.11.53
-[2018.03.27-07.11.53:150][712]LogWorld: Bringing up level for play took: 0.000503
-[2018.03.27-07.11.53:151][712]LogLoad: Took 0.018548 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
-[2018.03.27-07.11.53:165][713]LogNet: Client netspeed is 10000
-[2018.03.27-07.11.53:165][713]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13?SplitscreenCount=1
-[2018.03.27-07.11.53:166][713]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.11.53:166][713]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:167][713]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:167][713]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:167][713]LogNet: Join succeeded: LAPTOP-33RH8CBR-EF66
-[2018.03.27-07.11.53:182][714]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:182][714]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:182][714]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:199][715]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:215][716]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.11.53:232][717]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.11.53:248][718]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:248][718]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_1.Untitled:PersistentLevel NOT Supported.
-[2018.03.27-07.11.53:249][718]LogNetPackageMap: Warning: SerializeNewActor: Static actor failed to load: FullNetGuidPath: [19]WorldSettings, Channel: 8
-[2018.03.27-07.11.53:249][718]LogNet: Warning: UActorChannel::ProcessBunch: SerializeNewActor failed to find/spawn actor. Actor: NULL, Channel: 8
-[2018.03.27-07.11.53:265][719]LogNet: Server connection received: ActorChannelFailure
-[2018.03.27-07.11.55:690][863]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2018.03.27-07.11.55:722][863]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.11.55:722][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.11.55:723][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.11.55:723][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.11.55:723][863]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.27-07.11.55:756][863]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.11.55:756][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.11.55:756][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.11.55:756][863]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.11.55:756][863]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.27-07.11.55:767][863]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60314, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13
-[2018.03.27-07.11.55:767][863]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60314, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13, Channels: 2, Time: 2018.03.27-07.11.55
-[2018.03.27-07.11.55:767][863]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60314, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13
-[2018.03.27-07.11.55:767][863]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13
-[2018.03.27-07.11.55:767][863]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13, Channels: 2, Time: 2018.03.27-07.11.55
-[2018.03.27-07.11.55:767][863]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-EF661FA44CCDDB1D5D0D969F5120AF13
-[2018.03.27-07.11.55:770][863]LogExit: GameNetDriver None shut down
-[2018.03.27-07.11.55:770][863]LogExit: GameNetDriver None shut down
-[2018.03.27-07.11.55:785][864]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.03.27-07.11.55:785][864]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.11.55:785][864]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.03.27-07.11.55:785][864]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.11.56:752][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.12.00:204][128]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.27-07.12.00:204][128]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.00:205][128]LoadErrors: New page: Loading map: Map001.umap
-[2018.03.27-07.12.00:205][128]MapCheck: New page: Map Check
-[2018.03.27-07.12.00:205][128]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.00:315][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.27-07.12.00:370][128]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.27-07.12.00:433][128]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.51ms to complete.
-[2018.03.27-07.12.00:436][128]LogFileHelpers: Loading map 'Map001' took 0.233
-[2018.03.27-07.12.01:368][182]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.27-07.12.01:391][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.27-07.12.01:393][182]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:01 AM)
-[2018.03.27-07.12.01:393][182]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
-[2018.03.27-07.12.01:397][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003500s)
-[2018.03.27-07.12.01:397][182]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.01:398][182]LogPlayLevel: PIE: World Init took: (0.000845s)
-[2018.03.27-07.12.01:398][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.004595s)
-[2018.03.27-07.12.01:411][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.12.01:424][182]LogInit: FAudioDevice initialized.
-[2018.03.27-07.12.01:459][182]LogLoad: Game class is 'GameModeBase'
-[2018.03.27-07.12.01:461][182]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.01
-[2018.03.27-07.12.01:461][182]LogWorld: Bringing up level for play took: 0.001238
-[2018.03.27-07.12.01:474][182]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.01:474][182]LogTemp: Display: ParseSettings for IpNetDriver_2
-[2018.03.27-07.12.01:474][182]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.01:474][182]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.27-07.12.01:474][182]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.01:474][182]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
-[2018.03.27-07.12.01:475][182]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 0.391
-[2018.03.27-07.12.01:476][182]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:01 AM)
-[2018.03.27-07.12.01:483][182]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.01:563][182]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.27-07.12.01:563][182]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.01:563][182]LogTemp: Display: ParseSettings for IpNetDriver_3
-[2018.03.27-07.12.01:563][182]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.27-07.12.01:563][182]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.27-07.12.01:563][182]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.01:563][182]LogNet: Game client on port 17777, rate 10000
-[2018.03.27-07.12.01:567][182]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.483
-[2018.03.27-07.12.01:578][182]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60315
-[2018.03.27-07.12.01:578][182]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 049189159063226237084114065009094127063220183054105121040196
-[2018.03.27-07.12.01:579][182]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 049189159063226237084114065009094127063220183054105121040196
-[2018.03.27-07.12.01:623][183]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60315
-[2018.03.27-07.12.01:623][183]LogHandshake: SendChallengeAck. InCookie: 049189159063226237084114065009094127063220183054105121040196
-[2018.03.27-07.12.01:624][183]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60315
-[2018.03.27-07.12.01:624][183]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.01:624][183]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:12:01, [UNetConnection] RemoteAddr: 127.0.0.1:60315, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.01:624][183]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60315, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.01:624][183]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.01:639][184]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
-[2018.03.27-07.12.01:639][184]LogNet: Remote platform little endian=1
-[2018.03.27-07.12.01:639][184]LogNet: This platform little endian=1
-[2018.03.27-07.12.01:657][185]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA userId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA
-[2018.03.27-07.12.01:658][185]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Script/Engine.GameModeBase)
-[2018.03.27-07.12.01:658][185]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Script/Engine.GameModeBase
-[2018.03.27-07.12.01:674][185]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.01:674][185]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.01:676][185]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.01
-[2018.03.27-07.12.01:677][185]LogWorld: Bringing up level for play took: 0.001357
-[2018.03.27-07.12.01:677][185]LogLoad: Took 0.018583 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
-[2018.03.27-07.12.01:701][186]LogNet: Client netspeed is 10000
-[2018.03.27-07.12.01:701][186]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA?SplitscreenCount=1
-[2018.03.27-07.12.01:702][186]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.01:703][186]LogNet: Join succeeded: LAPTOP-33RH8CBR-20F5
-[2018.03.27-07.12.01:752][189]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.01:768][190]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.06:199][452]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2018.03.27-07.12.06:231][452]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.06:231][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.06:232][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.06:232][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.06:232][452]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.27-07.12.06:263][452]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.06:263][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.06:264][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.06:264][452]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.06:264][452]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.27-07.12.06:276][452]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60315, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA
-[2018.03.27-07.12.06:276][452]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60315, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA, Channels: 9, Time: 2018.03.27-07.12.06
-[2018.03.27-07.12.06:276][452]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60315, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA
-[2018.03.27-07.12.06:276][452]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA
-[2018.03.27-07.12.06:276][452]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA, Channels: 9, Time: 2018.03.27-07.12.06
-[2018.03.27-07.12.06:276][452]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-20F55AE244D211D725B714B7356E0BDA
-[2018.03.27-07.12.06:280][452]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.06:281][452]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.06:320][453]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.03.27-07.12.06:321][453]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.06:321][453]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.03.27-07.12.06:321][453]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.08:025][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.12.08:233][566]LogAIModule: Creating AISystem for world Client
-[2018.03.27-07.12.08:248][566]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Client.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.27-07.12.08:248][566]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.08:249][566]LoadErrors: New page: Loading map: Client.umap
-[2018.03.27-07.12.08:249][566]MapCheck: New page: Map Check
-[2018.03.27-07.12.08:249][566]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.08:333][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.27-07.12.08:389][566]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.27-07.12.08:455][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.177ms to complete.
-[2018.03.27-07.12.08:456][566]LogFileHelpers: Loading map 'Client' took 0.209
-[2018.03.27-07.12.09:255][613]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.27-07.12.09:280][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client' with GeneratedClass '/Game/TrialOfMight/Maps/Client.Client_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client'
-[2018.03.27-07.12.09:280][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.27-07.12.09:281][613]PIE: New page: PIE session: Client (Mar 27, 2018, 11:12:09 AM)
-[2018.03.27-07.12.09:281][613]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Client
-[2018.03.27-07.12.09:283][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001295s)
-[2018.03.27-07.12.09:284][613]LogAIModule: Creating AISystem for world Client
-[2018.03.27-07.12.09:284][613]LogPlayLevel: PIE: World Init took: (0.001148s)
-[2018.03.27-07.12.09:284][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Client.Client to /Game/TrialOfMight/Maps/UEDPIE_1_Client.Client (0.002625s)
-[2018.03.27-07.12.09:297][613]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.12.09:310][613]LogInit: FAudioDevice initialized.
-[2018.03.27-07.12.09:343][613]LogLoad: Game class is 'GameModeBase'
-[2018.03.27-07.12.09:344][613]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Client.Client up for play (max tick rate 60) at 2018.03.27-09.12.09
-[2018.03.27-07.12.09:344][613]LogWorld: Bringing up level for play took: 0.000326
-[2018.03.27-07.12.09:356][613]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.09:356][613]LogTemp: Display: ParseSettings for IpNetDriver_4
-[2018.03.27-07.12.09:356][613]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.09:356][613]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.27-07.12.09:356][613]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.09:356][613]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
-[2018.03.27-07.12.09:358][613]LogBlueprintUserMessages: [Client_C_2] Server: Done
-[2018.03.27-07.12.09:358][613]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Client 0.274
-[2018.03.27-07.12.09:359][613]PIE: New page: PIE session: Client (Mar 27, 2018, 11:12:09 AM)
-[2018.03.27-07.12.09:366][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.09:443][613]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.27-07.12.09:443][613]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.09:443][613]LogTemp: Display: ParseSettings for IpNetDriver_5
-[2018.03.27-07.12.09:443][613]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.27-07.12.09:443][613]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.27-07.12.09:444][613]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.09:444][613]LogNet: Game client on port 17777, rate 10000
-[2018.03.27-07.12.09:447][613]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.363
-[2018.03.27-07.12.09:457][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client' with GeneratedClass '/Game/TrialOfMight/Maps/Client.Client_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client'
-[2018.03.27-07.12.09:457][613]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60772
-[2018.03.27-07.12.09:458][613]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 179211149162119210090138018020188204085195194133253099159116
-[2018.03.27-07.12.09:459][613]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 179211149162119210090138018020188204085195194133253099159116
-[2018.03.27-07.12.09:500][614]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60772
-[2018.03.27-07.12.09:500][614]LogHandshake: SendChallengeAck. InCookie: 179211149162119210090138018020188204085195194133253099159116
-[2018.03.27-07.12.09:500][614]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60772
-[2018.03.27-07.12.09:500][614]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.09:500][614]LogNet: NotifyAcceptedConnection: Name: Client, TimeStamp: 03/27/18 09:12:09, [UNetConnection] RemoteAddr: 127.0.0.1:60772, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.09:500][614]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60772, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.09:501][614]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.09:515][615]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Client.Client: Accepted
-[2018.03.27-07.12.09:515][615]LogNet: Remote platform little endian=1
-[2018.03.27-07.12.09:515][615]LogNet: This platform little endian=1
-[2018.03.27-07.12.09:532][616]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0 userId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0
-[2018.03.27-07.12.09:532][616]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Client, Game: /Script/Engine.GameModeBase)
-[2018.03.27-07.12.09:533][616]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Client?game=/Script/Engine.GameModeBase
-[2018.03.27-07.12.09:547][616]LogAIModule: Creating AISystem for world Client
-[2018.03.27-07.12.09:547][616]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.09:549][616]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Client.Client up for play (max tick rate 60) at 2018.03.27-09.12.09
-[2018.03.27-07.12.09:549][616]LogWorld: Bringing up level for play took: 0.000364
-[2018.03.27-07.12.09:549][616]LogLoad: Took 0.016478 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Client)
-[2018.03.27-07.12.09:560][617]LogNet: Client netspeed is 10000
-[2018.03.27-07.12.09:560][617]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0?SplitscreenCount=1
-[2018.03.27-07.12.09:561][617]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.09:562][617]LogNet: Join succeeded: LAPTOP-33RH8CBR-E0D4
-[2018.03.27-07.12.09:627][621]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.09:646][622]LogBlueprintUserMessages: [Client_C_2] Client 1: Done
-[2018.03.27-07.12.09:661][623]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.11:227][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client' with GeneratedClass '/Game/TrialOfMight/Maps/Client.Client_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client'
-[2018.03.27-07.12.11:250][717]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2018.03.27-07.12.11:281][717]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.11:281][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.11:282][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.11:282][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.11:282][717]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.27-07.12.11:314][717]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.11:314][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.11:314][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.11:314][717]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.11:314][717]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.27-07.12.11:314][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client' with GeneratedClass '/Game/TrialOfMight/Maps/Client.Client_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Client.Client:PersistentLevel.Client'
-[2018.03.27-07.12.11:325][717]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60772, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0
-[2018.03.27-07.12.11:325][717]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60772, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0, Channels: 2, Time: 2018.03.27-07.12.11
-[2018.03.27-07.12.11:325][717]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60772, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0
-[2018.03.27-07.12.11:325][717]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0
-[2018.03.27-07.12.11:325][717]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0, Channels: 2, Time: 2018.03.27-07.12.11
-[2018.03.27-07.12.11:325][717]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0D4ABA147B4C59A5DF1F3BE7B7F91E0
-[2018.03.27-07.12.11:328][717]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.11:328][717]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.11:338][718]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.03.27-07.12.11:338][718]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.11:338][718]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2018.03.27-07.12.11:338][718]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.12:972][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.12.13:176][827]LogAIModule: Creating AISystem for world Server
-[2018.03.27-07.12.13:191][827]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.27-07.12.13:191][827]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.13:192][827]LoadErrors: New page: Loading map: Server.umap
-[2018.03.27-07.12.13:192][827]MapCheck: New page: Map Check
-[2018.03.27-07.12.13:192][827]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.13:275][827]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.27-07.12.13:330][827]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.27-07.12.13:392][827]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.078ms to complete.
-[2018.03.27-07.12.13:394][827]LogFileHelpers: Loading map 'Server' took 0.202
-[2018.03.27-07.12.14:580][897]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.12.14:580][897]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
-[2018.03.27-07.12.14:580][897]LoadErrors: Error: /Game/TrialOfMight/Maps/Map001 : Can't find file for asset. /Game/TrialOfMight/GM_SoulsLike
-[2018.03.27-07.12.14:583][897]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.12.14:583][897]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
-[2018.03.27-07.12.14:593][897]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
-[2018.03.27-07.12.14:593][897]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike_C Referenced by WorldSettings_1
-[2018.03.27-07.12.14:593][897]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
-[2018.03.27-07.12.14:597][897]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.14:615][897]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.27-07.12.14:615][897]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.14:616][897]LoadErrors: New page: Loading map: Map001.umap
-[2018.03.27-07.12.14:616][897]MapCheck: New page: Map Check
-[2018.03.27-07.12.14:616][897]LightingResults: New page: Lighting Build
-[2018.03.27-07.12.14:736][897]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.27-07.12.14:790][897]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.27-07.12.14:858][897]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.696ms to complete.
-[2018.03.27-07.12.14:859][897]LogFileHelpers: Loading map 'Map001' took 0.245
-[2018.03.27-07.12.15:836][954]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.27-07.12.15:859][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.27-07.12.15:861][954]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:15 AM)
-[2018.03.27-07.12.15:861][954]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
-[2018.03.27-07.12.15:865][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003987s)
-[2018.03.27-07.12.15:866][954]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.15:866][954]LogPlayLevel: PIE: World Init took: (0.001074s)
-[2018.03.27-07.12.15:866][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.005253s)
-[2018.03.27-07.12.15:881][954]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.12.15:893][954]LogInit: FAudioDevice initialized.
-[2018.03.27-07.12.15:927][954]LogLoad: Game class is 'GameModeBase'
-[2018.03.27-07.12.15:929][954]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.15
-[2018.03.27-07.12.15:929][954]LogWorld: Bringing up level for play took: 0.001238
-[2018.03.27-07.12.15:942][954]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.15:942][954]LogTemp: Display: ParseSettings for IpNetDriver_6
-[2018.03.27-07.12.15:942][954]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.15:942][954]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.27-07.12.15:942][954]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.15:942][954]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
-[2018.03.27-07.12.15:942][954]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 0.859
-[2018.03.27-07.12.15:943][954]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:15 AM)
-[2018.03.27-07.12.15:952][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.16:028][954]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.27-07.12.16:028][954]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.16:028][954]LogTemp: Display: ParseSettings for IpNetDriver_7
-[2018.03.27-07.12.16:028][954]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.27-07.12.16:028][954]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.27-07.12.16:029][954]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.16:029][954]LogNet: Game client on port 17777, rate 10000
-[2018.03.27-07.12.16:032][954]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.948
-[2018.03.27-07.12.16:044][954]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60773
-[2018.03.27-07.12.16:044][954]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 222157087246232176054065213070077038182062189156202066067033
-[2018.03.27-07.12.16:045][954]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 222157087246232176054065213070077038182062189156202066067033
-[2018.03.27-07.12.16:098][955]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60773
-[2018.03.27-07.12.16:098][955]LogHandshake: SendChallengeAck. InCookie: 222157087246232176054065213070077038182062189156202066067033
-[2018.03.27-07.12.16:098][955]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60773
-[2018.03.27-07.12.16:099][955]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.16:099][955]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:12:16, [UNetConnection] RemoteAddr: 127.0.0.1:60773, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.16:099][955]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60773, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.16:099][955]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.16:114][956]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
-[2018.03.27-07.12.16:114][956]LogNet: Remote platform little endian=1
-[2018.03.27-07.12.16:114][956]LogNet: This platform little endian=1
-[2018.03.27-07.12.16:132][957]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B userId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B
-[2018.03.27-07.12.16:132][957]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Script/Engine.GameModeBase)
-[2018.03.27-07.12.16:133][957]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Script/Engine.GameModeBase
-[2018.03.27-07.12.16:147][957]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.16:148][957]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.16:150][957]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.16
-[2018.03.27-07.12.16:150][957]LogWorld: Bringing up level for play took: 0.001206
-[2018.03.27-07.12.16:150][957]LogLoad: Took 0.017858 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
-[2018.03.27-07.12.16:173][958]LogNet: Client netspeed is 10000
-[2018.03.27-07.12.16:173][958]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B?SplitscreenCount=1
-[2018.03.27-07.12.16:174][958]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.16:175][958]LogNet: Join succeeded: LAPTOP-33RH8CBR-3420
-[2018.03.27-07.12.16:225][961]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.16:241][962]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.22:197][318]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2018.03.27-07.12.22:226][318]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.22:226][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.22:227][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.22:227][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.22:227][318]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.27-07.12.22:258][318]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.22:258][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.22:259][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.22:259][318]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.22:259][318]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.27-07.12.22:270][318]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60773, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B
-[2018.03.27-07.12.22:270][318]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60773, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B, Channels: 2, Time: 2018.03.27-07.12.22
-[2018.03.27-07.12.22:270][318]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60773, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B
-[2018.03.27-07.12.22:270][318]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B
-[2018.03.27-07.12.22:270][318]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B, Channels: 2, Time: 2018.03.27-07.12.22
-[2018.03.27-07.12.22:270][318]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-3420B5B849F16DB2721CF38EE3D1484B
-[2018.03.27-07.12.22:273][318]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.22:273][318]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.22:308][319]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.03.27-07.12.22:308][319]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.22:309][319]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.03.27-07.12.22:309][319]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.23:406][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.12.45:224][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.27-07.12.46:259][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.12.46:342][749]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.27-07.12.46:365][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.27-07.12.46:366][749]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:46 AM)
-[2018.03.27-07.12.46:366][749]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
-[2018.03.27-07.12.46:368][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002257s)
-[2018.03.27-07.12.46:370][749]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.46:370][749]LogPlayLevel: PIE: World Init took: (0.001657s)
-[2018.03.27-07.12.46:370][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.004098s)
-[2018.03.27-07.12.46:384][749]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.27-07.12.46:397][749]LogInit: FAudioDevice initialized.
-[2018.03.27-07.12.46:441][749]LogLoad: Game class is 'GameModeBase'
-[2018.03.27-07.12.46:443][749]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.46
-[2018.03.27-07.12.46:443][749]LogWorld: Bringing up level for play took: 0.001110
-[2018.03.27-07.12.46:455][749]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.46:456][749]LogTemp: Display: ParseSettings for IpNetDriver_8
-[2018.03.27-07.12.46:456][749]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.46:456][749]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.27-07.12.46:456][749]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.46:456][749]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
-[2018.03.27-07.12.46:456][749]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 -0.627
-[2018.03.27-07.12.46:458][749]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:12:46 AM)
-[2018.03.27-07.12.46:464][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.46:537][749]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
-[2018.03.27-07.12.46:537][749]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.46:537][749]LogTemp: Display: ParseSettings for IpNetDriver_9
-[2018.03.27-07.12.46:537][749]LogTemp: Display: ParseSettings for PendingNetDriver
-[2018.03.27-07.12.46:537][749]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.03.27-07.12.46:538][749]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.46:538][749]LogNet: Game client on port 17777, rate 10000
-[2018.03.27-07.12.46:541][749]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 -0.543
-[2018.03.27-07.12.46:553][749]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57258
-[2018.03.27-07.12.46:553][749]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 119147135149061162129238017133182123151232166242001150221118
-[2018.03.27-07.12.46:554][749]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 119147135149061162129238017133182123151232166242001150221118
-[2018.03.27-07.12.46:607][750]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57258
-[2018.03.27-07.12.46:607][750]LogHandshake: SendChallengeAck. InCookie: 119147135149061162129238017133182123151232166242001150221118
-[2018.03.27-07.12.46:608][750]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57258
-[2018.03.27-07.12.46:608][750]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.27-07.12.46:608][750]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:12:46, [UNetConnection] RemoteAddr: 127.0.0.1:57258, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.46:608][750]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57258, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.46:608][750]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2018.03.27-07.12.46:624][751]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
-[2018.03.27-07.12.46:624][751]LogNet: Remote platform little endian=1
-[2018.03.27-07.12.46:624][751]LogNet: This platform little endian=1
-[2018.03.27-07.12.46:643][752]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04 userId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04
-[2018.03.27-07.12.46:644][752]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Script/Engine.GameModeBase)
-[2018.03.27-07.12.46:644][752]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Script/Engine.GameModeBase
-[2018.03.27-07.12.46:659][752]LogAIModule: Creating AISystem for world Map001
-[2018.03.27-07.12.46:660][752]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.27-07.12.46:662][752]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.12.46
-[2018.03.27-07.12.46:662][752]LogWorld: Bringing up level for play took: 0.001273
-[2018.03.27-07.12.46:662][752]LogLoad: Took 0.017823 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
-[2018.03.27-07.12.46:684][753]LogNet: Client netspeed is 10000
-[2018.03.27-07.12.46:684][753]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04?SplitscreenCount=1
-[2018.03.27-07.12.46:685][753]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.46:686][753]LogNet: Join succeeded: LAPTOP-33RH8CBR-634E
-[2018.03.27-07.12.46:735][756]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.46:753][757]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2018.03.27-07.12.48:191][835]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2018.03.27-07.12.48:223][835]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.48:223][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.48:224][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.48:224][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.48:224][835]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2018.03.27-07.12.48:256][835]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.48:256][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.12.48:257][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.12.48:257][835]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.12.48:257][835]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.03.27-07.12.48:268][835]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57258, Name: IpConnection_9, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04
-[2018.03.27-07.12.48:268][835]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57258, Name: IpConnection_9, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04, Channels: 9, Time: 2018.03.27-07.12.48
-[2018.03.27-07.12.48:268][835]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57258, Name: IpConnection_9, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04
-[2018.03.27-07.12.48:268][835]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04
-[2018.03.27-07.12.48:268][835]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04, Channels: 9, Time: 2018.03.27-07.12.48
-[2018.03.27-07.12.48:268][835]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-634E15F64CC90199D63BAF95B1FD9C04
-[2018.03.27-07.12.48:271][835]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.48:271][835]LogExit: GameNetDriver None shut down
-[2018.03.27-07.12.48:294][836]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2018.03.27-07.12.48:294][836]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.48:294][836]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2018.03.27-07.12.48:294][836]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.12.50:129][945]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.53:335][137]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.03.27-07.12.54:412][137]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.03.27-07.12.54:521][138]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SoulsLikeTest
-[2018.03.27-07.12.54:521][138]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.03.27-07.12.54:521][138]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.03.27-07.12.54:521][138]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.03.27-07.12.54:521][138]LogTemp: BranchPath = LAPTOP-33RH8CBR/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-33RH8CBR/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.03.27-07.12.54:521][138]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Giorgio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.03.27-07.12.56:534][245]LogSlate: Window 'Project Settings' being destroyed
-[2018.03.27-07.12.58:068][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.03.27-07.13.01:464][538]SourceControl: fatal: /Script: '/Script' is outside repository
-[2018.03.27-07.13.04:198][692]LogSlate: Window 'SoulsLikeTest - Unreal Editor' being destroyed
-[2018.03.27-07.13.04:199][692]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.27-07.13.04:427][693]Cmd: QUIT_EDITOR
-[2018.03.27-07.13.04:956][693]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.03.27-07.13.04:956][693]LogExit: Preparing to exit.
-[2018.03.27-07.13.05:333][693]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
-[2018.03.27-07.13.05:353][693]LogExit: Editor shut down
-[2018.03.27-07.13.05:356][693]LogExit: Transaction tracking system shut down
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.03.27-07.13.05:512][693]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.03.27-07.13.05:573][693]LogExit: Object subsystem successfully closed.
-[2018.03.27-07.13.05:596][693]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.03.27-07.13.05:600][693]LogD3D11RHI: Shutdown
-[2018.03.27-07.13.05:600][693]LogD3D11RHI: CleanupD3DDevice
-[2018.03.27-07.13.05:607][693]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (582)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (578)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module Voice (576)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module DesktopPlatform (572)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module SceneOutliner (570)
-[2018.03.27-07.13.05:622][693]LogModuleManager: Shutting down and abandoning module AddContentDialog (568)
-[2018.03.27-07.13.05:622][693]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module WidgetCarousel (567)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module EditorWidgets (564)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module CollectionManager (562)
-[2018.03.27-07.13.05:624][693]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
-[2018.03.27-07.13.05:624][693]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' was aborted.
-[2018.03.27-07.13.05:624][693]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module StatsViewer (560)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module FoliageEdit (558)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module LandscapeEditor (556)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module MeshPaintMode (554)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (552)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module ActorPickerMode (550)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module GeometryMode (548)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module TextureAlignMode (546)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module BspMode (544)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (542)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module HardwareSurvey (540)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (538)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module AutomationWorker (536)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (534)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module SequenceRecorder (533)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (530)
-[2018.03.27-07.13.05:624][693]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (528)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module PlacementMode (527)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (522)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (520)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (518)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (516)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (514)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (512)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (510)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (508)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (506)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (504)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module CharacterAI (502)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module SmartSnapping (500)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module SessionServices (498)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module ViewportSnapping (496)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module ViewportInteraction (494)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module ClothPainter (492)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (491)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module LogVisualizer (488)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module IntroTutorials (486)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (485)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (482)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (480)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (478)
-[2018.03.27-07.13.05:625][693]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (477)
-[2018.03.27-07.13.05:859][693]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (474)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (472)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (470)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module InputBindingEditor (468)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module MergeActors (466)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (464)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module LocalizationService (463)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module HardwareTargeting (460)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (458)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module UndoHistory (456)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module XmlParser (454)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module Blutility (452)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (450)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (449)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (446)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module SettingsEditor (444)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module ProjectLauncher (442)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module SessionFrontend (440)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module ProfilerClient (438)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module DeviceManager (436)
-[2018.03.27-07.13.05:860][693]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (435)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module AutomationController (432)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module AutomationWindow (430)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module Layers (428)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (426)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module DetailCustomizations (424)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module PackagesDialog (422)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module Persona (420)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (419)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module AnimGraph (417)
-[2018.03.27-07.13.05:924][693]LogModuleManager: Shutting down and abandoning module Kismet (414)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module GraphEditor (412)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module ClassViewer (410)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module Toolbox (408)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module ModuleUI (406)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module MovieSceneTools (404)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module OutputLog (402)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module GammaUI (400)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module Documentation (398)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (396)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module MovieScene (394)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (392)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module LauncherPlatform (390)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module AnalyticsET (388)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module PortalServices (386)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module PortalRpc (384)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module MessagingRpc (382)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module AIModule (380)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module GameplayDebugger (379)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module AITestSuite (377)
-[2018.03.27-07.13.05:925][693]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.03.27-07.13.05:931][693]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
-[2018.03.27-07.13.05:932][693]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
-[2018.03.27-07.13.05:935][693]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module SourceControl (307)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module SoulsLikeTest (292)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
-[2018.03.27-07.13.05:936][693]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
-[2018.03.27-07.13.06:037][693]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module DataValidation (264)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
-[2018.03.27-07.13.06:257][693]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
-[2018.03.27-07.13.06:258][693]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
-[2018.03.27-07.13.06:258][693]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
-[2018.03.27-07.13.06:258][693]LogModuleManager: Shutting down and abandoning module MainFrame (256)
-[2018.03.27-07.13.06:258][693]LogModuleManager: Shutting down and abandoning module HotReload (255)
-[2018.03.27-07.13.06:258][693]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64' was aborted.
-[2018.03.27-07.13.06:259][693]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
-[2018.03.27-07.13.06:260][693]LogModuleManager: Shutting down and abandoning module TreeMap (249)
-[2018.03.27-07.13.06:260][693]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
-[2018.03.27-07.13.06:260][693]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
-[2018.03.27-07.13.06:260][693]LogModuleManager: Shutting down and abandoning module LiveLink (242)
-[2018.03.27-07.13.06:770][693]LogModuleManager: Shutting down and abandoning module Paper2D (240)
-[2018.03.27-07.13.06:770][693]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
-[2018.03.27-07.13.06:770][693]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
-[2018.03.27-07.13.06:772][693]LogModuleManager: Shutting down and abandoning module PacketHandler (234)
-[2018.03.27-07.13.06:772][693]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (232)
-[2018.03.27-07.13.06:772][693]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (230)
-[2018.03.27-07.13.06:772][693]LogModuleManager: Shutting down and abandoning module MediaAssets (228)
-[2018.03.27-07.13.06:772][693]LogModuleManager: Shutting down and abandoning module Media (227)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module Overlay (224)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module VREditor (220)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module UMG (206)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module Sequencer (204)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module MessageLog (201)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module Slate (194)
-[2018.03.27-07.13.06:779][693]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module MRMesh (190)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module Networking (182)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module Core (180)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
-[2018.03.27-07.13.06:782][693]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
-[2018.03.27-07.13.06:818][693]LogDerivedDataCache: Shutdown
-[2018.03.27-07.13.06:818][693]LogModuleManager: Shutting down and abandoning module XGEController (154)
-[2018.03.27-07.13.06:818][693]LogXGEController: Cleaning working directory: C:/Users/Giorgio/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.03.27-07.13.06:818][693]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
-[2018.03.27-07.13.06:818][693]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
-[2018.03.27-07.13.06:818][693]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Messaging (111)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
-[2018.03.27-07.13.06:819][693]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module InputCore (68)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module Settings (66)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module OculusHMD (62)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module AppleARKit (58)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module AugmentedReality (57)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
-[2018.03.27-07.13.06:820][693]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
-[2018.03.27-07.13.06:820][693]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.27-07.13.06:820][693]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.27-07.13.06:821][693]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.27-07.13.06:821][693]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.27-07.13.06:821][693]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.27-07.13.06:821][693]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.27-07.13.06:821][693]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.03.27-07.13.06:821][693]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B75C5434A-4B0D-2FA4-08AC-EDBA746AC65C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=dd6758244badbcfb927022b8b5d446ac%7C348346a4f7aa4aef97f3ebe7ec714bf0%7C54192f61-66b7-4dae-8a4a-dc853c10f5fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.03.27-07.13.06:831][693]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.27-07.13.06:832][693]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.27-07.13.06:832][693]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.27-07.13.06:832][693]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.27-07.13.06:832][693]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.27-07.13.06:833][693]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.27-07.13.06:833][693]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.27-07.13.06:833][693]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.27-07.13.06:834][693]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.27-07.13.06:842][693]LogExit: Exiting.
-[2018.03.27-07.13.06:866][693]Log file closed, 03/27/18 09:13:06
+[2018.03.27-07.43.14:458][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-07.43.14:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.27-07.43.14:462][  0]LogInit: Computer: LAPTOP-33RH8CBR
+[2018.03.27-07.43.14:462][  0]LogInit: User: Giorgio
+[2018.03.27-07.43.14:462][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.27-07.43.14:462][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.03.27-07.43.14:463][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.27-07.43.14:463][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.27-07.43.14:463][  0]LogMemory: Process Physical Memory: 305.79 MB used, 305.79 MB peak
+[2018.03.27-07.43.14:463][  0]LogMemory: Process Virtual Memory: 286.18 MB used, 286.18 MB peak
+[2018.03.27-07.43.14:463][  0]LogMemory: Physical Memory: 11377.38 MB used,  4900.30 MB free, 16277.68 MB total
+[2018.03.27-07.43.14:463][  0]LogMemory: Virtual Memory: 815.23 MB used,  4900.30 MB free, 134217728.00 MB total
+[2018.03.27-07.43.14:491][  0]LogInit: Using OS detected language (en-US).
+[2018.03.27-07.43.14:491][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.27-07.43.14:491][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.03.27-07.43.14:491][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.03.27-07.43.14:950][  0]LogStreaming: Display: Took  0.458s to EndInitTextLocalization.
+[2018.03.27-07.43.14:979][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.03.27-07.43.14:979][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.03.27-07.43.14:997][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.27-07.43.15:081][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.03.27-07.43.15:081][  0]LogD3D11RHI:       6052/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.27-07.43.15:097][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.27-07.43.15:097][  0]LogD3D11RHI:       128/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.27-07.43.15:101][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.27-07.43.15:101][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.27-07.43.15:101][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.27-07.43.15:109][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.27-07.43.15:110][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.27-07.43.15:110][  0]LogWindows: EnumDisplayDevices:
+[2018.03.27-07.43.15:110][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.27-07.43.15:110][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.27-07.43.15:110][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.27-07.43.15:110][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.27-07.43.15:110][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.27-07.43.15:110][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.03.27-07.43.15:110][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.27-07.43.15:110][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.27-07.43.15:110][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.03.27-07.43.15:159][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.03.27-07.43.15:159][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.27-07.43.15:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.27-07.43.15:223][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/15520/).
+[2018.03.27-07.43.15:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/772D4BB042D820F251DAD68F6F2C6F84/'.
+[2018.03.27-07.43.15:589][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.27-07.43.15:604][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.27-07.43.15:620][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.27-07.43.15:636][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.27-07.43.15:636][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.27-07.43.15:788][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.03.27-07.43.15:788][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.03.27-07.43.15:788][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.27-07.43.16:502][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.27-07.43.16:565][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.27-07.43.16:582][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.27-07.43.16:594][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.27-07.43.16:606][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.27-07.43.16:606][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.27-07.43.16:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-07.43.16:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-07.43.16:807][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2018.03.27-07.43.16:996][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 1 prioritized culture(s) in 0.011438 seconds
+[2018.03.27-07.43.17:094][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-07.43.17:241][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.27-07.43.17:244][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.27-07.43.17:244][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.27-07.43.17:244][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.27-07.43.17:244][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.27-07.43.17:244][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.27-07.43.17:273][  0]LogNetVersion: SoulsLikeTest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1232231397)
+[2018.03.27-07.43.17:945][  0]LogMoviePlayer: Initializing movie player
+[2018.03.27-07.43.18:006][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.27-07.43.18:247][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.27-07.43.18:277][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.27-07.43.18:542][  0]SourceControl: Source control is disabled
+[2018.03.27-07.43.18:543][  0]SourceControl: Source control is disabled
+[2018.03.27-07.43.18:563][  0]SourceControl: Source control is disabled
+[2018.03.27-07.43.18:944][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.27-07.43.19:124][  0]LogOcInput: OculusInput pre-init called
+[2018.03.27-07.43.19:147][  0]LogUObjectArray: 40101 objects as part of root set at end of initial load.
+[2018.03.27-07.43.19:147][  0]LogUObjectAllocator: 8572864 out of 0 bytes used by permanent object pool.
+[2018.03.27-07.43.19:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.27-07.43.19:200][  0]LogEngine: Initializing Engine...
+[2018.03.27-07.43.19:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-07.43.19:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-07.43.19:391][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.43.19:408][  0]LogInit: FAudioDevice initialized.
+[2018.03.27-07.43.19:426][  0]LogInit: Texture streaming: Enabled
+[2018.03.27-07.43.19:553][  0]LogInit: Display: Game Engine Initialized.
+[2018.03.27-07.43.19:553][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.27-07.43.19:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-07.43.19:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-07.43.19:644][  0]LogInit: Display: Starting Game.
+[2018.03.27-07.43.19:644][  0]LogNet: Browse: /Game/TrialOfMight/Maps/Server?Name=Player
+[2018.03.27-07.43.19:644][  0]LogLoad: LoadMap: /Game/TrialOfMight/Maps/Server?Name=Player
+[2018.03.27-07.43.19:830][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.992933ms] /Game/TrialOfMight/Characters/Paladin/paladin_prop_j_nordstrom_rooted.paladin_prop_j_nordstrom_rooted
+[2018.03.27-07.43.19:865][  0]LogAIModule: Creating AISystem for world Server
+[2018.03.27-07.43.19:865][  0]LogLoad: Game class is 'GM_TrialOfMight_C'
+[2018.03.27-07.43.19:866][  0]LogWorld: Bringing World /Game/TrialOfMight/Maps/Server.Server up for play (max tick rate 0) at 2018.03.27-09.43.19
+[2018.03.27-07.43.19:867][  0]LogWorld: Bringing up level for play took: 0.000787
+[2018.03.27-07.43.19:867][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.27-07.43.19:870][  0]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1158118827)
+[2018.03.27-07.43.19:871][  0]LogLoad: Took 0.226758 seconds to LoadMap(/Game/TrialOfMight/Maps/Server)
+[2018.03.27-07.43.19:921][  0]LogLoad: (Engine Initialization) Total time: 8.25 seconds
+[2018.03.27-07.43.19:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.27-07.43.19:962][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.03.27-07.43.20:015][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: dumping NamedSession: 
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	SessionName: GameSession
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	HostingPlayerNum: 0
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	SessionState: Pending
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	RegisteredPlayers: 
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	    0 registered players
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: dumping Session: 
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	OwningPlayerName: Pomettini
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	OwningPlayerId: Pomettini [0x11000010387F4F0]
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	NumOpenPrivateConnections: 0
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	NumOpenPublicConnections: 9
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198019507440:7777 Type: Lobby session SessionId: Lobby [0x1860000E5364C56]
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: dumping SessionSettings: 
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	NumPublicConnections: 10
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	NumPrivateConnections: 0
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bIsLanMatch: false
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bIsDedicated: false
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bUsesStats: false
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bShouldAdvertise: true
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bAllowJoinInProgress: true
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bAllowInvites: false
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bUsesPresence: true
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bAllowJoinViaPresence: true
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	bAllowJoinViaPresenceFriendsOnly: false
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	BuildUniqueId: 0x53541c4d
+[2018.03.27-07.43.20:505][ 20]LogOnline: Verbose: 	Settings:
+[2018.03.27-07.43.20:506][ 20]LogBlueprintUserMessages: [Server_C_3] Create Session Success
+[2018.03.27-07.43.20:568][ 20]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Map001.umap.
+[2018.03.27-07.43.20:627][ 20]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve Map001.umap.
+[2018.03.27-07.43.20:627][ 20]LogNet: Browse: /Game/TrialOfMight/Maps/Map001?listen
+[2018.03.27-07.43.20:627][ 20]LogLoad: LoadMap: /Game/TrialOfMight/Maps/Map001?listen
+[2018.03.27-07.43.20:911][ 20]LogSkeletalMesh: Skeletal Mesh found in DDC [1.585595ms] /Game/TrialOfMight/Characters/Paladin/paladin_prop_j_nordstrom_rooted.paladin_prop_j_nordstrom_rooted
+[2018.03.27-07.43.20:924][ 20]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.43.20:924][ 20]LogLoad: Game class is 'GM_TrialOfMight_C'
+[2018.03.27-07.43.20:924][ 20]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.43.20:924][ 20]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2018.03.27-07.43.20:924][ 20]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.43.20:925][ 20]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2018.03.27-07.43.20:925][ 20]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.43.20:925][ 20]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2018.03.27-07.43.20:929][ 20]LogWorld: Bringing World /Game/TrialOfMight/Maps/Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.43.20
+[2018.03.27-07.43.20:929][ 20]LogWorld: Bringing up level for play took: 0.003110
+[2018.03.27-07.43.20:932][ 20]LogLoad: Took 0.304944 seconds to LoadMap(/Game/TrialOfMight/Maps/Map001)
+[2018.03.27-07.43.28:955][512]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:955][512]LogHandshake: SendConnectChallenge. Timestamp: 8.475626, Cookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:956][512]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:956][512]LogHandshake: SendConnectChallenge. Timestamp: 8.475626, Cookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:956][512]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:956][512]LogHandshake: SendConnectChallenge. Timestamp: 8.475626, Cookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:956][512]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:956][512]LogHandshake: SendConnectChallenge. Timestamp: 8.475626, Cookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:957][512]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:957][512]LogHandshake: SendConnectChallenge. Timestamp: 8.475626, Cookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:971][513]LogNet: NotifyAcceptingConnection accepted from: 76561198038012945:7777
+[2018.03.27-07.43.28:971][513]LogHandshake: SendChallengeAck. InCookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:972][513]LogNet: Server accepting post-challenge connection from: 76561198038012945:7777
+[2018.03.27-07.43.28:972][513]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.43.28:972][513]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:43:28, [UNetConnection] RemoteAddr: 76561198038012945:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.43.28:972][513]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 76561198038012945:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.43.28:972][513]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2018.03.27-07.43.28:972][513]LogHandshake: SendChallengeAck. InCookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:972][513]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2018.03.27-07.43.28:972][513]LogHandshake: SendChallengeAck. InCookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:973][513]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2018.03.27-07.43.28:973][513]LogHandshake: SendChallengeAck. InCookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:973][513]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2018.03.27-07.43.28:973][513]LogHandshake: SendChallengeAck. InCookie: 135188254220204178176070037185165130175045033119202053144043
+[2018.03.27-07.43.28:988][514]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/Map001.Map001: Accepted
+[2018.03.27-07.43.28:989][514]LogNet: Remote platform little endian=1
+[2018.03.27-07.43.28:989][514]LogNet: This platform little endian=1
+[2018.03.27-07.43.29:003][515]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=robertounbit userId: 76561198038012945
+[2018.03.27-07.43.29:019][516]LogNet: Client netspeed is 10000
+[2018.03.27-07.43.29:261][531]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=robertounbit?SplitscreenCount=1
+[2018.03.27-07.43.29:264][531]LogNet: Join succeeded: robertounbit
+[2018.03.27-07.43.29:343][536]LogNet: Warning: Network saturated
+[2018.03.27-07.43.29:343][536]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.29:391][539]LogNet: Warning: Network saturated
+[2018.03.27-07.43.29:391][539]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.31:811][689]LogNet: Warning: Network saturated
+[2018.03.27-07.43.31:811][689]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.34:778][873]LogNet: Warning: Network saturated
+[2018.03.27-07.43.34:778][873]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.36:069][953]LogNet: Warning: Network saturated
+[2018.03.27-07.43.36:069][953]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.44:973][505]LogNet: Warning: Network saturated
+[2018.03.27-07.43.44:973][505]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.45:908][563]LogNet: Warning: Network saturated
+[2018.03.27-07.43.45:908][563]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.49:908][811]LogNet: Warning: Network saturated
+[2018.03.27-07.43.49:908][811]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.51:747][925]LogNet: Warning: Network saturated
+[2018.03.27-07.43.51:748][925]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.43.55:312][146]LogNet: Warning: Network saturated
+[2018.03.27-07.43.55:312][146]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.44.27:351][121]LogNet: Warning: Network saturated
+[2018.03.27-07.44.27:351][121]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.44.39:868][897]LogNet: Warning: Network saturated
+[2018.03.27-07.44.39:868][897]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.44.51:467][616]LogNet: Warning: Network saturated
+[2018.03.27-07.44.51:467][616]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.44.55:773][883]LogNet: Warning: Network saturated
+[2018.03.27-07.44.55:773][883]LogNet: Dropped 1 packets due to congestion in the voicechannel
+[2018.03.27-07.45.08:451][669]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2018.03.27-07.45.08:451][669]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198038012945:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: robertounbit [0x110000104A25411]
+[2018.03.27-07.45.08:452][669]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198038012945:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: robertounbit [0x110000104A25411], Channels: 10, Time: 2018.03.27-07.45.08
+[2018.03.27-07.45.08:452][669]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198038012945:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: robertounbit [0x110000104A25411]
+[2018.03.27-07.45.28:731][922]LogSlate: Window 'SoulsLikeTest (64-bit, PCD3D_SM5) ' being destroyed
+[2018.03.27-07.45.28:732][922]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.27-07.45.28:736][922]LogEngine: All Windows Closed
+[2018.03.27-07.45.28:736][922]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.03.27-07.45.28:743][923]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2018.03.27-07.45.28:743][923]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2018.03.27-07.45.28:743][923]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2018.03.27-07.45.29:259][923]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.03.27-07.45.29:260][923]LogExit: Preparing to exit.
+[2018.03.27-07.45.29:260][923]LogMoviePlayer: Shutting down movie player
+[2018.03.27-07.45.30:363][923]LogExit: Game engine shut down
+[2018.03.27-07.45.30:413][923]LogExit: Object subsystem successfully closed.
+[2018.03.27-07.45.30:421][923]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.03.27-07.45.30:424][923]LogD3D11RHI: Shutdown
+[2018.03.27-07.45.30:424][923]LogD3D11RHI: CleanupD3DDevice
+[2018.03.27-07.45.30:425][923]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (332)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module SequenceRecorder (330)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module AutomationController (328)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module AutomationWorker (326)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module AIModule (324)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module GameplayDebugger (323)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module AITestSuite (321)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (318)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (316)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (314)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (312)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module CharacterAI (310)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module SessionServices (308)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (306)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (304)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module MovieScene (302)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (296)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module PortalServices (294)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module PortalRpc (292)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module MessagingRpc (290)
+[2018.03.27-07.45.30:434][923]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (284)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module OculusInput (282)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (280)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (278)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module CableComponent (276)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module AudioCapture (274)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (272)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module AndroidPermission (270)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (266)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (264)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module MediaCompositing (262)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module LinearTimecode (260)
+[2018.03.27-07.45.30:602][923]LogModuleManager: Shutting down and abandoning module ImgMedia (258)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module HTML5Networking (256)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module DatasmithContent (254)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (252)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module CryptoKeys (250)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (248)
+[2018.03.27-07.45.30:604][923]LogModuleManager: Shutting down and abandoning module HotReload (247)
+[2018.03.27-07.45.30:604][923]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64' was aborted.
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (246)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (242)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module UObjectPlugin (240)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (238)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (236)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module SourceControl (235)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (232)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module SoulsLikeTest (230)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module ActorSequence (216)
+[2018.03.27-07.45.30:605][923]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2018.03.27-07.45.30:705][923]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module DataValidation (206)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module TreeMap (203)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (200)
+[2018.03.27-07.45.31:306][923]LogModuleManager: Shutting down and abandoning module LiveLink (198)
+[2018.03.27-07.45.32:165][923]LogModuleManager: Shutting down and abandoning module Paper2D (196)
+[2018.03.27-07.45.32:165][923]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (194)
+[2018.03.27-07.45.32:165][923]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
+[2018.03.27-07.45.32:165][923]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
+[2018.03.27-07.45.32:166][923]LogModuleManager: Shutting down and abandoning module PacketHandler (188)
+[2018.03.27-07.45.32:166][923]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (186)
+[2018.03.27-07.45.32:166][923]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (184)
+[2018.03.27-07.45.32:166][923]LogModuleManager: Shutting down and abandoning module MediaAssets (182)
+[2018.03.27-07.45.32:166][923]LogModuleManager: Shutting down and abandoning module Media (181)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module Overlay (178)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module UMG (160)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module Sequencer (158)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module MessageLog (155)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module Slate (148)
+[2018.03.27-07.45.32:172][923]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module MRMesh (144)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module Messaging (142)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module Networking (134)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module Core (132)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
+[2018.03.27-07.45.32:173][923]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.03.27-07.45.32:174][923]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
+[2018.03.27-07.45.32:194][923]LogDerivedDataCache: Shutdown
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module XGEController (108)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module AugmentedReality (55)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2018.03.27-07.45.32:194][923]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2018.03.27-07.45.32:194][923]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.27-07.45.32:194][923]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.45.32:254][923]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.45.32:254][923]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.45.32:254][923]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.27-07.45.32:255][923]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.27-07.45.32:255][923]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.27-07.45.32:275][923]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.27-07.45.32:276][923]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.27-07.45.32:281][923]LogExit: Exiting.
+[2018.03.27-07.45.32:283][923]Log file closed, 03/27/18 09:45:32

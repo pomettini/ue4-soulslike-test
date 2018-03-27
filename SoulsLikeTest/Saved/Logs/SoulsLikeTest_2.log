@@ -804,3 +804,281 @@ LogInit: Object subsystem initialized
 [2018.03.27-07.25.31:558][119]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
 [2018.03.27-07.25.31:558][119]LogPlayLevel: Display: Destroying online subsystem :Context_14
 [2018.03.27-07.25.31:558][119]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.34.06:494][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.34.12:705][445]LogSlate: Took 0.011102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.27-07.34.42:972][229]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-07.34.54:504][209]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.34.54:543][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.34.54:545][209]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:34:54 AM)
+[2018.03.27-07.34.54:545][209]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
+[2018.03.27-07.34.54:547][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002660s)
+[2018.03.27-07.34.54:549][209]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.34.54:549][209]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2018.03.27-07.34.54:549][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.004326s)
+[2018.03.27-07.34.54:581][209]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.34.54:594][209]LogInit: FAudioDevice initialized.
+[2018.03.27-07.34.54:627][209]LogLoad: Game class is 'GM_TrialOfMight_C'
+[2018.03.27-07.34.54:628][209]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.34.54
+[2018.03.27-07.34.54:629][209]LogWorld: Bringing up level for play took: 0.001541
+[2018.03.27-07.34.54:643][209]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.34.54:643][209]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.03.27-07.34.54:643][209]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.34.54:644][209]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.34.54:644][209]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.34.54:644][209]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2018.03.27-07.34.54:645][209]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 -0.439
+[2018.03.27-07.34.54:646][209]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:34:54 AM)
+[2018.03.27-07.34.54:654][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.34.54:735][209]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.34.54:735][209]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.34.54:735][209]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.03.27-07.34.54:735][209]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.34.54:735][209]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.34.54:736][209]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.34.54:736][209]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.34.54:739][209]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 -0.345
+[2018.03.27-07.34.54:751][209]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56244
+[2018.03.27-07.34.54:751][209]LogHandshake: SendConnectChallenge. Timestamp: 0.018975, Cookie: 058113220132248019166034202189169010147200045027112120032039
+[2018.03.27-07.34.54:753][209]LogHandshake: SendChallengeResponse. Timestamp: 0.018975, Cookie: 058113220132248019166034202189169010147200045027112120032039
+[2018.03.27-07.34.54:828][210]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56244
+[2018.03.27-07.34.54:828][210]LogHandshake: SendChallengeAck. InCookie: 058113220132248019166034202189169010147200045027112120032039
+[2018.03.27-07.34.54:828][210]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56244
+[2018.03.27-07.34.54:828][210]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.34.54:828][210]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:34:54, [UNetConnection] RemoteAddr: 127.0.0.1:56244, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.34.54:828][210]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56244, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.34.54:829][210]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.34.54:842][211]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.27-07.34.54:842][211]LogNet: Remote platform little endian=1
+[2018.03.27-07.34.54:842][211]LogNet: This platform little endian=1
+[2018.03.27-07.34.54:863][212]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2 userId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2
+[2018.03.27-07.34.54:864][212]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Game/TrialOfMight/GM_TrialOfMight.GM_TrialOfMight_C)
+[2018.03.27-07.34.54:886][212]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Game/TrialOfMight/GM_TrialOfMight.GM_TrialOfMight_C
+[2018.03.27-07.34.54:922][212]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.34.54:923][212]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.34.54:925][212]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.34.54
+[2018.03.27-07.34.54:925][212]LogWorld: Bringing up level for play took: 0.001293
+[2018.03.27-07.34.54:926][212]LogLoad: Took 0.040223 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
+[2018.03.27-07.34.54:953][213]LogNet: Client netspeed is 10000
+[2018.03.27-07.34.54:953][213]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2?SplitscreenCount=1
+[2018.03.27-07.34.54:953][213]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.34.54:955][213]LogNet: Join succeeded: LAPTOP-33RH8CBR-1600
+[2018.03.27-07.34.54:976][214]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.34.55:018][216]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.34.56:087][254]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.34.56:114][254]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.34.56:114][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.34.56:115][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.34.56:115][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.34.56:115][254]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.27-07.34.56:146][254]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.34.56:146][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.34.56:146][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.34.56:146][254]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.34.56:146][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.34.56:174][254]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2
+[2018.03.27-07.34.56:174][254]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2, Channels: 8, Time: 2018.03.27-07.34.56
+[2018.03.27-07.34.56:174][254]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2
+[2018.03.27-07.34.56:174][254]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56244, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2
+[2018.03.27-07.34.56:174][254]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56244, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2, Channels: 8, Time: 2018.03.27-07.34.56
+[2018.03.27-07.34.56:174][254]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56244, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-160009EA415112887BFDD396585E7CA2
+[2018.03.27-07.34.56:175][254]LogExit: GameNetDriver None shut down
+[2018.03.27-07.34.56:176][254]LogExit: GameNetDriver None shut down
+[2018.03.27-07.34.56:219][255]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.03.27-07.34.56:219][255]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.34.56:220][255]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.03.27-07.34.56:220][255]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.34.58:166][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.35.04:317][638]LogSlate: Window 'Save Content' being destroyed
+[2018.03.27-07.35.04:666][638]LogSavePackage: Save=44.86ms
+[2018.03.27-07.35.04:666][638]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map00193AFC0254702000FBCFC5098F6FB2753.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap'
+[2018.03.27-07.35.04:674][638]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap
+[2018.03.27-07.35.04:742][638]LogFileHelpers: Saving map 'Map001' took 0.235
+[2018.03.27-07.35.04:764][638]LogAssetRegistry: Warning: C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Content\TrialOfMight\Maps\Map001.umap: Package has invalid export /Game/TrialOfMight/Maps/Map001_BuiltData.Map001_BuiltData, resave source package!
+[2018.03.27-07.35.05:714][678]LogAIModule: Creating AISystem for world Client
+[2018.03.27-07.35.05:760][678]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Client.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-07.35.05:760][678]LightingResults: New page: Lighting Build
+[2018.03.27-07.35.05:761][678]LoadErrors: New page: Loading map: Client.umap
+[2018.03.27-07.35.05:762][678]MapCheck: New page: Map Check
+[2018.03.27-07.35.05:762][678]LightingResults: New page: Lighting Build
+[2018.03.27-07.35.05:860][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-07.35.05:933][678]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-07.35.05:995][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.187ms to complete.
+[2018.03.27-07.35.05:995][678]LogFileHelpers: Loading map 'Client' took 0.237
+[2018.03.27-07.35.06:743][710]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-07.35.09:388][842]LogAIModule: Creating AISystem for world Server
+[2018.03.27-07.35.10:604][842]LogSlate: Window 'Save Content' being destroyed
+[2018.03.27-07.35.10:976][842]LogSavePackage: Save=136.86ms
+[2018.03.27-07.35.10:976][842]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/ClientA26F53A542B8A347F52E8697790D1FAE.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Client.umap'
+[2018.03.27-07.35.10:980][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Client.umap
+[2018.03.27-07.35.11:028][842]LogFileHelpers: Saving map 'Client' took 0.296
+[2018.03.27-07.35.11:029][842]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-07.35.11:029][842]LightingResults: New page: Lighting Build
+[2018.03.27-07.35.11:029][842]LoadErrors: New page: Loading map: Server.umap
+[2018.03.27-07.35.11:030][842]MapCheck: New page: Map Check
+[2018.03.27-07.35.11:030][842]LightingResults: New page: Lighting Build
+[2018.03.27-07.35.11:125][842]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-07.35.11:204][842]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-07.35.11:269][842]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.559ms to complete.
+[2018.03.27-07.35.11:270][842]LogFileHelpers: Loading map 'Server' took 0.242
+[2018.03.27-07.35.12:301][903]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-07.35.18:699][237]LogSlate: Window 'Save Content' being destroyed
+[2018.03.27-07.35.19:111][237]LogSavePackage: Save=114.83ms
+[2018.03.27-07.35.19:111][237]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/ServerD68D30C3471C96022433FDBF921D06D8.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.35.19:115][237]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.35.19:158][237]LogFileHelpers: Saving map 'Server' took 0.267
+[2018.03.27-07.35.20:109][302]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.35.20:138][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server' with GeneratedClass '/Game/TrialOfMight/Maps/Server.Server_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server'
+[2018.03.27-07.35.20:138][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.35.20:139][302]PIE: New page: PIE session: Server (Mar 27, 2018, 11:35:20 AM)
+[2018.03.27-07.35.20:139][302]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Server
+[2018.03.27-07.35.20:140][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000794s)
+[2018.03.27-07.35.20:141][302]LogAIModule: Creating AISystem for world Server
+[2018.03.27-07.35.20:141][302]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2018.03.27-07.35.20:141][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Server.Server to /Game/TrialOfMight/Maps/UEDPIE_1_Server.Server (0.001475s)
+[2018.03.27-07.35.20:167][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.35.20:181][302]LogInit: FAudioDevice initialized.
+[2018.03.27-07.35.20:213][302]LogLoad: Game class is 'GM_TrialOfMight_C'
+[2018.03.27-07.35.20:214][302]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Server.Server up for play (max tick rate 0) at 2018.03.27-09.35.20
+[2018.03.27-07.35.20:215][302]LogWorld: Bringing up level for play took: 0.000368
+[2018.03.27-07.35.20:228][302]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.35.20:229][302]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.03.27-07.35.20:229][302]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.35.20:229][302]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.35.20:229][302]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.35.20:229][302]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2018.03.27-07.35.20:232][302]LogBlueprintUserMessages: [Server_C_0] Server: Create Session Success
+[2018.03.27-07.35.20:233][302]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Server -0.851
+[2018.03.27-07.35.20:236][302]PIE: New page: PIE session: Server (Mar 27, 2018, 11:35:20 AM)
+[2018.03.27-07.35.20:243][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.35.20:337][302]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.35.20:337][302]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.35.20:338][302]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.03.27-07.35.20:338][302]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.35.20:338][302]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.35.20:338][302]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.35.20:338][302]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.35.20:343][302]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 -0.741
+[2018.03.27-07.35.20:354][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server' with GeneratedClass '/Game/TrialOfMight/Maps/Server.Server_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server'
+[2018.03.27-07.35.20:354][302]LogNet: Browse: /Game/TrialOfMight/Maps/Map001?listen
+[2018.03.27-07.35.20:354][302]LogLoad: LoadMap: /Game/TrialOfMight/Maps/Map001?listen
+[2018.03.27-07.35.20:354][302]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2018.03.27-07.35.20:354][302]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2018.03.27-07.35.20:354][302]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2018.03.27-07.35.25:078][302]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.669 s
+[2018.03.27-07.35.25:078][302]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: 
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1315]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: 
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: Stack: 
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x0000000049B5BA76 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x00000000498BAE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x00000000498CECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000004608BBE9 UE4Editor-BlueprintGraph.dll!FBlueprintActionDatabase::RefreshAssetActions() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\blueprintgraph\private\blueprintactiondatabase.cpp:1315]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000004605D28D UE4Editor-BlueprintGraph.dll!TBaseStaticDelegateInstance<void __cdecl(UObject * __ptr64)>::ExecuteIfSafe() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:788]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x00000000490C6F37 UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void,UObject * __ptr64>::Broadcast() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000004940BC10 UE4Editor-CoreUObject.dll!EndLoad() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1721]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x0000000049422D3B UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1339]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x0000000049422154 UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1436]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000003D93859A UE4Editor-Engine.dll!UEngine::LoadMap() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:10889]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000003D8EBBA8 UE4Editor-Engine.dll!UEngine::Browse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:10373]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000003D9598C0 UE4Editor-Engine.dll!UEngine::TickWorldTravel() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:10562]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x00000000443FCD20 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1639]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x0000000044C99526 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:401]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000008DCC5EAC UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3339]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000008DCD6BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000008DCD6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000008DCE4149 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000008DCE5B57 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x0000000093BE1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: [Callstack] 0x000000009613EFC1 ntdll.dll!UnknownFunction []
+[2018.03.27-07.35.25:079][302]LogOutputDevice: Error: 
+[2018.03.27-07.35.25:085][302]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.27-07.35.25:429][302]LogStats:                    SendNewReport -  0.344 s
+[2018.03.27-07.35.25:429][302]LogStats:             FDebug::EnsureFailed -  5.020 s
+[2018.03.27-07.35.25:913][302]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.35.25:914][302]LogLoad: Game class is 'GM_TrialOfMight_C'
+[2018.03.27-07.35.25:914][302]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.35.25:914][302]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.03.27-07.35.25:914][302]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.35.25:914][302]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.35.25:915][302]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.35.25:915][302]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2018.03.27-07.35.25:920][302]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.35.25
+[2018.03.27-07.35.25:920][302]LogWorld: Bringing up level for play took: 0.004921
+[2018.03.27-07.35.25:925][302]LogLoad: Took 5.570282 seconds to LoadMap(/Game/TrialOfMight/Maps/Map001)
+[2018.03.27-07.35.25:926][302]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.01, Realtime: 5.59. IpNetDriver_11
+[2018.03.27-07.35.26:039][303]Set new viewmode: Wireframe
+[2018.03.27-07.35.26:043][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.35.26:054][303]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.92, Realtime: 0.13. IpNetDriver_12
+[2018.03.27-07.35.26:054][303]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.92, Realtime: 0.13. IpNetDriver_11
+[2018.03.27-07.35.26:057][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server' with GeneratedClass '/Game/TrialOfMight/Maps/Server.Server_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server'
+[2018.03.27-07.35.26:084][303]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.35.26:154][303]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.35.26:154][303]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.35.26:156][303]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.35.26:156][303]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.35.26:156][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.35.26:156][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel' has LevelScriptBlueprint '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server' with GeneratedClass '/Game/TrialOfMight/Maps/Server.Server_C' with ClassGeneratedBy '/Game/TrialOfMight/Maps/Server.Server:PersistentLevel.Server'
+[2018.03.27-07.35.26:184][303]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.35.26:184][303]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2018.03.27-07.35.26
+[2018.03.27-07.35.26:184][303]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.35.26:187][303]LogExit: GameNetDriver None shut down
+[2018.03.27-07.35.26:188][303]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2018.03.27-07.35.26:188][303]LogExit: PendingNetDriver None shut down
+[2018.03.27-07.35.26:224][304]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.03.27-07.35.26:224][304]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.35.27:768][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.35.36:696][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.35.36:799][863]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.36.47:515][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.36.51:033][806]LogEditorViewport: Clicking Background
+[2018.03.27-07.36.51:712][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.36.51:927][845]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.36.52:112][845]LogSavePackage: Save=104.04ms
+[2018.03.27-07.36.52:112][845]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Server80D1ED6444C223785DA42681BDDA9157.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.36.52:125][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.36.56:030][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.36.56:146][227]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.38.00:281][780]LogEditorViewport: Clicking Background
+[2018.03.27-07.38.01:007][817]LogRenderer: Reallocating scene render targets to support 932x460 Format 9 NumSamples 1 (Frame:16).
+[2018.03.27-07.38.03:549][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.38.03:643][986]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.38.41:351][686]LogEditorViewport: Clicking Background
+[2018.03.27-07.38.42:259][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.38.42:363][739]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.40.21:835][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.40.32:714][887]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.42.00:382][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.42.11:680][457]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-07.42.11:680][457]LightingResults: New page: Lighting Build
+[2018.03.27-07.42.11:681][457]LoadErrors: New page: Loading map: Server.umap
+[2018.03.27-07.42.11:681][457]MapCheck: New page: Map Check
+[2018.03.27-07.42.11:681][457]LightingResults: New page: Lighting Build
+[2018.03.27-07.42.11:795][457]LogAIModule: Creating AISystem for world Server
+[2018.03.27-07.42.11:882][457]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-07.42.11:970][457]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-07.42.12:044][457]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.303ms to complete.
+[2018.03.27-07.42.12:045][457]LogFileHelpers: Loading map 'Server' took 0.367
+[2018.03.27-07.42.14:957][558]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.42.17:452][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.43.00:690][468]LogSavePackage: Save=125.43ms
+[2018.03.27-07.43.00:690][468]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Server0A7F99D147BF4DB2B8046E9E4E3F950C.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.43.00:697][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.43.00:747][468]LogFileHelpers: Saving map 'Server' took 0.303
+[2018.03.27-07.43.01:097][498]BlueprintLog: New page: Compile Server
+[2018.03.27-07.43.04:312][673]LogSavePackage: Save=135.18ms
+[2018.03.27-07.43.04:312][673]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/ServerC1CECFF3451C3B868B2732A8AA4BE257.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.43.04:318][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.43.11:574][340]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-07.46.01:047][203]LogSavePackage: Save=139.12ms
+[2018.03.27-07.46.01:047][203]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Server59B85FF54E0806986A9322B991CFE44E.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.46.01:054][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.46.01:105][203]LogFileHelpers: Saving map 'Server' took 0.316
+[2018.03.27-07.46.01:477][214]BlueprintLog: New page: Compile Server
+[2018.03.27-07.46.04:614][324]LogSavePackage: Save=150.61ms
+[2018.03.27-07.46.04:614][324]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/ServerE291CB814BC83076DAEC78B0BE9C0312.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.46.04:618][324]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.46.04:669][324]LogFileHelpers: Saving map 'Server' took 0.331
+[2018.03.27-07.46.58:125][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.27-07.47.05:783][957]LogSlate: Window 'Delete Assets' being destroyed
+[2018.03.27-07.47.06:718][957]SourceControl: rm 'SoulsLikeTest/Content/TrialOfMight/Characters/Paladin/GM_SoulsLike.uasset'
