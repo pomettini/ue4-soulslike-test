@@ -1,0 +1,806 @@
+﻿Log file open, 03/27/18 09:13:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject
+LogInit: Display: RandInit(169737656) SRandInit(169737657).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.273811
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.123s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64/UE4Editor-SoulsLikeTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am LAPTOP-33RH8CBR (192.168.1.53:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3944462
+LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.27-07.13.08:520][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-07.13.08:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.27-07.13.08:531][  0]LogInit: Computer: LAPTOP-33RH8CBR
+[2018.03.27-07.13.08:531][  0]LogInit: User: Giorgio
+[2018.03.27-07.13.08:531][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.27-07.13.08:531][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.03.27-07.13.08:531][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.27-07.13.08:531][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.27-07.13.08:531][  0]LogMemory: Process Physical Memory: 275.63 MB used, 275.63 MB peak
+[2018.03.27-07.13.08:531][  0]LogMemory: Process Virtual Memory: 264.82 MB used, 264.82 MB peak
+[2018.03.27-07.13.08:531][  0]LogMemory: Physical Memory: 6478.27 MB used,  9799.40 MB free, 16277.68 MB total
+[2018.03.27-07.13.08:531][  0]LogMemory: Virtual Memory: 692.51 MB used,  9799.40 MB free, 134217728.00 MB total
+[2018.03.27-07.13.08:704][  0]LogInit: Using OS detected language (en-US).
+[2018.03.27-07.13.08:704][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.27-07.13.08:707][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.27-07.13.09:119][  0]LogStreaming: Display: Took  0.416s to EndInitTextLocalization.
+[2018.03.27-07.13.09:119][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.27-07.13.09:154][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.03.27-07.13.09:154][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.03.27-07.13.09:347][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.27-07.13.09:742][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.03.27-07.13.09:742][  0]LogD3D11RHI:       6052/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.27-07.13.09:752][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.27-07.13.09:753][  0]LogD3D11RHI:       128/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.27-07.13.09:754][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.27-07.13.09:754][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.27-07.13.09:754][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.27-07.13.09:763][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.27-07.13.09:763][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.27-07.13.09:763][  0]LogWindows: EnumDisplayDevices:
+[2018.03.27-07.13.09:763][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.27-07.13.09:764][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.27-07.13.09:764][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.27-07.13.09:764][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.27-07.13.09:764][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.27-07.13.09:764][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.03.27-07.13.09:764][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.27-07.13.09:764][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.27-07.13.09:764][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.03.27-07.13.09:802][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.03.27-07.13.09:802][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.27-07.13.09:884][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.27-07.13.09:885][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/384/).
+[2018.03.27-07.13.09:885][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/00457BEC42B2C575D3D7B287ED1F61E6/'.
+[2018.03.27-07.13.10:169][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.27-07.13.10:184][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.27-07.13.10:197][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.27-07.13.10:211][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.27-07.13.10:225][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.27-07.13.10:239][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.27-07.13.10:253][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.27-07.13.10:267][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.27-07.13.10:274][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.27-07.13.10:286][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.27-07.13.10:299][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.27-07.13.10:310][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.27-07.13.10:321][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.03.27-07.13.10:333][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.27-07.13.10:345][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.27-07.13.10:368][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.27-07.13.10:368][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.27-07.13.10:381][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.27-07.13.10:382][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.27-07.13.10:421][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.27-07.13.10:432][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.27-07.13.10:443][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.27-07.13.10:454][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.27-07.13.10:464][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.27-07.13.10:476][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.27-07.13.10:476][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.27-07.13.10:585][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.03.27-07.13.10:585][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.03.27-07.13.10:585][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.27-07.13.11:245][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.27-07.13.11:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.27-07.13.11:321][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.27-07.13.11:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.27-07.13.11:344][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.27-07.13.11:345][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.27-07.13.11:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-07.13.11:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-07.13.11:460][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.03.27-07.13.11:738][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-07.13.11:884][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.27-07.13.11:888][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.27-07.13.11:888][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.27-07.13.11:888][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.27-07.13.11:888][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.27-07.13.11:888][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.27-07.13.11:919][  0]LogNetVersion: SoulsLikeTest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1232231397)
+[2018.03.27-07.13.12:325][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.071107 seconds
+[2018.03.27-07.13.12:330][  0]LogUObjectArray: 36705 objects as part of root set at end of initial load.
+[2018.03.27-07.13.12:330][  0]LogUObjectAllocator: 7522888 out of 0 bytes used by permanent object pool.
+[2018.03.27-07.13.12:330][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.27-07.13.13:928][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.27-07.13.13:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.27-07.13.14:291][  0]SourceControl: Source control is disabled
+[2018.03.27-07.13.15:356][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.27-07.13.15:498][  0]LogOcInput: OculusInput pre-init called
+[2018.03.27-07.13.15:580][  0]LogEngine: Initializing Engine...
+[2018.03.27-07.13.15:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-07.13.15:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-07.13.15:790][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.27-07.13.15:849][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.13.15:889][  0]LogInit: FAudioDevice initialized.
+[2018.03.27-07.13.15:951][  0]LogDerivedDataCache: Saved boot cache 0.06s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.03.27-07.13.15:958][  0]LogInit: Texture streaming: Enabled
+[2018.03.27-07.13.15:976][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.27-07.13.15:993][  0]LogInit: Transaction tracking system initialized
+[2018.03.27-07.13.16:023][  0]BlueprintLog: New page: Editor Load
+[2018.03.27-07.13.16:115][  0]LocalizationService: Localization service is disabled
+[2018.03.27-07.13.16:470][  0]LogConsoleResponse: Display: 
+[2018.03.27-07.13.16:619][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.27-07.13.16:619][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.27-07.13.16:619][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.27-07.13.16:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-07.13.16:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-07.13.16:955][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.01s
+[2018.03.27-07.13.16:955][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-07.13.16:955][  0]LightingResults: New page: Lighting Build
+[2018.03.27-07.13.16:959][  0]MapCheck: New page: Map Check
+[2018.03.27-07.13.16:959][  0]LightingResults: New page: Lighting Build
+[2018.03.27-07.13.17:056][  0]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
+[2018.03.27-07.13.17:056][  0]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
+[2018.03.27-07.13.17:056][  0]LoadErrors: Error: /Game/TrialOfMight/Maps/Map001 : Can't find file for asset. /Game/TrialOfMight/GM_SoulsLike
+[2018.03.27-07.13.17:214][  0]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
+[2018.03.27-07.13.17:214][  0]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap.
+[2018.03.27-07.13.17:215][  0]LoadErrors: Error: /Game/TrialOfMight/Maps/Map001 : Can't find file for asset. /Game/TrialOfMight/GM_SoulsLike
+[2018.03.27-07.13.17:242][  0]LogLinker: Warning: Can't find file '/Game/TrialOfMight/GM_SoulsLike'
+[2018.03.27-07.13.17:242][  0]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike_C Referenced by WorldSettings_1
+[2018.03.27-07.13.17:242][  0]LogLinker: Warning: Can't find file for asset '/Game/TrialOfMight/GM_SoulsLike' while loading NULL.
+[2018.03.27-07.13.17:242][  0]LoadErrors: Failed to load /Game/TrialOfMight/GM_SoulsLike.GM_SoulsLike_C Referenced by WorldSettings_1
+[2018.03.27-07.13.17:260][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.459053ms] /Game/TrialOfMight/Characters/Paladin/paladin_prop_j_nordstrom_rooted.paladin_prop_j_nordstrom_rooted
+[2018.03.27-07.13.17:411][  0]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.13.17:420][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-07.13.17:434][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-07.13.17:484][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.407ms to complete.
+[2018.03.27-07.13.17:484][  0]LogFileHelpers: Loading map 'Map001' took 0.529
+[2018.03.27-07.13.17:545][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.27-07.13.17:625][  0]LogCollectionManager: Loaded 0 collections in 0.002349 seconds
+[2018.03.27-07.13.17:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.03.27-07.13.17:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.03.27-07.13.17:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.03.27-07.13.17:668][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.27-07.13.17:681][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2452 classes and 559 folders.
+[2018.03.27-07.13.17:691][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.27-07.13.17:734][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.03.27-07.13.17:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.27-07.13.19:050][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.27-07.13.19:073][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-07.13.19:075][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.27-07.13.19:086][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.27-07.13.19:221][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SoulsLikeTest
+[2018.03.27-07.13.19:221][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.03.27-07.13.19:221][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.03.27-07.13.19:221][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.03.27-07.13.19:221][  0]LogTemp: BranchPath = LAPTOP-33RH8CBR/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-33RH8CBR/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.03.27-07.13.19:221][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Giorgio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.27-07.13.19:221][  0]LogRenderer: Reallocating scene render targets to support 932x436 Format 9 NumSamples 1 (Frame:1).
+[2018.03.27-07.13.19:365][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.03.27-07.13.19:365][  0]LogLoad: (Engine Initialization) Total time: 13.59 seconds
+[2018.03.27-07.13.19:365][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.27-07.13.19:410][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.03.27-07.13.19:431][  1]LogAssetRegistry: Asset discovery search completed in 7.9928 seconds
+[2018.03.27-07.13.19:432][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.27-07.13.19:432][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.03.27-07.13.23:781][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.13.28:665][534]LogLinker: Warning: Can't find file '/Game/SoulsLike/Characters/Paladin/GM_SoulsLike'
+[2018.03.27-07.13.28:665][534]LogLinker: Warning: Can't find file '/Game/SoulsLike/Characters/Paladin/GM_SoulsLike'
+[2018.03.27-07.13.28:665][534]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SoulsLike/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C'
+[2018.03.27-07.13.30:705][656]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.03.27-07.13.30:798][658]LogSkeletalMesh: Skeletal Mesh found in DDC [2.137708ms] /Game/TrialOfMight/Characters/Paladin/Old/paladin_prop_j_nordstrom.paladin_prop_j_nordstrom
+[2018.03.27-07.13.34:577][856]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.03.27-07.13.34:932][856]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.03.27-07.13.37:812][984]LogSlate: Window 'GM_SoulsLike' being destroyed
+[2018.03.27-07.14.01:808][421]BlueprintLog: New page: Compile GM_SoulsLike
+[2018.03.27-07.14.02:611][450]LogSavePackage: Save=8.94ms
+[2018.03.27-07.14.02:611][450]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/GM_SoulsLikeFFBEAE944EB1E60EDDAD708529A1697E.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Characters/Paladin/GM_SoulsLike.uasset'
+[2018.03.27-07.14.02:615][450]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Characters/Paladin/GM_SoulsLike.uasset
+[2018.03.27-07.14.03:845][524]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.14.03:870][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.14.03:870][524]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.03:870][524]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.14.03:871][524]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.14.03:871][524]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.14.03:871][524]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.03.27-07.14.03:871][524]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.27-07.14.03:884][524]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:14:03 AM)
+[2018.03.27-07.14.03:884][524]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
+[2018.03.27-07.14.03:887][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003068s)
+[2018.03.27-07.14.03:888][524]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.14.03:888][524]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2018.03.27-07.14.03:888][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.004271s)
+[2018.03.27-07.14.03:909][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.14.03:923][524]LogInit: FAudioDevice initialized.
+[2018.03.27-07.14.03:967][524]LogLoad: Game class is 'GameModeBase'
+[2018.03.27-07.14.03:970][524]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.14.03
+[2018.03.27-07.14.03:970][524]LogWorld: Bringing up level for play took: 0.001215
+[2018.03.27-07.14.03:989][524]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.27-07.14.03:989][524]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.03:989][524]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.03.27-07.14.03:989][524]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.03:989][524]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.14.03:990][524]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.03:990][524]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.03.27-07.14.03:990][524]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 0.907
+[2018.03.27-07.14.03:991][524]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:14:03 AM)
+[2018.03.27-07.14.03:997][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.14.04:072][524]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.14.04:072][524]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.04:072][524]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.03.27-07.14.04:072][524]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.14.04:072][524]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.14.04:073][524]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.04:073][524]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.14.04:077][524]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 0.993
+[2018.03.27-07.14.04:085][524]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51905
+[2018.03.27-07.14.04:086][524]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 049069155117036218158126012104237073107151097027079246225085
+[2018.03.27-07.14.04:091][524]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 049069155117036218158126012104237073107151097027079246225085
+[2018.03.27-07.14.04:144][525]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51905
+[2018.03.27-07.14.04:144][525]LogHandshake: SendChallengeAck. InCookie: 049069155117036218158126012104237073107151097027079246225085
+[2018.03.27-07.14.04:144][525]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51905
+[2018.03.27-07.14.04:144][525]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.04:144][525]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:14:04, [UNetConnection] RemoteAddr: 127.0.0.1:51905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.04:144][525]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.04:145][525]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1158118827)
+[2018.03.27-07.14.04:145][525]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.04:161][526]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.27-07.14.04:161][526]LogNet: Remote platform little endian=1
+[2018.03.27-07.14.04:161][526]LogNet: This platform little endian=1
+[2018.03.27-07.14.04:180][527]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA userId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA
+[2018.03.27-07.14.04:181][527]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Script/Engine.GameModeBase)
+[2018.03.27-07.14.04:181][527]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Script/Engine.GameModeBase
+[2018.03.27-07.14.04:204][527]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.14.04:204][527]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.04:207][527]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.14.04
+[2018.03.27-07.14.04:207][527]LogWorld: Bringing up level for play took: 0.001182
+[2018.03.27-07.14.04:207][527]LogLoad: Took 0.026147 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
+[2018.03.27-07.14.04:231][528]LogNet: Client netspeed is 10000
+[2018.03.27-07.14.04:231][528]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA?SplitscreenCount=1
+[2018.03.27-07.14.04:232][528]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.04:233][528]LogNet: Join succeeded: LAPTOP-33RH8CBR-4C98
+[2018.03.27-07.14.04:250][529]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.04:282][531]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.06:588][668]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.14.06:620][668]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.06:621][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.14.06:621][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.14.06:621][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.14.06:621][668]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.27-07.14.06:652][668]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.06:652][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.14.06:653][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.14.06:653][668]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.14.06:653][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.14.06:671][668]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA
+[2018.03.27-07.14.06:672][668]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA, Channels: 2, Time: 2018.03.27-07.14.06
+[2018.03.27-07.14.06:672][668]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA
+[2018.03.27-07.14.06:672][668]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA
+[2018.03.27-07.14.06:672][668]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA, Channels: 2, Time: 2018.03.27-07.14.06
+[2018.03.27-07.14.06:672][668]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4C982C7A463FDAC319835192C6C15AEA
+[2018.03.27-07.14.06:676][668]LogExit: GameNetDriver None shut down
+[2018.03.27-07.14.06:676][668]LogExit: GameNetDriver None shut down
+[2018.03.27-07.14.06:713][669]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.03.27-07.14.06:713][669]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.06:713][669]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.03.27-07.14.06:713][669]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.12:309][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.14.13:612][  1]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-07.14.17:441][126]LogSavePackage: Save=43.64ms
+[2018.03.27-07.14.17:441][126]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map00118ED81674201D7C3AFE0729A75DB19A6.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap'
+[2018.03.27-07.14.17:445][126]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Map001.umap
+[2018.03.27-07.14.17:527][126]LogAssetRegistry: Warning: C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Content\TrialOfMight\Maps\Map001.umap: Package has invalid export /Game/TrialOfMight/Maps/Map001_BuiltData.Map001_BuiltData, resave source package!
+[2018.03.27-07.14.18:122][146]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.14.18:151][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.14.18:152][146]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:14:18 AM)
+[2018.03.27-07.14.18:152][146]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
+[2018.03.27-07.14.18:154][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002462s)
+[2018.03.27-07.14.18:155][146]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.14.18:156][146]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2018.03.27-07.14.18:156][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.003921s)
+[2018.03.27-07.14.18:178][146]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.14.18:192][146]LogInit: FAudioDevice initialized.
+[2018.03.27-07.14.18:222][146]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.27-07.14.18:224][146]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.14.18
+[2018.03.27-07.14.18:224][146]LogWorld: Bringing up level for play took: 0.000974
+[2018.03.27-07.14.18:238][146]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.18:238][146]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.03.27-07.14.18:238][146]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.18:238][146]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.14.18:238][146]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.18:238][146]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.03.27-07.14.18:239][146]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 -0.845
+[2018.03.27-07.14.18:240][146]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:14:18 AM)
+[2018.03.27-07.14.18:247][146]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.14.18:335][146]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.14.18:335][146]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.18:335][146]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.03.27-07.14.18:335][146]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.14.18:335][146]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.14.18:336][146]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.18:336][146]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.14.18:339][146]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 -0.744
+[2018.03.27-07.14.18:351][146]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51906
+[2018.03.27-07.14.18:351][146]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 188199009167222199243220070160235124048142073240139089055132
+[2018.03.27-07.14.18:352][146]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 188199009167222199243220070160235124048142073240139089055132
+[2018.03.27-07.14.18:450][147]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51906
+[2018.03.27-07.14.18:450][147]LogHandshake: SendChallengeAck. InCookie: 188199009167222199243220070160235124048142073240139089055132
+[2018.03.27-07.14.18:451][147]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51906
+[2018.03.27-07.14.18:451][147]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.14.18:451][147]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:14:18, [UNetConnection] RemoteAddr: 127.0.0.1:51906, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.18:451][147]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51906, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.18:452][147]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.14.18:470][148]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.27-07.14.18:470][148]LogNet: Remote platform little endian=1
+[2018.03.27-07.14.18:470][148]LogNet: This platform little endian=1
+[2018.03.27-07.14.18:501][149]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9 userId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9
+[2018.03.27-07.14.18:503][149]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.27-07.14.18:540][149]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.27-07.14.18:565][149]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.14.18:566][149]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.14.18:568][149]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.27-09.14.18
+[2018.03.27-07.14.18:568][149]LogWorld: Bringing up level for play took: 0.001153
+[2018.03.27-07.14.18:568][149]LogLoad: Took 0.027646 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
+[2018.03.27-07.14.18:586][150]LogNet: Client netspeed is 10000
+[2018.03.27-07.14.18:586][150]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9?SplitscreenCount=1
+[2018.03.27-07.14.18:587][150]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.18:588][150]LogNet: Join succeeded: LAPTOP-33RH8CBR-6B14
+[2018.03.27-07.14.18:638][151]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.18:676][152]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.14.29:217][436]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.14.29:257][436]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.29:257][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.14.29:259][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.14.29:259][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.14.29:259][436]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.27-07.14.29:291][436]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.29:291][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.14.29:291][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.14.29:291][436]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.14.29:291][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.14.29:310][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51906, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9
+[2018.03.27-07.14.29:310][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51906, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9, Channels: 2, Time: 2018.03.27-07.14.29
+[2018.03.27-07.14.29:310][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51906, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9
+[2018.03.27-07.14.29:310][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9
+[2018.03.27-07.14.29:310][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9, Channels: 2, Time: 2018.03.27-07.14.29
+[2018.03.27-07.14.29:310][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-6B146D024EB9629070552DBC5FBE17D9
+[2018.03.27-07.14.29:314][436]LogExit: GameNetDriver None shut down
+[2018.03.27-07.14.29:314][436]LogExit: GameNetDriver None shut down
+[2018.03.27-07.14.29:353][437]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.03.27-07.14.29:353][437]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.29:353][437]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.03.27-07.14.29:353][437]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.14.31:776][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.20.51:924][321]Candidate modules for hot reload:
+[2018.03.27-07.20.51:924][321]  SoulsLikeTest
+[2018.03.27-07.20.51:924][321]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe SoulsLikeTest -ModuleWithSuffix=SoulsLikeTest,8328 Win64 Development -editorrecompile -canskiplink "C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject" ]
+[2018.03.27-07.20.52:009][321]Warning: Starting HotReload took  0.1s.
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: New page: Compilation - Mar 27, 2018, 11:20:59 AM
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Creating makefile for hot reloading SoulsLikeTest (modules to compile have changed)
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Parsing headers for SoulsLikeTestEditor
+[2018.03.27-07.20.59:998][401]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\SoulsLikeTest.uproject" "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\SoulsLikeTestEditor\Development\SoulsLikeTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Error: C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Source/SoulsLikeTest/Public/SteamVoiceChat.h(8) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2018.03.27-07.20.59:998][401]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'SoulsLikeTestEditor' (platform: Win64, module info: C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\SoulsLikeTestEditor\Development\SoulsLikeTestEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.03.27-07.20.59:998][401]LogMainFrame: MainFrame: Module compiling took 8.091 seconds
+[2018.03.27-07.20.59:998][401]Warning: HotReload failed, recompile failed
+[2018.03.27-07.22.54:125][964]Candidate modules for hot reload:
+[2018.03.27-07.22.54:125][964]  SoulsLikeTest
+[2018.03.27-07.22.54:126][964]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe SoulsLikeTest -ModuleWithSuffix=SoulsLikeTest,9539 Win64 Development -editorrecompile -canskiplink "C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject" ]
+[2018.03.27-07.22.54:208][964]Warning: Starting HotReload took  0.5s.
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: New page: Compilation - Mar 27, 2018, 11:23:09 AM
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Creating makefile for hot reloading SoulsLikeTest (modules to compile have changed)
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Parsing headers for SoulsLikeTestEditor
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\SoulsLikeTest.uproject" "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\SoulsLikeTestEditor\Development\SoulsLikeTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Error: C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Source/SoulsLikeTest/Public/SteamVoiceChat.h(19)  : Error: Missing '*' in Expected a pointer type
+[2018.03.27-07.23.09:098][ 26]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'SoulsLikeTestEditor' (platform: Win64, module info: C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\SoulsLikeTestEditor\Development\SoulsLikeTestEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.03.27-07.23.09:098][ 26]LogMainFrame: MainFrame: Module compiling took 15.349 seconds
+[2018.03.27-07.23.09:098][ 26]Warning: HotReload failed, recompile failed
+[2018.03.27-07.24.03:132][246]Candidate modules for hot reload:
+[2018.03.27-07.24.03:133][246]  SoulsLikeTest
+[2018.03.27-07.24.03:133][246]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe SoulsLikeTest -ModuleWithSuffix=SoulsLikeTest,1098 Win64 Development -editorrecompile -canskiplink "C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject" ]
+[2018.03.27-07.24.03:216][246]Warning: Starting HotReload took  0.2s.
+[2018.03.27-07.24.20:153][316]CompilerResultsLog: New page: Compilation - Mar 27, 2018, 11:24:20 AM
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Creating makefile for hot reloading SoulsLikeTest (modules to compile have changed)
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Parsing headers for SoulsLikeTestEditor
+[2018.03.27-07.24.20:154][316]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\SoulsLikeTest.uproject" "C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\SoulsLikeTestEditor\Development\SoulsLikeTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Reflection code generated for SoulsLikeTestEditor in 9.3389635 seconds
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: SteamVoiceChat.gen.cpp
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: SteamVoiceChat.cpp
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: [3/4] Link UE4Editor-SoulsLikeTest-1098.dll
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: [4/4] Link UE4Editor-SoulsLikeTest-1098.lib
+[2018.03.27-07.24.20:154][316]CompilerResultsLog:    Creating library C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SoulsLikeTest-1098.suppressed.lib and object C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SoulsLikeTest-1098.suppressed.exp
+[2018.03.27-07.24.20:154][316]CompilerResultsLog:    Creating library C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SoulsLikeTest-1098.lib and object C:\Users\Giorgio\Documents\GIT\ue4-soulslike-test\SoulsLikeTest\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SoulsLikeTest-1098.exp
+[2018.03.27-07.24.20:154][316]CompilerResultsLog: Total build time: 16.57 seconds (Local executor: 1.33 seconds)
+[2018.03.27-07.24.20:154][316]LogMainFrame: MainFrame: Module compiling took 17.169 seconds
+[2018.03.27-07.24.20:198][316]LogClass: Could not find existing class SteamVoiceChat in package /Script/SoulsLikeTest for HotReload, assuming new class
+[2018.03.27-07.24.20:198][316]LogClass: Function StartTalking is new.
+[2018.03.27-07.24.20:198][316]LogClass: Function StopTalking is new.
+[2018.03.27-07.24.20:203][316]LogHotReload: Re-instancing SteamVoiceChat after hot-reload.
+[2018.03.27-07.24.20:284][316]LogContentBrowser: Native class hierarchy updated for 'SoulsLikeTest' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2018.03.27-07.24.20:286][316]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.27-07.24.20:582][316]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2453 classes and 561 folders.
+[2018.03.27-07.24.20:590][316]Display: HotReload took 17.6s.
+[2018.03.27-07.25.17:813][840]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.25.17:848][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.25.17:849][840]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:25:17 AM)
+[2018.03.27-07.25.17:849][840]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
+[2018.03.27-07.25.17:852][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002783s)
+[2018.03.27-07.25.17:853][840]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.25.17:853][840]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.03.27-07.25.17:853][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.003944s)
+[2018.03.27-07.25.17:898][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.25.17:915][840]LogInit: FAudioDevice initialized.
+[2018.03.27-07.25.18:031][840]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.27-07.25.18:033][840]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.25.18
+[2018.03.27-07.25.18:033][840]LogWorld: Bringing up level for play took: 0.001107
+[2018.03.27-07.25.18:048][840]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.18:048][840]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.03.27-07.25.18:048][840]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.18:048][840]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.25.18:048][840]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.18:048][840]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.03.27-07.25.18:049][840]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 0.965
+[2018.03.27-07.25.18:051][840]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:25:18 AM)
+[2018.03.27-07.25.18:059][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.25.18:215][840]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.25.18:216][840]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.18:216][840]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.03.27-07.25.18:216][840]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.25.18:216][840]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.25.18:216][840]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.18:216][840]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.25.18:220][840]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 1.136
+[2018.03.27-07.25.18:229][840]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57618
+[2018.03.27-07.25.18:229][840]LogHandshake: SendConnectChallenge. Timestamp: 0.149178, Cookie: 028190199108082089237212069210015142172178172248065058026061
+[2018.03.27-07.25.18:232][840]LogHandshake: SendChallengeResponse. Timestamp: 0.149178, Cookie: 028190199108082089237212069210015142172178172248065058026061
+[2018.03.27-07.25.18:466][841]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57618
+[2018.03.27-07.25.18:466][841]LogHandshake: SendChallengeAck. InCookie: 028190199108082089237212069210015142172178172248065058026061
+[2018.03.27-07.25.18:466][841]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57618
+[2018.03.27-07.25.18:466][841]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.18:466][841]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:25:18, [UNetConnection] RemoteAddr: 127.0.0.1:57618, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.18:466][841]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57618, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.18:467][841]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.18:486][842]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.27-07.25.18:486][842]LogNet: Remote platform little endian=1
+[2018.03.27-07.25.18:486][842]LogNet: This platform little endian=1
+[2018.03.27-07.25.18:647][843]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB userId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB
+[2018.03.27-07.25.18:648][843]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.27-07.25.18:796][843]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.27-07.25.18:824][843]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.25.18:824][843]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.18:828][843]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.25.18
+[2018.03.27-07.25.18:828][843]LogWorld: Bringing up level for play took: 0.002450
+[2018.03.27-07.25.18:828][843]LogLoad: Took 0.032145 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
+[2018.03.27-07.25.18:851][844]LogNet: Client netspeed is 10000
+[2018.03.27-07.25.18:851][844]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB?SplitscreenCount=1
+[2018.03.27-07.25.18:851][844]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.18:853][844]LogNet: Join succeeded: LAPTOP-33RH8CBR-23F2
+[2018.03.27-07.25.19:026][845]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.19:027][845]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.22:434][866]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.25.22:609][866]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.22:610][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.25.22:611][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.25.22:611][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.25.22:611][866]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.27-07.25.22:642][866]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.22:643][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.25.22:643][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.25.22:643][866]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.25.22:643][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.25.22:664][866]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57618, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB
+[2018.03.27-07.25.22:664][866]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57618, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB, Channels: 9, Time: 2018.03.27-07.25.22
+[2018.03.27-07.25.22:664][866]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57618, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB
+[2018.03.27-07.25.22:665][866]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB
+[2018.03.27-07.25.22:665][866]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB, Channels: 2, Time: 2018.03.27-07.25.22
+[2018.03.27-07.25.22:665][866]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-23F2D97C463ECB17E33D1BBEE1064DBB
+[2018.03.27-07.25.22:668][866]LogExit: GameNetDriver None shut down
+[2018.03.27-07.25.22:669][866]LogExit: GameNetDriver None shut down
+[2018.03.27-07.25.22:707][867]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.03.27-07.25.22:707][867]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.22:707][867]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.03.27-07.25.22:707][867]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.23:691][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.27-07.25.23:857][878]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-07.25.23:891][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-07.25.23:892][878]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:25:23 AM)
+[2018.03.27-07.25.23:892][878]LogPlayLevel: Creating play world package: /Game/TrialOfMight/Maps/UEDPIE_1_Map001
+[2018.03.27-07.25.23:894][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2018.03.27-07.25.23:895][878]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.25.23:895][878]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2018.03.27-07.25.23:895][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TrialOfMight/Maps/Map001.Map001 to /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 (0.002783s)
+[2018.03.27-07.25.23:920][878]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.27-07.25.23:933][878]LogInit: FAudioDevice initialized.
+[2018.03.27-07.25.24:052][878]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.27-07.25.24:053][878]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.25.24
+[2018.03.27-07.25.24:054][878]LogWorld: Bringing up level for play took: 0.001165
+[2018.03.27-07.25.24:067][878]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.24:067][878]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.03.27-07.25.24:067][878]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.24:068][878]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.27-07.25.24:068][878]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.24:068][878]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.03.27-07.25.24:068][878]PIE: Play in editor start time for /Game/TrialOfMight/Maps/UEDPIE_1_Map001 0.985
+[2018.03.27-07.25.24:070][878]PIE: New page: PIE session: Map001 (Mar 27, 2018, 11:25:24 AM)
+[2018.03.27-07.25.24:077][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.27-07.25.24:227][878]LogNet: Browse: 127.0.0.1:17777//Game/TrialOfMight/Maps/Map001
+[2018.03.27-07.25.24:227][878]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.24:227][878]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.03.27-07.25.24:227][878]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.27-07.25.24:227][878]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.27-07.25.24:228][878]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.24:228][878]LogNet: Game client on port 17777, rate 10000
+[2018.03.27-07.25.24:231][878]PIE: Play in editor start time for /Game/TrialOfMight/Maps/Map001 1.148
+[2018.03.27-07.25.24:241][878]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63993
+[2018.03.27-07.25.24:241][878]LogHandshake: SendConnectChallenge. Timestamp: 0.167102, Cookie: 032112074188214253138233069059142129228184191199239075166050
+[2018.03.27-07.25.24:242][878]LogHandshake: SendChallengeResponse. Timestamp: 0.167102, Cookie: 032112074188214253138233069059142129228184191199239075166050
+[2018.03.27-07.25.24:464][879]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63993
+[2018.03.27-07.25.24:464][879]LogHandshake: SendChallengeAck. InCookie: 032112074188214253138233069059142129228184191199239075166050
+[2018.03.27-07.25.24:464][879]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63993
+[2018.03.27-07.25.24:464][879]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.27-07.25.24:464][879]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/27/18 09:25:24, [UNetConnection] RemoteAddr: 127.0.0.1:63993, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.24:464][879]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63993, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.24:465][879]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.27-07.25.24:478][880]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TrialOfMight/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.27-07.25.24:478][880]LogNet: Remote platform little endian=1
+[2018.03.27-07.25.24:478][880]LogNet: This platform little endian=1
+[2018.03.27-07.25.24:633][881]LogNet: Login request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854 userId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854
+[2018.03.27-07.25.24:634][881]LogNet: Welcomed by server (Level: /Game/TrialOfMight/Maps/UEDPIE_1_Map001, Game: /Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.27-07.25.24:789][881]LogLoad: LoadMap: 127.0.0.1:17777//Game/TrialOfMight/Maps/UEDPIE_1_Map001?game=/Game/TrialOfMight/Characters/Paladin/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.27-07.25.24:817][881]LogAIModule: Creating AISystem for world Map001
+[2018.03.27-07.25.24:818][881]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.27-07.25.24:820][881]LogWorld: Bringing World /Game/TrialOfMight/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 0) at 2018.03.27-09.25.24
+[2018.03.27-07.25.24:820][881]LogWorld: Bringing up level for play took: 0.001086
+[2018.03.27-07.25.24:820][881]LogLoad: Took 0.031334 seconds to LoadMap(/Game/TrialOfMight/Maps/UEDPIE_1_Map001)
+[2018.03.27-07.25.24:842][882]LogNet: Client netspeed is 10000
+[2018.03.27-07.25.24:842][882]LogNet: Join request: /Game/TrialOfMight/Maps/Map001?Name=LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854?SplitscreenCount=1
+[2018.03.27-07.25.24:843][882]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.24:845][882]LogNet: Join succeeded: LAPTOP-33RH8CBR-D6AF
+[2018.03.27-07.25.25:029][883]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.25:029][883]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.27-07.25.31:424][118]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.27-07.25.31:455][118]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.31:455][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.25.31:456][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.25.31:456][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.25.31:456][118]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.27-07.25.31:487][118]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.31:487][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.27-07.25.31:488][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.27-07.25.31:488][118]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.27-07.25.31:488][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.27-07.25.31:514][118]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63993, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854
+[2018.03.27-07.25.31:514][118]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63993, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854, Channels: 2, Time: 2018.03.27-07.25.31
+[2018.03.27-07.25.31:514][118]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63993, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854
+[2018.03.27-07.25.31:514][118]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854
+[2018.03.27-07.25.31:515][118]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854, Channels: 2, Time: 2018.03.27-07.25.31
+[2018.03.27-07.25.31:515][118]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-D6AFDD5442ABA5D24347D58A1A958854
+[2018.03.27-07.25.31:518][118]LogExit: GameNetDriver None shut down
+[2018.03.27-07.25.31:518][118]LogExit: GameNetDriver None shut down
+[2018.03.27-07.25.31:558][119]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.03.27-07.25.31:558][119]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.27-07.25.31:558][119]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.03.27-07.25.31:558][119]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
