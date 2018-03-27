@@ -1,0 +1,1625 @@
+﻿Log file open, 03/20/18 17:26:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoulsLikeTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(322857877) SRandInit(322857877).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.273777
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.331s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am LAPTOP-33RH8CBR (192.168.1.228:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3944462
+LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.20-16.26.03:241][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.26.03:241][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.20-16.26.03:262][  0]LogInit: Computer: LAPTOP-33RH8CBR
+[2018.03.20-16.26.03:262][  0]LogInit: User: Giorgio
+[2018.03.20-16.26.03:262][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.20-16.26.03:262][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.03.20-16.26.03:262][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.20-16.26.03:262][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.20-16.26.03:262][  0]LogMemory: Process Physical Memory: 275.19 MB used, 275.19 MB peak
+[2018.03.20-16.26.03:262][  0]LogMemory: Process Virtual Memory: 264.80 MB used, 264.80 MB peak
+[2018.03.20-16.26.03:262][  0]LogMemory: Physical Memory: 5942.64 MB used,  10335.04 MB free, 16277.68 MB total
+[2018.03.20-16.26.03:262][  0]LogMemory: Virtual Memory: 692.51 MB used,  10335.04 MB free, 134217728.00 MB total
+[2018.03.20-16.26.03:284][  0]LogInit: Using OS detected language (en-US).
+[2018.03.20-16.26.03:285][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.20-16.26.03:287][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.20-16.26.03:777][  0]LogStreaming: Display: Took  0.493s to EndInitTextLocalization.
+[2018.03.20-16.26.03:777][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.20-16.26.03:823][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.03.20-16.26.03:823][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.03.20-16.26.04:074][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.20-16.26.04:571][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.03.20-16.26.04:571][  0]LogD3D11RHI:       6052/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.20-16.26.04:582][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.20-16.26.04:582][  0]LogD3D11RHI:       128/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.20-16.26.04:585][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.20-16.26.04:585][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.20-16.26.04:585][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.20-16.26.04:594][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.20-16.26.04:594][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.20-16.26.04:594][  0]LogWindows: EnumDisplayDevices:
+[2018.03.20-16.26.04:594][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.20-16.26.04:594][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.20-16.26.04:594][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.20-16.26.04:595][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.20-16.26.04:595][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.20-16.26.04:595][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.03.20-16.26.04:595][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.20-16.26.04:595][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.20-16.26.04:595][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.03.20-16.26.04:639][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.03.20-16.26.04:639][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.20-16.26.04:700][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.20-16.26.04:700][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/5432/).
+[2018.03.20-16.26.04:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Giorgio/AppData/Local/Temp/UnrealShaderWorkingDir/B89D21AC4B714804228F42BECDADFA33/'.
+[2018.03.20-16.26.04:998][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.20-16.26.05:013][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.20-16.26.05:028][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.20-16.26.05:042][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.20-16.26.05:056][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.20-16.26.05:070][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.20-16.26.05:086][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.20-16.26.05:108][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.20-16.26.05:120][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.20-16.26.05:137][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.20-16.26.05:152][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.20-16.26.05:167][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.20-16.26.05:180][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.03.20-16.26.05:195][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.20-16.26.05:212][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.20-16.26.05:241][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.20-16.26.05:242][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.20-16.26.05:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.20-16.26.05:258][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.20-16.26.05:297][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.20-16.26.05:310][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.20-16.26.05:324][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.20-16.26.05:337][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.20-16.26.05:349][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.20-16.26.05:364][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.20-16.26.05:364][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.20-16.26.05:527][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.03.20-16.26.05:527][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.03.20-16.26.05:527][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.20-16.26.06:316][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.20-16.26.06:386][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.20-16.26.06:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.20-16.26.06:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Giorgio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.20-16.26.06:428][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.20-16.26.06:428][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.20-16.26.06:428][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.26.06:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.26.06:552][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.03.20-16.26.06:851][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.26.07:007][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.20-16.26.07:011][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.20-16.26.07:011][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.20-16.26.07:011][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.20-16.26.07:011][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.20-16.26.07:011][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.20-16.26.07:041][  0]LogNetVersion: SoulsLikeTest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1232231397)
+[2018.03.20-16.26.07:531][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.094461 seconds
+[2018.03.20-16.26.07:537][  0]LogUObjectArray: 36705 objects as part of root set at end of initial load.
+[2018.03.20-16.26.07:537][  0]LogUObjectAllocator: 7522888 out of 0 bytes used by permanent object pool.
+[2018.03.20-16.26.07:537][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.20-16.26.09:348][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.20-16.26.09:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.20-16.26.09:822][  0]SourceControl: Source control is disabled
+[2018.03.20-16.26.11:044][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.20-16.26.11:196][  0]LogOcInput: OculusInput pre-init called
+[2018.03.20-16.26.11:291][  0]LogEngine: Initializing Engine...
+[2018.03.20-16.26.11:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-16.26.11:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-16.26.11:544][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.20-16.26.11:558][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.26.11:605][  0]LogInit: FAudioDevice initialized.
+[2018.03.20-16.26.11:670][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Giorgio/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.26.11:680][  0]LogInit: Texture streaming: Enabled
+[2018.03.20-16.26.11:702][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.20-16.26.11:728][  0]LogInit: Transaction tracking system initialized
+[2018.03.20-16.26.11:764][  0]BlueprintLog: New page: Editor Load
+[2018.03.20-16.26.11:855][  0]LocalizationService: Localization service is disabled
+[2018.03.20-16.26.11:965][  0]LogConsoleResponse: Display: 
+[2018.03.20-16.26.12:145][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.20-16.26.12:146][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.20-16.26.12:146][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.20-16.26.12:146][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-16.26.12:146][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-16.26.12:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.01s
+[2018.03.20-16.26.12:524][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-16.26.12:530][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.26.12:534][  0]MapCheck: New page: Map Check
+[2018.03.20-16.26.12:534][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.26.13:630][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [5.902584ms] /Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.paladin_prop_j_nordstrom_rooted
+[2018.03.20-16.26.13:660][  0]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.26.13:668][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-16.26.13:684][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-16.26.13:737][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.555ms to complete.
+[2018.03.20-16.26.13:738][  0]LogFileHelpers: Loading map 'Map001' took 1.214
+[2018.03.20-16.26.13:887][  0]LogCollectionManager: Loaded 0 collections in 0.003895 seconds
+[2018.03.20-16.26.13:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.03.20-16.26.13:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' took 0.01s
+[2018.03.20-16.26.13:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.03.20-16.26.13:928][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.20-16.26.13:937][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2451 classes and 556 folders.
+[2018.03.20-16.26.13:945][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.26.13:985][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.26.13:993][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.20-16.26.14:082][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-16.26.14:085][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.20-16.26.14:095][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.20-16.26.14:096][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.20-16.26.14:277][  0]LogRenderer: Reallocating scene render targets to support 932x436 Format 9 NumSamples 1 (Frame:1).
+[2018.03.20-16.26.14:440][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.26.14:440][  0]LogLoad: (Engine Initialization) Total time: 13.96 seconds
+[2018.03.20-16.26.14:440][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.20-16.26.14:810][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.03.20-16.26.15:120][  1]LogAssetRegistry: Asset discovery search completed in 8.5909 seconds
+[2018.03.20-16.26.15:123][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.20-16.26.15:123][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000224 seconds (updated 0 objects)
+[2018.03.20-16.29.27:111][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.29.27:111][577]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.29.27:136][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.29.27:137][577]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.29.27:137][577]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.29.27:138][577]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.29.27:138][577]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.29.27:138][577]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.03.20-16.29.27:138][577]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.20-16.29.27:150][577]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:29:27 PM)
+[2018.03.20-16.29.27:151][577]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.29.27:154][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002997s)
+[2018.03.20-16.29.27:155][577]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.29.27:155][577]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2018.03.20-16.29.27:156][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.004876s)
+[2018.03.20-16.29.27:171][577]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.29.27:187][577]LogInit: FAudioDevice initialized.
+[2018.03.20-16.29.27:229][577]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.29.27:231][577]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.29.27
+[2018.03.20-16.29.27:234][577]LogWorld: Bringing up level for play took: 0.003490
+[2018.03.20-16.29.27:258][577]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.20-16.29.27:263][577]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.29.27:264][577]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.03.20-16.29.27:264][577]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.29.27:265][577]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.29.27:266][577]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.29.27:268][577]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.03.20-16.29.27:271][577]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.231
+[2018.03.20-16.29.27:272][577]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:29:27 PM)
+[2018.03.20-16.29.27:280][577]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.29.27:356][577]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.29.27:356][577]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.29.27:356][577]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.03.20-16.29.27:356][577]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.29.27:357][577]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.29.27:357][577]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.29.27:359][577]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.29.27:363][577]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.323
+[2018.03.20-16.29.27:375][577]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64592
+[2018.03.20-16.29.27:376][577]LogHandshake: SendConnectChallenge. Timestamp: 0.333334, Cookie: 058009051109051119246073231094086220213009226036142065206117
+[2018.03.20-16.29.27:387][577]LogHandshake: SendChallengeResponse. Timestamp: 0.333334, Cookie: 058009051109051119246073231094086220213009226036142065206117
+[2018.03.20-16.29.27:481][578]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64592
+[2018.03.20-16.29.27:482][578]LogHandshake: SendChallengeAck. InCookie: 058009051109051119246073231094086220213009226036142065206117
+[2018.03.20-16.29.27:482][578]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64592
+[2018.03.20-16.29.27:482][578]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.29.27:483][578]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:29:27, [UNetConnection] RemoteAddr: 127.0.0.1:64592, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.29.27:483][578]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64592, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.29.27:486][578]LogNetVersion: SoulsLikeTest 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1158118827)
+[2018.03.20-16.29.27:487][578]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.29.27:509][579]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.29.27:509][579]LogNet: Remote platform little endian=1
+[2018.03.20-16.29.27:510][579]LogNet: This platform little endian=1
+[2018.03.20-16.29.27:531][580]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4 userId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4
+[2018.03.20-16.29.27:532][580]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.29.27:569][580]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.29.27:588][580]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.29.27:588][580]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.29.27:590][580]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.29.27
+[2018.03.20-16.29.27:591][580]LogWorld: Bringing up level for play took: 0.001560
+[2018.03.20-16.29.27:592][580]LogLoad: Took 0.022889 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.29.27:611][581]LogNet: Client netspeed is 10000
+[2018.03.20-16.29.27:611][581]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4?SplitscreenCount=1
+[2018.03.20-16.29.27:612][581]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.29.27:620][581]LogRenderer: Reallocating scene render targets to support 932x472 Format 9 NumSamples 1 (Frame:1).
+[2018.03.20-16.29.27:620][581]LogNet: Join succeeded: LAPTOP-33RH8CBR-A2A8
+[2018.03.20-16.29.27:646][582]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.29.27:675][584]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.29.56:870][335]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.29.57:670][383]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.30.21:204][795]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.30.26:271][ 99]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.30.27:304][161]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.30.28:004][203]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.30.29:092][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.30.31:599][393]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.30.31:646][393]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.30.31:646][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.30.31:648][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.30.31:648][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.30.31:648][393]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.30.31:678][393]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.30.31:678][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.30.31:679][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.30.31:679][393]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.30.31:679][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.30.31:691][393]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64592, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4
+[2018.03.20-16.30.31:692][393]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64592, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4, Channels: 2, Time: 2018.03.20-16.30.31
+[2018.03.20-16.30.31:693][393]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64592, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4
+[2018.03.20-16.30.31:694][393]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4
+[2018.03.20-16.30.31:694][393]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4, Channels: 2, Time: 2018.03.20-16.30.31
+[2018.03.20-16.30.31:695][393]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-A2A806AD4332017281D9698065B415A4
+[2018.03.20-16.30.31:699][393]LogExit: GameNetDriver None shut down
+[2018.03.20-16.30.31:699][393]LogExit: GameNetDriver None shut down
+[2018.03.20-16.30.31:719][394]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.03.20-16.30.31:719][394]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.30.31:719][394]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.03.20-16.30.31:719][394]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.30.48:760][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.30.48:787][478]LogSlate: Took 0.003631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.03.20-16.30.54:772][831]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.03.20-16.30.55:085][831]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.03.20-16.30.55:879][831]LogSlate: Took 0.004144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.20-16.30.56:017][832]LogSlate: Took 0.004748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.20-16.31.03:918][300]LogRenderer: Reallocating scene render targets to support 932x480 Format 9 NumSamples 1 (Frame:1).
+[2018.03.20-16.31.21:942][344]LogSkeletalMesh: Skeletal Mesh found in DDC [9.930023ms] /Game/SoulsLike/Characters/Paladin/Old/paladin_prop_j_nordstrom.paladin_prop_j_nordstrom
+[2018.03.20-16.31.26:503][485]LogSlate: Window 'BP_Player' being destroyed
+[2018.03.20-16.34.14:347][952]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.34.14:382][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.34.14:383][952]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:34:14 PM)
+[2018.03.20-16.34.14:383][952]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.34.14:386][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002054s)
+[2018.03.20-16.34.14:386][952]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.34.14:387][952]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.03.20-16.34.14:387][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003480s)
+[2018.03.20-16.34.14:414][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.34.14:432][952]LogInit: FAudioDevice initialized.
+[2018.03.20-16.34.14:526][952]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.34.14:528][952]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.34.14
+[2018.03.20-16.34.14:529][952]LogWorld: Bringing up level for play took: 0.001375
+[2018.03.20-16.34.14:543][952]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.34.14:543][952]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.03.20-16.34.14:543][952]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.34.14:544][952]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.34.14:544][952]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.34.14:544][952]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.03.20-16.34.14:555][952]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 -0.484
+[2018.03.20-16.34.14:558][952]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:34:14 PM)
+[2018.03.20-16.34.14:569][952]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.34.14:660][952]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.34.14:661][952]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.34.14:661][952]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.03.20-16.34.14:661][952]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.34.14:661][952]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.34.14:662][952]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.34.14:662][952]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.34.14:673][952]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 -0.367
+[2018.03.20-16.34.14:694][952]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61416
+[2018.03.20-16.34.14:695][952]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 225006226025216010113148186208062101167146197064059246076202
+[2018.03.20-16.34.14:696][952]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 225006226025216010113148186208062101167146197064059246076202
+[2018.03.20-16.34.14:753][952]LogRenderer: Reallocating scene render targets to support 932x504 Format 9 NumSamples 1 (Frame:1).
+[2018.03.20-16.34.14:864][953]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61416
+[2018.03.20-16.34.14:864][953]LogHandshake: SendChallengeAck. InCookie: 225006226025216010113148186208062101167146197064059246076202
+[2018.03.20-16.34.14:864][953]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61416
+[2018.03.20-16.34.14:864][953]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.34.14:865][953]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:34:14, [UNetConnection] RemoteAddr: 127.0.0.1:61416, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.34.14:865][953]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61416, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.34.14:866][953]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.34.14:879][954]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.34.14:880][954]LogNet: Remote platform little endian=1
+[2018.03.20-16.34.14:880][954]LogNet: This platform little endian=1
+[2018.03.20-16.34.14:914][955]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861 userId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861
+[2018.03.20-16.34.14:915][955]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.34.14:931][955]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.34.14:970][955]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.34.14:971][955]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.34.14:973][955]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.34.14
+[2018.03.20-16.34.14:973][955]LogWorld: Bringing up level for play took: 0.001622
+[2018.03.20-16.34.14:974][955]LogLoad: Took 0.042502 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.34.14:987][956]LogNet: Client netspeed is 10000
+[2018.03.20-16.34.14:988][956]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861?SplitscreenCount=1
+[2018.03.20-16.34.14:989][956]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.34.14:992][956]LogNet: Join succeeded: LAPTOP-33RH8CBR-B1A3
+[2018.03.20-16.34.15:011][957]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.34.15:058][960]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.34.23:420][461]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.34.24:109][502]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.34.25:059][559]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.34.26:093][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.34.30:640][804]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.34.32:355][893]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.34.32:387][893]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.34.32:387][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.34.32:388][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.34.32:389][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.34.32:389][893]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.34.32:408][893]LogSlate: Window 'SoulsLikeTest Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.34.32:452][893]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.34.32:452][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.34.32:454][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.34.32:454][893]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.34.32:454][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.34.32:477][893]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61416, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861
+[2018.03.20-16.34.32:478][893]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61416, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861, Channels: 2, Time: 2018.03.20-16.34.32
+[2018.03.20-16.34.32:478][893]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61416, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861
+[2018.03.20-16.34.32:479][893]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861
+[2018.03.20-16.34.32:480][893]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861, Channels: 2, Time: 2018.03.20-16.34.32
+[2018.03.20-16.34.32:480][893]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-B1A371004C5E083F8C5C25B505912861
+[2018.03.20-16.34.32:484][893]LogExit: GameNetDriver None shut down
+[2018.03.20-16.34.32:484][893]LogExit: GameNetDriver None shut down
+[2018.03.20-16.34.32:514][894]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.03.20-16.34.32:514][894]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.34.32:514][894]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.03.20-16.34.32:514][894]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.35.10:435][126]LogSavePackage: Save=39.34ms
+[2018.03.20-16.35.10:436][126]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Weapon87199FE543227A1908CF2C93BA793861.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.35.10:442][126]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.35.10:773][146]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.35.13:468][265]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.35.13:508][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.35.13:509][265]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:35:13 PM)
+[2018.03.20-16.35.13:510][265]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.35.13:512][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002064s)
+[2018.03.20-16.35.13:513][265]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.35.13:513][265]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2018.03.20-16.35.13:513][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003590s)
+[2018.03.20-16.35.13:541][265]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.35.13:555][265]LogInit: FAudioDevice initialized.
+[2018.03.20-16.35.13:586][265]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.35.13:588][265]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.35.13
+[2018.03.20-16.35.13:588][265]LogWorld: Bringing up level for play took: 0.001318
+[2018.03.20-16.35.13:602][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.35.13:602][265]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.03.20-16.35.13:602][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.35.13:603][265]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.35.13:603][265]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.35.13:603][265]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.03.20-16.35.13:604][265]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.564
+[2018.03.20-16.35.13:605][265]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:35:13 PM)
+[2018.03.20-16.35.13:615][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.35.13:695][265]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.35.13:696][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.35.13:696][265]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.03.20-16.35.13:696][265]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.35.13:696][265]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.35.13:697][265]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.35.13:697][265]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.35.13:701][265]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.662
+[2018.03.20-16.35.13:713][265]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65496
+[2018.03.20-16.35.13:714][265]LogHandshake: SendConnectChallenge. Timestamp: 0.018041, Cookie: 115151241253171065156006111179127094199113025069092129046166
+[2018.03.20-16.35.13:715][265]LogHandshake: SendChallengeResponse. Timestamp: 0.018041, Cookie: 115151241253171065156006111179127094199113025069092129046166
+[2018.03.20-16.35.13:777][266]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65496
+[2018.03.20-16.35.13:777][266]LogHandshake: SendChallengeAck. InCookie: 115151241253171065156006111179127094199113025069092129046166
+[2018.03.20-16.35.13:778][266]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65496
+[2018.03.20-16.35.13:778][266]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.35.13:778][266]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:35:13, [UNetConnection] RemoteAddr: 127.0.0.1:65496, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.35.13:779][266]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65496, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.35.13:780][266]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.35.13:793][267]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.35.13:794][267]LogNet: Remote platform little endian=1
+[2018.03.20-16.35.13:794][267]LogNet: This platform little endian=1
+[2018.03.20-16.35.13:813][268]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9 userId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9
+[2018.03.20-16.35.13:814][268]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.35.13:830][268]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.35.13:859][268]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.35.13:860][268]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.35.13:862][268]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.35.13
+[2018.03.20-16.35.13:862][268]LogWorld: Bringing up level for play took: 0.001494
+[2018.03.20-16.35.13:863][268]LogLoad: Took 0.032268 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.35.13:885][269]LogNet: Client netspeed is 10000
+[2018.03.20-16.35.13:885][269]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9?SplitscreenCount=1
+[2018.03.20-16.35.13:886][269]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.35.13:890][269]LogNet: Join succeeded: LAPTOP-33RH8CBR-E0FD
+[2018.03.20-16.35.13:913][270]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.35.13:958][272]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.35.18:750][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.35.23:798][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.35.28:049][649]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.35.28:762][668]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.35.29:488][686]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.35.30:143][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.35.38:132][895]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.35.38:186][895]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.35.38:187][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.35.38:188][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.35.38:188][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.35.38:188][895]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.35.38:219][895]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.35.38:219][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.35.38:221][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.35.38:221][895]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.35.38:221][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.35.38:243][895]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65496, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9
+[2018.03.20-16.35.38:244][895]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65496, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9, Channels: 2, Time: 2018.03.20-16.35.38
+[2018.03.20-16.35.38:244][895]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65496, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9
+[2018.03.20-16.35.38:245][895]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9
+[2018.03.20-16.35.38:246][895]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9, Channels: 2, Time: 2018.03.20-16.35.38
+[2018.03.20-16.35.38:246][895]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-E0FDD81C4950D02921C2F99FFCD128C9
+[2018.03.20-16.35.38:250][895]LogExit: GameNetDriver None shut down
+[2018.03.20-16.35.38:251][895]LogExit: GameNetDriver None shut down
+[2018.03.20-16.35.38:300][896]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.03.20-16.35.38:300][896]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.35.38:300][896]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.03.20-16.35.38:300][896]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.35.40:644][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.35.48:292][304]LogSavePackage: Save=40.04ms
+[2018.03.20-16.35.48:292][304]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_WeaponEE941CFC4C813F64A7EB138F9E71BB81.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.35.48:296][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.35.48:675][314]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.37.21:625][820]LogSavePackage: Save=41.81ms
+[2018.03.20-16.37.21:625][820]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_WeaponC2B76AF343BE14548F3CE6B1A6292F50.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.37.21:629][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.37.21:945][834]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.37.24:609][883]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.37.24:652][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.37.24:653][883]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:37:24 PM)
+[2018.03.20-16.37.24:653][883]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.37.24:656][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002388s)
+[2018.03.20-16.37.24:656][883]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.37.24:657][883]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2018.03.20-16.37.24:657][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003895s)
+[2018.03.20-16.37.24:685][883]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.37.24:699][883]LogInit: FAudioDevice initialized.
+[2018.03.20-16.37.24:730][883]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.37.24:732][883]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.37.24
+[2018.03.20-16.37.24:732][883]LogWorld: Bringing up level for play took: 0.001191
+[2018.03.20-16.37.24:746][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.37.24:747][883]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.03.20-16.37.24:747][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.37.24:747][883]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.37.24:748][883]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.37.24:748][883]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.03.20-16.37.24:748][883]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 -0.291
+[2018.03.20-16.37.24:750][883]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:37:24 PM)
+[2018.03.20-16.37.24:759][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.24:846][883]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.37.24:846][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.37.24:846][883]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.03.20-16.37.24:846][883]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.37.24:847][883]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.37.24:847][883]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.37.24:847][883]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.37.24:851][883]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 -0.189
+[2018.03.20-16.37.24:861][883]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59348
+[2018.03.20-16.37.24:862][883]LogHandshake: SendConnectChallenge. Timestamp: 0.043033, Cookie: 160093016115243014061011210162131172082189162195084020212029
+[2018.03.20-16.37.24:863][883]LogHandshake: SendChallengeResponse. Timestamp: 0.043033, Cookie: 160093016115243014061011210162131172082189162195084020212029
+[2018.03.20-16.37.24:942][884]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59348
+[2018.03.20-16.37.24:942][884]LogHandshake: SendChallengeAck. InCookie: 160093016115243014061011210162131172082189162195084020212029
+[2018.03.20-16.37.24:942][884]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59348
+[2018.03.20-16.37.24:942][884]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.37.24:943][884]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:37:24, [UNetConnection] RemoteAddr: 127.0.0.1:59348, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.37.24:943][884]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59348, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.37.24:944][884]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.37.24:958][885]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.37.24:959][885]LogNet: Remote platform little endian=1
+[2018.03.20-16.37.24:959][885]LogNet: This platform little endian=1
+[2018.03.20-16.37.24:990][886]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A userId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A
+[2018.03.20-16.37.24:992][886]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.37.25:024][886]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.37.25:055][886]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.37.25:056][886]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.37.25:058][886]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.37.25
+[2018.03.20-16.37.25:058][886]LogWorld: Bringing up level for play took: 0.001592
+[2018.03.20-16.37.25:059][886]LogLoad: Took 0.034692 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.37.25:081][887]LogNet: Client netspeed is 10000
+[2018.03.20-16.37.25:081][887]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A?SplitscreenCount=1
+[2018.03.20-16.37.25:082][887]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.37.25:085][887]LogNet: Join succeeded: LAPTOP-33RH8CBR-DE96
+[2018.03.20-16.37.25:119][888]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.37.25:151][889]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.37.28:523][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.30:857][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.33:606][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.35:638][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.39:067][231]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.37.39:908][256]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.37.42:395][305]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_AskeladAxe_38. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.37.43:473][329]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.37.47:300][421]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.37.47:338][421]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.37.47:338][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.37.47:339][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.37.47:339][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.37.47:339][421]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.37.47:370][421]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.37.47:370][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.37.47:371][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.37.47:371][421]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.37.47:371][421]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.37.47:397][421]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59348, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A
+[2018.03.20-16.37.47:398][421]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59348, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A, Channels: 2, Time: 2018.03.20-16.37.47
+[2018.03.20-16.37.47:398][421]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59348, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A
+[2018.03.20-16.37.47:399][421]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A
+[2018.03.20-16.37.47:400][421]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A, Channels: 2, Time: 2018.03.20-16.37.47
+[2018.03.20-16.37.47:400][421]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-DE96CBBB4ECAE704B76C9A84C472B20A
+[2018.03.20-16.37.47:404][421]LogExit: GameNetDriver None shut down
+[2018.03.20-16.37.47:405][421]LogExit: GameNetDriver None shut down
+[2018.03.20-16.37.47:455][422]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.03.20-16.37.47:456][422]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.37.47:456][422]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.03.20-16.37.47:456][422]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.37.50:664][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.37.59:648][810]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.38.01:055][835]LogSavePackage: Save=39.37ms
+[2018.03.20-16.38.01:056][835]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Weapon87F10E5E43D7BAA3AE219ABA04A0A71E.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.38.01:059][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.38.02:906][901]LogSavePackage: Save=28.38ms
+[2018.03.20-16.38.02:907][901]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001AAB3C9694078A78A314954822D1EEC8C.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
+[2018.03.20-16.38.02:911][901]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.03.20-16.38.03:144][901]LogSavePackage: Save=17.68ms
+[2018.03.20-16.38.03:144][901]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltData3950EEB148D972BB09EB7DA04632243B.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
+[2018.03.20-16.38.03:146][901]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
+[2018.03.20-16.38.03:453][910]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.38.03:494][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.38.03:495][910]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:38:03 PM)
+[2018.03.20-16.38.03:495][910]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.38.03:498][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2018.03.20-16.38.03:498][910]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.38.03:499][910]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2018.03.20-16.38.03:499][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003369s)
+[2018.03.20-16.38.03:525][910]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.38.03:537][910]LogInit: FAudioDevice initialized.
+[2018.03.20-16.38.03:576][910]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.38.03:580][910]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.38.03
+[2018.03.20-16.38.03:581][910]LogWorld: Bringing up level for play took: 0.002846
+[2018.03.20-16.38.03:599][910]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.03:600][910]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.03.20-16.38.03:600][910]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.03:601][910]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.38.03:602][910]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.03:602][910]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2018.03.20-16.38.03:604][910]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.564
+[2018.03.20-16.38.03:607][910]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:38:03 PM)
+[2018.03.20-16.38.03:628][910]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.38.03:786][910]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.38.03:786][910]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.03:787][910]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.03.20-16.38.03:787][910]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.38.03:788][910]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.38.03:789][910]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.03:790][910]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.38.03:799][910]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.759
+[2018.03.20-16.38.03:827][910]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51829
+[2018.03.20-16.38.03:828][910]LogHandshake: SendConnectChallenge. Timestamp: 0.028226, Cookie: 195135185088038041131177219002242105246059184110149161121204
+[2018.03.20-16.38.03:833][910]LogHandshake: SendChallengeResponse. Timestamp: 0.028226, Cookie: 195135185088038041131177219002242105246059184110149161121204
+[2018.03.20-16.38.04:142][911]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51829
+[2018.03.20-16.38.04:143][911]LogHandshake: SendChallengeAck. InCookie: 195135185088038041131177219002242105246059184110149161121204
+[2018.03.20-16.38.04:143][911]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51829
+[2018.03.20-16.38.04:144][911]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.04:146][911]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:38:04, [UNetConnection] RemoteAddr: 127.0.0.1:51829, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.04:147][911]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51829, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.04:150][911]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.04:184][912]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.38.04:184][912]LogNet: Remote platform little endian=1
+[2018.03.20-16.38.04:185][912]LogNet: This platform little endian=1
+[2018.03.20-16.38.04:274][913]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F userId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F
+[2018.03.20-16.38.04:277][913]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.38.04:356][913]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.38.04:422][913]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.38.04:422][913]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.04:426][913]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.38.04
+[2018.03.20-16.38.04:427][913]LogWorld: Bringing up level for play took: 0.002404
+[2018.03.20-16.38.04:427][913]LogLoad: Took 0.071058 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.38.04:462][914]LogNet: Client netspeed is 10000
+[2018.03.20-16.38.04:462][914]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F?SplitscreenCount=1
+[2018.03.20-16.38.04:464][914]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.04:468][914]LogNet: Join succeeded: LAPTOP-33RH8CBR-268B
+[2018.03.20-16.38.04:525][915]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.04:526][915]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.06:299][955]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.38.06:338][955]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.06:338][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.38.06:340][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.38.06:340][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.38.06:341][955]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.38.06:387][955]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.06:388][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.38.06:390][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.38.06:390][955]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.38.06:391][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.38.06:459][955]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51829, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F
+[2018.03.20-16.38.06:462][955]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51829, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F, Channels: 2, Time: 2018.03.20-16.38.06
+[2018.03.20-16.38.06:463][955]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51829, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F
+[2018.03.20-16.38.06:465][955]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F
+[2018.03.20-16.38.06:468][955]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F, Channels: 2, Time: 2018.03.20-16.38.06
+[2018.03.20-16.38.06:469][955]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-268B831C4132FBB6353C9A88AA5D113F
+[2018.03.20-16.38.06:479][955]LogExit: GameNetDriver None shut down
+[2018.03.20-16.38.06:480][955]LogExit: GameNetDriver None shut down
+[2018.03.20-16.38.06:565][956]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.03.20-16.38.06:566][956]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.06:566][956]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.03.20-16.38.06:567][956]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.06:675][957]Cmd: SELECT NONE
+[2018.03.20-16.38.07:639][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.38.07:757][979]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.38.07:796][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.38.07:797][979]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:38:07 PM)
+[2018.03.20-16.38.07:797][979]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-16.38.07:800][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002088s)
+[2018.03.20-16.38.07:801][979]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.38.07:801][979]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2018.03.20-16.38.07:801][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003820s)
+[2018.03.20-16.38.07:824][979]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.38.07:837][979]LogInit: FAudioDevice initialized.
+[2018.03.20-16.38.07:872][979]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-16.38.07:874][979]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.38.07
+[2018.03.20-16.38.07:874][979]LogWorld: Bringing up level for play took: 0.001504
+[2018.03.20-16.38.07:888][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.07:889][979]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.03.20-16.38.07:889][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.07:889][979]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-16.38.07:889][979]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.07:890][979]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2018.03.20-16.38.07:890][979]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.851
+[2018.03.20-16.38.07:892][979]PIE: New page: PIE session: Map001 (Mar 20, 2018, 6:38:07 PM)
+[2018.03.20-16.38.07:900][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.38.08:041][979]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-16.38.08:042][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.08:042][979]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.03.20-16.38.08:043][979]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-16.38.08:043][979]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-16.38.08:045][979]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.08:046][979]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-16.38.08:056][979]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 1.016
+[2018.03.20-16.38.08:090][979]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51830
+[2018.03.20-16.38.08:091][979]LogHandshake: SendConnectChallenge. Timestamp: 0.036999, Cookie: 157157234061034022097229215242154124043048031091183124231106
+[2018.03.20-16.38.08:096][979]LogHandshake: SendChallengeResponse. Timestamp: 0.036999, Cookie: 157157234061034022097229215242154124043048031091183124231106
+[2018.03.20-16.38.08:282][980]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51830
+[2018.03.20-16.38.08:283][980]LogHandshake: SendChallengeAck. InCookie: 157157234061034022097229215242154124043048031091183124231106
+[2018.03.20-16.38.08:284][980]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51830
+[2018.03.20-16.38.08:284][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-16.38.08:285][980]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 17:38:08, [UNetConnection] RemoteAddr: 127.0.0.1:51830, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.08:287][980]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51830, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.08:290][980]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-16.38.08:323][981]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-16.38.08:324][981]LogNet: Remote platform little endian=1
+[2018.03.20-16.38.08:325][981]LogNet: This platform little endian=1
+[2018.03.20-16.38.08:390][982]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385 userId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385
+[2018.03.20-16.38.08:394][982]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-16.38.08:455][982]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-16.38.08:527][982]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-16.38.08:528][982]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-16.38.08:532][982]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-17.38.08
+[2018.03.20-16.38.08:533][982]LogWorld: Bringing up level for play took: 0.003008
+[2018.03.20-16.38.08:534][982]LogLoad: Took 0.079311 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-16.38.08:570][983]LogNet: Client netspeed is 10000
+[2018.03.20-16.38.08:571][983]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385?SplitscreenCount=1
+[2018.03.20-16.38.08:572][983]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.08:576][983]LogNet: Join succeeded: LAPTOP-33RH8CBR-12D9
+[2018.03.20-16.38.08:633][984]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.08:635][984]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-16.38.11:052][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.38.19:544][294]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_PaladinSword_77. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.38.20:279][317]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_PaladinSword_77. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.38.20:955][338]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_PaladinSword_77. Function Destroy Weapon Event will not be processed.
+[2018.03.20-16.38.21:674][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.38.24:589][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-16.38.24:662][425]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-16.38.24:692][425]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.24:692][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.38.24:693][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.38.24:693][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.38.24:693][425]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-16.38.24:724][425]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.24:724][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-16.38.24:725][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-16.38.24:725][425]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-16.38.24:726][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-16.38.24:750][425]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51830, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385
+[2018.03.20-16.38.24:750][425]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51830, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385, Channels: 2, Time: 2018.03.20-16.38.24
+[2018.03.20-16.38.24:751][425]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51830, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385
+[2018.03.20-16.38.24:751][425]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385
+[2018.03.20-16.38.24:752][425]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385, Channels: 2, Time: 2018.03.20-16.38.24
+[2018.03.20-16.38.24:752][425]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-12D90EEE48A4AB049916E998D44D4385
+[2018.03.20-16.38.24:757][425]LogExit: GameNetDriver None shut down
+[2018.03.20-16.38.24:757][425]LogExit: GameNetDriver None shut down
+[2018.03.20-16.38.24:803][426]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.03.20-16.38.24:803][426]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.24:803][426]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.03.20-16.38.24:803][426]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-16.38.46:137][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-16.38.56:723][841]LogSavePackage: Save=41.58ms
+[2018.03.20-16.38.56:723][841]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_WeaponA836D31743269C7E531AA9A6E804D18A.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.38.56:727][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.38.57:082][858]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.40.47:397][272]LogSavePackage: Save=36.72ms
+[2018.03.20-16.40.47:397][272]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_WeaponE958726149C55B397B68AF9F55233D34.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.40.47:403][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.40.48:174][310]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.40.48:209][310]LogBlueprint: Error: [Compiler BP_Weapon] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2018.03.20-16.40.48:353][310]LogBlueprint: Warning: [Compiler BP_Weapon] [0887.87] Compile of BP_Weapon failed. 1 Fatal Issue(s) 0 Warning(s) [in 178 ms] (/Game/SoulsLike/Weapons/BP_Weapon.BP_Weapon)
+[2018.03.20-16.44.33:020][914]LogSavePackage: Save=36.29ms
+[2018.03.20-16.44.33:020][914]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_Weapon0723C1154FA0B36047716C9F5032C9A4.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset'
+[2018.03.20-16.44.33:026][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/BP_Weapon.uasset
+[2018.03.20-16.44.33:429][931]BlueprintLog: New page: Compile BP_Weapon
+[2018.03.20-16.44.35:182][976]LogSavePackage: Save=31.11ms
+[2018.03.20-16.44.35:182][976]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map0013CC5CC334EA15439BA29C4BB9D39F5EA.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
+[2018.03.20-16.44.35:187][976]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.03.20-16.44.35:444][976]LogSavePackage: Save=13.30ms
+[2018.03.20-16.44.35:445][976]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltData0500B22C47B148A3A1699F8A23338285.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
+[2018.03.20-16.44.35:447][976]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
+[2018.03.20-16.54.35:502][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulsLike/Maps/Map001' took 0.033
+[2018.03.20-16.54.35:505][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe] ([1] browsable assets)...
+[2018.03.20-16.54.35:506][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe]
+[2018.03.20-16.54.35:570][766]LogSavePackage: Save=14.26ms
+[2018.03.20-16.54.35:570][766]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_AskeladAxe_Auto171EE4EF6415055CCF52C96ABA5B0B714.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe_Auto1.uasset'
+[2018.03.20-16.54.35:572][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe_Auto1.uasset
+[2018.03.20-16.54.35:574][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword] ([1] browsable assets)...
+[2018.03.20-16.54.35:574][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword]
+[2018.03.20-16.54.35:624][766]LogSavePackage: Save=8.70ms
+[2018.03.20-16.54.35:624][766]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinSword_Auto186F3D8404F9A8FA5958BDD8DFE17C53F.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword_Auto1.uasset'
+[2018.03.20-16.54.35:626][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Weapons/PaladinSword/BP_PaladinSword_Auto1.uasset
+[2018.03.20-16.54.35:627][766]LogFileHelpers: Auto-saving content packages took 0.123
+[2018.03.20-17.44.03:785][867]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-17.44.03:829][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.44.03:831][867]PIE: New page: PIE session: Map001 (Mar 20, 2018, 7:44:03 PM)
+[2018.03.20-17.44.03:831][867]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-17.44.03:834][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002485s)
+[2018.03.20-17.44.03:835][867]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-17.44.03:835][867]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2018.03.20-17.44.03:835][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.004440s)
+[2018.03.20-17.44.03:862][867]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.44.03:876][867]LogInit: FAudioDevice initialized.
+[2018.03.20-17.44.03:908][867]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-17.44.03:910][867]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-18.44.03
+[2018.03.20-17.44.03:911][867]LogWorld: Bringing up level for play took: 0.001304
+[2018.03.20-17.44.03:924][867]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.44.03:925][867]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.03.20-17.44.03:925][867]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.44.03:925][867]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-17.44.03:925][867]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.44.03:925][867]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2018.03.20-17.44.03:926][867]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.899
+[2018.03.20-17.44.03:927][867]PIE: New page: PIE session: Map001 (Mar 20, 2018, 7:44:03 PM)
+[2018.03.20-17.44.03:935][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-17.44.04:027][867]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-17.44.04:027][867]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.44.04:027][867]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2018.03.20-17.44.04:027][867]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-17.44.04:027][867]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-17.44.04:028][867]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.44.04:028][867]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-17.44.04:032][867]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 1.004
+[2018.03.20-17.44.04:043][867]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51193
+[2018.03.20-17.44.04:043][867]LogHandshake: SendConnectChallenge. Timestamp: 0.030463, Cookie: 060172075199099192217030003054104209154112199108094001115069
+[2018.03.20-17.44.04:044][867]LogHandshake: SendChallengeResponse. Timestamp: 0.030463, Cookie: 060172075199099192217030003054104209154112199108094001115069
+[2018.03.20-17.44.04:123][868]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51193
+[2018.03.20-17.44.04:124][868]LogHandshake: SendChallengeAck. InCookie: 060172075199099192217030003054104209154112199108094001115069
+[2018.03.20-17.44.04:124][868]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51193
+[2018.03.20-17.44.04:124][868]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.44.04:125][868]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 18:44:04, [UNetConnection] RemoteAddr: 127.0.0.1:51193, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.44.04:125][868]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51193, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.44.04:126][868]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.44.04:139][869]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-17.44.04:139][869]LogNet: Remote platform little endian=1
+[2018.03.20-17.44.04:139][869]LogNet: This platform little endian=1
+[2018.03.20-17.44.04:164][870]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B userId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B
+[2018.03.20-17.44.04:166][870]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-17.44.04:187][870]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-17.44.04:215][870]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-17.44.04:216][870]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.44.04:218][870]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-18.44.04
+[2018.03.20-17.44.04:219][870]LogWorld: Bringing up level for play took: 0.001537
+[2018.03.20-17.44.04:219][870]LogLoad: Took 0.032371 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-17.44.04:238][871]LogNet: Client netspeed is 10000
+[2018.03.20-17.44.04:238][871]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B?SplitscreenCount=1
+[2018.03.20-17.44.04:239][871]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.44.04:242][871]LogNet: Join succeeded: LAPTOP-33RH8CBR-4BD5
+[2018.03.20-17.44.04:266][872]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.44.04:314][874]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.44.09:678][ 78]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-17.44.09:712][ 78]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.44.09:712][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-17.44.09:713][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-17.44.09:713][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-17.44.09:713][ 78]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-17.44.09:744][ 78]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.44.09:744][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-17.44.09:745][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-17.44.09:745][ 78]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-17.44.09:745][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-17.44.09:770][ 78]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51193, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B
+[2018.03.20-17.44.09:771][ 78]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51193, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B, Channels: 2, Time: 2018.03.20-17.44.09
+[2018.03.20-17.44.09:771][ 78]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51193, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B
+[2018.03.20-17.44.09:772][ 78]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B
+[2018.03.20-17.44.09:773][ 78]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B, Channels: 2, Time: 2018.03.20-17.44.09
+[2018.03.20-17.44.09:773][ 78]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-4BD574A843C89A0386177BA9341AF10B
+[2018.03.20-17.44.09:777][ 78]LogExit: GameNetDriver None shut down
+[2018.03.20-17.44.09:778][ 78]LogExit: GameNetDriver None shut down
+[2018.03.20-17.44.09:825][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.03.20-17.44.09:825][ 79]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.44.09:825][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.03.20-17.44.09:825][ 79]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.45.14:890][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-17.45.15:030][436]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-17.45.15:061][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.45.15:063][436]PIE: New page: PIE session: Map001 (Mar 20, 2018, 7:45:15 PM)
+[2018.03.20-17.45.15:063][436]LogPlayLevel: Creating play world package: /Game/SoulsLike/Maps/UEDPIE_1_Map001
+[2018.03.20-17.45.15:065][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001663s)
+[2018.03.20-17.45.15:066][436]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-17.45.15:066][436]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2018.03.20-17.45.15:067][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulsLike/Maps/Map001.Map001 to /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 (0.003816s)
+[2018.03.20-17.45.15:093][436]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.45.15:106][436]LogInit: FAudioDevice initialized.
+[2018.03.20-17.45.15:139][436]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.03.20-17.45.15:141][436]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-18.45.15
+[2018.03.20-17.45.15:142][436]LogWorld: Bringing up level for play took: 0.001167
+[2018.03.20-17.45.15:156][436]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.45.15:157][436]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2018.03.20-17.45.15:157][436]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.45.15:157][436]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.20-17.45.15:157][436]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.45.15:158][436]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2018.03.20-17.45.15:158][436]PIE: Play in editor start time for /Game/SoulsLike/Maps/UEDPIE_1_Map001 0.131
+[2018.03.20-17.45.15:159][436]PIE: New page: PIE session: Map001 (Mar 20, 2018, 7:45:15 PM)
+[2018.03.20-17.45.15:167][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.03.20-17.45.15:253][436]LogNet: Browse: 127.0.0.1:17777//Game/SoulsLike/Maps/Map001
+[2018.03.20-17.45.15:253][436]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.45.15:253][436]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2018.03.20-17.45.15:253][436]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.20-17.45.15:253][436]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.20-17.45.15:254][436]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.45.15:254][436]LogNet: Game client on port 17777, rate 10000
+[2018.03.20-17.45.15:258][436]PIE: Play in editor start time for /Game/SoulsLike/Maps/Map001 0.23
+[2018.03.20-17.45.15:268][436]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51659
+[2018.03.20-17.45.15:269][436]LogHandshake: SendConnectChallenge. Timestamp: 0.023642, Cookie: 077142068011076008122048211209062118031113134104025223216176
+[2018.03.20-17.45.15:270][436]LogHandshake: SendChallengeResponse. Timestamp: 0.023642, Cookie: 077142068011076008122048211209062118031113134104025223216176
+[2018.03.20-17.45.15:341][437]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51659
+[2018.03.20-17.45.15:341][437]LogHandshake: SendChallengeAck. InCookie: 077142068011076008122048211209062118031113134104025223216176
+[2018.03.20-17.45.15:341][437]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51659
+[2018.03.20-17.45.15:342][437]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.20-17.45.15:342][437]LogNet: NotifyAcceptedConnection: Name: Map001, TimeStamp: 03/20/18 18:45:15, [UNetConnection] RemoteAddr: 127.0.0.1:51659, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.45.15:343][437]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51659, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.45.15:344][437]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.03.20-17.45.15:357][438]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulsLike/Maps/UEDPIE_1_Map001.Map001: Accepted
+[2018.03.20-17.45.15:357][438]LogNet: Remote platform little endian=1
+[2018.03.20-17.45.15:357][438]LogNet: This platform little endian=1
+[2018.03.20-17.45.15:378][439]LogNet: Login request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59 userId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59
+[2018.03.20-17.45.15:380][439]LogNet: Welcomed by server (Level: /Game/SoulsLike/Maps/UEDPIE_1_Map001, Game: /Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C)
+[2018.03.20-17.45.15:399][439]LogLoad: LoadMap: 127.0.0.1:17777//Game/SoulsLike/Maps/UEDPIE_1_Map001?game=/Game/SoulsLike/GM_SoulsLike.GM_SoulsLike_C
+[2018.03.20-17.45.15:428][439]LogAIModule: Creating AISystem for world Map001
+[2018.03.20-17.45.15:429][439]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.20-17.45.15:431][439]LogWorld: Bringing World /Game/SoulsLike/Maps/UEDPIE_2_Map001.Map001 up for play (max tick rate 60) at 2018.03.20-18.45.15
+[2018.03.20-17.45.15:431][439]LogWorld: Bringing up level for play took: 0.001567
+[2018.03.20-17.45.15:432][439]LogLoad: Took 0.032732 seconds to LoadMap(/Game/SoulsLike/Maps/UEDPIE_1_Map001)
+[2018.03.20-17.45.15:449][440]LogNet: Client netspeed is 10000
+[2018.03.20-17.45.15:450][440]LogNet: Join request: /Game/SoulsLike/Maps/Map001?Name=LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59?SplitscreenCount=1
+[2018.03.20-17.45.15:450][440]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.45.15:453][440]LogNet: Join succeeded: LAPTOP-33RH8CBR-2068
+[2018.03.20-17.45.15:484][441]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.45.15:529][443]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.20-17.45.16:423][477]LogSlate: Window 'SoulsLikeTest Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.03.20-17.45.16:457][477]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.45.16:457][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-17.45.16:458][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-17.45.16:458][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-17.45.16:458][477]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.03.20-17.45.16:489][477]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.45.16:489][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.20-17.45.16:490][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.20-17.45.16:490][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.20-17.45.16:490][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.20-17.45.16:512][477]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51659, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59
+[2018.03.20-17.45.16:513][477]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51659, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59, Channels: 2, Time: 2018.03.20-17.45.16
+[2018.03.20-17.45.16:514][477]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51659, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59
+[2018.03.20-17.45.16:514][477]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59
+[2018.03.20-17.45.16:515][477]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59, Channels: 2, Time: 2018.03.20-17.45.16
+[2018.03.20-17.45.16:515][477]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: LAPTOP-33RH8CBR-20683C43469D2B502C6868828199BF59
+[2018.03.20-17.45.16:520][477]LogExit: GameNetDriver None shut down
+[2018.03.20-17.45.16:520][477]LogExit: GameNetDriver None shut down
+[2018.03.20-17.45.16:564][478]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.03.20-17.45.16:565][478]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.45.16:565][478]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.03.20-17.45.16:565][478]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.20-17.45.22:352][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.03.20-17.53.55:323][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulsLike/Maps/Map001' took 0.030
+[2018.03.20-17.53.55:325][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Characters/BP_PlayerState] ([1] browsable assets)...
+[2018.03.20-17.53.55:325][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Characters/BP_PlayerState]
+[2018.03.20-17.53.55:392][376]LogSavePackage: Save=17.09ms
+[2018.03.20-17.53.55:392][376]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState_Auto2CCF0B9C3479ABA8E6F789FA7BB0BB765.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto2.uasset'
+[2018.03.20-17.53.55:395][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto2.uasset
+[2018.03.20-17.53.55:396][376]LogFileHelpers: Auto-saving content packages took 0.072
+[2018.03.20-18.00.15:275][637]LogSavePackage: Save=12.53ms
+[2018.03.20-18.00.15:275][637]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState452C5D4A4099EC5C38CFEE947231926D.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.00.15:285][637]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.00.15:408][639]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.00.15:418][639]LogBlueprint: Error: [Compiler BP_PlayerState] The type of  Object  is undetermined.  Connect something to  Cast To HUD  to imply a specific type.
+[2018.03.20-18.00.15:419][639]LogBlueprint: Error: [Compiler BP_PlayerState] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.03.20-18.00.15:549][639]LogBlueprint: Warning: [Compiler BP_PlayerState] [5655.08] Compile of BP_PlayerState failed. 2 Fatal Issue(s) 0 Warning(s) [in 139 ms] (/Game/SoulsLike/Characters/BP_PlayerState.BP_PlayerState)
+[2018.03.20-18.00.33:460][244]LogSavePackage: Save=13.73ms
+[2018.03.20-18.00.33:460][244]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState76893A4D451CEE7C493792A9174F8104.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.00.33:465][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.00.33:802][260]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.00.33:811][260]LogBlueprint: Warning: [Compiler BP_PlayerState] 'HUD' does not inherit from 'Player Controller' ( Cast To HUD  would always fail).
+[2018.03.20-18.00.33:812][260]LogBlueprint: Error: [Compiler BP_PlayerState] This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2018.03.20-18.00.33:813][260]LogBlueprint: Error: [Compiler BP_PlayerState] Variable node  Get PlayerOwner  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.20-18.00.33:910][260]LogBlueprint: Warning: [Compiler BP_PlayerState] [5673.44] Compile of BP_PlayerState failed. 2 Fatal Issue(s) 1 Warning(s) [in 107 ms] (/Game/SoulsLike/Characters/BP_PlayerState.BP_PlayerState)
+[2018.03.20-18.00.34:666][296]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.00.34:672][296]LogBlueprint: Warning: [Compiler BP_PlayerState] 'HUD' does not inherit from 'Player Controller' ( Cast To HUD  would always fail).
+[2018.03.20-18.00.34:673][296]LogBlueprint: Error: [Compiler BP_PlayerState] This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2018.03.20-18.00.34:673][296]LogBlueprint: Error: [Compiler BP_PlayerState] Variable node  Get PlayerOwner  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.20-18.00.34:776][296]LogBlueprint: Warning: [Compiler BP_PlayerState] [5674.31] Compile of BP_PlayerState failed. 2 Fatal Issue(s) 1 Warning(s) [in 110 ms] (/Game/SoulsLike/Characters/BP_PlayerState.BP_PlayerState)
+[2018.03.20-18.01.11:068][825]LogSavePackage: Save=10.64ms
+[2018.03.20-18.01.11:068][825]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState3C10BCA5499F7CD81DD9048138649D09.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.01.11:073][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.01.11:442][844]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.01.35:796][ 74]LogSavePackage: Save=9.93ms
+[2018.03.20-18.01.35:796][ 74]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState9AE82E4F48B39292AAAB9CB164822942.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.01.35:800][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.01.36:149][ 91]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.02.37:163][978]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.03.20-18.02.37:163][978]LogSynthBenchmark: Display: ===============
+[2018.03.20-18.02.37:163][978]LogSynthBenchmark: Display: Main Processor:
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:          ... 0.021584 s/Run 'RayIntersect'
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:          ... 0.021808 s/Run 'Fractal'
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display: 
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.03.20-18.02.37:207][978]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   CPU Perf Index 0: 118.7 (weight 1.00)
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   CPU Perf Index 1: 131.1 (weight 1.50)
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:  
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display: Graphics:
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 1060'
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.03.20-18.02.37:208][978]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.03.20-18.02.37:209][978]LogSynthBenchmark: Display:   Device Id: 0x1C20
+[2018.03.20-18.02.37:209][978]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2018.03.20-18.02.37:209][978]LogSynthBenchmark: Display:   GPU Memory: 6052/0/8139 MB
+[2018.03.20-18.02.37:362][978]LogSynthBenchmark: Display:   GPU first test: 0.03s
+[2018.03.20-18.02.37:363][978]LogSynthBenchmark: Display:          ... 0.314 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.03.20-18.02.37:363][978]LogSynthBenchmark: Display:          ... 0.262 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.03.20-18.02.37:363][978]LogSynthBenchmark: Display:          ... 0.206 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.03.20-18.02.37:363][978]LogSynthBenchmark: Display:          ... 0.720 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.03.20-18.02.37:363][978]LogSynthBenchmark: Display:          ... 0.049 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.03.20-18.02.37:364][978]LogSynthBenchmark: Display:          ... 15.674 s/GigaVert, Confidence=81% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.03.20-18.02.37:364][978]LogSynthBenchmark: Display:          ... 30.443 s/GigaVert, Confidence=70% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.03.20-18.02.37:543][978]LogSynthBenchmark: Display:   GPU second test: 0.14s
+[2018.03.20-18.02.37:544][978]LogSynthBenchmark: Display:          ... 3.623 s/GigaPix, Confidence=51% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.03.20-18.02.37:544][978]LogSynthBenchmark: Display:          ... 1.424 s/GigaPix, Confidence=51% 'TexHeavy' (likely to be inaccurate)
+[2018.03.20-18.02.37:544][978]LogSynthBenchmark: Display:          ... 1.195 s/GigaPix, Confidence=51% 'DepTexHeavy' (likely to be inaccurate)
+[2018.03.20-18.02.37:544][978]LogSynthBenchmark: Display:          ... 6.700 s/GigaPix, Confidence=51% 'FillOnly' (likely to be inaccurate)
+[2018.03.20-18.02.37:544][978]LogSynthBenchmark: Display:          ... 0.305 s/GigaPix, Confidence=51% 'Bandwidth' (likely to be inaccurate)
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 0.652 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 2.944 s/GigaVert, Confidence=51% 'VertThroughPut2' (likely to be inaccurate)
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 3.623 s/GigaPix, Confidence=51% 'ALUHeavyNoise'
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 1.424 s/GigaPix, Confidence=51% 'TexHeavy'
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 1.195 s/GigaPix, Confidence=51% 'DepTexHeavy'
+[2018.03.20-18.02.37:545][978]LogSynthBenchmark: Display:          ... 6.700 s/GigaPix, Confidence=51% 'FillOnly'
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:          ... 0.305 s/GigaPix, Confidence=51% 'Bandwidth'
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:          ... 0.652 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:          ... 2.944 s/GigaVert, Confidence=51% 'VertThroughPut2'
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display: 
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:   GPU Perf Index 0: 78.7 (weight 1.00)
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:   GPU Perf Index 1: 19.1 (weight 0.10)
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:   GPU Perf Index 2: 31.1 (weight 0.10)
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:   GPU Perf Index 3: 26.3 (weight 3.00)
+[2018.03.20-18.02.37:546][978]LogSynthBenchmark: Display:   GPU Perf Index 4: 28.5 (weight 1.00)
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display:   GPU Perf Index 5: 42.4 (weight 0.00)
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display:   GPU Perf Index 6: 166.6 (weight 0.00)
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display:   CPUIndex: 126.1
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display:   GPUIndex: 36.8
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display: 
+[2018.03.20-18.02.37:547][978]LogSynthBenchmark: Display:          ... Total Time: 0.384332 sec
+[2018.03.20-18.02.37:878][979]LogContentStreaming: Texture pool size now 600 MB
+[2018.03.20-18.02.49:111][ 31]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.03.15:590][338]LogRenderer: Reallocating scene render targets to support 932x504 Format 9 NumSamples 1 (Frame:3212).
+[2018.03.20-18.03.18:422][393]LogSavePackage: Save=24.15ms
+[2018.03.20-18.03.18:423][393]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map0017CA007D642996E9D4FC167B2B347E68A.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap'
+[2018.03.20-18.03.18:426][393]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001.umap
+[2018.03.20-18.03.18:844][393]LogSavePackage: Save=19.06ms
+[2018.03.20-18.03.18:845][393]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Map001_BuiltDataC2AD17FA454EE84EB3EF51B3884951A1.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset'
+[2018.03.20-18.03.18:846][393]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Maps/Map001_BuiltData.uasset
+[2018.03.20-18.03.21:237][403]LogSlate: Window 'Save Content' being destroyed
+[2018.03.20-18.03.21:984][403]LogSavePackage: Save=14.31ms
+[2018.03.20-18.03.21:984][403]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState79CE5F1448500CEA0459A29957F5E5F8.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.03.21:989][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.03.22:327][403]LogSavePackage: Save=11.64ms
+[2018.03.20-18.03.22:327][403]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_AskeladAxe5A4178DF44B45FF4F525DDA41A74605C.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe.uasset'
+[2018.03.20-18.03.22:333][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/AskeladAxe/BP_AskeladAxe.uasset
+[2018.03.20-18.03.22:655][403]LogSavePackage: Save=9.22ms
+[2018.03.20-18.03.22:655][403]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PaladinSword14FB016245BDDD2DD618F1910003D3E3.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/BP_PaladinSword.uasset'
+[2018.03.20-18.03.22:662][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Weapons/PaladinSword/BP_PaladinSword.uasset
+[2018.03.20-18.04.25:389][405]LogSlate: Took 0.004088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.20-18.04.53:847][780]LogSavePackage: Save=12.41ms
+[2018.03.20-18.04.53:847][780]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerStateAD7393074C2EB53C537ABC85DF598CA5.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.04.53:851][780]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.04.54:255][803]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.05.05:666][366]LogSavePackage: Save=14.87ms
+[2018.03.20-18.05.05:666][366]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerStateC13C3B1E45E0643960A46099E1C55766.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.05.05:671][366]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.09.43:178][536]LogSavePackage: Save=18.35ms
+[2018.03.20-18.09.43:178][536]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState731355A5479B2DFDF05F5984B3F8DDF9.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.09.43:187][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.09.45:717][568]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.13.48:884][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulsLike/Maps/Map001' took 0.033
+[2018.03.20-18.13.48:886][ 64]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Characters/BP_PlayerState] ([1] browsable assets)...
+[2018.03.20-18.13.48:887][ 64]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Characters/BP_PlayerState]
+[2018.03.20-18.13.48:946][ 64]LogSavePackage: Save=17.00ms
+[2018.03.20-18.13.48:946][ 64]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState_Auto30D011C96476F16634BE508B6F500EC60.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto3.uasset'
+[2018.03.20-18.13.48:958][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto3.uasset
+[2018.03.20-18.13.48:958][ 64]LogFileHelpers: Auto-saving content packages took 0.073
+[2018.03.20-18.15.38:686][786]LogSlate: Window 'Delete Variable' being destroyed
+[2018.03.20-18.15.53:737][743]LogSavePackage: Save=18.73ms
+[2018.03.20-18.15.53:738][743]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState5E260A684E8906270036EF8FF267AEA0.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.20-18.15.53:743][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.20-18.15.54:743][800]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-18.15.55:498][852]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.20-20.58.03:686][ 66]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.03.20-20.58.10:361][ 87]LogHttp: Warning: 0000017C52DA1D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.20-20.58.10:362][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17b80bfbfe8 [can pipeline])
+[2018.03.20-20.58.10:362][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 1 (Re-using existing connection! (#24) with host datarouter.ol.epicgames.com)
+[2018.03.20-20.58.10:362][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.26.67) port 443 (#24))
+[2018.03.20-20.58.10:362][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 3 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.03.20-20.58.10:363][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2018.03.20-20.58.10:363][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 5 (Closing connection 24)
+[2018.03.20-20.58.10:363][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 6 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94A10E44-4A84-1A9E-025F-9DB5731E2223%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=dd6758244badbcfb927022b8b5d446ac%7C348346a4f7aa4aef97f3ebe7ec714bf0%7C54192f61-66b7-4dae-8a4a-dc853c10f5fe&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.03.20-20.58.10:364][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 7 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.20-20.58.10:364][ 87]LogHttp: Warning: 0000017C52DA1D80: libcurl info message cache 8 (Closing connection 25)
+[2018.03.20-20.58.13:762][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulsLike/Maps/Map001' took 0.031
+[2018.03.20-20.58.13:764][ 96]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SoulsLike/Characters/BP_PlayerState] ([1] browsable assets)...
+[2018.03.20-20.58.13:765][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulsLike/Characters/BP_PlayerState]
+[2018.03.20-20.58.13:842][ 96]LogSavePackage: Save=24.59ms
+[2018.03.20-20.58.13:843][ 96]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerState_Auto46514348A47AFDA3D84E985A2B6FCD594.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto4.uasset'
+[2018.03.20-20.58.13:845][ 96]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/BP_PlayerState_Auto4.uasset
+[2018.03.20-20.58.13:846][ 96]LogFileHelpers: Auto-saving content packages took 0.083
+[2018.03.20-23.58.21:716][121]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.03.20-23.58.22:058][123]LogHttp: Warning: 0000017C56D71900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.20-23.58.22:058][123]LogHttp: Warning: 0000017C56D71900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.20-23.58.22:059][123]LogHttp: Warning: 0000017C56D71900: libcurl info message cache 1 (Closing connection 26)
+[2018.03.22-08.37.31:860][129]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.03.22-08.37.31:861][129]LogHttp: Warning: 0000017C52DA0B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.22-08.37.31:861][129]LogHttp: Warning: 0000017C52DA0B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.22-08.37.31:862][129]LogHttp: Warning: 0000017C52DA0B80: libcurl info message cache 1 (Closing connection 27)
+[2018.03.22-08.37.48:498][585]LogSavePackage: Save=18.64ms
+[2018.03.22-08.37.48:498][585]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/BP_PlayerStateB7A1234D4E2535132A34F2A8C8F8B5A5.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset'
+[2018.03.22-08.37.48:505][585]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/SoulsLike/Characters/BP_PlayerState.uasset
+[2018.03.22-08.37.49:250][648]BlueprintLog: New page: Compile BP_PlayerState
+[2018.03.22-08.37.54:525][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-08.37.54:667][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-08.37.54:759][ 87]LogSlate: Window 'SoulsLikeTest - Unreal Editor' being destroyed
+[2018.03.22-08.37.55:099][ 88]Cmd: QUIT_EDITOR
+[2018.03.22-08.37.55:635][ 88]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.22-08.37.55:652][ 88]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.03.22-08.37.55:652][ 88]LogExit: Preparing to exit.
+[2018.03.22-08.37.56:631][ 88]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.03.22-08.37.56:640][ 88]PIE: UWidget::RemoveFromParent() called on 'None.Map001:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.03.22-08.37.56:641][ 88]PIE: UWidget::RemoveFromParent() called on 'None.Map001:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.03.22-08.37.56:736][ 88]LogExit: Editor shut down
+[2018.03.22-08.37.56:769][ 88]LogExit: Transaction tracking system shut down
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.22-08.37.56:908][ 88]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.22-08.37.57:122][ 88]LogExit: Object subsystem successfully closed.
+[2018.03.22-08.37.57:157][ 88]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.03.22-08.37.57:164][ 88]LogD3D11RHI: Shutdown
+[2018.03.22-08.37.57:164][ 88]LogD3D11RHI: CleanupD3DDevice
+[2018.03.22-08.37.57:171][ 88]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module SynthBenchmark (582)
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module BlueprintGraph (580)
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (576)
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module Voice (574)
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (572)
+[2018.03.22-08.37.57:211][ 88]LogModuleManager: Shutting down and abandoning module SceneOutliner (570)
+[2018.03.22-08.37.57:212][ 88]LogModuleManager: Shutting down and abandoning module AddContentDialog (568)
+[2018.03.22-08.37.57:212][ 88]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.03.22-08.37.57:218][ 88]LogModuleManager: Shutting down and abandoning module WidgetCarousel (567)
+[2018.03.22-08.37.57:218][ 88]LogModuleManager: Shutting down and abandoning module EditorWidgets (564)
+[2018.03.22-08.37.57:218][ 88]LogModuleManager: Shutting down and abandoning module CollectionManager (562)
+[2018.03.22-08.37.57:219][ 88]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
+[2018.03.22-08.37.57:219][ 88]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Giorgio/Collections/' was aborted.
+[2018.03.22-08.37.57:219][ 88]LogDirectoryWatcher: A directory notification for 'C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
+[2018.03.22-08.37.57:219][ 88]LogModuleManager: Shutting down and abandoning module StatsViewer (560)
+[2018.03.22-08.37.57:220][ 88]LogModuleManager: Shutting down and abandoning module FoliageEdit (558)
+[2018.03.22-08.37.57:220][ 88]LogModuleManager: Shutting down and abandoning module LandscapeEditor (556)
+[2018.03.22-08.37.57:220][ 88]LogModuleManager: Shutting down and abandoning module MeshPaintMode (554)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (552)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module ActorPickerMode (550)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module GeometryMode (548)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module TextureAlignMode (546)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module BspMode (544)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (542)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module HardwareSurvey (540)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (538)
+[2018.03.22-08.37.57:221][ 88]LogModuleManager: Shutting down and abandoning module AutomationWorker (536)
+[2018.03.22-08.37.57:222][ 88]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (534)
+[2018.03.22-08.37.57:222][ 88]LogModuleManager: Shutting down and abandoning module SequenceRecorder (533)
+[2018.03.22-08.37.57:223][ 88]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (530)
+[2018.03.22-08.37.57:223][ 88]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (528)
+[2018.03.22-08.37.57:225][ 88]LogModuleManager: Shutting down and abandoning module PlacementMode (527)
+[2018.03.22-08.37.57:225][ 88]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2018.03.22-08.37.57:227][ 88]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (522)
+[2018.03.22-08.37.57:227][ 88]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (520)
+[2018.03.22-08.37.57:227][ 88]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (518)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (516)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (514)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (512)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (510)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (508)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (506)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (504)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module CharacterAI (502)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module SmartSnapping (500)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module SessionServices (498)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module ViewportSnapping (496)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module ViewportInteraction (494)
+[2018.03.22-08.37.57:229][ 88]LogModuleManager: Shutting down and abandoning module ClothPainter (492)
+[2018.03.22-08.37.57:230][ 88]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (491)
+[2018.03.22-08.37.57:231][ 88]LogModuleManager: Shutting down and abandoning module LogVisualizer (488)
+[2018.03.22-08.37.57:232][ 88]LogModuleManager: Shutting down and abandoning module IntroTutorials (486)
+[2018.03.22-08.37.57:233][ 88]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (485)
+[2018.03.22-08.37.57:234][ 88]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (482)
+[2018.03.22-08.37.57:234][ 88]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (480)
+[2018.03.22-08.37.57:234][ 88]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (478)
+[2018.03.22-08.37.57:234][ 88]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (477)
+[2018.03.22-08.37.57:507][ 88]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (474)
+[2018.03.22-08.37.57:507][ 88]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (472)
+[2018.03.22-08.37.57:507][ 88]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (470)
+[2018.03.22-08.37.57:507][ 88]LogModuleManager: Shutting down and abandoning module InputBindingEditor (468)
+[2018.03.22-08.37.57:509][ 88]LogModuleManager: Shutting down and abandoning module MergeActors (466)
+[2018.03.22-08.37.57:510][ 88]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (464)
+[2018.03.22-08.37.57:510][ 88]LogModuleManager: Shutting down and abandoning module LocalizationService (463)
+[2018.03.22-08.37.57:511][ 88]LogModuleManager: Shutting down and abandoning module HardwareTargeting (460)
+[2018.03.22-08.37.57:511][ 88]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (458)
+[2018.03.22-08.37.57:511][ 88]LogModuleManager: Shutting down and abandoning module UndoHistory (456)
+[2018.03.22-08.37.57:511][ 88]LogModuleManager: Shutting down and abandoning module XmlParser (454)
+[2018.03.22-08.37.57:512][ 88]LogModuleManager: Shutting down and abandoning module Blutility (452)
+[2018.03.22-08.37.57:512][ 88]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (450)
+[2018.03.22-08.37.57:512][ 88]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (449)
+[2018.03.22-08.37.57:512][ 88]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (446)
+[2018.03.22-08.37.57:512][ 88]LogModuleManager: Shutting down and abandoning module SettingsEditor (444)
+[2018.03.22-08.37.57:513][ 88]LogModuleManager: Shutting down and abandoning module ProjectLauncher (442)
+[2018.03.22-08.37.57:514][ 88]LogModuleManager: Shutting down and abandoning module SessionFrontend (440)
+[2018.03.22-08.37.57:514][ 88]LogModuleManager: Shutting down and abandoning module ProfilerClient (438)
+[2018.03.22-08.37.57:514][ 88]LogModuleManager: Shutting down and abandoning module DeviceManager (436)
+[2018.03.22-08.37.57:515][ 88]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (435)
+[2018.03.22-08.37.57:581][ 88]LogModuleManager: Shutting down and abandoning module AutomationController (432)
+[2018.03.22-08.37.57:581][ 88]LogModuleManager: Shutting down and abandoning module AutomationWindow (430)
+[2018.03.22-08.37.57:582][ 88]LogModuleManager: Shutting down and abandoning module Layers (428)
+[2018.03.22-08.37.57:584][ 88]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (426)
+[2018.03.22-08.37.57:584][ 88]LogModuleManager: Shutting down and abandoning module DetailCustomizations (424)
+[2018.03.22-08.37.57:584][ 88]LogModuleManager: Shutting down and abandoning module PackagesDialog (422)
+[2018.03.22-08.37.57:585][ 88]LogModuleManager: Shutting down and abandoning module Persona (420)
+[2018.03.22-08.37.57:585][ 88]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (419)
+[2018.03.22-08.37.57:585][ 88]LogModuleManager: Shutting down and abandoning module AnimGraph (417)
+[2018.03.22-08.37.57:585][ 88]LogModuleManager: Shutting down and abandoning module Kismet (414)
+[2018.03.22-08.37.57:593][ 88]LogModuleManager: Shutting down and abandoning module GraphEditor (412)
+[2018.03.22-08.37.57:593][ 88]LogModuleManager: Shutting down and abandoning module ClassViewer (410)
+[2018.03.22-08.37.57:593][ 88]LogModuleManager: Shutting down and abandoning module Toolbox (408)
+[2018.03.22-08.37.57:593][ 88]LogModuleManager: Shutting down and abandoning module ModuleUI (406)
+[2018.03.22-08.37.57:593][ 88]LogModuleManager: Shutting down and abandoning module MovieSceneTools (404)
+[2018.03.22-08.37.57:594][ 88]LogModuleManager: Shutting down and abandoning module OutputLog (402)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module GammaUI (400)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module Documentation (398)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (396)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module MovieScene (394)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (392)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module LauncherPlatform (390)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module AnalyticsET (388)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module PortalServices (386)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module PortalRpc (384)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module MessagingRpc (382)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module AIModule (380)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module GameplayDebugger (379)
+[2018.03.22-08.37.57:595][ 88]LogModuleManager: Shutting down and abandoning module AITestSuite (377)
+[2018.03.22-08.37.57:596][ 88]LogModuleManager: Shutting down and abandoning module DesktopPlatform (374)
+[2018.03.22-08.37.57:596][ 88]LogModuleManager: Shutting down and abandoning module ProfilerService (372)
+[2018.03.22-08.37.57:727][ 88]LogModuleManager: Shutting down and abandoning module TaskGraph (370)
+[2018.03.22-08.37.57:728][ 88]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.03.22-08.37.57:728][ 88]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.03.22-08.37.57:728][ 88]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.03.22-08.37.57:728][ 88]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.03.22-08.37.57:728][ 88]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.03.22-08.37.57:729][ 88]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.03.22-08.37.57:730][ 88]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.03.22-08.37.57:730][ 88]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.03.22-08.37.57:730][ 88]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.03.22-08.37.57:730][ 88]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.03.22-08.37.57:734][ 88]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.03.22-08.37.57:735][ 88]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.03.22-08.37.57:737][ 88]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.03.22-08.37.57:738][ 88]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.03.22-08.37.57:738][ 88]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.03.22-08.37.57:739][ 88]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.03.22-08.37.57:740][ 88]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.03.22-08.37.57:741][ 88]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.03.22-08.37.57:741][ 88]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2018.03.22-08.37.57:741][ 88]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2018.03.22-08.37.57:742][ 88]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2018.03.22-08.37.57:844][ 88]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2018.03.22-08.37.57:945][ 88]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
+[2018.03.22-08.37.57:945][ 88]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
+[2018.03.22-08.37.57:945][ 88]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
+[2018.03.22-08.37.57:945][ 88]LogModuleManager: Shutting down and abandoning module DataValidation (264)
+[2018.03.22-08.37.57:946][ 88]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2018.03.22-08.37.57:946][ 88]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
+[2018.03.22-08.37.57:948][ 88]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
+[2018.03.22-08.37.57:948][ 88]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
+[2018.03.22-08.37.57:948][ 88]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2018.03.22-08.37.57:948][ 88]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2018.03.22-08.37.57:950][ 88]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2018.03.22-08.37.57:952][ 88]LogModuleManager: Shutting down and abandoning module TreeMap (249)
+[2018.03.22-08.37.57:952][ 88]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2018.03.22-08.37.57:952][ 88]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
+[2018.03.22-08.37.57:953][ 88]LogModuleManager: Shutting down and abandoning module LiveLink (242)
+[2018.03.22-08.37.58:507][ 88]LogModuleManager: Shutting down and abandoning module Paper2D (240)
+[2018.03.22-08.37.58:508][ 88]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
+[2018.03.22-08.37.58:508][ 88]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
+[2018.03.22-08.37.58:511][ 88]LogModuleManager: Shutting down and abandoning module PacketHandler (234)
+[2018.03.22-08.37.58:511][ 88]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (232)
+[2018.03.22-08.37.58:511][ 88]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (230)
+[2018.03.22-08.37.58:511][ 88]LogModuleManager: Shutting down and abandoning module MediaAssets (228)
+[2018.03.22-08.37.58:511][ 88]LogModuleManager: Shutting down and abandoning module Media (227)
+[2018.03.22-08.37.58:517][ 88]LogModuleManager: Shutting down and abandoning module Overlay (224)
+[2018.03.22-08.37.58:517][ 88]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
+[2018.03.22-08.37.58:517][ 88]LogModuleManager: Shutting down and abandoning module VREditor (220)
+[2018.03.22-08.37.58:518][ 88]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
+[2018.03.22-08.37.58:518][ 88]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
+[2018.03.22-08.37.58:518][ 88]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
+[2018.03.22-08.37.58:520][ 88]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
+[2018.03.22-08.37.58:520][ 88]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
+[2018.03.22-08.37.58:521][ 88]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
+[2018.03.22-08.37.58:521][ 88]LogModuleManager: Shutting down and abandoning module UMG (206)
+[2018.03.22-08.37.58:521][ 88]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
+[2018.03.22-08.37.58:522][ 88]LogModuleManager: Shutting down and abandoning module Sequencer (204)
+[2018.03.22-08.37.58:523][ 88]LogModuleManager: Shutting down and abandoning module MessageLog (201)
+[2018.03.22-08.37.58:523][ 88]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
+[2018.03.22-08.37.58:526][ 88]LogModuleManager: Shutting down and abandoning module Slate (194)
+[2018.03.22-08.37.58:526][ 88]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module MRMesh (190)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module Networking (182)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module Core (180)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2018.03.22-08.37.58:528][ 88]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2018.03.22-08.37.58:530][ 88]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2018.03.22-08.37.58:530][ 88]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2018.03.22-08.37.58:530][ 88]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
+[2018.03.22-08.37.58:530][ 88]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
+[2018.03.22-08.37.58:531][ 88]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2018.03.22-08.37.58:531][ 88]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2018.03.22-08.37.58:531][ 88]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2018.03.22-08.37.58:538][ 88]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2018.03.22-08.37.58:541][ 88]LogDerivedDataCache: Shutdown
+[2018.03.22-08.37.58:541][ 88]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2018.03.22-08.37.58:541][ 88]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2018.03.22-08.37.58:541][ 88]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2018.03.22-08.37.58:541][ 88]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2018.03.22-08.37.58:542][ 88]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2018.03.22-08.37.58:542][ 88]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2018.03.22-08.37.58:542][ 88]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2018.03.22-08.37.58:543][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.03.22-08.37.58:544][ 88]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module OculusHMD (62)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module AppleARKit (58)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module AugmentedReality (57)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.03.22-08.37.58:545][ 88]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.03.22-08.37.58:545][ 88]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.22-08.37.58:545][ 88]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.22-08.37.58:547][ 88]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.22-08.37.58:547][ 88]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.22-08.37.58:547][ 88]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.22-08.37.58:548][ 88]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.22-08.37.58:549][ 88]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.22-08.37.58:549][ 88]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94A10E44-4A84-1A9E-025F-9DB5731E2223%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=dd6758244badbcfb927022b8b5d446ac%7C348346a4f7aa4aef97f3ebe7ec714bf0%7C54192f61-66b7-4dae-8a4a-dc853c10f5fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.22-08.37.58:579][ 88]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.22-08.37.58:581][ 88]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.22-08.37.58:582][ 88]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.22-08.37.58:582][ 88]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.22-08.37.58:583][ 88]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.22-08.37.58:584][ 88]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.22-08.37.58:584][ 88]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.22-08.37.58:584][ 88]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.22-08.37.58:589][ 88]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.22-08.37.58:590][ 88]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.22-08.37.58:591][ 88]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.22-08.37.58:591][ 88]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.22-08.37.58:591][ 88]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.22-08.37.58:598][ 88]LogExit: Exiting.
+[2018.03.22-08.37.58:624][ 88]Log file closed, 03/22/18 09:37:58
