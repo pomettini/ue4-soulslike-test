@@ -1082,3 +1082,19 @@ LogInit: Object subsystem initialized
 [2018.03.27-07.46.58:125][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2018.03.27-07.47.05:783][957]LogSlate: Window 'Delete Assets' being destroyed
 [2018.03.27-07.47.06:718][957]SourceControl: rm 'SoulsLikeTest/Content/TrialOfMight/Characters/Paladin/GM_SoulsLike.uasset'
+[2018.03.27-07.47.08:411][ 54]LogSavePackage: Save=106.22ms
+[2018.03.27-07.47.08:411][ 54]LogSavePackage: Moving '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Saved/Server800FFCD9424D2D609FC4C295A5752612.tmp' to '../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap'
+[2018.03.27-07.47.08:414][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Content/TrialOfMight/Maps/Server.umap
+[2018.03.27-07.47.09:578][119]Candidate modules for hot reload:
+[2018.03.27-07.47.09:578][119]  SoulsLikeTest
+[2018.03.27-07.47.09:578][119]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe SoulsLikeTest -ModuleWithSuffix=SoulsLikeTest,9693 Win64 Development -editorrecompile -canskiplink "C:/Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/SoulsLikeTest.uproject" ]
+[2018.03.27-07.47.09:664][119]Warning: Starting HotReload took  0.1s.
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: New page: Compilation - Mar 27, 2018, 11:47:15 AM
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: Creating makefile for hot reloading SoulsLikeTest (ini files are newer than UBTMakefile)
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: Target is up to date
+[2018.03.27-07.47.15:900][230]CompilerResultsLog: Total build time: 5.94 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.03.27-07.47.15:900][230]LogMainFrame: MainFrame: Module compiling took 6.327 seconds
+[2018.03.27-07.47.16:180][230]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2453 classes and 561 folders.
+[2018.03.27-07.47.16:186][230]Display: HotReload took  6.6s.
