@@ -11,6 +11,10 @@
 		{
 			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
+		},
+		{
+			"Name": "UnrealEnginePython",
+			"Enabled": false
 		}
 	]
 }
