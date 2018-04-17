@@ -1,0 +1,3 @@
+C:\Users\Ale\Documents\Unreal Projects\ue4-soulslike-test\SoulsLikeTest\Source\SoulsLikeTest\SoulsLikeTest.Build.cs
+C:\Users\Ale\Documents\Unreal Projects\ue4-soulslike-test\SoulsLikeTest\Source\SoulsLikeTest.Target.cs
+C:\Users\Ale\Documents\Unreal Projects\ue4-soulslike-test\SoulsLikeTest\Source\SoulsLikeTestEditor.Target.cs

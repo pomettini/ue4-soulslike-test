@@ -1,23 +1,19 @@
-﻿Log file open, 03/02/18 19:17:35
+﻿Log file open, 04/16/18 18:40:22
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SoulsLikeTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2094595859) SRandInit(2094595859).
+LogInit: Display: RandInit(-1139021216) SRandInit(-1139021216).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.266737
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 41.020017
 LogD3D11RHI: Aftermath initialized
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
@@ -90,9 +86,6 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Giorgio/Documents/GIT/ue4-soulslike-test/SoulsLikeTest/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll (API version 3709383).
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -154,7 +147,6 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogPluginManager: Mounting plugin UnrealEnginePython
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -172,6 +164,8 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
@@ -198,6 +192,1104 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  /Game/SoulsLike/Maps/Client -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.16-16.40.45:899][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-16.40.45:899][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.16-16.40.46:145][  0]LogInit: Computer: ALESSANDRO
+[2018.04.16-16.40.46:145][  0]LogInit: User: Ale
+[2018.04.16-16.40.46:145][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.16-16.40.46:145][  0]LogInit: High frequency timer resolution =2.435868 MHz
+[2018.04.16-16.40.46:208][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.04.16-16.40.46:208][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-16.40.46:208][  0]LogMemory: Process Physical Memory: 273.02 MB used, 273.02 MB peak
+[2018.04.16-16.40.46:208][  0]LogMemory: Process Virtual Memory: 269.57 MB used, 269.57 MB peak
+[2018.04.16-16.40.46:208][  0]LogMemory: Physical Memory: 3404.04 MB used,  584.23 MB free, 3988.27 MB total
+[2018.04.16-16.40.46:208][  0]LogMemory: Virtual Memory: 684.25 MB used,  584.23 MB free, 134217728.00 MB total
+[2018.04.16-16.40.56:337][  0]LogInit: Using OS detected language (it-IT).
+[2018.04.16-16.40.56:337][  0]LogInit: Using OS detected locale (it-IT).
+[2018.04.16-16.40.57:376][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.04.16-16.40.57:378][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.04.16-16.41.06:503][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.16-16.42.11:998][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.16-16.42.14:377][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7600M Series' (Feature Level 11_0)
+[2018.04.16-16.42.14:377][  0]LogD3D11RHI:       2032/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.04.16-16.42.14:483][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.04.16-16.42.14:483][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.16-16.42.14:764][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.16-16.42.14:765][  0]LogD3D11RHI:       0/0/1994 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.16-16.42.14:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.16-16.42.14:827][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.16-16.42.14:870][  0]LogD3D11RHI:     GPU DeviceId: 0x6840 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.16-16.42.14:870][  0]LogWindows: EnumDisplayDevices:
+[2018.04.16-16.42.14:870][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.04.16-16.42.14:871][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.16-16.42.14:871][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.16-16.42.14:871][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.16-16.42.14:871][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7600M Series
+[2018.04.16-16.42.14:871][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.16-16.42.14:871][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.16-16.42.14:871][  0]LogRHI: Texture pool is 1422 MB (70% of 2032 MB)
+[2018.04.16-16.42.16:588][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.04.16-16.42.16:735][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.16-16.42.17:342][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.04.16-16.42.17:538][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/6888/).
+[2018.04.16-16.42.17:577][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ale/AppData/Local/Temp/UnrealShaderWorkingDir/8567CE44470D6F8B102B8F80915C20C7/'.
+[2018.04.16-16.42.17:610][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.16-16.42.52:724][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.16-16.42.52:903][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.16-16.42.53:022][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.16-16.42.53:119][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.16-16.42.53:330][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.16-16.42.53:476][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.16-16.42.53:599][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.16-16.42.53:773][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.16-16.42.53:981][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.16-16.42.54:196][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.16-16.42.54:383][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.16-16.42.54:594][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.16-16.42.54:815][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.16-16.42.55:014][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.16-16.42.55:390][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.16-16.42.55:390][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.16-16.42.55:680][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.16-16.42.55:951][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.16-16.42.56:606][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.16-16.42.56:674][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.16-16.42.56:851][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.16-16.42.56:980][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.16-16.42.57:103][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.16-16.42.57:331][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.16-16.42.57:331][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.16-16.43.03:742][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.16-16.43.43:767][  0]LogDerivedDataCache: Loaded boot cache 39.92s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-16.43.43:800][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.16-16.43.43:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.16-16.43.43:800][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.16-16.43.43:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.16-16.43.43:800][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.16-16.43.44:172][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.16-16.43.44:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ale/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.16-16.43.44:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.16-16.43.44:570][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.16-16.43.44:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-16.43.44:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-16.44.31:631][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-16.44.39:833][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.16-16.44.40:188][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.16-16.44.40:225][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.16-16.44.40:240][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.16-16.44.40:240][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.16-16.44.40:240][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.16-16.44.41:858][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.04.16-16.44.50:300][  0]LogAssetRegistry: FAssetRegistry took 0.0825 seconds to start up
+[2018.04.16-16.45.30:355][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.420884 seconds
+[2018.04.16-16.45.30:460][  0]LogUObjectArray: 35680 objects as part of root set at end of initial load.
+[2018.04.16-16.45.30:460][  0]LogUObjectAllocator: 7543632 out of 0 bytes used by permanent object pool.
+[2018.04.16-16.45.30:460][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.16-16.48.00:557][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.16-16.48.00:729][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.16-16.48.11:338][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.16-16.48.16:316][  0]SourceControl: Source control is disabled
+[2018.04.16-16.48.40:048][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.16-16.48.40:923][  0]LogOcInput: OculusInput pre-init called
+[2018.04.16-16.48.42:756][  0]LogEngine: Initializing Engine...
+[2018.04.16-16.48.45:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.16-16.48.45:599][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.16-16.48.46:425][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.16-16.48.46:488][  0]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.48.47:146][  0]LogInit: FAudioDevice initialized.
+[2018.04.16-16.48.47:806][  0]LogDerivedDataCache: Saved boot cache 0.66s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-16.48.47:836][  0]LogInit: Texture streaming: Enabled
+[2018.04.16-16.48.48:539][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.16-16.48.50:745][  0]LogInit: Transaction tracking system initialized
+[2018.04.16-16.48.52:483][  0]BlueprintLog: New page: Editor Load
+[2018.04.16-16.48.56:724][  0]LocalizationService: Localization service is disabled
+[2018.04.16-16.49.01:707][  0]LogConsoleResponse: Display: 
+[2018.04.16-16.49.08:594][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.12s
+[2018.04.16-16.49.08:594][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.16-16.49.08:594][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.16-16.49.08:616][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.16-16.49.13:936][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-16.49.14:018][  0]LightingResults: New page: Lighting Build
+[2018.04.16-16.49.14:233][  0]MapCheck: New page: Map Check
+[2018.04.16-16.49.14:233][  0]LightingResults: New page: Lighting Build
+[2018.04.16-16.49.16:394][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.49.17:031][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-16.49.17:233][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-16.49.17:420][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 187.573ms to complete.
+[2018.04.16-16.49.17:420][  0]LogFileHelpers: Loading map 'Template_Default' took 3.508
+[2018.04.16-16.49.18:937][  0]LogCollectionManager: Loaded 0 collections in 0.028093 seconds
+[2018.04.16-16.49.19:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.04.16-16.49.19:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Ale/Collections/' took 0.01s
+[2018.04.16-16.49.19:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.04.16-16.49.19:275][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.16-16.49.19:343][  0]LogContentBrowser: Native class hierarchy populated in 0.0676 seconds. Added 2362 classes and 517 folders.
+[2018.04.16-16.49.19:621][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.16-16.49.23:326][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.16-16.49.23:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.16-16.49.25:352][  0]LogSlate: Took 0.045821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-16.49.25:442][  0]LogSlate: Took 0.055581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.16-16.49.25:506][  0]LogSlate: Took 0.046524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.16-16.49.26:267][  0]LogRenderer: Reallocating scene render targets to support 812x304 Format 10 NumSamples 1 (Frame:1).
+[2018.04.16-16.49.28:415][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.16-16.49.28:415][  0]LogLoad: (Engine Initialization) Total time: 660.42 seconds
+[2018.04.16-16.49.28:415][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.16-16.49.28:429][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.16-16.49.28:429][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.16-16.49.28:844][  0]SourceControl: On branch Alessandro
+[2018.04.16-16.49.28:844][  0]SourceControl: Your branch is up-to-date with 'origin/Alessandro'.
+[2018.04.16-16.49.28:844][  0]SourceControl: Changes to be committed:
+[2018.04.16-16.49.28:844][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.04.16-16.49.28:844][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Fire_SubUV.uasset
+[2018.04.16-16.49.28:844][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Heat_Distortion.uasset
+[2018.04.16-16.49.28:844][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Radial_Gradient.uasset
+[2018.04.16-16.49.28:844][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_smoke_subUV.uasset
+[2018.04.16-16.49.28:844][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Fire_SubUV.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Fire_Tiled_D.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Smoke_SubUV.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Smoke_Tiled_D.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Water_N.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_FireTrail.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_prova.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted_2.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-16.49.28:845][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/AM_prova.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Attack_rooted_2.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/attacorotante.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/prova.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/NewAnimBlueprint.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/NewAnimBlueprint1.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: Changes not staged for commit:
+[2018.04.16-16.49.28:846][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.16-16.49.28:846][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.16-16.49.28:846][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset
+[2018.04.16-16.49.28:846][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Maps/Trail.umap
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_FireTrail.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/attacorotante.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/prova.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.04.16-16.49.28:847][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/311563bb.bin
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_Rooted_Auto2.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto4.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto2.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto3.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto4.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto5.uasset
+[2018.04.16-16.49.28:848][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-15-30.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-50-31.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-31-09.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-50-02.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-06-22.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-12-24.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-17-31.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-58-52.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-04-16.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-09-44.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-14-53.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-20-59.uasset
+[2018.04.16-16.49.28:849][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-27-39.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-33-25.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-38-59.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-48-03.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-53-32.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-59-10.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-10-02.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-35-23.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-54-52.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-03-08.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-08-45.uasset
+[2018.04.16-16.49.28:850][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-15-27.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-22-16.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-05-15.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-14-03.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-31-20.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-40-25.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-46-43.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-51-50.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-07-43.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-17-31.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-20-52-23.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-27-16-57-54.uasset
+[2018.04.16-16.49.28:851][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-31-31.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-38-13.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-48-24.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-55-30.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-01-47.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-42-24.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-48-46.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-15-02-51.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-01-36.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-08-42.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-17-32-39.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-25-39.uasset
+[2018.04.16-16.49.28:852][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-30-56.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-38-02.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-52-48.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-22-01-32.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-00-12-57.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-17-40-38.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-21-33.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-29-07.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-35-56.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-22-04-16.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-22-11-33.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-23-16-41.uasset
+[2018.04.16-16.49.28:853][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-23-54-05.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-28-00-00-31.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-35-06.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-40-08.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-47-01.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-03-05.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-11-30.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-19-19.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-28-59.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-41-05.uasset
+[2018.04.16-16.49.28:854][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-46-14.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-02-17-40-22.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-02-17-48-24.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-05-22-01-06.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-18-40-13.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-18-46-14.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-22-18-22.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-22-35-16.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-28-15-48-36.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-03-02-02-32-48.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-03-05-13-24-12.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-16-40-08.uasset
+[2018.04.16-16.49.28:855][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-39-20.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-46-42.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-56-49.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-02-27-18-12-23.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-02-27-18-18-53.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-03-05-13-37-09.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack2_2018-02-27-23-21-33.uasset
+[2018.04.16-16.49.28:856][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.16-16.49.28:856][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Engine.ini
+[2018.04.16-16.49.28:856][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
+[2018.04.16-16.49.28:856][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest_2.log
+[2018.04.16-16.49.28:856][  0]SourceControl: Untracked files:
+[2018.04.16-16.49.28:856][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Binaries/
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Intermediate/Build/
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto0.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto1.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto6.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto0.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto3.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto6.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto7.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto8.uasset
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Trail/
+[2018.04.16-16.49.28:857][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto9.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1_Auto4.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/NewAnimBlueprint_Auto3.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/NewAnimBlueprint_Auto4.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-15-31-12.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-15-43-28.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-16-35-45.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-16-58-45.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-17-23-35.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-14-25.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-20-49.uasset
+[2018.04.16-16.49.28:858][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-29-36.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-36-06.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-15-45-33.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-15-53-44.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-03-21.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-11-39.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-17-15.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-33-12.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-49-40.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-36-40.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-43-21.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-48-53.uasset
+[2018.04.16-16.49.28:859][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-56-22.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-09-58.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-15-04.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-22-28.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-28-14.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-04-16-16-56-51.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-04-16-18-23-11.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-31-29.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-37-37.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-56-23.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-01-47.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-09-40.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-16-36.uasset
+[2018.04.16-16.49.28:860][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-24-14.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-50-02.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-20-38.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-36-41.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-41-47.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-18-23-07.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-18-35-07.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint1_2018-04-16-15-19-14.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint1_2018-04-16-15-26-11.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint_2018-04-16-14-41-29.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint_2018-04-16-15-06-52.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/P_Fire_2018-04-16-18-26-50.uasset
+[2018.04.16-16.49.28:861][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-16-18-36-07.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-04-16-18-33-24.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2_2018-04-16-16-58-44.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2_2018-04-16-17-23-34.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-17-55-50.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-07-53.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-13-40.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-31-18.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-14-01-13.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-14-14-25.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-18-07-34.uasset
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-16-18-00-51.umap
+[2018.04.16-16.49.28:862][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-16-18-37-36.umap
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-16-18-00-52.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-16-18-37-36.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-16-29-34.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-16-58-45.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-17-23-35.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-15-34-55.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-17-23-33.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-18-37-39.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/prova_2018-04-16-14-36-18.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/prova_2018-04-16-15-27-18.uasset
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-1507CAB44CB7D3C1B570BDA9873A3E2A/
+[2018.04.16-16.49.28:863][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-C6982A914CA144D8904B29B2C7A1711E/
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0/
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Crashes/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0_0000/
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Crashes/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0_0001/
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.12-12.50.02.log
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.12-12.50.29.log
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.16-11.02.14.log
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.16-13.48.55.log
+[2018.04.16-16.49.28:864][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.04.16-18.40.18.log
+[2018.04.16-16.49.28:865][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.16-16.49.29:556][  2]LogAssetRegistry: Asset discovery search completed in 279.2802 seconds
+[2018.04.16-16.49.29:558][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.16-16.49.29:558][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2018.04.16-16.49.29:949][  3]LogSlate: Took 0.043494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-16.49.33:245][ 13]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-16.49.50:220][372]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-16.49.50:472][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-16.49.50:498][372]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.49.50:498][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.49.50:500][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.49.50:500][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.49.50:500][372]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.04.16-16.49.50:500][372]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.04.16-16.49.50:595][372]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 8:49:50 PM)
+[2018.04.16-16.49.50:595][372]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-16.49.50:613][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017501s)
+[2018.04.16-16.49.50:615][372]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.49.50:616][372]LogPlayLevel: PIE: World Init took: (0.002251s)
+[2018.04.16-16.49.50:616][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.020593s)
+[2018.04.16-16.49.50:653][372]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.49.50:684][372]LogInit: FAudioDevice initialized.
+[2018.04.16-16.49.56:617][372]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-16.49.56:712][372]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-18.49.56
+[2018.04.16-16.49.56:713][372]LogWorld: Bringing up level for play took: 0.002065
+[2018.04.16-16.49.56:928][372]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.04.16-16.49.57:084][372]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 5.98
+[2018.04.16-16.50.01:485][597]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.01:562][598]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.01:814][599]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:470][688]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:486][689]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:503][690]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:527][691]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:553][692]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:583][693]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.03:620][694]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:691][737]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:707][738]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:725][739]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:746][740]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:773][741]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:803][742]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.04:841][743]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:385][755]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:414][756]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:440][757]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:461][758]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:485][759]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_21 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:516][760]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_22 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.05:549][761]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_23 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:651][806]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_24 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:667][807]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_25 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:685][808]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_26 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:706][809]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_27 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:732][810]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_28 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:763][811]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_29 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:796][812]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_30 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:838][813]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_31 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:881][814]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_32 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:927][815]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_33 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.06:975][816]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_34 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.07:609][829]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.50.07:609][829]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.50.07:610][829]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.50.07:610][829]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.50.07:610][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-16.50.07:689][831]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.04.16-16.50.07:689][831]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.50.11:738][249]LogRenderer: Reallocating scene render targets to support 812x304 Format 10 NumSamples 1 (Frame:9).
+[2018.04.16-16.50.11:764][250]LogContentStreaming: Texture pool size now 3000 MB
+[2018.04.16-16.50.13:110][401]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-16.50.13:151][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-16.50.13:151][401]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 8:50:13 PM)
+[2018.04.16-16.50.13:151][401]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-16.50.13:158][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006888s)
+[2018.04.16-16.50.13:159][401]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.50.13:160][401]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2018.04.16-16.50.13:160][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008657s)
+[2018.04.16-16.50.13:179][401]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.50.13:188][401]LogInit: FAudioDevice initialized.
+[2018.04.16-16.50.13:221][401]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-16.50.13:222][401]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-18.50.13
+[2018.04.16-16.50.13:223][401]LogWorld: Bringing up level for play took: 0.000859
+[2018.04.16-16.50.13:237][401]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.132
+[2018.04.16-16.50.15:991][540]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:009][541]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:033][542]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:064][543]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:097][544]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:128][545]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.16:163][546]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:295][589]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:313][590]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:336][591]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:358][592]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:390][593]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:425][594]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.17:460][595]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:050][608]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:072][609]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:095][610]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:123][611]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:150][612]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:186][613]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:220][614]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.18:987][635]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.50.18:987][635]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.50.18:987][635]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.50.18:988][635]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.50.18:988][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-16.50.19:048][637]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.04.16-16.50.19:048][637]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.50.26:955][ 90]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-16.50.27:081][ 90]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2018.04.16-16.50.27:480][ 90]LogSlate: Took 0.000468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-16.50.30:171][228]LogRenderer: Reallocating scene render targets to support 916x304 Format 10 NumSamples 1 (Frame:5).
+[2018.04.16-16.50.56:752][986]LogSavePackage: Save=213.71ms
+[2018.04.16-16.50.56:752][986]LogSavePackage: Moving '../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/P_FireFE2437D84F7C3BFC8E2F299D1B4AF260.tmp' to '../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset'
+[2018.04.16-16.50.56:777][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset
+[2018.04.16-16.50.57:198][  5]LogCascade: Quitting Cascade. FXSystem=0x000002E274EBB6A0
+[2018.04.16-16.50.58:119][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-16.50.58:152][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-16.50.58:153][ 91]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 8:50:58 PM)
+[2018.04.16-16.50.58:153][ 91]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-16.50.58:161][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008174s)
+[2018.04.16-16.50.58:162][ 91]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.50.58:163][ 91]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2018.04.16-16.50.58:163][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.010007s)
+[2018.04.16-16.50.58:184][ 91]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.50.58:193][ 91]LogInit: FAudioDevice initialized.
+[2018.04.16-16.50.58:232][ 91]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-16.50.58:233][ 91]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-18.50.58
+[2018.04.16-16.50.58:234][ 91]LogWorld: Bringing up level for play took: 0.000979
+[2018.04.16-16.50.58:248][ 91]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.856
+[2018.04.16-16.50.59:644][162]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:663][163]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:686][164]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:711][165]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:744][166]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:775][167]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.50.59:816][168]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.00:879][207]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.00:897][208]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.00:921][209]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.00:949][210]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.00:977][211]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:008][212]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:049][213]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:594][224]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:625][225]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:658][226]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:685][227]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:711][228]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.01:748][229]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.02:977][278]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.02:994][279]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_21 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:012][280]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_22 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:041][281]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_23 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:073][282]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_24 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:104][283]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_25 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:146][284]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_26 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:184][285]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_27 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:227][286]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_28 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:271][287]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_29 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.03:321][288]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_30 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:814][350]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_31 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:831][351]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_32 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:855][352]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_33 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:878][353]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_34 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:910][354]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_35 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:947][355]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_36 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.04:983][356]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_37 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:563][368]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_38 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:589][369]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_39 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:605][370]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_40 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:632][371]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_41 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:663][372]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_42 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:692][373]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_43 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.05:730][374]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_44 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.06:886][420]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_45 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.06:903][421]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_46 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.06:921][422]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_47 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.06:949][423]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_48 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.06:982][424]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_49 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.07:018][425]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_50 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.07:054][426]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_51 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.07:093][427]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_52 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.07:141][428]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_53 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.07:189][429]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_54 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.08:418][475]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.51.08:418][475]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.51.08:419][475]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.51.08:419][475]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.51.08:419][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-16.51.08:486][477]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.04.16-16.51.08:486][477]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.51.15:927][ 46]LogRenderer: Reallocating scene render targets to support 916x308 Format 10 NumSamples 1 (Frame:21).
+[2018.04.16-16.51.15:989][ 47]LogRenderer: Reallocating scene render targets to support 916x328 Format 10 NumSamples 1 (Frame:23).
+[2018.04.16-16.51.16:065][ 48]LogRenderer: Reallocating scene render targets to support 916x340 Format 10 NumSamples 1 (Frame:25).
+[2018.04.16-16.51.16:120][ 49]LogRenderer: Reallocating scene render targets to support 916x344 Format 10 NumSamples 1 (Frame:27).
+[2018.04.16-16.51.16:169][ 50]LogRenderer: Reallocating scene render targets to support 916x348 Format 10 NumSamples 1 (Frame:29).
+[2018.04.16-16.51.16:265][ 52]LogRenderer: Reallocating scene render targets to support 916x352 Format 10 NumSamples 1 (Frame:33).
+[2018.04.16-16.51.16:334][ 53]LogRenderer: Reallocating scene render targets to support 916x356 Format 10 NumSamples 1 (Frame:35).
+[2018.04.16-16.51.17:175][140]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-16.51.17:216][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-16.51.17:216][140]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 8:51:17 PM)
+[2018.04.16-16.51.17:216][140]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-16.51.17:225][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008292s)
+[2018.04.16-16.51.17:226][140]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.51.17:226][140]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2018.04.16-16.51.17:226][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.010198s)
+[2018.04.16-16.51.17:250][140]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.51.17:261][140]LogInit: FAudioDevice initialized.
+[2018.04.16-16.51.17:297][140]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-16.51.17:298][140]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-18.51.17
+[2018.04.16-16.51.17:298][140]LogWorld: Bringing up level for play took: 0.000988
+[2018.04.16-16.51.17:313][140]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.209
+[2018.04.16-16.51.20:686][302]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:706][303]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:725][304]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:757][305]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:786][306]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:825][307]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.20:863][308]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:446][320]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:470][321]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:489][322]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:513][323]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:546][324]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:579][325]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.21:617][326]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:725][365]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:744][366]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:764][367]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:789][368]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:826][369]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:861][370]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:908][371]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.22:952][372]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_21 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.23:002][373]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_22 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.23:071][374]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_23 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:642][480]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_24 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:661][481]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_25 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:685][482]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_26 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:711][483]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_27 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:746][484]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_28 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.25:781][485]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_29 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:407][499]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_30 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:432][500]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_31 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:451][501]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_32 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:481][502]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_33 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:514][503]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_34 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:551][504]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_35 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.26:591][505]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_36 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.27:743][544]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.51.27:744][544]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.51.27:746][544]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.51.27:746][544]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.51.27:746][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-16.51.27:807][546]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.04.16-16.51.27:807][546]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.51.48:622][843]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-16.51.48:659][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-16.51.48:660][843]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 8:51:48 PM)
+[2018.04.16-16.51.48:660][843]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-16.51.48:670][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010386s)
+[2018.04.16-16.51.48:672][843]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-16.51.48:672][843]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2018.04.16-16.51.48:672][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.012618s)
+[2018.04.16-16.51.48:695][843]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-16.51.48:725][843]LogInit: FAudioDevice initialized.
+[2018.04.16-16.51.48:757][843]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-16.51.48:758][843]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-18.51.48
+[2018.04.16-16.51.48:759][843]LogWorld: Bringing up level for play took: 0.000888
+[2018.04.16-16.51.48:774][843]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.33
+[2018.04.16-16.51.54:897][141]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.54:916][142]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.54:943][143]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.54:973][144]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:005][145]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:044][146]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:840][169]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:858][170]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:879][171]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:907][172]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:939][173]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.55:975][174]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.56:013][175]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.59:909][347]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.59:927][348]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.59:952][349]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.51.59:978][350]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:013][351]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:048][352]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:776][370]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:800][371]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:819][372]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_21 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:848][373]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_22 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:884][374]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_23 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:917][375]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_24 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.00:962][376]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_25 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:331][427]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_26 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:351][428]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_27 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:377][429]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_28 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:407][430]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_29 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:444][431]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_30 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:482][432]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_31 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:524][433]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_32 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:565][434]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_33 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:611][435]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_34 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.02:661][436]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_35 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:326][502]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_36 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:349][503]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_37 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:374][504]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_38 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:407][505]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_39 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:441][506]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_40 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.04:477][507]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_41 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:162][523]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_42 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:182][524]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_43 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:207][525]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_44 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:231][526]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_45 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:265][527]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_46 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:299][528]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_47 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.05:344][529]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_48 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:380][609]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_49 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:398][610]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_50 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:418][611]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_51 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:445][612]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_52 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:479][613]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_53 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:513][614]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_54 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:556][615]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_55 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:597][616]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_56 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:645][617]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_57 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.07:695][618]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_58 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.08:960][662]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_59 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.08:982][663]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_60 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.09:006][664]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_61 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.09:030][665]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_62 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.09:059][666]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_63 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.09:099][667]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_64 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:291][758]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_65 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:317][759]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_66 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:340][760]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_67 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:366][761]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_68 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:402][762]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_69 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:433][763]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_70 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:478][764]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_71 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:519][765]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_72 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:564][766]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_73 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.11:614][767]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_74 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:824][858]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_75 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:845][859]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_76 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:875][860]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_77 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:908][861]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_78 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:940][862]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_79 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.13:975][863]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_80 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:540][923]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_81 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:562][924]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_82 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:584][925]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_83 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:610][926]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_84 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:644][927]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_85 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.15:679][928]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_86 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:449][949]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_87 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:473][950]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_88 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:498][951]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_89 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:522][952]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_90 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:556][953]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_91 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:589][954]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_92 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.16:627][955]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_93 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.17:928][  3]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_94 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.17:947][  4]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_95 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.17:973][  5]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_96 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:000][  6]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_97 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:029][  7]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_98 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:062][  8]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_99 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:099][  9]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_100 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:777][ 26]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_101 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:804][ 27]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_102 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:821][ 28]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_103 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:845][ 29]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_104 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:878][ 30]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_105 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:910][ 31]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_106 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.18:950][ 32]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_107 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:293][ 83]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_108 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:314][ 84]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_109 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:331][ 85]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_110 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:355][ 86]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_111 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:388][ 87]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_112 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:419][ 88]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_113 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:460][ 89]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_114 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:504][ 90]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_115 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:545][ 91]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_116 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.20:589][ 92]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_117 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:158][152]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_118 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:181][153]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_119 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:207][154]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_120 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:230][155]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_121 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:264][156]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_122 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:305][157]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_123 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:341][158]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_124 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:381][159]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_125 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:426][160]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_126 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.22:477][161]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_127 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-16.52.24:751][256]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.52.24:752][256]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.52.24:752][256]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.52.24:752][256]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.52.24:752][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-16.52.24:798][257]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.04.16-16.52.24:798][257]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.52.36:474][558]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.16-16.52.36:788][559]Cmd: QUIT_EDITOR
+[2018.04.16-16.52.37:844][559]LogExit: Preparing to exit.
+[2018.04.16-16.52.38:916][559]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.04.16-16.52.38:960][559]LogExit: Editor shut down
+[2018.04.16-16.52.38:967][559]LogExit: Transaction tracking system shut down
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.16-16.52.39:237][559]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.16-16.52.39:295][559]LogExit: Object subsystem successfully closed.
+[2018.04.16-16.52.39:314][559]LogD3D11RHI: Shutdown
+[2018.04.16-16.52.39:314][559]LogD3D11RHI: CleanupD3DDevice
+[2018.04.16-16.52.39:372][559]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.16-16.52.39:398][559]LogModuleManager: Shutting down and abandoning module DistCurveEditor (556)
+[2018.04.16-16.52.39:398][559]LogModuleManager: Shutting down and abandoning module Cascade (554)
+[2018.04.16-16.52.39:398][559]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.04.16-16.52.39:399][559]LogModuleManager: Shutting down and abandoning module Voice (550)
+[2018.04.16-16.52.39:399][559]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.04.16-16.52.39:399][559]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.04.16-16.52.39:399][559]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.04.16-16.52.39:399][559]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.04.16-16.52.39:400][559]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
+[2018.04.16-16.52.39:400][559]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Ale/Collections/' was aborted.
+[2018.04.16-16.52.39:400][559]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
+[2018.04.16-16.52.39:400][559]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module BspMode (518)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
+[2018.04.16-16.52.39:401][559]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module SessionServices (476)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
+[2018.04.16-16.52.39:402][559]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module MergeActors (444)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module SizeMap (442)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module TreeMap (440)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
+[2018.04.16-16.52.39:799][559]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module XmlParser (426)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module Blutility (424)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
+[2018.04.16-16.52.39:800][559]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
+[2018.04.16-16.52.39:801][559]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
+[2018.04.16-16.52.39:801][559]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
+[2018.04.16-16.52.39:801][559]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
+[2018.04.16-16.52.39:801][559]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
+[2018.04.16-16.52.39:801][559]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module AutomationController (404)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module Layers (400)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
+[2018.04.16-16.52.39:864][559]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
+[2018.04.16-16.52.39:865][559]LogModuleManager: Shutting down and abandoning module Persona (392)
+[2018.04.16-16.52.39:865][559]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
+[2018.04.16-16.52.39:865][559]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
+[2018.04.16-16.52.39:865][559]LogModuleManager: Shutting down and abandoning module Kismet (386)
+[2018.04.16-16.52.39:866][559]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
+[2018.04.16-16.52.39:866][559]LogModuleManager: Shutting down and abandoning module Toolbox (382)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module OutputLog (376)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module GammaUI (374)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module Documentation (372)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module MovieScene (368)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module PortalServices (360)
+[2018.04.16-16.52.39:867][559]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module DesktopPlatform (348)
+[2018.04.16-16.52.39:868][559]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.04.16-16.52.39:909][559]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.04.16-16.52.39:910][559]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.04.16-16.52.39:911][559]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.04.16-16.52.39:912][559]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.04.16-16.52.39:912][559]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.04.16-16.52.39:914][559]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.04.16-16.52.39:914][559]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.04.16-16.52.39:914][559]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.04.16-16.52.39:914][559]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64' was aborted.
+[2018.04.16-16.52.39:915][559]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2018.04.16-16.52.39:916][559]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.04.16-16.52.40:017][559]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2018.04.16-16.52.40:117][559]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2018.04.16-16.52.40:120][559]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2018.04.16-16.52.40:120][559]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.16-16.52.40:120][559]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.16-16.52.40:120][559]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.16-16.52.40:126][559]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2018.04.16-16.52.40:126][559]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.16-16.52.40:126][559]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.16-16.52.40:126][559]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.16-16.52.40:126][559]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.16-16.52.40:127][559]LogModuleManager: Shutting down and abandoning module Media (223)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2018.04.16-16.52.40:134][559]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2018.04.16-16.52.40:135][559]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2018.04.16-16.52.40:135][559]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2018.04.16-16.52.40:135][559]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2018.04.16-16.52.40:135][559]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2018.04.16-16.52.40:135][559]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2018.04.16-16.52.40:136][559]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2018.04.16-16.52.40:136][559]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2018.04.16-16.52.40:136][559]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2018.04.16-16.52.40:136][559]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2018.04.16-16.52.40:145][559]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module Core (176)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module LevelSequence (172)
+[2018.04.16-16.52.40:146][559]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (170)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module KismetCompiler (168)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module MeshUtilities (166)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (165)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (164)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (163)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (161)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (159)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module MaterialBaking (155)
+[2018.04.16-16.52.40:148][559]LogModuleManager: Shutting down and abandoning module DerivedDataCache (152)
+[2018.04.16-16.52.40:183][559]LogDerivedDataCache: Shutdown
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.16-16.52.40:183][559]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.16-16.52.40:184][559]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.04.16-16.52.40:185][559]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module OculusHMD (62)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module AppleARKit (58)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module AugmentedReality (57)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.04.16-16.52.40:186][559]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.04.16-16.52.40:186][559]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-16.52.40:186][559]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-16.52.40:208][559]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-16.52.40:208][559]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-16.52.40:208][559]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.16-16.52.40:208][559]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.16-16.52.40:208][559]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.16-16.52.40:209][559]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50480C70-4695-F6F7-F867-AD8565C5C9DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=293f91ce4e788ec4b20dd08230ffed46%7C6ce3f4d86c0849d4bee9d5eeb6a69d08%7C8cd7e023-084a-4524-a887-42a8c1e61933&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.16-16.52.40:230][559]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.16-16.52.40:234][559]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.16-16.52.40:234][559]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.16-16.52.40:234][559]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.16-16.52.40:234][559]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.16-16.52.40:347][559]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.16-16.52.40:347][559]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.16-16.52.40:347][559]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.16-16.52.40:350][559]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.16-16.52.40:351][559]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.16-16.52.40:351][559]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.16-16.52.40:351][559]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.16-16.52.40:351][559]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.16-16.52.40:351][559]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.16-16.52.40:355][559]LogExit: Exiting.
+[2018.04.16-16.52.40:418][559]Log file closed, 04/16/18 18:52:40

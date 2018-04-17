@@ -1,0 +1,532 @@
+﻿Log file open, 04/06/18 12:06:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoulsLikeTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1021068083) SRandInit(1021068083).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.710576
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.06-10.06.29:643][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.06-10.06.29:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.06-10.06.30:138][  0]LogInit: Computer: ALESSANDRO
+[2018.04.06-10.06.30:138][  0]LogInit: User: Ale
+[2018.04.06-10.06.30:139][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.06-10.06.30:139][  0]LogInit: High frequency timer resolution =2.435885 MHz
+[2018.04.06-10.06.30:160][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.04.06-10.06.30:160][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.06-10.06.30:160][  0]LogMemory: Process Physical Memory: 273.15 MB used, 273.15 MB peak
+[2018.04.06-10.06.30:161][  0]LogMemory: Process Virtual Memory: 269.73 MB used, 269.73 MB peak
+[2018.04.06-10.06.30:161][  0]LogMemory: Physical Memory: 3099.47 MB used,  888.80 MB free, 3988.27 MB total
+[2018.04.06-10.06.30:161][  0]LogMemory: Virtual Memory: 679.44 MB used,  888.80 MB free, 134217728.00 MB total
+[2018.04.06-10.06.32:839][  0]LogInit: Using OS detected language (it-IT).
+[2018.04.06-10.06.32:839][  0]LogInit: Using OS detected locale (it-IT).
+[2018.04.06-10.06.33:882][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.04.06-10.06.33:884][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.04.06-10.06.35:715][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.06-10.07.20:886][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.06-10.07.21:567][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7600M Series' (Feature Level 11_0)
+[2018.04.06-10.07.21:567][  0]LogD3D11RHI:       2032/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.04.06-10.07.21:667][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.04.06-10.07.21:667][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.06-10.07.21:674][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.06-10.07.21:674][  0]LogD3D11RHI:       0/0/1994 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.06-10.07.21:674][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.06-10.07.21:785][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.06-10.07.21:803][  0]LogD3D11RHI:     GPU DeviceId: 0x6840 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.06-10.07.21:803][  0]LogWindows: EnumDisplayDevices:
+[2018.04.06-10.07.21:804][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.04.06-10.07.21:838][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.06-10.07.21:838][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.06-10.07.21:839][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.06-10.07.21:839][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7600M Series
+[2018.04.06-10.07.21:839][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.06-10.07.21:839][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.06-10.07.21:839][  0]LogRHI: Texture pool is 1422 MB (70% of 2032 MB)
+[2018.04.06-10.07.22:367][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.04.06-10.07.22:597][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.06-10.07.24:513][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.04.06-10.07.25:115][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/10404/).
+[2018.04.06-10.07.25:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ale/AppData/Local/Temp/UnrealShaderWorkingDir/3138E32A4ED8DC73E883E99E424C92AF/'.
+[2018.04.06-10.07.25:136][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.06-10.07.40:242][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.06-10.07.40:438][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.06-10.07.40:652][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.06-10.07.40:833][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.06-10.07.41:146][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.06-10.07.41:394][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.06-10.07.41:602][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.06-10.07.41:759][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.06-10.07.41:972][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.06-10.07.42:131][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.06-10.07.42:235][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.06-10.07.42:331][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.06-10.07.42:425][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.06-10.07.42:514][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.06-10.07.42:703][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.06-10.07.42:703][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.06-10.07.42:925][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.06-10.07.43:168][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.06-10.07.43:603][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.06-10.07.43:717][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.06-10.07.43:858][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.06-10.07.43:958][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.06-10.07.44:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.06-10.07.44:231][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.06-10.07.44:231][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.06-10.07.48:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: Loaded boot cache 1.37s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.06-10.07.50:015][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.06-10.07.50:247][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.06-10.07.50:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ale/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.06-10.07.50:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.06-10.07.50:584][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.06-10.07.50:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.06-10.07.50:802][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.06-10.08.05:073][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.06-10.08.09:318][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.06-10.08.09:538][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.06-10.08.09:566][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.06-10.08.09:566][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.06-10.08.09:566][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.06-10.08.09:566][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.06-10.08.12:264][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.04.06-10.08.20:265][  0]LogAssetRegistry: FAssetRegistry took 0.0355 seconds to start up
+[2018.04.06-10.08.35:834][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.330766 seconds
+[2018.04.06-10.08.36:007][  0]LogUObjectArray: 35680 objects as part of root set at end of initial load.
+[2018.04.06-10.08.36:007][  0]LogUObjectAllocator: 7543632 out of 0 bytes used by permanent object pool.
+[2018.04.06-10.08.36:007][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.06-10.09.39:628][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.06-10.09.39:789][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.06-10.09.45:672][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.06-10.09.49:902][  0]SourceControl: Source control is disabled
+[2018.04.06-10.09.57:159][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.06-10.09.58:181][  0]LogOcInput: OculusInput pre-init called
+[2018.04.06-10.10.00:608][  0]LogEngine: Initializing Engine...
+[2018.04.06-10.10.04:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.06-10.10.04:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.06-10.10.06:887][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.06-10.10.07:568][  0]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-10.10.07:681][  0]LogInit: FAudioDevice initialized.
+[2018.04.06-10.10.08:285][  0]LogDerivedDataCache: Saved boot cache 0.56s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.06-10.10.08:368][  0]LogInit: Texture streaming: Enabled
+[2018.04.06-10.10.09:605][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.06-10.10.12:923][  0]LogInit: Transaction tracking system initialized
+[2018.04.06-10.10.16:857][  0]BlueprintLog: New page: Editor Load
+[2018.04.06-10.10.31:168][  0]LocalizationService: Localization service is disabled
+[2018.04.06-10.10.37:576][  0]LogConsoleResponse: Display: 
+[2018.04.06-10.10.54:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.12s
+[2018.04.06-10.10.54:347][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.06-10.10.54:369][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.06-10.10.54:410][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.06-10.11.10:356][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.06-10.11.10:652][  0]LightingResults: New page: Lighting Build
+[2018.04.06-10.11.12:172][  0]MapCheck: New page: Map Check
+[2018.04.06-10.11.12:173][  0]LightingResults: New page: Lighting Build
+[2018.04.06-10.11.24:460][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.06-10.11.28:182][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.06-10.11.28:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.06-10.11.29:023][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 173.02ms to complete.
+[2018.04.06-10.11.29:070][  0]LogFileHelpers: Loading map 'Template_Default' took 18.888
+[2018.04.06-10.11.49:831][  0]LogCollectionManager: Loaded 0 collections in 0.038516 seconds
+[2018.04.06-10.11.53:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.04.06-10.11.53:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Ale/Collections/' took 0.01s
+[2018.04.06-10.11.53:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.04.06-10.11.53:244][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.06-10.11.53:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0371 seconds. Added 2362 classes and 517 folders.
+[2018.04.06-10.11.54:563][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.06-10.12.13:085][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.06-10.12.15:234][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.04.06-10.12.28:528][  0]LogSlate: Took 0.173862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.06-10.12.28:945][  0]LogSlate: Took 0.167914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.06-10.12.30:227][  0]LogSlate: Took 0.063870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.06-10.12.39:997][  0]LogRenderer: Reallocating scene render targets to support 812x408 Format 10 NumSamples 1 (Frame:1).
+[2018.04.06-10.12.52:477][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.04.06-10.12.52:477][  0]LogLoad: (Engine Initialization) Total time: 418.05 seconds
+[2018.04.06-10.12.52:477][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.06-10.12.52:542][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.06-10.12.52:542][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.06-10.12.54:461][  0]SourceControl: On branch Alessandro
+[2018.04.06-10.12.54:462][  0]SourceControl: Your branch is up-to-date with 'origin/Alessandro'.
+[2018.04.06-10.12.54:462][  0]SourceControl: Changes to be committed:
+[2018.04.06-10.12.54:462][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.04.06-10.12.54:462][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Maps/Trail.umap
+[2018.04.06-10.12.54:462][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Mat_AnimTrail.uasset
+[2018.04.06-10.12.54:462][  0]SourceControl: 	new file:   SoulsLikeTest/Content/PS_AnimTrail.uasset
+[2018.04.06-10.12.54:462][  0]SourceControl: 	new file:   SoulsLikeTest/Content/texture/Slaseffect.uasset
+[2018.04.06-10.12.54:462][  0]SourceControl: Changes not staged for commit:
+[2018.04.06-10.12.54:463][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.06-10.12.54:463][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Maps/Trail.umap
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Mat_AnimTrail.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/PS_AnimTrail.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
+[2018.04.06-10.12.54:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Content/texture/Slaseffect.uasset
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/311563bb.bin
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1_Auto1.uasset
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/PackageRestoreData.json
+[2018.04.06-10.12.54:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-22D28330450E38AA3B5317B7C53061FD/CrashReportClient.ini
+[2018.04.06-10.12.54:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-C0B3160E47878C445794448C87BA38AC/CrashReportClient.ini
+[2018.04.06-10.12.54:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-DC1D0EC14A6D0FC96E8372832BB8466A/CrashReportClient.ini
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Editor.ini
+[2018.04.06-10.12.54:464][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.06-10.12.54:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Engine.ini
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.01-19.19.12.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-15.58.04.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.33.17.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.37.08.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.02-16.57.32.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.05-13.19.14.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.03.05-14.08.30.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.04.31.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.06.25.log
+[2018.04.06-10.12.54:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.07.17.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.10.54.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.11.57.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.14.00.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.16.41.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.28.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.30.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.03.02-19.17.35.log
+[2018.04.06-10.12.54:466][  0]SourceControl: 	modified:   SoulsLikeTest/SoulsLikeTest.uproject
+[2018.04.06-10.12.54:466][  0]SourceControl: Untracked files:
+[2018.04.06-10.12.54:466][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.06-10.12.54:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/Mat_AnimTrail_Auto1.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/Mat_AnimTrail_Auto2.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/PS_AnimTrail_Auto1.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/PS_AnimTrail_Auto3.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/PS_AnimTrail_Auto4.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted_Auto2.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted_Auto4.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto4.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto5.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/texture/
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-03-28-12-18-03.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-03-28-13-12-19.uasset
+[2018.04.06-10.12.54:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Mat_AnimTrail_2018-03-28-12-29-47.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Mat_AnimTrail_2018-03-28-12-35-25.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Mat_AnimTrail_2018-03-28-12-49-29.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Mat_AnimTrail_2018-03-28-12-59-39.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Mat_AnimTrail_2018-03-28-13-12-19.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-12-22-26.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-12-28-33.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-12-36-40.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-12-42-32.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-12-52-45.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-03-28-13-11-14.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-16-14-38.uasset
+[2018.04.06-10.12.54:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-16-22-21.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-16-36-00.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-16-43-33.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-16-55-48.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-17-01-06.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-17-15-53.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-17-23-52.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/PS_AnimTrail_2018-04-03-17-29-07.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Slaseffect_2018-04-03-16-22-05.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Slaseffect_2018-04-03-16-30-45.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Slaseffect_2018-04-03-16-35-48.uasset
+[2018.04.06-10.12.54:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Slaseffect_2018-04-03-16-43-14.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Slaseffect_2018-04-03-16-52-53.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-03-28-12-25-22.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-03-28-12-30-35.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-03-28-12-52-45.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-03-28-13-12-19.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-02-19-08-26.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-03-17-04-47.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-03-17-14-24.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-03-17-20-36.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-04-02-12-54-45.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-04-03-17-05-18.uasset
+[2018.04.06-10.12.54:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-04-03-17-25-51.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-03-28-13-09-37.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-02-12-44-20.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-02-12-52-19.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-03-17-03-54.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-03-17-10-06.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-03-17-22-43.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-03-17-31-47.uasset
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-03-28-13-12-12.umap
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-02-12-56-04.umap
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-02-19-10-56.umap
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-03-17-02-58.umap
+[2018.04.06-10.12.54:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-03-17-26-37.umap
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-03-17-33-53.umap
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-03-28-13-12-12.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-02-12-56-05.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-02-19-10-57.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-03-17-02-59.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-03-17-26-37.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-03-17-33-54.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-28-12-52-45.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-28-13-02-46.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-03-28-13-12-20.uasset
+[2018.04.06-10.12.54:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-02-12-56-55.uasset
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-03-17-26-40.uasset
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-03-17-33-52.uasset
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-328836434669654680FE03BF3E32AE2E/
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-FA06115047D357FE324A35A56896BE73/
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Config/WorldState/2190810727.json
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.02-11.42.36.log
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.02-18.47.57.log
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.03-14.05.14.log
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.04-19.36.36.log
+[2018.04.06-10.12.54:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.06-12.06.13.log
+[2018.04.06-10.12.54:592][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.06-10.12.57:276][  1]LogSlate: Took 0.231349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.06-10.12.58:541][  5]LogAssetRegistry: Asset discovery search completed in 278.2984 seconds
+[2018.04.06-10.12.58:694][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.06-10.12.58:695][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.020313 seconds (updated 0 objects)
+[2018.04.06-10.13.43:362][716]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2018.04.06-10.13.43:362][716]LogSynthBenchmark: Display: ===============
+[2018.04.06-10.13.43:362][716]LogSynthBenchmark: Display: Main Processor:
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:          ... 0.037605 s/Run 'RayIntersect'
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:          ... 0.024287 s/Run 'Fractal'
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display: 
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 4
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   NumberOfCores (physical): 2
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   NumberOfCores (logical): 4
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   CPU Perf Index 0: 68.1 (weight 1.00)
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   CPU Perf Index 1: 117.8 (weight 1.50)
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:  
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display: Graphics:
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   Adapter Name: 'AMD Radeon HD 7600M Series'
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   Vendor Id: 0x1002
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   Device Id: 0x6840
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   Device Revision: 0x0
+[2018.04.06-10.13.43:672][716]LogSynthBenchmark: Display:   GPU Memory: 2033/0/1792 MB
+[2018.04.06-10.13.44:099][716]LogSynthBenchmark: Display:   GPU first test: 0.18s
+[2018.04.06-10.13.44:099][716]LogSynthBenchmark: Display:          ... 0.608 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.04.06-10.13.44:099][716]LogSynthBenchmark: Display:          ... 0.525 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.04.06-10.13.44:099][716]LogSynthBenchmark: Display:          ... 0.378 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 1.181 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.090 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.170 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.396 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.608 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.525 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.378 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 1.181 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.090 s/GigaPix, Confidence=89% 'Bandwidth'
+[2018.04.06-10.13.44:100][716]LogSynthBenchmark: Display:          ... 0.170 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:          ... 0.396 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display: 
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 0: 13.2 (weight 1.00)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 1: 7.1 (weight 0.10)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 2: 9.8 (weight 0.10)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 3: 4.6 (weight 3.00)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 4: 8.4 (weight 1.00)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 5: 11.0 (weight 0.00)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPU Perf Index 6: 22.4 (weight 0.00)
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   CPUIndex: 97.9
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:   GPUIndex: 7.2
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display: 
+[2018.04.06-10.13.44:101][716]LogSynthBenchmark: Display:          ... Total Time: 0.739780 sec

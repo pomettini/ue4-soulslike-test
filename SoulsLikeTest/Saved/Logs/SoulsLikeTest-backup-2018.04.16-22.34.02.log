@@ -1,0 +1,985 @@
+﻿Log file open, 04/16/18 19:09:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoulsLikeTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1045623299) SRandInit(-1045623299).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.778623
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.16-17.09.47:013][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-17.09.47:013][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.16-17.09.47:195][  0]LogInit: Computer: ALESSANDRO
+[2018.04.16-17.09.47:195][  0]LogInit: User: Ale
+[2018.04.16-17.09.47:195][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.16-17.09.47:195][  0]LogInit: High frequency timer resolution =2.435868 MHz
+[2018.04.16-17.09.47:196][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.04.16-17.09.47:196][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-17.09.47:196][  0]LogMemory: Process Physical Memory: 273.82 MB used, 273.82 MB peak
+[2018.04.16-17.09.47:196][  0]LogMemory: Process Virtual Memory: 270.55 MB used, 270.55 MB peak
+[2018.04.16-17.09.47:197][  0]LogMemory: Physical Memory: 2411.64 MB used,  1576.63 MB free, 3988.27 MB total
+[2018.04.16-17.09.47:197][  0]LogMemory: Virtual Memory: 680.50 MB used,  1576.63 MB free, 134217728.00 MB total
+[2018.04.16-17.09.48:456][  0]LogInit: Using OS detected language (it-IT).
+[2018.04.16-17.09.48:456][  0]LogInit: Using OS detected locale (it-IT).
+[2018.04.16-17.09.48:721][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2018.04.16-17.09.48:723][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2018.04.16-17.09.50:521][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.16-17.10.00:641][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.16-17.10.00:722][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7600M Series' (Feature Level 11_0)
+[2018.04.16-17.10.00:722][  0]LogD3D11RHI:       2032/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.04.16-17.10.00:732][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.04.16-17.10.00:732][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.16-17.10.00:737][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.16-17.10.00:737][  0]LogD3D11RHI:       0/0/1994 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.16-17.10.00:737][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.16-17.10.00:749][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.16-17.10.00:750][  0]LogD3D11RHI:     GPU DeviceId: 0x6840 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.16-17.10.00:750][  0]LogWindows: EnumDisplayDevices:
+[2018.04.16-17.10.00:750][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.04.16-17.10.00:750][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.16-17.10.00:750][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.04.16-17.10.00:751][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.16-17.10.00:751][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7600M Series
+[2018.04.16-17.10.00:751][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.16-17.10.00:751][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.16-17.10.00:751][  0]LogRHI: Texture pool is 1422 MB (70% of 2032 MB)
+[2018.04.16-17.10.00:851][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.04.16-17.10.00:920][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.16-17.10.00:943][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.04.16-17.10.00:945][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Intermediate/Shaders/WorkingDirectory/7120/).
+[2018.04.16-17.10.00:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ale/AppData/Local/Temp/UnrealShaderWorkingDir/53E8A7D6438007682F235BBE22560D9A/'.
+[2018.04.16-17.10.00:946][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.16-17.10.09:003][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.16-17.10.09:233][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.16-17.10.09:333][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.16-17.10.09:555][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.16-17.10.09:832][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.16-17.10.10:080][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.16-17.10.10:333][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.16-17.10.10:549][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.16-17.10.10:749][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.16-17.10.10:940][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.16-17.10.11:064][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.16-17.10.11:204][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.16-17.10.11:364][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.16-17.10.11:531][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.16-17.10.11:788][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.16-17.10.11:788][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.16-17.10.11:936][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.16-17.10.12:175][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.16-17.10.12:587][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.16-17.10.12:667][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.16-17.10.12:809][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.16-17.10.12:969][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.16-17.10.13:143][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.16-17.10.13:303][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.16-17.10.13:303][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.16-17.10.15:685][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.16-17.10.15:868][  0]LogDerivedDataCache: Loaded boot cache 0.18s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-17.10.15:868][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.16-17.10.15:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.16-17.10.15:869][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.16-17.10.15:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.16-17.10.15:869][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.16-17.10.15:916][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.16-17.10.15:930][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ale/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.16-17.10.15:961][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.16-17.10.15:962][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.16-17.10.16:013][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-17.10.16:013][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-17.10.24:609][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-17.10.26:261][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.16-17.10.26:470][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.16-17.10.26:470][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.16-17.10.26:470][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.16-17.10.26:470][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.16-17.10.26:470][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.16-17.10.26:810][  0]LogNetVersion: SoulsLikeTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2184055637)
+[2018.04.16-17.10.29:489][  0]LogAssetRegistry: FAssetRegistry took 0.0666 seconds to start up
+[2018.04.16-17.10.32:839][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.088026 seconds
+[2018.04.16-17.10.32:852][  0]LogUObjectArray: 35680 objects as part of root set at end of initial load.
+[2018.04.16-17.10.32:852][  0]LogUObjectAllocator: 7543640 out of 0 bytes used by permanent object pool.
+[2018.04.16-17.10.32:852][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.16-17.11.12:058][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.16-17.11.12:191][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.16-17.11.14:989][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.16-17.11.16:845][  0]SourceControl: Source control is disabled
+[2018.04.16-17.11.20:444][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.16-17.11.21:260][  0]LogOcInput: OculusInput pre-init called
+[2018.04.16-17.11.22:111][  0]LogEngine: Initializing Engine...
+[2018.04.16-17.11.23:323][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.16-17.11.23:323][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.16-17.11.23:769][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.16-17.11.23:785][  0]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-17.11.23:842][  0]LogInit: FAudioDevice initialized.
+[2018.04.16-17.11.24:217][  0]LogDerivedDataCache: Saved boot cache 0.37s 78MB C:/Users/Ale/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-17.11.24:252][  0]LogInit: Texture streaming: Enabled
+[2018.04.16-17.11.24:581][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.16-17.11.25:090][  0]LogInit: Transaction tracking system initialized
+[2018.04.16-17.11.26:109][  0]BlueprintLog: New page: Editor Load
+[2018.04.16-17.11.28:977][  0]LocalizationService: Localization service is disabled
+[2018.04.16-17.11.31:491][  0]LogConsoleResponse: Display: 
+[2018.04.16-17.11.33:247][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.16-17.11.33:247][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.16-17.11.33:247][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.16-17.11.34:147][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' took 0.02s
+[2018.04.16-17.11.38:298][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-17.11.38:299][  0]LightingResults: New page: Lighting Build
+[2018.04.16-17.11.38:466][  0]MapCheck: New page: Map Check
+[2018.04.16-17.11.38:466][  0]LightingResults: New page: Lighting Build
+[2018.04.16-17.11.39:406][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-17.11.39:451][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-17.11.39:506][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-17.11.39:608][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.113ms to complete.
+[2018.04.16-17.11.39:608][  0]LogFileHelpers: Loading map 'Template_Default' took 1.310
+[2018.04.16-17.11.39:976][  0]LogCollectionManager: Loaded 0 collections in 0.002494 seconds
+[2018.04.16-17.11.40:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' took 0.01s
+[2018.04.16-17.11.40:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Ale/Collections/' took 0.01s
+[2018.04.16-17.11.40:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' took 0.01s
+[2018.04.16-17.11.40:095][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.16-17.11.40:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2362 classes and 517 folders.
+[2018.04.16-17.11.40:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.16-17.11.41:619][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.16-17.11.41:753][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.16-17.11.41:905][  0]LogSlate: Took 0.000466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-17.11.41:909][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.16-17.11.41:954][  0]LogSlate: Took 0.036292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.16-17.11.42:439][  0]LogRenderer: Reallocating scene render targets to support 812x356 Format 10 NumSamples 1 (Frame:1).
+[2018.04.16-17.11.43:088][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.16-17.11.43:089][  0]LogLoad: (Engine Initialization) Total time: 155.52 seconds
+[2018.04.16-17.11.43:089][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.16-17.11.43:089][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.16-17.11.43:089][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.16-17.11.43:452][  0]SourceControl: On branch Alessandro
+[2018.04.16-17.11.43:452][  0]SourceControl: Your branch is up-to-date with 'origin/Alessandro'.
+[2018.04.16-17.11.43:452][  0]SourceControl: Changes to be committed:
+[2018.04.16-17.11.43:452][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.04.16-17.11.43:452][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Fire_SubUV.uasset
+[2018.04.16-17.11.43:452][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Heat_Distortion.uasset
+[2018.04.16-17.11.43:452][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_Radial_Gradient.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/Materials/M_smoke_subUV.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Fire_SubUV.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Fire_Tiled_D.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Smoke_SubUV.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Smoke_Tiled_D.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/Fire_Texture/Textures/T_Water_N.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_FireTrail.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_prova.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted_2.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-17.11.43:453][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/AM_prova.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Attack_rooted_2.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/attacorotante.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/prova.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/NewAnimBlueprint.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: 	new file:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/NewAnimBlueprint1.uasset
+[2018.04.16-17.11.43:454][  0]SourceControl: Changes not staged for commit:
+[2018.04.16-17.11.43:454][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.16-17.11.43:454][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Fire_Texture/Particles/P_Fire.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/Maps/Trail.umap
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_FireTrail.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/ABP_Paladin_rooted.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Attack_rooted.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_2_rooted.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Sword_And_Shield_Slash_rooted.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_2_rooted_2.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/Sword_And_Shield_Slash_rooted_2.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/attacorotante.uasset
+[2018.04.16-17.11.43:455][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Animations/Trail/prova.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/BP_Paladin.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Content/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/311563bb.bin
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Intermediate/CachedAssetRegistry.bin
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/AutoScreenshot.png
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_Rooted_Auto2.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto4.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto2.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto3.uasset
+[2018.04.16-17.11.43:456][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto4.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/paladin_prop_j_nordstrom_rooted_Auto5.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-15-30.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-18-50-31.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-31-09.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-19-50-02.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-06-22.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-12-24.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-17-31.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-20-58-52.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-04-16.uasset
+[2018.04.16-17.11.43:457][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-09-44.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-14-53.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-20-59.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-27-39.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-33-25.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-38-59.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-48-03.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-53-32.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-21-59-10.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-10-02.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-35-23.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-22-54-52.uasset
+[2018.04.16-17.11.43:458][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-03-08.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-08-45.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-15-27.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-25-23-22-16.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-05-15.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-14-03.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-31-20.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-40-25.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-46-43.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-00-51-50.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-07-43.uasset
+[2018.04.16-17.11.43:459][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-01-17-31.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-26-20-52-23.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_2018-02-27-16-57-54.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-31-31.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-38-13.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-48-24.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-13-55-30.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-01-47.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-42-24.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-14-48-46.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-15-02-51.uasset
+[2018.04.16-17.11.43:460][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-01-36.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-16-08-42.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_Rooted_2018-02-26-17-32-39.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-25-39.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-30-56.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-38-02.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-21-52-48.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-26-22-01-32.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-00-12-57.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-17-40-38.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-21-33.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-29-07.uasset
+[2018.04.16-17.11.43:461][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-18-35-56.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-22-04-16.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-22-11-33.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-23-16-41.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-27-23-54-05.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-02-28-00-00-31.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-35-06.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-40-08.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-00-47-01.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-03-05.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-11-30.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-19-19.uasset
+[2018.04.16-17.11.43:462][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-28-59.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-41-05.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-03-02-01-46-14.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-02-17-40-22.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-02-17-48-24.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_BackDash_2018-03-05-22-01-06.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-18-40-13.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-18-46-14.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-22-18-22.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-27-22-35-16.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-02-28-15-48-36.uasset
+[2018.04.16-17.11.43:463][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-03-02-02-32-48.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_HeavyAttack_2018-03-05-13-24-12.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-16-40-08.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-39-20.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-46-42.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LeftRoll_2018-03-05-22-56-49.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-02-27-18-12-23.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-02-27-18-18-53.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-03-05-13-37-09.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack2_2018-02-27-22-18-48.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack2_2018-02-27-23-21-33.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_LightAttack2_2018-03-02-02-35-00.uasset
+[2018.04.16-17.11.43:464][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_Roll_2018-02-27-17-21-00.uasset
+[2018.04.16-17.11.43:465][  0]SourceControl: 	deleted:    SoulsLikeTest/Saved/Backup/AM_Roll_2018-02-27-17-36-11.uasset
+[2018.04.16-17.11.43:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.16-17.11.43:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Config/Windows/Engine.ini
+[2018.04.16-17.11.43:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest.log
+[2018.04.16-17.11.43:465][  0]SourceControl: 	modified:   SoulsLikeTest/Saved/Logs/SoulsLikeTest_2.log
+[2018.04.16-17.11.43:465][  0]SourceControl: Untracked files:
+[2018.04.16-17.11.43:465][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.16-17.11.43:465][  0]SourceControl: 	SoulsLikeTest/Binaries/
+[2018.04.16-17.11.43:465][  0]SourceControl: 	SoulsLikeTest/Intermediate/Build/
+[2018.04.16-17.11.43:465][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto0.uasset
+[2018.04.16-17.11.43:465][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto1.uasset
+[2018.04.16-17.11.43:465][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_FireTrail_Auto6.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto0.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto3.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto6.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto7.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/ABP_Paladin_rooted_Auto8.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Animations/Trail/
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/BP_Paladin_Auto9.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/Montages/AM_LightAttack1_Auto4.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/NewAnimBlueprint_Auto3.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Autosaves/Game/SoulsLike/Characters/Paladin/NewAnimBlueprint_Auto4.uasset
+[2018.04.16-17.11.43:466][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-15-31-12.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-15-43-28.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-16-35-45.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-16-58-45.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_FireTrail_2018-04-16-17-23-35.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-14-25.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-20-49.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-29-36.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-14-36-06.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-15-45-33.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-15-53-44.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-03-21.uasset
+[2018.04.16-17.11.43:467][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-11-39.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-17-15.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-33-12.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-16-49-40.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-36-40.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-43-21.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-48-53.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-17-56-22.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-09-58.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-15-04.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-22-28.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/ABP_Paladin_rooted_2018-04-16-18-28-14.uasset
+[2018.04.16-17.11.43:468][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-04-16-16-56-51.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/AM_LightAttack1_2018-04-16-18-23-11.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-31-29.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-37-37.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-15-56-23.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-01-47.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-09-40.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-16-36.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-24-14.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-16-50-02.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-20-38.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-36-41.uasset
+[2018.04.16-17.11.43:469][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-17-41-47.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-18-23-07.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/BP_Paladin_2018-04-16-18-35-07.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint1_2018-04-16-15-19-14.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint1_2018-04-16-15-26-11.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint_2018-04-16-14-41-29.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/NewAnimBlueprint_2018-04-16-15-06-52.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/P_Fire_2018-04-16-18-26-50.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/P_Fire_2018-04-16-18-50-56.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Attack_rooted_2018-04-16-18-36-07.uasset
+[2018.04.16-17.11.43:470][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2018-04-16-18-33-24.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2_2018-04-16-16-58-44.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_2_rooted_2_2018-04-16-17-23-34.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-17-55-50.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-07-53.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-13-40.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2018-04-16-18-31-18.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-14-01-13.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-14-14-25.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Sword_And_Shield_Slash_rooted_2_2018-04-16-18-07-34.uasset
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-16-18-00-51.umap
+[2018.04.16-17.11.43:471][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_2018-04-16-18-37-36.umap
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-16-18-00-52.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/Trail_BuiltData_2018-04-16-18-37-36.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-16-29-34.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-16-58-45.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/attacorotante_2018-04-16-17-23-35.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-15-34-55.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-17-23-33.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/paladin_prop_j_nordstrom_rooted_2018-04-16-18-37-39.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/prova_2018-04-16-14-36-18.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Backup/prova_2018-04-16-15-27-18.uasset
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-1507CAB44CB7D3C1B570BDA9873A3E2A/
+[2018.04.16-17.11.43:472][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-7B5674E240A0D88B65905DB666DD0DE0/
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-C6982A914CA144D8904B29B2C7A1711E/
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Config/CrashReportClient/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0/
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Crashes/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0_0000/
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Crashes/UE4CC-Windows-FF6F70694112C27B1CA8729FF9F110D0_0001/
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.12-12.50.02.log
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.12-12.50.29.log
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.16-11.02.14.log
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.16-13.48.55.log
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest-backup-2018.04.16-19.09.39.log
+[2018.04.16-17.11.43:473][  0]SourceControl: 	SoulsLikeTest/Saved/Logs/SoulsLikeTest_2-backup-2018.04.16-18.40.18.log
+[2018.04.16-17.11.43:474][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.04.16-17.11.43:600][  0]LogSlate: Took 0.000524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-17.11.44:663][  3]LogAssetRegistry: Asset discovery search completed in 75.1977 seconds
+[2018.04.16-17.11.44:668][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.16-17.11.44:668][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000196 seconds (updated 0 objects)
+[2018.04.16-17.11.53:057][227]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-17.11.53:187][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-17.11.53:187][227]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.11.53:187][227]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-17.11.53:190][227]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-17.11.53:190][227]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-17.11.53:190][227]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.04.16-17.11.53:190][227]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.04.16-17.11.53:203][227]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 9:11:53 PM)
+[2018.04.16-17.11.53:204][227]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-17.11.53:212][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008460s)
+[2018.04.16-17.11.53:213][227]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-17.11.53:214][227]LogPlayLevel: PIE: World Init took: (0.001420s)
+[2018.04.16-17.11.53:214][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.010333s)
+[2018.04.16-17.11.53:235][227]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-17.11.53:244][227]LogInit: FAudioDevice initialized.
+[2018.04.16-17.11.55:038][227]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-17.11.55:044][227]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.04.16-19.11.55
+[2018.04.16-17.11.55:045][227]LogWorld: Bringing up level for play took: 0.002381
+[2018.04.16-17.11.55:212][227]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.04.16-17.11.55:223][227]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.118
+[2018.04.16-17.12.02:222][449]LogRenderer: Reallocating scene render targets to support 812x368 Format 10 NumSamples 1 (Frame:150).
+[2018.04.16-17.12.02:286][450]LogRenderer: Reallocating scene render targets to support 812x388 Format 10 NumSamples 1 (Frame:151).
+[2018.04.16-17.12.02:368][451]LogRenderer: Reallocating scene render targets to support 812x392 Format 10 NumSamples 1 (Frame:152).
+[2018.04.16-17.12.02:434][452]LogRenderer: Reallocating scene render targets to support 812x396 Format 10 NumSamples 1 (Frame:153).
+[2018.04.16-17.12.03:762][492]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.03:798][493]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.04:289][494]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.15:099][765]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.12.15:099][765]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-17.12.15:101][765]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-17.12.15:101][765]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-17.12.15:101][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-17.12.15:177][766]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.04.16-17.12.15:177][766]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.12.20:740][ 60]LogRenderer: Reallocating scene render targets to support 812x396 Format 10 NumSamples 1 (Frame:7).
+[2018.04.16-17.12.20:854][ 64]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.16-17.12.22:251][160]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-17.12.22:311][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-17.12.22:311][160]PIE: New page: PIE session: Untitled_1 (Apr 16, 2018, 9:12:22 PM)
+[2018.04.16-17.12.22:311][160]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.16-17.12.22:325][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013718s)
+[2018.04.16-17.12.22:327][160]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.16-17.12.22:327][160]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2018.04.16-17.12.22:327][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.015965s)
+[2018.04.16-17.12.22:347][160]LogInit: XAudio2 using 'Altoparlanti (Dispositivo High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-17.12.22:364][160]LogInit: FAudioDevice initialized.
+[2018.04.16-17.12.22:402][160]LogLoad: Game class is 'GM_SoulsLike_C'
+[2018.04.16-17.12.22:403][160]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.16-19.12.22
+[2018.04.16-17.12.22:404][160]LogWorld: Bringing up level for play took: 0.000996
+[2018.04.16-17.12.22:426][160]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.679
+[2018.04.16-17.12.46:764][882]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_0 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.46:797][883]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_1 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.46:831][884]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_2 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.46:880][885]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_3 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.46:931][886]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_4 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.49:196][942]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_5 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.49:229][943]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_6 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.49:268][944]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_7 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.49:311][945]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_8 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.49:365][946]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_9 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.50:029][955]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_10 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.50:072][956]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_11 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.50:105][957]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_12 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:763][ 28]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_13 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:797][ 29]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_14 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:831][ 30]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_15 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:875][ 31]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_16 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:929][ 32]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_17 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.52:994][ 33]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_18 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.53:064][ 34]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_19 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:309][235]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_20 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:340][236]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_21 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:357][237]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_22 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:375][238]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_23 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:405][239]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_24 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.12.59:441][240]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_25 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:071][254]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_26 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:092][255]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_27 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:112][256]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_28 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:136][257]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_29 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:166][258]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_30 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:200][259]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_31 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:239][260]LogParticles: Warning: GameplayStatics::SpawnEmitterAtLocation spawned potentially immortal particle system! /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.ParticleSystemComponent_32 (/Game/Fire_Texture/Particles/P_Fire.P_Fire) may stay in world despite never spawning particles after burst spawning is over.
+[2018.04.16-17.13.00:604][265]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.13.00:604][265]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-17.13.00:605][265]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-17.13.00:605][265]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-17.13.00:605][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.04.16-17.13.00:671][266]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.04.16-17.13.00:671][266]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.13.12:991][480]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.16-17.13.13:276][481]Cmd: QUIT_EDITOR
+[2018.04.16-17.13.13:560][481]LogExit: Preparing to exit.
+[2018.04.16-17.13.14:338][481]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.04.16-17.13.14:388][481]LogExit: Editor shut down
+[2018.04.16-17.13.14:399][481]LogExit: Transaction tracking system shut down
+[2018.04.16-17.13.14:667][481]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.16-17.13.14:668][481]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/' was aborted.
+[2018.04.16-17.13.14:668][481]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.16-17.13.14:668][481]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.16-17.13.14:668][481]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.16-17.13.14:668][481]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.16-17.13.14:794][481]LogExit: Object subsystem successfully closed.
+[2018.04.16-17.13.14:818][481]LogD3D11RHI: Shutdown
+[2018.04.16-17.13.14:818][481]LogD3D11RHI: CleanupD3DDevice
+[2018.04.16-17.13.14:821][481]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.16-17.13.14:884][481]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.04.16-17.13.14:884][481]LogModuleManager: Shutting down and abandoning module Voice (550)
+[2018.04.16-17.13.14:884][481]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.04.16-17.13.14:884][481]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.04.16-17.13.14:884][481]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.04.16-17.13.14:884][481]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.16-17.13.14:885][481]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.04.16-17.13.14:885][481]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.04.16-17.13.14:885][481]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.04.16-17.13.14:885][481]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Collections/' was aborted.
+[2018.04.16-17.13.14:885][481]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Content/Developers/Ale/Collections/' was aborted.
+[2018.04.16-17.13.14:885][481]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Saved/Collections/' was aborted.
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module BspMode (518)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
+[2018.04.16-17.13.14:886][481]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module SessionServices (476)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
+[2018.04.16-17.13.14:887][481]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
+[2018.04.16-17.13.14:888][481]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
+[2018.04.16-17.13.14:888][481]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
+[2018.04.16-17.13.14:888][481]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
+[2018.04.16-17.13.14:888][481]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
+[2018.04.16-17.13.14:888][481]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module MergeActors (444)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module SizeMap (442)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module TreeMap (440)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
+[2018.04.16-17.13.15:493][481]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module XmlParser (426)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module Blutility (424)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
+[2018.04.16-17.13.15:494][481]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
+[2018.04.16-17.13.15:495][481]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module AutomationController (404)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module Layers (400)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
+[2018.04.16-17.13.15:561][481]LogModuleManager: Shutting down and abandoning module Persona (392)
+[2018.04.16-17.13.15:562][481]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
+[2018.04.16-17.13.15:562][481]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
+[2018.04.16-17.13.15:562][481]LogModuleManager: Shutting down and abandoning module Kismet (386)
+[2018.04.16-17.13.15:563][481]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
+[2018.04.16-17.13.15:563][481]LogModuleManager: Shutting down and abandoning module Toolbox (382)
+[2018.04.16-17.13.15:563][481]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
+[2018.04.16-17.13.15:563][481]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
+[2018.04.16-17.13.15:563][481]LogModuleManager: Shutting down and abandoning module OutputLog (376)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module GammaUI (374)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module Documentation (372)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module MovieScene (368)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module PortalServices (360)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
+[2018.04.16-17.13.15:564][481]LogModuleManager: Shutting down and abandoning module DesktopPlatform (348)
+[2018.04.16-17.13.15:565][481]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.04.16-17.13.15:578][481]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.04.16-17.13.15:579][481]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.04.16-17.13.15:580][481]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.04.16-17.13.15:583][481]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.04.16-17.13.15:583][481]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.04.16-17.13.15:583][481]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.04.16-17.13.15:583][481]LogDirectoryWatcher: A directory notification for 'C:/Users/Ale/Documents/Unreal Projects/ue4-soulslike-test/SoulsLikeTest/Binaries/Win64' was aborted.
+[2018.04.16-17.13.15:584][481]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.04.16-17.13.15:584][481]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2018.04.16-17.13.15:585][481]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.04.16-17.13.15:685][481]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.04.16-17.13.15:786][481]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2018.04.16-17.13.15:786][481]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2018.04.16-17.13.15:786][481]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2018.04.16-17.13.15:786][481]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2018.04.16-17.13.15:786][481]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2018.04.16-17.13.15:787][481]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2018.04.16-17.13.15:789][481]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2018.04.16-17.13.15:789][481]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.16-17.13.15:789][481]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.16-17.13.15:789][481]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.16-17.13.15:793][481]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2018.04.16-17.13.15:793][481]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.16-17.13.15:793][481]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.16-17.13.15:794][481]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.16-17.13.15:794][481]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.16-17.13.15:794][481]LogModuleManager: Shutting down and abandoning module Media (223)
+[2018.04.16-17.13.15:802][481]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2018.04.16-17.13.15:802][481]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2018.04.16-17.13.15:802][481]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2018.04.16-17.13.15:802][481]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2018.04.16-17.13.15:802][481]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2018.04.16-17.13.15:803][481]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2018.04.16-17.13.15:804][481]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2018.04.16-17.13.15:804][481]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2018.04.16-17.13.15:810][481]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2018.04.16-17.13.15:810][481]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module Core (176)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module LevelSequence (172)
+[2018.04.16-17.13.15:811][481]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (170)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module KismetCompiler (168)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module MeshUtilities (166)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (165)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (164)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (163)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (161)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (159)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module MaterialBaking (155)
+[2018.04.16-17.13.15:813][481]LogModuleManager: Shutting down and abandoning module DerivedDataCache (152)
+[2018.04.16-17.13.15:864][481]LogDerivedDataCache: Shutdown
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.16-17.13.15:864][481]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.16-17.13.15:865][481]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.04.16-17.13.15:866][481]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module OculusHMD (62)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module AppleARKit (58)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module AugmentedReality (57)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.04.16-17.13.15:867][481]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.04.16-17.13.15:867][481]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.16-17.13.15:867][481]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.16-17.13.15:869][481]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.16-17.13.15:869][481]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.16-17.13.15:869][481]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.16-17.13.15:869][481]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.16-17.13.15:869][481]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.16-17.13.15:869][481]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B36685477-4758-E471-DCDA-6A95D647270E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=293f91ce4e788ec4b20dd08230ffed46%7C6ce3f4d86c0849d4bee9d5eeb6a69d08%7C8cd7e023-084a-4524-a887-42a8c1e61933&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.16-17.13.15:872][481]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.16-17.13.15:876][481]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.16-17.13.15:878][481]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.16-17.13.15:882][481]LogExit: Exiting.
+[2018.04.16-17.13.15:938][481]Log file closed, 04/16/18 19:13:15
